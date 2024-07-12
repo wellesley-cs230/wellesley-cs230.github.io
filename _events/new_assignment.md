@@ -1,6 +1,6 @@
 ---
 type: raw_event
-name: Lecture
+name: Lab
 title: 
 date: 2024-09-02T14:20:00+3:30
 description: 
