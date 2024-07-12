@@ -1,10 +1,15 @@
 ---
-type: due
-date: 2020-12-28T23:59:59+3:30
-description: 'Hi Smaranda'
+type: lecture
+title: 
+date: 2024-09-02T14:20:00+3:30
+description: 
+tldr: 
 hide_from_announcments: true
+thumbnail:
+links:
+    - slides: 
+      name: slides
 ---
 
-Build website:
-* Add assignments
-
+**Before class:**
+* 
