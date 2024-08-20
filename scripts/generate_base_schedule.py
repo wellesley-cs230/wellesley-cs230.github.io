@@ -3,7 +3,7 @@ import datetime
 
 CLASS_DAYS = ['Monday', 'Tuesday', 'Thursday']
 DISPLAY_DAYS = CLASS_DAYS
-#DISPLAY_DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+LECTURE_DAYS = ['Monday', 'Thursday']
 
 
 SPECIAL_DATES = [

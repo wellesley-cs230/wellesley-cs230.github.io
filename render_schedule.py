@@ -3,7 +3,7 @@ import yaml
 import dominate
 import dominate.tags as tags
 from dominate.util import raw
-from scripts.generate_base_schedule import DISPLAY_DAYS, CLASS_DAYS 
+from scripts.generate_base_schedule import DISPLAY_DAYS, CLASS_DAYS, LECTURE_DAYS
 
 
 def convert_md_to_html_if_multiline(txt):
@@ -31,6 +31,7 @@ def main():
             if event['day-of-week'] == DISPLAY_DAYS[0]:
                 row = tags.tr(cls='col_headers light_row')
 
+            day = event.get('day-of-week', None)
             special = event.get('special', None)
             pre_class = event.get('pre-class', None)
             topic = event.get('topic', None)
@@ -59,10 +60,14 @@ def main():
                         with tags.li():
                             tags.span('Exam:', cls='tag exam_tag')
                             tags.span(convert_md_to_html_if_multiline(exam))
-                        
+
                     if topic is not None:
                         with tags.li():
-                            tags.span('Topic:', cls='tag topic_tag')
+                            if day in LECTURE_DAYS:
+                                tags.span('Topic:', cls='tag topic_tag')
+                            else:
+                                tags.span('Lab:', cls='tag lab_tag')
+                                
                             tags.span(convert_md_to_html_if_multiline(topic))
 
                     if pre_class is not None:

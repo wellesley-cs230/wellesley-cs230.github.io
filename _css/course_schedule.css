@@ -5,6 +5,7 @@
 .orange_tag,
 .green_tag,
 .red_tag,
+.gold_tag,
 .blue_tag,
 .tag {
     border-radius: 3px;
@@ -40,6 +41,12 @@
     border-color: #27e;
     color: #27e;
     background: #def;
+}
+.gold_tag,
+.lab_tag {
+    border-color: #DAA520;
+    color: #DAA520;
+    background: #FAFAD2;
 }
 
 .red_tag,
