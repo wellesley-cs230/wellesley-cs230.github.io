@@ -7,7 +7,7 @@ items:
   name: Syllabus
   icon_class: fas fa-calendar-alt  
 
-- url: /schedule/
+- url: /schedule
   name: Schedule
   icon_class: fas fa-calendar-alt
 
