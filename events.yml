@@ -20,7 +20,7 @@ events:
     day: "05"
     day-of-week: "Thursday"
     topic: "Introduction"
-    slides: "https://docs.google.com/presentation/d/1KGmAihWegYd7E5hZ9NKaMDCKR8P2doL_/edit?usp=sharing&ouid=101453163794075723604&rtpof=true&sd=true"
+    slides: "https://drive.google.com/drive/folders/1hp7vBmgzhbOae4SygV-DLE9Y8_9_nVjG?usp=drive_link"
     due:
     released:
     pre-class:
@@ -29,6 +29,7 @@ events:
     day: "09"
     day-of-week: "Monday"
     topic: "Java Constructs"
+    slides: "https://drive.google.com/drive/folders/1hXTjLMtH0f49ulIzFDRvEsdy068Yazs-?usp=drive_link"
     due:
     released:
     pre-class: |
@@ -46,6 +47,7 @@ events:
     day: "12"
     day-of-week: "Thursday"
     topic: "Java Constructs"
+    slides: "https://drive.google.com/drive/folders/1hXTjLMtH0f49ulIzFDRvEsdy068Yazs-?usp=drive_link"    
     due:
     released:
     pre-class: |
@@ -55,6 +57,7 @@ events:
     day: "16"
     day-of-week: "Monday"
     topic: "Objects"
+    slides: "https://drive.google.com/drive/folders/1PdJ-CztfiWl0xqw2xJmHoQj30pUiaKli?usp=drive_link"
     due:
     released:
     pre-class: |
@@ -70,8 +73,9 @@ events:
 
   - month: "September"
     day: "19"
-    day-of-week: "Thursday"
+    day-of-week: "Thursday"    
     topic: "Objects"
+    slides: "https://drive.google.com/drive/folders/1PdJ-CztfiWl0xqw2xJmHoQj30pUiaKli?usp=drive_link"    
     due:
     released:
     pre-class: |
@@ -81,6 +85,7 @@ events:
     day: "23"
     day-of-week: "Monday"
     topic: "Arrays and Arrays of Objects"
+    slides: "https://drive.google.com/drive/folders/1uEe65sZoGab5inLmgM8OG-RdUqcZjk2w?usp=drive_link"
     due:
     released:
     pre-class: |
@@ -98,6 +103,7 @@ events:
     day: "26"
     day-of-week: "Thursday"
     topic: "Arrays and Arrays of Objects"
+    slides: "https://drive.google.com/drive/folders/1uEe65sZoGab5inLmgM8OG-RdUqcZjk2w?usp=drive_link"    
     due:
     released:
     pre-class: |
@@ -107,6 +113,7 @@ events:
     day: "30"
     day-of-week: "Monday"
     topic: "Exceptions and IO"
+    slides: "https://drive.google.com/drive/folders/1eOAfDgurJXsP7es-Zg2qPxijz4_3HLFY?usp=drive_link"
     due:
     released:
     pre-class: |
@@ -124,6 +131,7 @@ events:
     day: "03"
     day-of-week: "Thursday"
     topic: "Inheritance"
+    slides: "https://drive.google.com/drive/folders/1LZTKo5CyyJQNAM3f_nRd8sGNtfQ-W-pj?usp=drive_link"
     due:
     released:
     pre-class: |
@@ -133,6 +141,7 @@ events:
     day: "07"
     day-of-week: "Monday"
     topic: "Polymorphism"
+    slides: "https://drive.google.com/drive/folders/1G6cFLJNfFPqJ7JQf2H1bfSR6RIC56aq0?usp=drive_link"
     due:
     released:
     pre-class: |
@@ -177,6 +186,7 @@ events:
     day: "17"
     day-of-week: "Thursday"
     topic: "Stacks"
+    slides: "https://drive.google.com/drive/folders/1-p8-ATd7olY4EScZkoiXlwGVNq8imtwk?usp=drive_link"
     due:
     released:
     pre-class: |
@@ -195,6 +205,7 @@ events:
     day: "22"
     day-of-week: "Tuesday"
     topic: "Stacks"
+    slides: "https://drive.google.com/drive/folders/1-p8-ATd7olY4EScZkoiXlwGVNq8imtwk?usp=drive_link"    
     due:
     released:
     pre-class:
@@ -203,6 +214,7 @@ events:
     day: "24"
     day-of-week: "Thursday"
     topic: "LinearNodes and Linked Stacks"
+    slides: "https://drive.google.com/drive/folders/1iBCmi8IMPcTin5pZXYJbAK4bb-fUKf_-?usp=drive_link"
     due:
     released:
     pre-class: |
@@ -212,6 +224,7 @@ events:
     day: "28"
     day-of-week: "Monday"
     topic: "Algorithm Analysis"
+    slides: "https://drive.google.com/drive/folders/1bm22U4t23ByRSYCu6v0ivvipkgfiw4G3?usp=drive_link"
     due:
     released:
     pre-class: |
@@ -230,6 +243,7 @@ events:
     day: "31"
     day-of-week: "Thursday"
     topic: "Sorting"
+    slides: "https://drive.google.com/drive/folders/1ykXNSDYRt7sVMQ0pM4o3SVNtRKApm_h0?usp=drive_link"
     due:
     released:
     pre-class: |
@@ -239,6 +253,7 @@ events:
     day: "04"
     day-of-week: "Monday"
     topic: "Queues"
+    slides: "https://drive.google.com/drive/folders/1KAlwHY8hxN3JZGy8Ja_7ywbUEyBKSuzm?usp=drive_link"
     due:
     released:
     pre-class: |
@@ -256,6 +271,7 @@ events:
     day: "07"
     day-of-week: "Thursday"
     topic: "Graphs"
+    slides: "https://drive.google.com/drive/folders/1DZRIeLlYccw2r9KqOyJFs92tzUPBySCJ?usp=drive_link"
     due:
     released:
     pre-class: |
@@ -265,6 +281,7 @@ events:
     day: "11"
     day-of-week: "Monday"
     topic: "Depth-First Search"
+    slides: "https://drive.google.com/drive/folders/1OyPPyDE7TYZ4j3IaOFUBPgb3Jqh6ZIoN?usp=drive_link"
     due:
     released:
     pre-class: |
@@ -282,6 +299,7 @@ events:
     day: "14"
     day-of-week: "Thursday"
     topic: "Breadth-First Search"
+    slides: "https://drive.google.com/drive/folders/1jOcCxMUvDKBkyzF852X702Jc9wCRtrka?usp=drive_link"
     due:
     released:
     pre-class: |
@@ -310,12 +328,13 @@ events:
     topic: "Ethics"
     due:
     released:
-    pre-class:
+    pre-class: TBD
 
   - month: "November"
     day: "25"
     day-of-week: "Monday"
     topic: "Hash Tables"
+    slides: "https://drive.google.com/drive/folders/1jSOX9bDdKVvVlN8Hqq0FpqKFaDvgKAPu?usp=drive_link"
     due:
     released:
     pre-class: |
@@ -342,6 +361,7 @@ events:
     day: "02"
     day-of-week: "Monday"
     topic: "Trees"
+    slides: "https://drive.google.com/drive/folders/1L6GJiMTynRpTkoHWjaf8aYCMRIQNoCv_?usp=drive_link"
     due:
     released:
     pre-class: |
@@ -359,6 +379,7 @@ events:
     day: "05"
     day-of-week: "Thursday"
     topic: "Trees"
+    slides: "https://drive.google.com/drive/folders/1L6GJiMTynRpTkoHWjaf8aYCMRIQNoCv_?usp=drive_link"    
     due:
     released:
     pre-class: |
@@ -368,6 +389,7 @@ events:
     day: "09"
     day-of-week: "Monday"
     topic: "Priority Queues and Heaps"
+    slides: "https://drive.google.com/drive/folders/1BdK-PB_gKB7-HWIPgpE0PXD_4iPmv1Da?usp=drive_link"
     due:
     released:
     pre-class: |
