@@ -11,11 +11,3 @@ items:
   name: Schedule
   icon_class: fas fa-calendar-alt
 
-- url: /lectures/
-  name: Lectures & Labs
-  icon_class: fas fa-book-reader
-
-- url: /assignments/
-  name: Assignments
-  icon_class: fas fa-user-graduate
-
