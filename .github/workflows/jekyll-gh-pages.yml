@@ -44,7 +44,7 @@ jobs:
     # Build the website
     - name: Build the website
       run: |
-        python render_schedule.py > schedule.md && jupyter-book build --all .
+        python render_schedule.py > schedule.md && bundle exec jekyll serve
 
     # Deploy the book's HTML to gh-pages branch
     - name: GitHub Pages action
