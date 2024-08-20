@@ -20,6 +20,7 @@ events:
     day: "05"
     day-of-week: "Thursday"
     topic: "Introduction"
+    slides: "https://docs.google.com/presentation/d/1KGmAihWegYd7E5hZ9NKaMDCKR8P2doL_/edit?usp=sharing&ouid=101453163794075723604&rtpof=true&sd=true"
     due:
     released:
     pre-class:

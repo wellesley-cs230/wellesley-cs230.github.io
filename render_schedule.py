@@ -35,6 +35,7 @@ def main():
             special = event.get('special', None)
             pre_class = event.get('pre-class', None)
             topic = event.get('topic', None)
+            slides = event.get('slides', None)
             due = event.get('due', None)
             released = event.get('released', None)
             exam = event.get('exam', None)
@@ -69,6 +70,11 @@ def main():
                                 tags.span('Lab:', cls='tag lab_tag')
                                 
                             tags.span(convert_md_to_html_if_multiline(topic))
+
+                            if slides is not None:
+                                tags.span('[')
+                                tags.a('slides', href=slides)
+                                tags.span(']')                                
 
                     if pre_class is not None:
                         with tags.li():
