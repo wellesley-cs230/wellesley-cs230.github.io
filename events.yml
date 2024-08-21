@@ -1,4 +1,4 @@
-events:
+]events:
   - month: "September"
     day: "02"
     day-of-week: "Monday"
@@ -13,7 +13,7 @@ events:
     day-of-week: "Tuesday"
     topic: "BlueJ and Java"
     due:
-    released: Homework 1
+    released: [Homework 1](/hw1)
     pre-class:
 
   - month: "September"
@@ -48,7 +48,7 @@ events:
     day-of-week: "Thursday"
     topic: "Java Constructs"
     slides: "https://drive.google.com/drive/folders/1hXTjLMtH0f49ulIzFDRvEsdy068Yazs-?usp=drive_link"    
-    due: Homework 1
+    due: [Homework 1](/hw1)
     released: Homework 2
     pre-class: |
       * Read [Chapters 3 and 4 (optional: 3.6-3.7)](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)

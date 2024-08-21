@@ -6,9 +6,10 @@ from dominate.util import raw
 from scripts.generate_base_schedule import DISPLAY_DAYS, CLASS_DAYS, LECTURE_DAYS
 
 
-def convert_md_to_html_if_multiline(txt):
+def convert_md_to_html_if_multiline(txt):    
     if '\n' not in txt:
-        return txt
+        # remove <p> tag
+        return raw(markdown.markdown(txt)[3:-4])
 
     return raw(markdown.markdown(txt))
 
@@ -48,7 +49,7 @@ def main():
 
             if class_over:
                 td_tags += ' readingperiod'
-                
+
             with row.add(tags.td(cls=td_tags)):                    
                 tags.span(event['day'], cls='date_label date_label_day')   
                 tags.span(event['month'], cls='date_label date_label_month')
