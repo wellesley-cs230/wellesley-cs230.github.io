@@ -14,7 +14,7 @@ layout: default
 ## Task: Flights and Stopovers <small>Flight Class</small>
 
 Implement a class called **Flight**
-[(here is the Flight javadoc)](assign202/doc/Flight.html)
+[(here is the Flight javadoc)](/docs/Flight.html)
 to represents an airline flight.
 
 ### Step 1: Instance variables
@@ -83,7 +83,7 @@ Our experience shows that early-stage programmers make a few common mistakes tha
 
 ### Point Class
 Create a class, named <code>Point</code> to represent a point on the Cartesian plane.
-[Study our own Point documentation.](assign201/doc/Point.html)
+[Study our own Point documentation.](/docs/Point.html)
 
 ### Step 1: Instance Variables
  A point in the Cartesian plane has **x** and **y** coordinates, both of type `double`.
@@ -98,7 +98,7 @@ As with any other class you write, define a **toString()** method to provide the
 printing the contents of the object in an informative and concise way.
 
 ### Step 4: Getters and Setters
-Include appropriate getters and setters. Make sure to check the [javadoc](assign201/doc/Point.html) to see which getters and setters we expect.
+Include appropriate getters and setters. Make sure to check the [javadoc](/docs/Point.html) to see which getters and setters we expect.
 
 ### Step 5: Instance Methods
 
