@@ -68,8 +68,12 @@ Our experience shows that early-stage programmers make a few common mistakes tha
 
 
 
-# Homework 3, Part B: Point
 
+
+<br/>
+
+
+# Homework 3, Part B: Point
 
 
 ## Goals

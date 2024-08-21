@@ -4,7 +4,7 @@ layout: default
 
 # Homework 4, Part A: Airports
 
-##Learning Goals
+## Learning Goals
 * Using arrays to hold and maintain collection of objects
 * Using loops to process array elements
 
@@ -86,6 +86,7 @@ Check your submission to make sure the right files have been submitted.
 
 
 
+<br/>
 
 # Homework 4, Part B: Deck
 
