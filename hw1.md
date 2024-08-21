@@ -73,8 +73,10 @@ Practice with:
 
 
 ## Description
-In this exercise, you will learn how to use different types of loops in your code, based on the needs of that program. You are given [the starter code](assign103/Funloops.java), and your goal is to fill in the body of the empty methods with logic based on the descriptions below.
+In this exercise, you will learn how to use different types of loops in your code, based on the needs of that program. You are given the starter code below, and your goal is to fill in the body of the empty methods with logic based on the descriptions provided here.
 
+
+`Funloops.java`:
 ```java
 import java.util.Scanner;
 
