@@ -253,7 +253,58 @@ Use the <code>@author</code> and <code>@version</code> tags.
 
 **6. Testing**
 
-Save the printout of the `Game` class into a file named `GameTesting.txt`. 
+Save the printout of the `Game` class into a file named `GameTesting.txt`. You can *optionally* use the code provided below to additionally test your code.
+
+`DeckTest.java`:
+```java
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+public class DeckTest {
+
+    private Deck deck;
+
+    @BeforeEach
+    public void setUp() {
+        deck = new Deck();
+    }
+
+    @Test
+    public void testDeckInitialization() {
+        String deckStr = deck.toString();
+        assertTrue(deckStr.contains("Deck contains 52 cards:"));
+        assertTrue(deckStr.contains("1 of Diamonds"));
+        assertTrue(deckStr.contains("13 of Hearts"));
+    }
+
+    @Test
+    public void testCut() {
+        deck.cut();
+        String deckStr = deck.toString();
+        assertTrue(deckStr.contains("Deck contains 52 cards:"));
+        // Since the cut location is random, we can't predict the exact order,
+        // but we can still check if all cards are present.
+        assertTrue(deckStr.contains("1 of Diamonds"));
+        assertTrue(deckStr.contains("13 of Hearts"));
+    }
+
+    @Test
+    public void testShuffle() {
+        deck.shuffle();
+        String deckStr = deck.toString();
+        assertTrue(deckStr.contains("Deck contains 52 cards:"));
+        // Similar to the cut method, shuffle is random, so we can't predict the exact order.
+        // We can only check if all cards are present.
+        assertTrue(deckStr.contains("1 of Diamonds"));
+        assertTrue(deckStr.contains("13 of Hearts"));
+    }
+
+    // Additional tests can be added to check other functionalities or edge cases.
+}
+```
+
 
 ## Submitting your code
 
@@ -263,4 +314,3 @@ Remember that in Gradescope you have to upload all the files at once. Every subm
 
 Check your submission to make sure the right files have been submitted.
 
-(Optional) If you would like to try JUnit, you can use this file: [DeckTest.java](assign207/DeckTest.java)
