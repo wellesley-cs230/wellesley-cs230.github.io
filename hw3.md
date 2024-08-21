@@ -25,30 +25,26 @@ The following properties represent a Flight object:
 4. the flights's destination city.
 
 ### Step 2: Constructor
-Create a constructor for a Flight object. This should take as input all the needed information to create a flight. Think carefully: how many parameters should it have? What types should these parameters be?
+Create a constructor for a `Flight` object. This should take as input all the needed information to create a flight. Think carefully: how many parameters should it have? What types should these parameters be?
 
-### Step 3: instance methods
-1. **toString()**
-As with any other class you write, define a **toString()** method to provide the means of printing the contents of the object in an informative and concise way. Don't forget to use this method as you test your code in the main().
+### Step 3: Instance methods
+1. `toString()`. As with any other class you write, define this method to provide the means of printing the contents of the object in an informative and concise way. Don't forget to use this method as you test your code in the main().
 
-2. **isAnAlternative()**
-a predicate method that takes as input a flight and returns true iff (if and only if) the invoker flight's origin and destination are the same as the input flight's origin and destination.
+2. `isAnAlternative()`, a predicate method that takes as input a flight and returns true iff (if and only if) the invoker flight's origin and destination are the same as the input flight's origin and destination.
 
-3. **isAStopOver()**
-a predicate method that takes as input a flight and returns true iff (if and only if) the invoker flight's destination is the same as the input flight's origin.
+3. `isAStopOver()`, a predicate method that takes as input a flight and returns true iff (if and only if) the invoker flight's destination is the same as the input flight's origin.
 
 
 ### Step 4: Static methods
 Create the following methods:
 
-1. **readFlight()**:
-a *static* method that asks and collects from the user all the information regarding a flight. Using this information, it creates a Flight, and returns it. This method takes as input a `Scanner`.
+1. `readFlight()`, a *static* method that asks and collects from the user all the information regarding a flight. Using this information, it creates a `Flight`, and returns it. This method takes as input a `Scanner`.
 
-2. Make sure to include a  **main()** method, for testing purposes. As always, make sure you test all the methods you have defined, and to test each method before moving onto the next one.
+2. Make sure to include a  `main()` method, for testing purposes. As always, make sure you test all the methods you have defined, and to test each method before moving onto the next one.
 
-It is important that you write code in your <code>main()</code> method to test your program thoroughly. In it create a few Flight objects, and test all your methods on them. You can take a look at the result of [(this testing code)](assign202/FlightTesting.txt) for inspiration. Save the results of your testing into `FlightTesting.txt` to be submitted with your source code.
+It is important that you write code in your `main()` method to test your program thoroughly. In it create a few `Flight` objects, and test all your methods on them. You can take a look at the result of [(this testing code)](assign202/FlightTesting.txt) for inspiration. Save the results of your testing into `FlightTesting.txt` to be submitted with your source code.
 
-### Notes and tips:
+### Notes and Tips:
 
 Our experience shows that early-stage programmers make a few common mistakes that could be avoided with a more careful final reading of the specifications (i.e., the description of the assignment in our case). We thought of helping you in this careful reading by adding here a few items to review before submission:
 
@@ -57,13 +53,13 @@ Our experience shows that early-stage programmers make a few common mistakes tha
 * Did you name the methods reasonably (or exactly as asked)?
 * Did you test each and every method in the main with printing statements that describe what they do? (e.g. `Testing getOrigin. Expecting: BOS. Producing: BOS`).
 * Did you write meaningful (not verbose) documentation above the class definition and above each method?
-* Did you try to imitate javadoc directives (like using @author, @param, @return, as needed)?
+* Did you try to imitate javadoc directives (like using `@author`, `@param`, `@return`, as needed)?
 * Did you save your printout and named it as expected?
 * Did you upload the 2 files you were asked to, and did you check that they were uploaded correctly?
 
 ## What to submit
 * Submit only your <code>Flight.java</code> and your <code>FlightTesting.txt</code> that contains the results of your testing.
-* We expect your code to have careful and meaningful documentation (inline as well as Javadoc) on every method and for the whole file. Also, do not forget to include the @author and @version fields in the file documentation.
+* We expect your code to have careful and meaningful documentation (inline as well as Javadoc) on every method and for the whole file. Also, do not forget to include the `@author` and `@version` fields in the file documentation.
 
 
 
@@ -89,37 +85,37 @@ Our experience shows that early-stage programmers make a few common mistakes tha
 Create a class, named <code>Point</code> to represent a point on the Cartesian plane.
 [Study our own Point documentation.](assign201/doc/Point.html)
 
-### Step 1: Instance variables
+### Step 1: Instance Variables
  A point in the Cartesian plane has **x** and **y** coordinates, both of type `double`.
 
 ### Step 2: Constructors
 Provide two constructors:
-* A constructor without parameters creates a Point at location (0.0, 0.0).
-* A two-parameter constructor takes as input two double numbers corresponding to x and y, and constructs an object of type Point at location (x,y).
+* A constructor without parameters creates a `Point` at location (0.0, 0.0).
+* A two-parameter constructor takes as input two `double` numbers corresponding to x and y, and constructs an object of type `Point` at location (x, y).
 
-### Step 3: toString()
+### Step 3: `toString()`
 As with any other class you write, define a **toString()** method to provide the means of
 printing the contents of the object in an informative and concise way.
 
-### Step 4: Getters and setters
+### Step 4: Getters and Setters
 Include appropriate getters and setters. Make sure to check the [javadoc](assign201/doc/Point.html) to see which getters and setters we expect.
 
-### Step 5: Instance methods
+### Step 5: Instance Methods
 
 Define the following instance methods:
 
-* **findDistance()**: an *instance* method that takes as parameter a `Point`. It computes and returns the distance between the current `Point` (also known as <code>this</code>) and the parameter, using the Pythagorean formula.
+* `findDistance()`: an *instance* method that takes as parameter a `Point`. It computes and returns the distance between the current `Point` (also known as <code>this</code>) and the parameter, using the Pythagorean formula.
 
-* **areEquidistant()**: an *instance* predicate method that takes as input two `Point` objects, and returns true iff (if and only if) the distances between the current (`this`) Point and each of the input points differ by less than some amount called *TOLERANCE*. Define TOLERANCE as a final variable with the value of 0.01.
+* `areEquidistant()`: an *instance* predicate method that takes as input two `Point` objects, and returns true iff (if and only if) the distances between the current (`this`) Point and each of the input points differ by less than some amount called *TOLERANCE*. Define TOLERANCE as a final variable with the value of 0.01.
 
 <!--* **readPoint()**: a *static* method that reads the **x** and **y** coordinates from the keyboard, and calls the constructor to create and return a new `Point` object.-->
 
-* Include a  **main()** method for testing purposes. Make sure to create at least three instances of type `Point`. Compute, and report if any of the points created is equidistant to the other two.
+* Include a  `main()` method for testing purposes. Make sure to create at least three instances of type `Point`. Compute, and report if any of the points created is equidistant to the other two.
 
 
-### Notes and tips:
+### Notes and Tips:
 
-* Read the book section about comparing floating point values. It is recommended that you do not use "==". Tip: The *TOLERANCE* will be helpful here.  
+* Read the book section about comparing floating point values. It is recommended that you do not use `==`. Tip: The *TOLERANCE* will be helpful here.  
 * The `main` method should be short and high level: It should consist primarily of calling other methods from the class.
 * Make sure to test each method carefully before moving on to the next one.
 * Choose your testing cases carefully to thoroughly test all the methods you defined. Print what you expect the test to produce and the result of your method call.
@@ -133,4 +129,3 @@ Of course, once you have the *readPoint()* defined, you will need to test it app
 * Submit only your <code>Point.java</code> file and a <code>TestingPoint.txt</code> file that contains the results of your testing.
 * We expect your code to have careful and meaningful documentation on every method and for the whole file. Also, do not forget to include the `@author` and `@version` fields in the file documentation. Without them, the graders will not grade your work.
 
-### Happy coding your first class!
