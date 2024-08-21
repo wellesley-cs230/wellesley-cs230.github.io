@@ -330,14 +330,14 @@ events:
     released:
     pre-class: |
       * Watch [Page Rank](https://www.youtube.com/watch?v=IKXvSKaI2Ko). Answer:
-        * What data structure is used in Google's PageRank algorithm?
-        * How is this data structure traversed to determine the ranking?
-        * In one sentence, what's the core idea behind the algorithm?
+          * What data structure is used in Google's PageRank algorithm?
+          * How is this data structure traversed to determine the ranking?
+          * In one sentence, what's the core idea behind the algorithm?
       * Watch [Algorithms of Oppression](https://www.youtube.com/watch?v=yHYbOg62QyE) by Safiya Umoja Noble (trigger warning: racist, sexist stereotypes). Answer:
-        * What's the speaker's critique of "search just reflect how people use it"?
-        * How do search engines reproduce and reinforce systemic racism and sexism?
-        * What's the criticism against casting these issues as "momentary glitches"?
-        * What's the criticisms against the "unbiasedess" of search results? 
+          * What's the speaker's critique of "search just reflect how people use it"?
+          * How do search engines reproduce and reinforce systemic racism and sexism?
+          * What's the criticism against casting these issues as "momentary glitches"?
+          * What's the criticisms against the "unbiasedess" of search results? 
 
   - month: "November"
     day: "25"
