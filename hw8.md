@@ -45,7 +45,8 @@ set each of the <em>N</em> displacements to a random real number between -1/2 an
 
 ### Task 0
 
-Download this [starting code](assign701/GuitarExerciseProject_StartingCode.zip) that will allow you to complete the tasks below.
+Download this [starting code](static_files/Guitar.zip) that will allow you to complete the tasks below.
+
 
 ### Task 1
 
@@ -112,7 +113,7 @@ In Gradescope submit the following files:
 
 * In class we discussed one full implementation of the `Queue` interface (`ArrayQueue`) and two partial implementations: (<code>LinkedQueue, CircularArrayQueue</code>). 
 
-* Download the starter code [QueueImplementation.zip](assign601/QueueImplementation.zip) to work on.
+* Download the [starter code](static_files/QueueImplementation.zip) to work on.
 
 * For this task, you are asked to complete and test the partial implementations: `LinkedQueue` and `CircularArrayQueue`.
 
