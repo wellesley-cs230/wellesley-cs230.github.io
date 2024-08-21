@@ -9,17 +9,16 @@ layout: default
 * Using loops to process array elements
 
 
-## Exercise:  Airports!
+## Tasks
 
 Create a class named <code>Airport</code> that keeps track of the flights that
 use a certain airport, either as their origin or destination. 
 <!--Consult the provided [Airport](assign205/doc/Airport.html) javadoc-generated documentation.-->
 
-### Specifications
+For this exercise you are **NOT allowed to use Java's `Array` class**. Just use arrays of Objects as we did in lectures.
 
-For this exercise you are **NOT allowed to use any of Java's Arrays class**. Just use arrays of Objects as we did in lectures.
+**0. Draw your class objects as you design and before you code them**
 
-**0. Draw your class objects as you design and before you code them.**
 You will need to submit a picture of your drawing, so keep it (reasonably) neat and clean. If you need a reminder on how to draw these class objects, make sure to revisit the slides and see the CD and CDCollection objects. 
 
 Your class should contain the following:
@@ -48,7 +47,7 @@ of flights it currently serves, as well as a listing of those flights.
 * <code>printFlightsByAirline()</code>: given the name of an airline,
 it prints all the flights of this airline that are using this airport. While there are many ways to implement such a method, make sure your implementation uses the previous to compute the array of flights to print.
 
-**4. No main() is required in the Airport class but create a separate client class**
+**4. No `main()` is required in the Airport class but create a separate client class**
 
 Instead, create another client class called `LoganAirport.java`. This class contains only a <code>main()</code> method. It main purpose is to test your `Airport` class. Make sure you test your methods as you develop your code. Start by creating an instance of type <code>Airport</code> called `logan`, and some <code>Flight</code> instances.
 
@@ -57,16 +56,14 @@ Instead, create another client class called `LoganAirport.java`. This class cont
 
 
 **5. Write good javadoc**
-Make sure you add nice javadoc to your code that includes:
-* <code>above the class documentation</code> (but below any `import` statements): Provide a quick description of what this class is doing.
-Use the <code> @author </code> and <code> @version </code> tags.
 
-* <code> above a method documentation </code>: For every method provide a short
-sentence to succinctly and accurately describe what this method is doing. Also, use the <code> @param </code> and <code> @return </code> javadoc tags as needed.
-
-* <code> in-line comments </code>: Add them only as appropriately, to document your code. You should strike for a balance here: Ideally, the reader of your code should be able to follow it by just reading the comments. At  the same time, you should not document the obvious.
-
+Make sure you add nice javadoc to your code:
+* Above the class documentation (but below any `import` statements): Provide a quick description of what this class is doing.
+Use the <code>@author</code> and <code>@version</code> tags.
+* Above a method documentation: For every method provide a short sentence to succinctly and accurately describe what this method is doing. Also, use the <code>@param</code> and <code>@return</code> javadoc tags as needed.
+* In-line comments: Add them only as appropriately, to document your code. You should strike for a balance here: ideally, the reader of your code should be able to follow it by just reading the comments. At the same time, you should not document the obvious.
 * Finally, take a look at the documentation automatically produced for your class in BlueJ, (click the Source Code button at the top right of the editing window and select Documentation) and examine it to make sure it is complete and reads well.
+
 
 **6. Testing**
 
@@ -81,38 +78,32 @@ Remember that in Gradescope you have to upload all the files at once. Every subm
 
 Check your submission to make sure the right files have been submitted.
 
-### Happy Coding!
 
 
 
 
 <br/>
 
-# Homework 4, Part B: Deck
+# Homework 4, Part B: Deck of Cards
 
 ## Learning Goals
 * Using arrays to hold and maintain collection of objects
 * Using loops to process array elements
 
 
-## Exercise:  Deck of Cards!
-
-Create a class named <code>Deck</code> that creates a Deck of Card objects. 
-
-
 ### Specifications
 
-For this exercise you are **NOT allowed to use any of Java's Arrays class**. Just use arrays of Objects as we did in lectures.
+Create a class named <code>Deck</code> that creates a Deck of Card objects. For this exercise you are **NOT allowed to use Java's `Array` class**. Just use arrays of Objects as we did in lectures.
 
-**0. Study and use the provided Card class.**
+**0. Study and use the provided Card class**
+
 The [Card.java](assign207/Card.java) class is provided for you. Read it very carefully and provide documentation for all the methods. Pay close attention to the equals() method. 
 
-Create a `Deck` class that contains the following:
+Next, create a `Deck` class that contains,
+* the `@author` and `@version` javadoc entries (without that, we will not grade your submission for this and all future assignments and labs)
+* the instance variables, constructors, and instance methods as described below
 
-Write **the @author and @version entries** in the top javadoc documentation now.
-Without that, we will not grade your submission for this and all future assignments and labs.
-
-**1.  Instance variables**
+**1. Instance variables**
 
   * a counter to keep track of how many cards are in the Deck. 
   * a constant to keep track of the total number of cards in a full Deck (52)
@@ -136,37 +127,31 @@ For example, if the cards were A,B,C,D,E and we randomly picked 2, the Deck is r
 
 * Feel free to use any helper methods that you think are useful
 
-**4. No main() is required in the Deck class**
+**4. No `main()` is required in the Deck class**
 
 Instead, create another client class called `Game.java`. This class contains only a <code>main()</code> method. It main purpose is to test your `Deck` class. Make sure you test your methods as you develop your code. 
 
 
 **5. Write good javadoc**
-Make sure you add nice javadoc to your code that includes:
-* <code>above the class documentation</code> (but below any `import` statements): 
-Provide a quick description of what this class is doing.
-Use the <code> @author </code> and <code> @version </code> tags.
 
-* <code>above a method documentation</code>: For every method provide a short
-sentence to succinctly and accurately describe what this method is doing. 
-Also, use the <code> @param </code> and <code> @return </code> javadoc tags as needed.
-
-* <code> in-line comments </code> if needed: Add them only as appropriately, to document code that may be not easy to understand. You should strike for a balance here: Ideally, the reader of your code should be able to follow it by just reading the comments. 
-At  the same time, you should not document the obvious.
-
+Make sure you add nice javadoc to your code:
+* Above the class documentation (but below any `import` statements): Provide a quick description of what this class is doing.
+Use the <code>@author</code> and <code>@version</code> tags.
+* Above a method documentation: For every method provide a short sentence to succinctly and accurately describe what this method is doing. Also, use the <code>@param</code> and <code>@return</code> javadoc tags as needed.
+* In-line comments: Add them only as appropriately, to document your code. You should strike for a balance here: ideally, the reader of your code should be able to follow it by just reading the comments. At the same time, you should not document the obvious.
 * Finally, take a look at the documentation automatically produced for your class in BlueJ, (click the Source Code button at the top right of the editing window and select Documentation) and examine it to make sure it is complete and reads well.
+
 
 **6. Testing**
 
 Save the printout of the `Game` class into a file named `GameTesting.txt`. 
 
 ## Submitting your code
-* Submit your commented `Card.java`, your `Deck.java`, your `Game.java`, and your `GameTesting.txt`, to Gradescope. 
+
+Submit your commented `Card.java`, your `Deck.java`, your `Game.java`, and your `GameTesting.txt`, to Gradescope. 
 
 Remember that in Gradescope you have to upload all the files at once. Every submission you do overwrites the previous one, so if you upload one file at a time, only the last will be  saved.
 
 Check your submission to make sure the right files have been submitted.
-
-### Happy Coding!
 
 (Optional) If you would like to try JUnit, you can use this file: [DeckTest.java](assign207/DeckTest.java)
