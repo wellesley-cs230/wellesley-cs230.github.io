@@ -63,7 +63,7 @@ Make sure the document you submit contains your name.
 
 Consider the following maze:
 
-![]([images]maze.png)
+<img src="_images/figs/maze.png" />
 
 Think about how you would model this maze as a graph so that you can employ graph traversal algorithms in order to solve it. By solving a maze we mean to have an algorithm that, entering from the top opening of the maze will exit at the bottom opening.
 

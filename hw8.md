@@ -17,9 +17,9 @@ layout: default
 In this exercise, you will learn how to simulate the plucking of a guitar string with the Karplus-Strong algorithm. Play the video below to see a visualization of the algorithm. If your browser won't play the video below, you can right-click on it and save it to your Desktop to play it from there.
 
 
-<P><center>
-<video controls="controls" width="760" height="220" name="Stairway to Heaven" src="[images]StairwayToHeaven.mov"></video>
-</center></P>
+<p><center>
+<video controls="controls" width="760" height="220" name="Stairway to Heaven" src="_images/figs/StairwayToHeaven.mov"></video>
+</center></p>
 
 When a guitar string is plucked, the string vibrates and creates sound. The length of the string determines its fundamental frequency of vibration. We model a guitar string by sampling its displacement (a real number between -1/2 and +1/2) at N equally spaced points (in time), where N equals the sampling rate (44,100) divided by the fundamental frequency (rounding the quotient up to the nearest integer).
 
@@ -32,16 +32,17 @@ When a guitar string is plucked, the string vibrates and creates sound. These ar
 
  at **N** equally spaced points (in time), where **N** equals the **sampling rate** (44,100) divided by the fundamental frequency (rounding the quotient up to the nearest integer).
 -->
-![]([images]guitar-samples.png)
+<img src="_images/figs/guitar-samples.png" />
 
 **Plucking the string.** The excitation of the string contains energy at any frequency. We simulate the excitation with <em>white noise</em>:
 set each of the <em>N</em> displacements to a random real number between -1/2 and +1/2.
 
-![]([images]white-noise.png)
+<img src="_images/figs/white-noise.png" />
 
 **The resulting vibrations.** After the string is plucked, the string vibrates. The pluck causes a displacement which spreads wave-like over time. The Karplus-Strong algorithm simulates this vibration by maintaining a <em>bounded-queue</em> of the <em>N</em> samples: the algorithm repeatedly dequeues the first sample from the bounded queue and enqueues the average of the dequeued sample and the front sample in the queue, scaled by an <em>energy decay factor</em> of 0.994.</p>
 
-![]([images]karplus-strong.png)
+<img src="_images/figs/karplus-strong.png" />
+
 
 ### Task 0
 
@@ -82,7 +83,7 @@ Write a **GuitarString** class that models a vibrating guitar string according t
 
 Now you should be ready to test your code from the previous tasks. Compile and run the provided **GuitarHeroine** application. If you have successfully completed the previous tasks, then when you run the application, a window should appear as follows:
 
-![]([images]guitar-heroine.png)
+<img src="_images/figs/guitar-heroine.png" />
 
 Now, you can make sweet music. By pressing any of the keys on your computer keyboard corresponding to the notes as illustrated in the piano keyboard image, you can simulate plucking a guitar string for that note (make sure that your computer's sound is not muted).
 
