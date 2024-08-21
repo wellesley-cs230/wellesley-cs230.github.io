@@ -9,7 +9,7 @@ layout: default
 * Understanding the Big-O complexity at the level of individual statements and methods
 
 
-##Exercise: Find the running time of statements in a method
+## Exercise: Find the running time of statements in a method
 
 Before starting this task make sure you review the handout on Efficiency of Algorithms and read Chapter 12 of the textbook.
 
