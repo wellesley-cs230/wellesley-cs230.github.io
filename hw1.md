@@ -22,7 +22,7 @@ Practice with:
 Write a program, `AreaTriangle`, that prompts the user three times for the side
 lengths of a triangle. Based on these three inputs, the program checks and prints whether this triangle is isosceles or not, as well as its area.
 In addition to the `main()` method, **your program should also define three
-other static methods** :
+other static methods**:
   1. a predicate method `isValidTriangle()` to check whether the three inputs define a triangle, based on the **triangular inequality** (that is, the sum of any two sides of a triangle is strictly greater than the third side),
   2. a method to `getHeronArea()` compute the triangle's area based on [Heron's Formula](http://en.wikipedia.org/wiki/Heron%27s_formula) given the three side lengths,
   3. a predicate method `isIsosceles()`  to check whether the triangle is isosceles
@@ -31,7 +31,7 @@ Some important notes on this exercise:
 
 * Equilateral triangles are considered isosceles.
 *  If the user enters three side lengths that cannot possibly form a triangle
-   (ex. 1,1,2), your program should that this set of input does not form a triangle and stop execution. You can use `System.exit(1)` for that. 
+   (ex. 1,1,2), your program should say that this set of input does not form a triangle and stop execution. You can use `System.exit(1)` for that. 
 * You do not need to handle the case when the user enters other invalid input, e.g. negative number(s) or non-numbers.
 
 Some sample executions of this program are shown below:
@@ -75,19 +75,19 @@ Practice with:
 ## Description
 In this exercise, you will learn how to use different types of loops in your code, based on the needs of that program. You are given [the starter code](assign103/Funloops.java), and your goal is to fill in the body of the empty methods with logic based on the descriptions below.
 
-**Part1: The parrot**
+**Part1: The parrot.**
 Complete the method `parrot()` in the starter code provided for you. This method will keep prompting the user to enter a number that is greater than 0. Each time the user enters a number that is greater than 0, the method will print it out, and prompt the user to enter another number. This mimicking will stop only if the user enters the number 0.
 
-**Part2: The toddler**
+**Part2: The toddler.**
 Complete the method `toddler()` in the starter code provided for you. This method will be given a number as parameter and it will list out all numbers from 1 to that number.
 
-**Part3: The dreamer**
+**Part3: The dreamer.**
 Complete the method `dreamer()` in the starter code provided for you. This method will be given a number as parameter and then it will draw a right-angled triangle of stars. The height and base of that triangle will consist of a number of stars equal to the input number.
 
 Please note:
 * We recommend you start by writing on a piece of paper how the three methods should work. You need to know what your correct answer should look like before you program!
 * You can assume that the user will enter valid input, in the form of integer numbers. You don't need to handle invalid inputs.
-* The sample main() we have provided is not complete, in the sense that it does not show all the calls to the methods. To test them you should call each one multiple times. 
+* The sample `main()` we have provided is not complete, in the sense that it does not show all the calls to the methods. To test them you should call each one multiple times. 
 * You should test each method you implemented above separately. They should not depend on each other.
 * Some methods can be implemented using more than one type of loop. We will accept all correct answers, as long as the code is not overly complicated.
 
