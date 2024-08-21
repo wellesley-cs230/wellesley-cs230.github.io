@@ -72,7 +72,49 @@ Testing results should include both expected and computed outcome, like: `input:
 
 ## Check if your code passes our basic tests (optional)
 
-Use the [FunWithStringsTest.java](https://cs.wellesley.edu/~cs230/assignments/assign107/FunWithStringsTest.java) code we provide here.
+Use the code below to test your implementation.
+
+`FunWithStringsTest.java`:
+```java 
+import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
+
+public class FunWithStringsTest {
+
+    private FunWithStrings funWithStrings;
+
+    @Before
+    public void setUp() {
+        funWithStrings = new FunWithStrings();
+    }
+
+    @Test
+    public void testReverseString() {
+        assertEquals("edcba", funWithStrings.reverseString("abcde"));
+        assertEquals("gfedcba", funWithStrings.reverseString("abcdefg"));
+        assertEquals("", funWithStrings.reverseString(""));
+        assertEquals("a", funWithStrings.reverseString("a"));
+    }
+
+    @Test
+    public void testTheSame() {
+        assertTrue(funWithStrings.theSame("abc", "abc"));
+        assertFalse(funWithStrings.theSame("abc", "abcd"));
+        assertFalse(funWithStrings.theSame("abc", "abC"));
+        assertFalse(funWithStrings.theSame("abc", "ab"));
+    }
+
+    @Test
+    public void testSameBackAndForth() {
+        assertTrue(funWithStrings.sameBackAndForth("aba"));
+        assertTrue(funWithStrings.sameBackAndForth("abcba"));
+        assertFalse(funWithStrings.sameBackAndForth("abca"));
+        assertFalse(funWithStrings.sameBackAndForth("abcde"));
+    }
+}
+```
+
 
 
 
