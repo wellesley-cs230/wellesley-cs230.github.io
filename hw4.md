@@ -120,7 +120,7 @@ Check your submission to make sure the right files have been submitted.
 * Using loops to process array elements
 
 
-### Specifications
+## Specifications
 
 Create a class named <code>Deck</code> that creates a Deck of Card objects. For this exercise you are **NOT allowed to use Java's `Array` class**. Just use arrays of Objects as we did in lectures.
 
