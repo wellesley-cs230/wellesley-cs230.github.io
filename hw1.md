@@ -5,7 +5,7 @@ layout: default
 # Homework 1, Part A: Area of a Triangle
 
 
-### Goals:
+## Goals:
 
 Practice with:
 * working with BlueJ IDE to write, compile, run simple java programs
@@ -17,7 +17,7 @@ Practice with:
 
 
 
-### Description
+## Description
 
 Write a program, `AreaTriangle`, that prompts the user three times for the side
 lengths of a triangle. Based on these three inputs, the program checks and prints whether this triangle is isosceles or not, as well as its area.
@@ -36,9 +36,9 @@ Some important notes on this exercise:
 
 Some sample executions of this program are shown below:
 
-<center><img src="figs/triangleExecution.png" style="max-width:900px"></center>
+<center><img src="_images/figs/triangleExecution.png" style="max-width:900px"></center>
 
-### Testing your program
+## Testing your program
 
 Think carefully about the set of inputs (testing cases) you will provide to your program to assert its correctness. Your inputs should be such that every method you wrote is tested (invoked) as your program runs.
 
@@ -46,7 +46,7 @@ Make sure you give reasonable and useful names to your methods, and that you wri
 
 In BlueJ, save the results of your testing produced in the "BlueJ: Terminal Window" into a file called AreaTriangleTest.txt. (Options > Save to File...)
 
-### What to submit
+## What to submit
 
 It is a standard policy of this course that submissions that have not been signed (`@author`) and dated (`@version`) will not be graded.
 
@@ -62,7 +62,7 @@ Your Gradescope submission should contain the following:
 
 # Homework 1, Part B: Fun with Loops
 
-### Goals:
+## Goals:
 Practice with:
 * working with BlueJ IDE to write, compile, run simple java programs
 * java primitive data types, expressions and operators
@@ -72,7 +72,7 @@ Practice with:
 
 
 
-### Description
+## Description
 In this exercise, you will learn how to use different types of loops in your code, based on the needs of that program. You are given [the starter code](assign103/Funloops.java), and your goal is to fill in the body of the empty methods with logic based on the descriptions below.
 
 **Part1: The parrot**
@@ -92,13 +92,13 @@ Please note:
 * Some methods can be implemented using more than one type of loop. We will accept all correct answers, as long as the code is not overly complicated.
 
 
-### Testing your program
+## Testing your program
 
 Think carefully about the set of inputs (testing cases) you will provide to your program to assert its correctness. Your inputs should be such that every method you wrote is tested (invoked) as your program runs.
 
 In BlueJ, save the results of your testing produced in the "BlueJ: Terminal Window" into a file called loopsTest.txt. (Options > Save to File...)
 
-### What to submit
+## What to submit
 
 It is a standard policy of this course that submissions that have not been signed (`@author`) and dated (`@version`) will not be graded.
 
