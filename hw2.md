@@ -29,7 +29,7 @@ However, for this task, you need to implement the plan described here:
  * Write a method `reverseString()` that returns a copy of the input string containing its characters in reverse order.
  * Write a predicate method `theSame()` that compares two input strings (the original and the reversed copy) character-by-character. If all characters match, then it returns true. If not, it returns false.
 
-Work the above strategy through a couple of examples and make sure you understand it before continuing.
+We recommend working through the above strategy a couple of examples and make sure you understand it before continuing.
 
 ###  Step 3: Write pseudocode
 At this point you are ready to  express the strategy of solving this problem in pseudocode. Write it in your notebook, and take a picture of it. You will submit it at the end, together with the other files. Or, if you are using an electronic device to write, save your work in a file to submit at the end.
@@ -42,7 +42,7 @@ Only now you are ready to start writing Java code.
 
 Create a new project and add a class named `FunWithStrings`. In there:
 
-1. Add a `main()` method to hold your testing as you go. The main() is the only static method in your program, the rest should not be. This means that you should create and use a dummy object:
+1. Add a `main()` method to hold your testing as you go. The `main()` is the only static method in your program, the rest should not be. This means that you should create and use a dummy object:
 <code>
 FunWithStrings f = new FunWithStrings();
 </code>
@@ -50,7 +50,7 @@ FunWithStrings f = new FunWithStrings();
 2. Define a fruitful method `reverseString()` that takes as input a string and returns another string with its characters in reverse order. Test this method to make sure it works as intended before moving to the next one.
 
 3. Define a predicate method `theSame()` that takes two String inputs and checks whether they contain identical characters, one by one. If and only if the two strings are the same, the method should return true.
-**Do not use the `equals() neither the compareTo()` methods from the String class here.**
+**Do not use the `equals()` or the `compareTo()` methods from the String class here.**
 
 4. Write the (top level) predicate method `sameBackAndForth()` that takes as input a string and determines whether it reads the same L2R and R2L.
 
@@ -61,7 +61,7 @@ It is expected that your code has careful and meaningful **documentation** (top 
 In BlueJ produce the `TestingL2RnR2L.txt` file to contain testing results from running the top level method (`sameBackAndForth()`). (Terminal Window --> Options --> Save to file...)
 
 
-Testing results should include both expected and computed outcome, like : `input: dad. Expect: true Computed: true`.
+Testing results should include both expected and computed outcome, like: `input: dad. Expect: true Computed: true`.
 
 ## Submission:
 1. Submit the following files (only):
@@ -70,7 +70,7 @@ Testing results should include both expected and computed outcome, like : `input
    * `TestingL2RnR2L.txt` containing your test results
 
 
-## (OPTIONAL) Do you want to check that your code passes our basic tests?
+## Check if your code passes our basic tests (optional)
 
 Use the [FunWithStringsTest.java](https://cs.wellesley.edu/~cs230/assignments/assign107/FunWithStringsTest.java) code we provide here.
 
@@ -89,34 +89,21 @@ Use the [FunWithStringsTest.java](https://cs.wellesley.edu/~cs230/assignments/as
 
 Create a new class named **StringOps** and include definitions for the following (static) methods:
 
- * **public static String removeChar(String str, char ch)**
+* `public static String removeChar(String str, char ch)`. This method returns a string that is constructed from the input string **str**, with the first occurrence of the character **ch** removed from it. If the character **ch** is not contained in the input string **str**, then this method returns the original string. Examples:  
+  * `removeChar("java", 'q')` returns `"java"`
+  * `removeChar("java", 'a')` returns `"jva"`
+* `public static boolean testAnagrams(String word1, String word2)`.  It determines whether the two input strings **word1** and **word2** are anagrams. Returns true if the two  input strings are anagrams, false otherwise. An **anagram** is defined as two words that have exactly the same letters, possibly in a different order. Examples:
+  * `testAnagrams("melon", "lemon")` returns `true`
+  * `testAnagrams("hello", "world")` returns `false`
+  * `testAnagrams("hello", "hello")` returns `true` (since a word is an anagram of itself)
+* `main()`. As usual, it will contain your testing code. Make sure your testing is comprehensive, and your testing printing is informative, like in the following line:
+  * Calling `testAnagrams(melon, lemon)`. Expect TRUE. Got: true
 
- This method returns a string that is constructed from the input string **str**, with the first occurrence of the character **ch** removed from it. If the character **ch** is not contained in the input string **str**, then this method returns the original string.
- 	 Examples:  
-   * removeChar("java", 'q') returns "java"
-   * removeChar("java", 'a') returns "jva"
+Finally, save the results of your program into a textfile named `StringOpsTesting.txt`. You will need to submit this text file along with the source code.
 
- * **public static boolean testAnagrams(String word1, String word2)**
-
- It determines whether the two input strings **word1** and **word2** are anagrams. Returns true if the two
- input strings are anagrams, false otherwise. An **anagram** is defined as two words that have exactly the same letters, possibly in a different order.
- 	Examples:
-  * testAnagrams("melon", "lemon") returns true
-  * testAnagrams("hello", "world") returns false
-  * testAnagrams("hello", "hello") returns true (notice: a word is an anagram of itself)
-
- * **main()**
-
- As usual, it will contain your testing code. Make sure your testing is comprehensive, and your testing printing is informative, like in the following line:
-
- Calling testAnagrams(melon, lemon). Expect TRUE. Got: true
-
-Save the results of your program into a textfile named `StringOpsTesting.txt`. You will need to submit this text file along with the source code.
-
-  **Note**
-You can assume that your input is all lowercase.
- 
-Both of the above methods have elegant solutions using recursion. We encourage you (but we do not require) to try to solve them with recursion.
+**Note:**
+* You can assume that your input is all lowercase.
+* Both of the above methods have elegant solutions using recursion. We encourage you (but we do not require) to try to solve them with recursion.
 
 ## Submitting
 When done, submit your <code>StringOps.java</code> along with the <code>StringOpsTesting.txt</code> that shows the results of your comprehensive testing. Please DO NOT submit any other file but these two.
