@@ -51,9 +51,9 @@ The following requirements must be implemented in your software:
 * **Depositing** money to an account functions exactly the same way for both kinds of accounts (Savings and Checking): the deposited amount is just added to the account's balance. This behavior can never be altered.
 * **Withdrawing** an amount from either kind of account subtracts this amount from the account's balance. In general, for any type of account, attempts to withdraw an amount more than the account balance are simply denied.
 * However, for checking accounts **ONLY**, *overdrafts* (i.e. withdraws resulting in a balance below the minimum balance, but not below zero) are allowed. Every overdraft results in the account being charged with an *overdraft fee*. At that point, the account balance can fall even below zero.
-  > **Example:* Consider a checking account with balance of $200, minimum balance of $100 and overdraft fee of $25.
-  * A withdraw of $250 is ordered. The transaction is denied.
-  * A withdraw of $180 is ordered. The new balance would be $20, which is below the minimum balance. Therefore the overdraft fee of $25 is charged, which brings the account balance to $-5.
+  > **Example:** Consider a checking account with balance of $200, minimum balance of $100 and overdraft fee of $25.
+  > * A withdraw of $250 is ordered. The transaction is denied.
+  > * A withdraw of $180 is ordered. The new balance would be $20, which is below the minimum balance. Therefore the overdraft fee of $25 is charged, which brings the account balance to $-5.
 
 * Account owners should also be able to see a **display** of their account, including the kind of the account, the account number, its balance and other characteristics as appropriate (depending on the kind of the account).
 * Finally, the **Bank** maintains a collection of accounts. It should be able to add directly an account to its collection, look for an account given its unique account number, print all accounts, and calculate all available funds (total of funds across all checking and saving accounts in the bank.)  
