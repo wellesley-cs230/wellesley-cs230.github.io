@@ -2,10 +2,8 @@
 layout: default
 ---
 
-# Homework 1
+# Homework 1, Part A: Area of a Triangle
 
-
-## Part A: Area of a Triangle
 
 ### Goals:
 
@@ -61,7 +59,7 @@ Your Gradescope submission should contain the following:
 
 
 
-## Fun with Loops
+# Homework 1, Part B: Fun with Loops
 
 ### Goals:
 Practice with:
