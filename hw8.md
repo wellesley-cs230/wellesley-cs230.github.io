@@ -4,7 +4,6 @@ layout: default
 
 # Homework 8, Part A: Guitar
 
-## This assignment is to be done individually
 
 
 ## Learning Goals
@@ -12,7 +11,7 @@ layout: default
 * Extend a known Data Structure (Queue), to create a new, special-purpose Data Structure (BoundedQueue)
 * Use this special-purpose Data Structure in an simulation of a guitar playing music
 
-## <small>Exercise:</small> While My Guitar Gently Weeps
+## Exercise: While My Guitar Gently Weeps
 
 In this exercise, you will learn how to simulate the plucking of a guitar string with the Karplus-Strong algorithm. Play the video below to see a visualization of the algorithm. If your browser won't play the video below, you can right-click on it and save it to your Desktop to play it from there.
 
@@ -50,13 +49,13 @@ Download this [starting code](assign701/GuitarExerciseProject_StartingCode.zip) 
 
 ### Task 1
 
-Write a **BoundedQueue.java** class that implements a **bounded queue ADT**. A bounded queue is a queue with a **maximum capacity**: no elements can be enqueued when the queue is full to its capacity. The BoundedQueue class should *inherit* from the *javafoundations.CircularArrayQueue* class, given in the starting code.
+Write a **BoundedQueue.java** class that implements a **bounded queue ADT**. A bounded queue is a queue with a **maximum capacity**: no elements can be enqueued when the queue is full to its capacity. The BoundedQueue class should *inherit* from the `javafoundations.CircularArrayQueue` class, given in the starting code.
 
 Your *BoundedQueue.java* file should contain implementations for the following methods:
 
   * A **constructor** that takes an integer argument, which is the capacity of the bounded queue
-  * A predicate **isFull()** that indicates whether the bounded queue is at capacity or not
-  * An **enqueue()** method that overrides the javafoundations.CircularArrayQueue's enqueue() method so that it only enqueues an element if the queue is not at capacity.
+  * A predicate `isFull()` that indicates whether the bounded queue is at capacity or not
+  * An `enqueue()` method that overrides the `javafoundations.CircularArrayQueue`'s `enqueue()` method so that it only enqueues an element if the queue is not at capacity.
 
 You should not add any more **instance** methods to this class implementation. But, of course, you should be providing evidence of testing your implementation in the `main()`.
 
@@ -64,7 +63,7 @@ Make sure you test this class before continuing to the next task.
 
 ### Task 2
 
-Write a **GuitarString** class that models a vibrating guitar string according to the following contract:
+Write a `GuitarString` class that models a vibrating guitar string according to the following contract:
 
   * <code>public GuitarString(double frequency);</code>
   The **constructor** creates a guitar string of the given *frequency*, using a sampling rate of 44,100. It initializes a bounded queue of the desired capacity *N* (sampling rate divided by the *frequency*, rounded up to the nearest integer), and fills the bounded queue with *N* zeros to model a guitar string at rest.<br>
@@ -125,10 +124,7 @@ In Gradescope submit the following files:
 
 
 ## How to submit your Work
-When done, submit the `LinkedQueue.java`, `CircularArrayQueue.java` and `Qtest.java` files along with the `QtestTesting.txt` transcript of your solutions. Include the PDF or PNG of your design.
 
-* And remember to edit the @author and @version fields of your javadoc!
-
+When done, submit the `LinkedQueue.java`, `CircularArrayQueue.java` and `Qtest.java` files along with the `QtestTesting.txt` transcript of your solutions. Include the PDF or PNG of your design. And remember to edit the @author and @version fields of your javadoc!
 
 
-**Good luck!**
