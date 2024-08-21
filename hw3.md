@@ -42,7 +42,42 @@ Create the following methods:
 
 2. Make sure to include a  `main()` method, for testing purposes. As always, make sure you test all the methods you have defined, and to test each method before moving onto the next one.
 
-It is important that you write code in your `main()` method to test your program thoroughly. In it create a few `Flight` objects, and test all your methods on them. You can take a look at the result of [(this testing code)](assign202/FlightTesting.txt) for inspiration. Save the results of your testing into `FlightTesting.txt` to be submitted with your source code.
+It is important that you write code in your `main()` method to test your program thoroughly. In it create a few `Flight` objects, and test all your methods on them. Save the results of your testing into `FlightTesting.txt` to be submitted with your source code. You can take a look at the result of our test code for inspiration:
+
+```text
+Testing manual entry
+New Flight f1 entered:AA123 from BOS to LAX 
+
+Testing constructor
+New Flight f2 created:DL55 from LAX to SFO 
+
+Testing constructor
+New Flight f3 created:OA1234 from SFO to ATH 
+
+Testing getAirline(f1):(AA)->: AA
+
+Testing getFlightNumber(f1):(123)->: 123
+
+Testing getOrigin(f1):(BOS)->: BOS
+
+Testing getDestination(f1):(LAX)->: LAX
+
+Flights AA123 from BOS to LAX  and DL55 from LAX to SFO  share stopover city (TRUE)->: true
+
+Flights DL55 from LAX to SFO  and AA123 from BOS to LAX  share stopover city (FALS)->: false
+
+Flights DL55 from LAX to SFO  and OA1234 from SFO to ATH  share stopover city (TRUE->): true
+
+Testing setDestination(f1):BOS
+
+Testing setOrigin(f1):SFO
+
+Testing changes to Flight f1:AA123 from SFO to BOS
+ 
+Flights AA123 from SFO to BOS  and DL55 from LAX to SFO  share stopover city (FALSE)->: false
+
+Flights DL55 from LAX to SFO  and AA123 from SFO to BOS  share stopover city (TRUE)->: true
+```
 
 ### Notes and Tips:
 
