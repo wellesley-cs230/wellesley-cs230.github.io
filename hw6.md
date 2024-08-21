@@ -62,8 +62,7 @@ In another paragraph, describe what you learned from this exercise.
 ### How to submit your Work
 Submit the `CDcollection_Stack.java`, `CDcollection_LinkedList.java` and  the `Complexity.txt` to Gradescope. You do not need to submit any prinout of the client.
 
-And as always, add appropriate javadoc, including @author and @version tags!
+And as always, add appropriate javadoc, including `@author` and `@version` tags!
 
-**Good luck!**
 
 
