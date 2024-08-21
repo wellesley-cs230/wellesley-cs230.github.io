@@ -19,7 +19,7 @@ Assume that the collection has `n` CDs to start with. Answer each of the questio
 
 Write your answer on a text .txt file (not a Word .doc or other special format, just plain text) and submit it in the proper assignment folder.
 
-<img src="assign602/images/code.png" alt="code to remove a CD from an array" style="width: 750px;"/>
+<img src="_images/figs/code.png" alt="code to remove a CD from an array" style="width: 750px;"/>
 
 
 

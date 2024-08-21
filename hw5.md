@@ -80,7 +80,7 @@ On the other hand, a `Bank` **contains** a collection of accounts.
 Here is the diagram showing how these 4 classes relate. Pay attention to the kind of lines
 connecting the different classes:
 
-<img src="assign401/images/bankHierarchy.png" width = 400 alt="bank accounts hierarchy"> -->
+<img src="_images/figs/bankHierarchy.png" width = 400 alt="bank accounts hierarchy"> -->
 
 To help you get started, here is a small description of one of the classes you should have in your application.
 
