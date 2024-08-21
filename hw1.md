@@ -58,6 +58,7 @@ Your Gradescope submission should contain the following:
 2. your <code>AreaTriangleTest.txt</code> file that contains your testing results
 
 
+<br/>
 
 # Homework 1, Part B: Fun with Loops
 
