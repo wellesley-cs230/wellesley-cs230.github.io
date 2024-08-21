@@ -75,6 +75,60 @@ Practice with:
 ## Description
 In this exercise, you will learn how to use different types of loops in your code, based on the needs of that program. You are given [the starter code](assign103/Funloops.java), and your goal is to fill in the body of the empty methods with logic based on the descriptions below.
 
+```
+import java.util.Scanner;
+
+/**
+ * Write a description of class Funloops here.
+ *
+ * @author (write your name here)
+ * @version (write a version number or a date here)
+ */
+
+public class Funloops{
+
+/**
+* Part 1 of the exercise.
+* This method should act like a parrot, repeating every number entered by the 
+* user. The user can stop the mimicing by entering the number 0
+*/
+  public static void parrot(){
+    
+  }
+
+  /**
+  * Part 2 of the exercise.
+  * This method should act like a toddler who knows their numbers, once they 
+  * are given a number, they start reciting all numbers from 1 to that number.
+  * @param theNum the input number
+  */
+  public static void toddler(int theNum){
+
+  }
+
+  /**
+  * Part 3 of the exercise.
+  * This method should act like a dreamer, who draws a triangle of stars once 
+  * they are given a number.
+  * @param theNum the input number
+  */
+  public static void dreamer(){
+
+  }
+
+  public static void main(String[] args){
+    System.out.println("Now calling parrot()");
+    parrot();
+    
+    System.out.println("\nNow calling toddler(6)");
+    toddler(6);
+    
+    System.out.println("\nNow calling dreamer(4)");
+    dreamer(4);
+  }
+}
+```
+
 **Part1: The parrot.**
 Complete the method `parrot()` in the starter code provided for you. This method will keep prompting the user to enter a number that is greater than 0. Each time the user enters a number that is greater than 0, the method will print it out, and prompt the user to enter another number. This mimicking will stop only if the user enters the number 0.
 
