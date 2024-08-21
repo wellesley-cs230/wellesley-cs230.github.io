@@ -11,9 +11,7 @@ layout: default
 
 ## Tasks
 
-Create a class named <code>Airport</code> that keeps track of the flights that
-use a certain airport, either as their origin or destination. 
-<!--Consult the provided [Airport](assign205/doc/Airport.html) javadoc-generated documentation.-->
+Create a class named <code>Airport</code> that keeps track of the flights that use a certain airport, either as their origin or destination. Consult the provided [Airport](/docs/Airport.html) javadoc-generated documentation.
 
 For this exercise you are **NOT allowed to use Java's `Array` class**. Just use arrays of Objects as we did in lectures.
 
