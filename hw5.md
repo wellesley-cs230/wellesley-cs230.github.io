@@ -87,18 +87,19 @@ To help you get started, here is a small description of one of the classes you s
 The `Account` class should contain all the common characteristics and functionality of any type of bank account. These include:
 1. the -unique for each account- account number
 2. the account balance
-3. deposit(): a method for depositing an amount to the account
-4. withdraw(): a method for withdrawing an amount from the account, and
-5. toString(): a method to be used for printing the account.
+3. `deposit()`: a method for depositing an amount to the account
+4. `withdraw()`: a method for withdrawing an amount from the account, and
+5. `toString()`: a method to be used for printing the account.
 
 Notes:
-
-1. The *withdraw()* method behaves differently depending on the kind of the account. Therefore, think carefully: can you provide the definition for this method in the `Account` class? If not, where should it be defined?
-2. The toString() method behaves almost the same in both types of accounts, but in the case of a *checking account* it should also include the minimum balance, while in the case of a *saving account* it should include the interest rate.
-3. You can assume that the method to *accrue interest*, relevant only in Savings Accounts!,  is called manually once a month; no need to keep track of dates. (Since the given interest rate is annual, make sure to calculate the monthly interest accordingly.)
+1. The `withdraw()` method behaves differently depending on the kind of the account. Therefore, think carefully: can you provide the definition for this method in the `Account` class? If not, where should it be defined?
+2. The `toString()` method behaves almost the same in both types of accounts, but in the case of a *checking account* it should also include the minimum balance, while in the case of a *saving account* it should include the interest rate.
+3. You can assume that the method to *accrue interest*, relevant only in Savings Accounts!, is called manually once a month; no need to keep track of dates. (Since the given interest rate is annual, make sure to calculate the monthly interest accordingly.)
 4. An account cannot be removed from the `Bank` once it has been added, and the maximum number of accounts that a `Bank` can hold cannot change.
 
+
 ### Testing!
+
 To show that your programs works correctly, you should create a `main()` method for each class that requires testing. Carefully think about what testing is relevant for each class. Your testing transcript should contain the correct/expected results next to the produced ones, so one can access correctness easier.
 
 An example of running the Bank's main method is given in our [BankTesting.txt](assign401/BankTesting.txt). In brackets [like this] is the explanation of the transaction that follows.
@@ -113,7 +114,6 @@ Your Gradescope submission should contain the following:
 2. your corresponding <code>BankTesting.txt</code> files that contain your testing results
 3. A PDF or PNG file of the UML diagram that corresponds to your solution.
 
-### Happy Coding!
 
 
 
@@ -142,17 +142,18 @@ Write a program `PalindromeChecker.java` that uses 1 or 2 stacks to
 determine if a string is a palindrome. You may want to use
 `String.toCharArray` in putting characters onto a stack.
 
-Think about your algorithm. Draw it. Take a picture and scan it. You
+Please depict how your algorithm works graphically (by drawing it and taking a picture of it). You
 will submit this at the end.  Make sure to include all relevant
 information in this representation, so that a reader who is only
 familiar with the Stack interface understands your approach.
+
 
 ### Specifications
 
 * Your program should contain a **predicate** method `isPalindrome()` that returns true or false as appropriate.
 
-* Your main() method should use your preferred Stack implementation
-  (we've studied two in class so far). Use print statements in main()
+* Your `main()` method should use your preferred Stack implementation
+  (we've studied two in class so far). Use print statements in `main()`
   to show that your method works correctly.
 
 * You can only use the `toCharArray()` method in the String class to
@@ -172,16 +173,16 @@ You are expected to **create your own test cases**, and demonstrate
 that your code meets expectations. Remember that thorough testing
 implies identifying and testing boundary cases as well.
 
+
+* Optionally, you can get more practice by:
+  * You could use the Java's Stack class.
+  * Create a JUnit testing file to test your design.
+  * Describe at least 2 different ways of using two stacks to solve the problem. Which one is better? Why?
+
+
 ## What to submit
 
 Submit 3 files: your `PalindromeChecker.java` file, the picture
 describing your strategy in using stacks, and your testing `.txt`
 file.
 
-## Optional Tasks
-
-Do you want to do a little more programming for fun?
-Try these:
-* You could use the Java's Stack class.
-* Create a JUnit testing file to test your design.
-* Describe at least 2 different ways of using two stacks to solve the problem. Which one is better? Why?
