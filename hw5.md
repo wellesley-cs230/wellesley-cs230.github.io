@@ -102,7 +102,57 @@ Notes:
 
 To show that your programs works correctly, you should create a `main()` method for each class that requires testing. Carefully think about what testing is relevant for each class. Your testing transcript should contain the correct/expected results next to the produced ones, so one can access correctness easier.
 
-An example of running the Bank's main method is given in our [BankTesting.txt](assign401/BankTesting.txt). In brackets [like this] is the explanation of the transaction that follows.
+An example of running the Bank's main method is given in our below, wherein, in brackets [like this] is the explanation of the transaction that follows:
+
+```text
+Current state of Bank:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This bank currently manages 4 accounts: 
+Checking  account num: 0	Balance: $1,000.00	Minimum balance: 100.0	Overdraft fee: 25
+Savings   account num: 1	Balance: $1,000.00	Interest rate: 0.5
+Checking  account num: 2	Balance: $500.00	Minimum balance: 100.0	Overdraft fee: 25
+Savings   account num: 3	Balance: $500.00	Interest rate: 0.5
+~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Funds: $3000.0
+
+[Depositing $4000 into Checking #0. Should print Acct#0, Bal=$5000, Min=$100]
+Checking  account num: 0	Balance: $5,000.00	Minimum balance: 100.0	Overdraft fee: 25
+
+[Withdrawing $6K -- MORE THAN AVAILABLE from Checking #0]
+** Withdrawal DENIED **: Insufficient balance.Checking  account num: 0	Balance: $5,000.00	Minimum balance: 100.0	Overdraft fee: 25
+
+[Withdrawing $4901 from Checking #0 triggers Overdraft: Bal=$74.00]
+** NOTE: Balance is low. Overdraft Fee was charged.
+Checking  account num: 0	Balance: $74.00	Minimum balance: 100.0	Overdraft fee: 25
+
+[Allowed Withdrawing $70 from Checking #0 triggers Overdraft: Bal=-$21.00]
+** NOTE: Balance is low. Overdraft Fee was charged.
+Checking  account num: 0	Balance: -$21.00	Minimum balance: 100.0	Overdraft fee: 25
+
+[Withdrawing from NEGATIVE funds not allowed]
+** Withdrawal DENIED **: Insufficient balance.Checking  account num: 0	Balance: -$21.00	Minimum balance: 100.0	Overdraft fee: 25
+
+[Depositing $100 into Checking #0. Should print Acct#0, Bal=$79, Min=$100]
+Checking  account num: 0	Balance: $79.00	Minimum balance: 100.0	Overdraft fee: 25
+
+New state of Bank accounts:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This bank currently manages 4 accounts: 
+Checking  account num: 0	Balance: $79.00	Minimum balance: 100.0	Overdraft fee: 25
+Savings   account num: 1	Balance: $1,000.00	Interest rate: 0.5
+Checking  account num: 2	Balance: $500.00	Minimum balance: 100.0	Overdraft fee: 25
+Savings   account num: 3	Balance: $500.00	Interest rate: 0.5
+~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Funds: $2079.0
+
+[Depositing $2000 into Savings 1. Should print Acct#1, Bal=$3000, Int=0.5%]
+Savings   account num: 1	Balance: $3,000.00	Interest rate: 0.5
+
+[Withdrawing $5K MORE THAN AVAILABLE from Savings #1]
+** Withdrawal DENIED **: Insufficient balance.
+Savings   account num: 1	Balance: $3,000.00	Interest rate: 0.5
+
+[Withdrawing $3K from Savings #1]
+Savings   account num: 1	Balance: $0.00	Interest rate: 0.5
+```
 
 
 
