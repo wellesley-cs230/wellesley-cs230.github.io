@@ -2,7 +2,7 @@
 Last edited on 2023.09.21 by Takis
 -->
 
-##Learning Goals
+## Learning Goals
 * Using arrays to hold and maintain collection of objects
 * Using loops to process array elements
 
