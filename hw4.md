@@ -65,10 +65,41 @@ Use the <code>@author</code> and <code>@version</code> tags.
 
 **6. Testing**
 
-Save the printout of the `LoganAirport` class into a file named `LoganTesting.txt`. For inspiration look at our own [DriverTesting.txt](assign205/DriverTesting.txt) driver.
+Save the printout of the `LoganAirport` class into a file named `LoganTesting.txt`. For inspiration look at our own test output:
+
+```text
+Start testing. Creating BOS airport. Capacity = 5
+Adding flights for BOS airport.
+AA123 from BOS to LAX 
+DL55 from LAX to BOS 
+LX422 from FRA to BOS 
+LX441 from BOS to FRA 
+DL522 from BOS to ATH 
+	addFlight():: BOS airport cannot accommodate any more flights
+
+Listing BOS airport flights.
+BOS airport can accommodate 5 flights.
+It is currently serving the following 5 flights:
+ 	AA123 from BOS to LAX 
+	DL55 from LAX to BOS 
+	LX422 from FRA to BOS 
+	LX441 from BOS to FRA 
+	DL522 from BOS to ATH 
+
+LX is using BOS for the following flights: (expecting 2 flights)
+	LX422 from FRA to BOS 
+	LX441 from BOS to FRA 
+
+AG is using BOS for the following flights: (expecting no flight)
+
+AA is using logan for the following flights: (expecting 1 flight)
+	AA123 from BOS to LAX
+```
+
 
 
 ## Submitting your code
+
 * Submit your `Airport.java`, your `LoganAirport.java`, your `LoganTesting.txt`, and your picture of your drawing of the class objects to Gradescope. 
 * No need to upload the `Flight.java` code we linked above, unless it is your own `Flight.java` code (not our sample solutions from the previous assignment.) 
 
@@ -95,7 +126,87 @@ Create a class named <code>Deck</code> that creates a Deck of Card objects. For 
 
 **0. Study and use the provided Card class**
 
-The [Card.java](assign207/Card.java) class is provided for you. Read it very carefully and provide documentation for all the methods. Pay close attention to the equals() method. 
+The `Card.java` class is provided for you. Read it very carefully and provide documentation for all the methods. Pay close attention to the equals() method.
+
+`Card.java`:
+```java
+/**
+ * Card
+ *
+ * @author Smaranda Sandu, Stella K
+ * @version 2/21/2023
+ */
+public class Card
+{
+    //In a common deck of cards, expect the suit to be one of the follwoing:
+    //"Diamonds", "Clubs", "Spades", "Hearts"
+    //and the value to be
+    //from 1 to 13 (11 is Jack, 12 is Queen, 13 is King)
+    private String suit;
+    private int value;
+
+    /**
+     * Constructor for objects of class Card
+     *
+     * @param s the suit of the card
+     * @param v the value of the card
+     */
+    public Card(String s, int v)
+    {
+        suit = s;
+        value = v;
+    }
+
+    /**
+     * Getter for suit
+     *
+     * @return the suit of the card
+     */
+    public String getSuit() {
+        return suit;
+    }
+
+    /**
+     * Getter for value
+     *
+     * @return the value of the card
+     */
+    public int getValue() {
+        return value;
+    }
+
+    /**
+     * String representation of a card
+     *
+     * @return string representation of the card
+     */
+    public String toString() {
+        return value + " of " + suit;
+    }
+
+    /**
+     * Method that checks when two cards are equal.
+     * Two cards are considered equal iff they ahve the same suit and the same value
+     *
+     * @param c the card this (the invoking) object is compared against
+     * @return true if this card and the input one are equal, false otherwise
+     */
+    public boolean equals(Card c) {
+        return (this.suit.equals(c.suit)) && this.value==c.value;
+    }
+
+
+    public static void main(String[] args) {
+        Card c1 = new Card("Diamonds", 3);
+        System.out.println(c1);
+
+        Card c2 = new Card("Hearts", 10);
+        System.out.println(c2);
+
+        System.out.println(c1.equals(c2));
+    }
+}
+```
 
 Next, create a `Deck` class that contains,
 * the `@author` and `@version` javadoc entries (without that, we will not grade your submission for this and all future assignments and labs)
