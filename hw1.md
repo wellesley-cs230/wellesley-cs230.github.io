@@ -87,11 +87,11 @@ import java.util.Scanner;
 
 public class Funloops{
 
-/**
-* Part 1 of the exercise.
-* This method should act like a parrot, repeating every number entered by the 
-* user. The user can stop the mimicing by entering the number 0
-*/
+  /**
+  * Part 1 of the exercise.
+  * This method should act like a parrot, repeating every number entered by the 
+  * user. The user can stop the mimicing by entering the number 0
+  */
   public static void parrot(){
     
   }
