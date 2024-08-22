@@ -17,15 +17,168 @@ layout: default
 
 ### Task 1: CDcollection using a Stack and a LinkedList
 
-Recall the very first collection we saw in this class, the `CDcollection`. It uses an array to keep track of the `CD`s in someone's possession. A client program, `Tunes`, acts as a driver for the `CDcollection`.
-
-Download these three files (`CD.java`, `CDcollection.java` and `Tunes.java`) from the course material linked from the schedule.
-
-Create a BlueJ project. Add these three source files to it. Review the code  carefully to refresh your memory on how the application works.
-
-In this exercise you will write two more implementations for managing a collection of CDs:
+Recall the very first collection we saw in this class, the `CDcollection`. It uses an array to keep track of the `CD`s in someone's possession. A client program, `Tunes`, acts as a driver for the `CDcollection`. In this exercise you will write two more implementations for managing a collection of CDs:
   1. `CDcollection_Stack`, which will use a Stack to manage the collection, and
   2. `CDcollection_LinkedList` which will use a LinkedList to do so.
+
+Create a BlueJ project, adding the three files below to it. Review the code to refresh your memory on how the application works.
+
+`CD.java`:
+```java
+//********************************************************************
+//  CD.java       Java Foundations
+//
+//  Represents a compact disc.
+//********************************************************************
+
+import java.text.NumberFormat;
+
+public class CD
+{
+   private String title, artist;
+   private double cost;
+   private int tracks;
+
+   //-----------------------------------------------------------------
+   //  Creates a new CD with the specified information.
+   //-----------------------------------------------------------------
+   public CD (String name, String singer, double price, int numTracks)
+   {
+      title = name;
+      artist = singer;
+      cost = price;
+      tracks = numTracks;
+   }
+
+   //-----------------------------------------------------------------
+   //  Returns a string description of this CD.
+   //-----------------------------------------------------------------
+   public String toString()
+   {
+      NumberFormat fmt = NumberFormat.getCurrencyInstance();
+
+      String description;
+
+      description = fmt.format(cost) + "\t" + tracks + "\t";
+      description += title + "\t" + artist;
+
+      return description;
+   }
+}
+```
+
+`CDCollection.java`:
+```java
+//********************************************************************
+//  CDCollection.java       Java Foundations
+//
+//  Represents a collection of compact discs.
+//********************************************************************
+
+import java.text.NumberFormat;
+
+public class CDCollection
+{
+   private CD[] collection;
+   private int count;
+   private double totalCost;
+
+   //-----------------------------------------------------------------
+   //  Constructor: Creates an initially empty collection.
+   //-----------------------------------------------------------------
+   public CDCollection ()
+   {
+      collection = new CD[100];
+      count = 0;
+      totalCost = 0.0;
+   }
+
+   //-----------------------------------------------------------------
+   //  Adds a CD to the collection, increasing the size of the
+   //  collection if necessary.
+   //-----------------------------------------------------------------
+   public void addCD (String title, String artist, double cost,
+                      int tracks)
+   {
+      if (count == collection.length)
+         increaseSize();
+
+      collection[count] = new CD (title, artist, cost, tracks);
+      totalCost += cost;
+      count++;
+   }
+
+   //-----------------------------------------------------------------
+   //  Returns a report describing the CD collection.
+   //-----------------------------------------------------------------
+   public String toString()
+   {
+      NumberFormat fmt = NumberFormat.getCurrencyInstance();
+
+      String report = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
+      report += "My CD Collection\n\n";
+
+      report += "Number of CDs: " + count + "\n";
+      report += "Total cost: " + fmt.format(totalCost) + "\n";
+      report += "Average cost: " + fmt.format(totalCost/count);
+
+      report += "\n\nCD List:\n\n";
+
+      for (int cd = 0; cd < count; cd++)
+         report += collection[cd].toString() + "\n";
+
+      return report;
+   }
+
+   //-----------------------------------------------------------------
+   //  Increases the capacity of the collection by creating a
+   //  larger array and copying the existing collection into it.
+   //-----------------------------------------------------------------
+   private void increaseSize ()
+   {
+      CD[] temp = new CD[collection.length * 2];
+
+      for (int cd = 0; cd < collection.length; cd++)
+         temp[cd] = collection[cd];
+
+      collection = temp;
+   }
+}
+```
+
+`Tunes.java`:
+```java
+//********************************************************************
+//  Tunes.java       Java Foundations
+//
+//  Demonstrates the use of an array of objects.
+//********************************************************************
+
+public class Tunes
+{
+   //-----------------------------------------------------------------
+   //  Creates a CDCollection object and adds some CDs to it. Prints
+   //  reports on the status of the collection.
+   //-----------------------------------------------------------------
+   public static void main (String[] args)
+   {
+      CDCollection music = new CDCollection ();
+
+      music.addCD ("Storm Front", "Billy Joel", 14.95, 10);
+      music.addCD ("Come On Over", "Shania Twain", 14.95, 16);
+      music.addCD ("Soundtrack", "Les Miserables", 17.95, 33);
+      music.addCD ("Graceland", "Paul Simon", 13.90, 11);
+
+      System.out.println (music);
+
+      music.addCD ("Double Live", "Garth Brooks", 19.99, 26);
+      music.addCD ("Greatest Hits", "Jimmy Buffet", 15.95, 13);
+
+      System.out.println (music);
+   }
+}
+```
+
 
 **Task 1A: Prepare the Client program** (Tunes class)
 
