@@ -14,15 +14,8 @@ layout: default
 
 ## Pair Assignments:
 
-Follow this link to [find your
-partner](https://docs.google.com/spreadsheets/d/1gGfLSum89VHO_CDLhRs0wie2ir1vovTfYeVURhb_I7o/edit?usp=sharing). That
-links to a spreadsheet that is viewable (but not editable) to anyone
-at Wellesley College, so make sure you are logged into the portal
-before trying to view it. It should be pretty clear who your partner
-is. If you are confused, contact Scott.
-
-* Reach out to your partner ASAP to discuss when you will meet to work on the assignment
-* You will probably have to meet several times
+We will assign you a peer to collaborate with on this assignment. Please,
+* Reach out to your partner ASAP to discuss when you will meet to work on the assignment. You will probably have to meet several times.
 * Work *together* (pair programming) rather than *divide and conquer*.
 * *Discuss* the ideas and diagrams before diving into coding.
 
