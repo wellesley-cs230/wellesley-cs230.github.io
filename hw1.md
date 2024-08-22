@@ -114,7 +114,7 @@ public class Funloops{
   * they are given a number.
   * @param theNum the input number
   */
-  public static void dreamer(){
+  public static void dreamer(int theNum){
 
   }
 
