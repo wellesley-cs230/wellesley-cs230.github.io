@@ -167,7 +167,6 @@ Your Gradescope submission should contain the following:
 
 ## Learning goals
 * Get familiarity with Stacks
-* Get familiarity with the package javafoundations
 * Get experience with using Stacks with various implementations
 
 ## Task: Palindrome Checker using your preferred Stack implementation
@@ -195,9 +194,9 @@ familiar with the Stack interface understands your approach.
 
 * Your program should contain a **predicate** method `isPalindrome()` that returns true or false as appropriate.
 
-* Your `main()` method should use your preferred Stack implementation
-  (we've studied two in class so far). Use print statements in `main()`
-  to show that your method works correctly.
+* Your program should use Java's [Stack implementation](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html), relying only the stack methods `empty`, `peek`, `pop`, and `push`.
+
+* Your `main()` method should test your code and show that it's correct.
 
 * You can only use the `toCharArray()` method in the String class to
   convert the input string in an array of characters from which you
@@ -218,7 +217,6 @@ implies identifying and testing boundary cases as well.
 
 
 * Optionally, you can get more practice by:
-  * You could use the Java's Stack class.
   * Create a JUnit testing file to test your design.
   * Describe at least 2 different ways of using two stacks to solve the problem. Which one is better? Why?
 
