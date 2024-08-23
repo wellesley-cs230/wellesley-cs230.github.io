@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Homework 2, Part A: Text reading the same in both directions
+# Homework 2, Part A: Fun with Strings
 
 ## Goals:
 1. to work with Java's [Strings](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html).
@@ -42,17 +42,13 @@ Only now you are ready to start writing Java code.
 
 Create a new project and add a class named `FunWithStrings`. In there:
 
-1. Add a `main()` method to hold your testing as you go. The `main()` is the only static method in your program, the rest should not be. This means that you should create and use a dummy object:
-<code>
-FunWithStrings f = new FunWithStrings();
-</code>
+1. Add a `main()` method to hold your testing as you go. 
 
-2. Define a fruitful method `reverseString()` that takes as input a string and returns another string with its characters in reverse order. Test this method to make sure it works as intended before moving to the next one.
+2. Add method `public static String reverseString(String s)` that takes as input a string and returns another string with its characters in reverse order. Test this method to make sure it works as intended before moving to the next one.
 
-3. Define a predicate method `theSame()` that takes two String inputs and checks whether they contain identical characters, one by one. If and only if the two strings are the same, the method should return true.
-**Do not use the `equals()` or the `compareTo()` methods from the String class here.**
+3. Add a predicate method `public static boolean theSame` that takes two String inputs and checks whether they contain identical characters, one by one. If and only if the two strings are the same, the method should return true. For the purposes of the exercise, **please do not use the `equals()` or the `compareTo()` methods from the String class here.**
 
-4. Write the (top level) predicate method `sameBackAndForth()` that takes as input a string and determines whether it reads the same L2R and R2L.
+4. Add a predicate method `public static boolean sameBackAndForth(String s)` that takes as input a string and determines whether it reads the same L2R and R2L.
 
 5. Choose the testing cases thoughtfully. Use testing strings of various lengths (like 0, 1, 2, 3 and a longer one). Some of the testing strings should read the same in both directions, others not.
 
@@ -72,7 +68,7 @@ Testing results should include both expected and computed outcome, like: `input:
 
 ## Check if your code passes our basic tests (optional)
 
-Use the code below to test your implementation.
+Use the code below to test your implementation. To do this, create a new class, `FunWithStringsTest.java`, and replace its content with the code below. After compiling all of your code, write click on the class in the project viewer, and select "Test All."
 
 `FunWithStringsTest.java`:
 ```java 
@@ -82,35 +78,33 @@ import org.junit.Test;
 
 public class FunWithStringsTest {
 
-    private FunWithStrings funWithStrings;
-
     @Before
     public void setUp() {
-        funWithStrings = new FunWithStrings();
+        // N/A
     }
 
     @Test
     public void testReverseString() {
-        assertEquals("edcba", funWithStrings.reverseString("abcde"));
-        assertEquals("gfedcba", funWithStrings.reverseString("abcdefg"));
-        assertEquals("", funWithStrings.reverseString(""));
-        assertEquals("a", funWithStrings.reverseString("a"));
+        assertEquals("edcba", FunWithStrings.reverseString("abcde"));
+        assertEquals("gfedcba", FunWithStrings.reverseString("abcdefg"));
+        assertEquals("", FunWithStrings.reverseString(""));
+        assertEquals("a", FunWithStrings.reverseString("a"));
     }
 
     @Test
     public void testTheSame() {
-        assertTrue(funWithStrings.theSame("abc", "abc"));
-        assertFalse(funWithStrings.theSame("abc", "abcd"));
-        assertFalse(funWithStrings.theSame("abc", "abC"));
-        assertFalse(funWithStrings.theSame("abc", "ab"));
+        assertTrue(FunWithStrings.theSame("abc", "abc"));
+        assertFalse(FunWithStrings.theSame("abc", "abcd"));
+        assertFalse(FunWithStrings.theSame("abc", "abC"));
+        assertFalse(FunWithStrings.theSame("abc", "ab"));
     }
 
     @Test
     public void testSameBackAndForth() {
-        assertTrue(funWithStrings.sameBackAndForth("aba"));
-        assertTrue(funWithStrings.sameBackAndForth("abcba"));
-        assertFalse(funWithStrings.sameBackAndForth("abca"));
-        assertFalse(funWithStrings.sameBackAndForth("abcde"));
+        assertTrue(FunWithStrings.sameBackAndForth("aba"));
+        assertTrue(FunWithStrings.sameBackAndForth("abcba"));
+        assertFalse(FunWithStrings.sameBackAndForth("abca"));
+        assertFalse(FunWithStrings.sameBackAndForth("abcde"));
     }
 }
 ```
@@ -121,7 +115,7 @@ public class FunWithStringsTest {
 
 <br/>
 
-# Homework 2, Part B: FUN with Strings
+# Homework 2, Part B: More String Operations
 
 ## Goals:
 1. to work with some of Java's built-in [String class](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html) methods
