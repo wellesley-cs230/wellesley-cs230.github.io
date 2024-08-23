@@ -46,7 +46,7 @@ Create a new project and add a class named `FunWithStrings`. In there:
 
 2. Add method `public static String reverseString(String s)` that takes as input a string and returns another string with its characters in reverse order. Test this method to make sure it works as intended before moving to the next one.
 
-3. Add a predicate method `public static boolean theSame` that takes two String inputs and checks whether they contain identical characters, one by one. If and only if the two strings are the same, the method should return true. For the purposes of the exercise, **please do not use the `equals()` or the `compareTo()` methods from the String class here.**
+3. Add a predicate method `public static boolean theSame(String s1, String s2)` that takes two String inputs and checks whether they contain identical characters, one by one. If and only if the two strings are the same, the method should return true. For the purposes of the exercise, **please do not use the `equals()` or the `compareTo()` methods from the String class here.**
 
 4. Add a predicate method `public static boolean sameBackAndForth(String s)` that takes as input a string and determines whether it reads the same L2R and R2L.
 
