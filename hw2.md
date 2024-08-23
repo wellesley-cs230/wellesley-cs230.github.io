@@ -23,7 +23,7 @@ In this problem you are asked to write a program to decide whether a given Strin
 
 
 ###  Step 2: The plan
-As is the case with any non-trivial problem, there are more than ways to solve it. We encourage you to try to think of one on your own.
+As is the case with any non-trivial problem, there are more than one way to solve it. We encourage you to try to think of one on your own.
 
 However, for this task, you need to implement the plan described here:
  * Write a method `reverseString()` that returns a copy of the input string containing its characters in reverse order.
