@@ -9,8 +9,8 @@ layout: default
 ## Learning Goals
 
 * Gaining experience with using multiple implementations for the same task
-* Work with Java's Stack class
-* Work with Java's LinkedList class
+* Work with [Java's Stack class](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html)
+* Work with [Java's LinkedList class](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html)
 * Think about time complexity and compare different programs based on it
 
 ## Three ways to store a collection
@@ -187,9 +187,9 @@ first using the array implementation of the CD collection, (as it currently is),
 
 When this client program executes, the output should be presented so that it is clear which part of it is produced by which implementation.
 
- **Task 1B: CD collection using a Stack** (CDcollection_Stack class)
+*Task 1B: CD collection using a Stack** (CDcollection_Stack class)
 
-Define the `CDcollection_Stack` class. As said already, you have to employ a Stack to hold the CDs. Use java's Stack class for it. (Think about: What other Stack implementations could you have used?)
+Define the `CDcollection_Stack` class. As said already, you have to employ a Stack to hold the CDs. Use [java's Stack class](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html) for it. (Think about: What other Stack implementations could you have used?)
 
 Define any methods you need in order to have a well-designed Object Oriented Program. The goal is  that the client produces output identical to the original output of `Tunes`.
 
@@ -197,7 +197,7 @@ Run your program and compare its output with the original one.
 
 **Task 1C: CD collection using a LinkedList** (CDcollection_LinkedList class)
 
-Similar to the previous task, define the `CDcollection_LinkedList` class. This time the CDs will be held in a LinkedList. Use java's LinkedList implementation. (Think about: What other LinkedList implementations could you have used?)
+Similar to the previous task, define the `CDcollection_LinkedList` class. This time the CDs will be held in a LinkedList. Use [java's LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) implementation. (Think about: What other LinkedList implementations could you have used?)
 
 Once more, the output from the client should be identical to the two previous ones. Your client should print the very same thing three times, each time using a different implementation.
 
