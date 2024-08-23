@@ -19,9 +19,7 @@ Practice with:
 
 ## Description
 
-Write a program, `AreaTriangle`, that prompts the user three times for the side
-lengths of a triangle. Based on these three inputs, the program checks and prints whether this triangle is isosceles or not, as well as its area.
-In addition to the `main()` method, **your program should also define three
+Write a program, `AreaTriangle`, that prompts the user three times for the side lengths of a triangle. Based on these three inputs, the program checks and prints whether this triangle is isosceles or not, as well as its area. In addition to the `main()` method, **your program should also define three
 other static methods**:
   1. a predicate method `isValidTriangle()` to check whether the three inputs define a triangle, based on the **triangular inequality** (that is, the sum of any two sides of a triangle is strictly greater than the third side),
   2. a method to `getHeronArea()` compute the triangle's area based on [Heron's Formula](http://en.wikipedia.org/wiki/Heron%27s_formula) given the three side lengths,
@@ -30,13 +28,50 @@ other static methods**:
 Some important notes on this exercise:
 
 * Equilateral triangles are considered isosceles.
-*  If the user enters three side lengths that cannot possibly form a triangle
-   (ex. 1,1,2), your program should say that this set of input does not form a triangle and stop execution. You can use `System.exit(1)` for that. 
+* If the user enters three side lengths that cannot possibly form a triangle (ex. 1,1,2), your program should say that this set of input does not form a triangle and stop execution. You can use `System.exit(1)` for that. 
 * You do not need to handle the case when the user enters other invalid input, e.g. negative number(s) or non-numbers.
 
 Some sample executions of this program are shown below:
 
 <center><img src="_images/figs/triangleExecution.png" style="max-width:900px"></center>
+
+
+## Starter Code
+
+Please use the starter code below:
+
+`AreaTriangle.java`:
+```java
+// Import the necessary library (Scanner), to read user-inputted text
+import java.util.Scanner;
+
+public class AreaTriangle
+{
+    public static boolean isValidTriangle(double a, double b, double c) {
+        return false; // TODO replace this with your implementation
+    }
+    
+    public static boolean isIsosceles(double a, double b, double c) {
+        return false; // TODO replace this with your implementation
+    }
+    
+    public static double getHeronArea(double a, double b, double c) {
+        return 0.0; // TODO replace this with your implementation
+    }
+    
+    public static void main(String[] args) {
+        // Create a "scanner," used to read user-inputted text
+        Scanner scanner = new Scanner(System.in);
+
+	// Read in a user-inputted double from the text prompt
+        System.out.print("Please enter first side: ");
+        double a = scanner.nextDouble();
+
+	// TODO complete the rest of this method
+    }
+}
+```
+
 
 ## Testing your program
 
