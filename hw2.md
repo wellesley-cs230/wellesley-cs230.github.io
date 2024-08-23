@@ -139,7 +139,7 @@ Finally, save the results of your program into a textfile named `StringOpsTestin
 
 **Note:**
 * You can assume that your input is all lowercase.
-* Both of the above methods have elegant solutions using recursion. We encourage you (but we do not require) to try to solve them with recursion.
+* Both of the above methods have elegant solutions using recursion. Later units in the course will rely on recursion, so we encourage you to try to solve them with recursion. 
 
 ## Submitting
 When done, submit your <code>StringOps.java</code> along with the <code>StringOpsTesting.txt</code> that shows the results of your comprehensive testing. Please DO NOT submit any other file but these two.
