@@ -47,7 +47,7 @@ it prints all the flights of this airline that are using this airport. While the
 
 **4. No `main()` is required in the Airport class but create a separate client class**
 
-Instead, create another client class called `LoganAirport.java`. This class contains only a <code>main()</code> method. It main purpose is to test your `Airport` class. Make sure you test your methods as you develop your code. Start by creating an instance of type <code>Airport</code> called `logan`, and some <code>Flight</code> instances. For the `Flight` class, you may ask the staff for the `Flight.java` file from the staff solutions. You may also choose to use your own implementation; if you do, please test is via our JUnit tester class found here: [FlightTest.java](assign205/FlightTest.java). To see that your code passes our tests, first save the tester class onto your computer. Then, drag and drop the tester class into the same project as your Flight code, compile, and control-click on it to choose "Test All".
+Instead, create another client class called `LoganAirport.java`. This class contains only a <code>main()</code> method. It main purpose is to test your `Airport` class. Make sure you test your methods as you develop your code. Start by creating an instance of type <code>Airport</code> called `logan`, and some <code>Flight</code> instances. For the `Flight` class, use your implementation from the previous homework. If you think your `Flight` class might have bugs, you may ask the staff for their solution. We highly recommend testing your implementation using the unit tests we provided in the previous assignment.
 
 
 **5. Write good javadoc**

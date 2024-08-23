@@ -79,6 +79,114 @@ Flights AA123 from SFO to BOS  and DL55 from LAX to SFO  share stopover city (FA
 Flights DL55 from LAX to SFO  and AA123 from SFO to BOS  share stopover city (TRUE)->: true
 ```
 
+
+### Step 5: Unit-Testing your code (optional)
+
+Use the code below to test your implementation. To do this, create a new class, `FlightTest.java`, and replace its content with the code below. After compiling all of your code, write click on the class in the project viewer, and select "Test All." You will be using this code in the next homework, so it's good to make sure it's correct!
+
+
+`FlightTest.java`:
+```java
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.Assert;
+
+/**
+ * The test class FlightTest.
+ *
+ * @author  TM
+ * @version 2022.09.23
+ */
+public class FlightTest
+{
+    private Flight f1, f2, f3;
+    
+    /**
+     * Default constructor for test class FlightTest
+     */
+    public FlightTest()
+    {
+
+    }
+
+    /**
+     * Sets up the test fixture.
+     *
+     * Called before every test case method.
+     */
+    @BeforeEach
+    public void setUp()
+    {
+        f1 = new Flight("AA", 123, "BOS", "LAX");
+        f2 = new Flight("DL", 55, "LAX", "SFO");
+        f3 = new Flight("OA", 1234, "SFO", "ATH");
+
+    }
+
+    /**
+     * Tears down the test fixture.
+     *
+     * Called after every test case method.
+     */
+    @AfterEach
+    public void tearDown()
+    {
+    }
+    
+    @Test
+    public void testConstructor(){
+        assertEquals(f1.getAirline(), "AA");
+        assertEquals(f1.getFlightNumber(), 123);
+        assertEquals(f1.getOrigin(), "BOS");
+        assertEquals("LAX", f1.getDestination());
+    }
+
+    @Test
+    public void testGetAirline(){
+        assertEquals(f1.getAirline(), "AA");
+        assertEquals(f2.getAirline(), "DL");
+        assertEquals(f3.getAirline(), "OA");
+    }
+
+    @Test
+    public void testGetOrigin()
+    {
+        assertEquals(f1.getOrigin(), "BOS");
+        assertEquals(f2.getOrigin(), "LAX");
+        assertEquals(f3.getOrigin(), "SFO");
+    }
+    
+    @Test
+    public void testStopOver()
+    {
+        assertEquals(Flight.stopOver(f1,f2),true);
+        assertEquals(Flight.stopOver(f2,f1),false);
+        assertEquals(Flight.stopOver(f2,f3),true);
+    }
+    
+    @Test
+    public void testSetOrigin(){
+        f1.setOrigin("SFO");
+        assertEquals(f1.getOrigin(), "SFO");
+        assertEquals(Flight.stopOver(f1,f2),true);
+        assertEquals(Flight.stopOver(f2,f1),true);
+    }
+    
+
+    @Test
+    public void testGetDestination()
+    {
+        assertEquals("LAX", f1.getDestination());
+        assertEquals("SFO", f2.getDestination());
+        assertEquals("ATH", f3.getDestination());
+    }
+}
+```
+
+
+
 ### Notes and Tips:
 
 Our experience shows that early-stage programmers make a few common mistakes that could be avoided with a more careful final reading of the specifications (i.e., the description of the assignment in our case). We thought of helping you in this careful reading by adding here a few items to review before submission:
