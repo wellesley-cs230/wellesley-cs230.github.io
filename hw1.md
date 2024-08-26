@@ -10,9 +10,7 @@ layout: default
 Practice with:
 * working with BlueJ IDE to write, compile, run simple java programs
 * java primitive data types, expressions and operators
-* reading from the standard input (Scanner)
 * defining and calling methods
-* understanding the complexities of number conversions
 * selecting testing values
 
 
@@ -28,7 +26,7 @@ other static methods**:
 Some important notes on this exercise:
 
 * Equilateral triangles are considered isosceles.
-* If the user enters three side lengths that cannot possibly form a triangle (ex. 1,1,2), your program should say that this set of input does not form a triangle and stop execution. You can use `System.exit(1)` for that. 
+* If the user enters three side lengths that cannot possibly form a triangle (ex. 1,1,2), your program should say that this set of input does not form a triangle and stop execution. 
 * You do not need to handle the case when the user enters other invalid input, e.g. negative number(s) or non-numbers.
 
 <!--
