@@ -145,10 +145,9 @@ public class Funloops{
 
   /**
   * Part 1 of the exercise.
-  * This method should act like a parrot, repeating every number entered by the 
-  * user. The user can stop the mimicing by entering the number 0
+  * This method should act like a parrot, printing the string 's' n times.
   */
-  public static void parrot(){
+  public static void parrot(String s, int n){
     
   }
 
@@ -156,6 +155,7 @@ public class Funloops{
   * Part 2 of the exercise.
   * This method should act like a toddler who knows their numbers, once they 
   * are given a number, they start reciting all numbers from 1 to that number.
+  * Only one number should be printed per line.
   * @param theNum the input number
   */
   public static void toddler(int theNum){
@@ -173,8 +173,7 @@ public class Funloops{
   }
 
   public static void main(String[] args){
-    System.out.println("Now calling parrot()");
-    parrot();
+    parrot("CS230", 10);
     
     System.out.println("\nNow calling toddler(6)");
     toddler(6);
@@ -186,10 +185,10 @@ public class Funloops{
 ```
 
 **Part1: The parrot.**
-Complete the method `parrot()` in the starter code provided for you. This method will keep prompting the user to enter a number that is greater than 0. Each time the user enters a number that is greater than 0, the method will print it out, and prompt the user to enter another number. This mimicking will stop only if the user enters the number 0.
+Complete the method `parrot()` in the starter code provided for you. This method takes in a string and an integer `n`, printing out the string `n` times.
 
 **Part2: The toddler.**
-Complete the method `toddler()` in the starter code provided for you. This method will be given a number as parameter and it will list out all numbers from 1 to that number.
+Complete the method `toddler()` in the starter code provided for you. This method will be given a number as parameter and it will list out all numbers from 1 to that number. The method should print out each number on their own line.
 
 **Part3: The dreamer.**
 Complete the method `dreamer()` in the starter code provided for you. This method will be given a number as parameter and then it will draw a right-angled triangle of stars. The height and base of that triangle will consist of a number of stars equal to the input number.
