@@ -14,9 +14,11 @@ layout: home
 
 **Prerequisites:** A student is required to have confirmation of authorization from the CS 111 faculty that is based on the mastery of the CS 111 concepts in order to enroll in CS 230. Students who did not take CS 111 at Wellesley and who wish to enroll in CS 230 should contact the CS department to take a placement questionnaire.
 
-**Meeting Times:**
-* Class: Mondays and Thursdays, 2:20-3:35pm
-* Lab: TODO FILL
+**Meeting Times and Locations:**
+* Class: Mondays and Thursdays, 2:20-3:35pm @ Science Center L180.
+* Lab:
+  * L01: Tuesdays, 9:10-11:00am @ Science Center H402
+  * L02: Tuesdays, 11:20-1:10pm @ Science Center H402
+  * L03: Tuesdays, 2:10-4:00pm @ Science Center H402
 
-**Meeting Location:** Science Center L Wing 180 Computer Science Computer Lab.
 
