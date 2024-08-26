@@ -30,7 +30,7 @@ events:
     day-of-week: "Monday"
     topic: "Java Constructs"
     slides: "https://drive.google.com/drive/folders/1hXTjLMtH0f49ulIzFDRvEsdy068Yazs-?usp=drive_link"
-    due:
+    due: "Prelab 2 (Google classroom)"
     released:
     pre-class: |
       * Read [Chapters 1 and 2](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -58,7 +58,7 @@ events:
     day-of-week: "Monday"
     topic: "Objects"
     slides: "https://drive.google.com/drive/folders/1PdJ-CztfiWl0xqw2xJmHoQj30pUiaKli?usp=drive_link"
-    due:
+    due: "Prelab 3 (Google classroom)" 
     released:
     pre-class: |
       * Read [Chapter 5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -86,7 +86,7 @@ events:
     day-of-week: "Monday"
     topic: "Arrays and Arrays of Objects"
     slides: "https://drive.google.com/drive/folders/1uEe65sZoGab5inLmgM8OG-RdUqcZjk2w?usp=drive_link"
-    due:
+    due: "Prelab 4 (Google classroom)"
     released:
     pre-class: |
       * Read [Chapter 7](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -114,7 +114,7 @@ events:
     day-of-week: "Monday"
     topic: "Exceptions and IO"
     slides: "https://drive.google.com/drive/folders/1eOAfDgurJXsP7es-Zg2qPxijz4_3HLFY?usp=drive_link"
-    due:
+    due: "Prelab 5 (Google classroom)"
     released:
     pre-class: |
       * Read [Chapter 10](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -142,7 +142,7 @@ events:
     day-of-week: "Monday"
     topic: "Polymorphism"
     slides: "https://drive.google.com/drive/folders/1G6cFLJNfFPqJ7JQf2H1bfSR6RIC56aq0?usp=drive_link"
-    due:
+    due: "Prelab 6 (Google classroom)"
     released:
     pre-class: |
       * Read [Chapter 9](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -197,7 +197,7 @@ events:
     day-of-week: "Monday"
     topic: "Stacks"
     slides: "https://drive.google.com/drive/folders/1-p8-ATd7olY4EScZkoiXlwGVNq8imtwk?usp=drive_link"        
-    due:
+    due: "Prelab 7 (Google classroom)"
     released:
     pre-class: |
       * Read [Chapters 14.1-14.9](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -225,7 +225,7 @@ events:
     day-of-week: "Monday"
     topic: "Algorithm Analysis"
     slides: "https://drive.google.com/drive/folders/1bm22U4t23ByRSYCu6v0ivvipkgfiw4G3?usp=drive_link"
-    due:
+    due: 
     released:
     pre-class: |
       * Read [Chapter 12](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -254,7 +254,7 @@ events:
     day-of-week: "Monday"
     topic: "Queues"
     slides: "https://drive.google.com/drive/folders/1KAlwHY8hxN3JZGy8Ja_7ywbUEyBKSuzm?usp=drive_link"
-    due:
+    due: "Prelab 9 (Google classroom)"
     released:
     pre-class: |
       * Read [Chapter 15](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -282,7 +282,7 @@ events:
     day-of-week: "Monday"
     topic: "Depth-First Search"
     slides: "https://drive.google.com/drive/folders/1OyPPyDE7TYZ4j3IaOFUBPgb3Jqh6ZIoN?usp=drive_link"
-    due:
+    due: "Prelab 10 (Google classroom)"
     released:
     pre-class: |
       * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -337,7 +337,7 @@ events:
     day-of-week: "Monday"
     topic: "Hash Tables"
     slides: "https://drive.google.com/drive/folders/1jSOX9bDdKVvVlN8Hqq0FpqKFaDvgKAPu?usp=drive_link"
-    due:
+    due: "Prelab 12 (Google classroom)"
     released:
     pre-class: |
       * Read [Chapter 20](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -364,7 +364,9 @@ events:
     day-of-week: "Monday"
     topic: "Trees"
     slides: "https://drive.google.com/drive/folders/1L6GJiMTynRpTkoHWjaf8aYCMRIQNoCv_?usp=drive_link"
-    due: Homework 9
+    due: |
+      * Homework 9
+      * Prelab 13 (Google classroom)
     released: Homework 10
     pre-class: |
       * Read [Chapters 16.1-16.3](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
