@@ -67,7 +67,26 @@ public class AreaTriangle
         System.out.print("Please enter first side: ");
         double a = scanner.nextDouble();
 
-	// TODO complete the rest of this method
+        System.out.print("Please enter second side: ");
+        double b = scanner.nextDouble();
+
+        System.out.print("Please enter third side: ");
+        double c = scanner.nextDouble();
+
+        if (!isValidTriangle(a, b, c)) {
+            System.out.println("This is not a valid triangle.");
+            return;
+        }
+        
+        if (isIsosceles(a, b, c)) {
+            System.out.println("The triangle is isosceles.");
+        } else {
+            System.out.println("The triangle is NOT isosceles.");
+        }
+        
+        System.out.println(
+            "The area of the triangle is: " + getHeronArea(a, b, c)
+        );
     }
 }
 ```
