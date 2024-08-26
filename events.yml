@@ -21,7 +21,7 @@ events:
     day-of-week: "Thursday"
     topic: "Introduction"
     slides: "https://drive.google.com/drive/folders/1hp7vBmgzhbOae4SygV-DLE9Y8_9_nVjG?usp=drive_link"
-    due:
+    due: "Lab 1 (tomorrow, on Google classroom)"
     released:
     pre-class:
 
