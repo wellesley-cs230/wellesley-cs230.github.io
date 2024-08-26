@@ -31,9 +31,11 @@ Some important notes on this exercise:
 * If the user enters three side lengths that cannot possibly form a triangle (ex. 1,1,2), your program should say that this set of input does not form a triangle and stop execution. You can use `System.exit(1)` for that. 
 * You do not need to handle the case when the user enters other invalid input, e.g. negative number(s) or non-numbers.
 
+<!--
 Some sample executions of this program are shown below:
 
 <center><img src="_images/figs/triangleExecution.png" style="max-width:900px"></center>
+-->
 
 
 ## Starter Code
@@ -96,9 +98,8 @@ public class AreaTriangle
 
 Think carefully about the set of inputs (testing cases) you will provide to your program to assert its correctness. Your inputs should be such that every method you wrote is tested (invoked) as your program runs.
 
-Make sure you give reasonable and useful names to your methods, and that you write meaningful comments in your program.
+To show work for your testing, please run the program with many different inputs that trigger every execution path. For each run, save the results of your testing produced in the "BlueJ: Terminal Window" into a `.txt` file (Options > Save to File...). Finally, compose a file called `AreaTriangleTest.txt` containing the outputs of each of your test runs.
 
-In BlueJ, save the results of your testing produced in the "BlueJ: Terminal Window" into a file called AreaTriangleTest.txt. (Options > Save to File...)
 
 ## What to submit
 
