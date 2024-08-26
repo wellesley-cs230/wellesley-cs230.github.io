@@ -20,7 +20,7 @@ layout: default
 
 # Learning Goals
 
-Upon completion of this course, students should be able to:
+After completing the course, you should be able to:
 
 * Identify abstract data types and fundamental algorithms and summarize their typical uses, strengths, and weaknesses.
 * Use, implement, and modify various data structures including lists, stacks, queues, trees, tables and graphs.
@@ -40,7 +40,6 @@ We want you to succeed, and we will do all we can to help you learn the material
 * Programming is hard: Try not to blame yourself for your mistakes; give yourself more time, and ask for help when needed.
 * Programming is a skill: The best programmer has made every mistake in the books!
 * Set aside time in your calendar to work on the material throughout the week. Some weeks you might have to spend well over 12h.
-* When working on course materials, turn off your social media.
 * Attend all lectures, quit all social media while in class.
 * Attend all labs, quit all social media while in class.
 * Treat labs as an opportunity to engage your curiosity, delve deeply into topics introduced in class, practice asking and answering questions.
@@ -62,8 +61,8 @@ We want you to succeed, and we will do all we can to help you learn the material
 
 
 **Reading.** It is expected that you read the relevant sections of the textbook and the class notes twice a week. It is a must that you do that before you start your assignments because they will seem much easier to complete then!
-* **Textbook:** Regular readings will be assigned from the required text, Java Foundations, by Lewis, DePasquale and Chase. We will be using the 2nd edition though if you have access to a newer edition is fine. We recommend you buy your own copy because it can be useful for your future reference as well.
-* **Class Notes:** In the syllabus, each lecture is linked to class slides. If you would like to use them to keep notes feel free to print them before class or just download them on your device. Please note that the slides linked on the syllabus are not intended to be fully-fledged notes for each class. They are starting slides that you can expand on during class, when you take your own notes (as such, some of the slides might contain blanks).
+* **Textbook:** Regular readings will be assigned from the required text, Java Foundations, by Lewis, DePasquale and Chase. We will be using the 2nd edition though if you have access to a newer edition is fine. A digital copy of the textbook is linked from the course schedule.
+* **Class Notes:** In the syllabus, each lecture is linked to class slides. If you would like to use them to keep notes feel free to print them before class or just download them on your device. Please note that the slides linked on the syllabus are not intended to be fully-fledged notes for each class. They are starting slides that you can expand on during class, when you take your own notes (as such, some of the slides might contain blanks). Moreover, please expect that the slides may be tweaked by the instructors before class.
 
 **Java Documentation.** Being able to understand and use the official Java Documentation is a characteristic of every successful programmer. Become familiar with it!
 
@@ -90,14 +89,7 @@ We want you to succeed, and we will do all we can to help you learn the material
 **Supplemental Instruction (SI) Materials.** The SIs have shared this Google Drive folder of materials with you, so here's a helpful link to the SI documents to make it easier for you to in find it. This folder will include all the handouts they have shared with you in SI.
 
 
-**Quizzes.** Quizzes are additional learning materials to help you self-check your understanding of each topic. Once you submit a quiz, you will have access to the correct answers and you can re-submit each quiz any number of times.
-
-**Project.** Throughout the semester, project teams of 3-4 students work on an extended programming project from scratch. Your instructors will provide the general description of the project and you will have to write the specifications, and implement it based on the specifications.
-
-**Exams:** There will be two midterms and one final non-collaborative, scheduled exam during exam period. The first midterm exam will be done on paper during a regular class period, and will not require the use of a compiler. The second midterm exam will be take-home and will require the use of a compiler to write and execute your code. The dates of the exams are listed on the schedule. **Please mark the exam dates in your calendars as they are not flexible. The final exam will be at a fixed date and time during the College's exam period: Tuesday, May 7th, from 6pm to 8:30pm:**
-* lecture 1: PNE-216
-* lecture 2: PNE-327
-* lecture 3: PNE-339
+**Exams:** There will be two midterms and one final non-collaborative, scheduled exam during exam period. The midterms will be done on paper during a regular class period, and will not require the use of a compiler. The dates of the exams are listed on the schedule. **Please mark the exam dates in your calendars as they are not flexible. The final exam will be at a fixed date and time during the College's exam period: TODO.**
 
 
 <br/>
@@ -147,7 +139,6 @@ In other words, we strongly discourage from writing code as soon as you read the
 
 Here is overview on our collaboration policy, and it is followed by a more detailed explanation below:
 * Assignments: Pairs of students (when explicitly announced in assignments description).
-* Project: Teams of 3-4 students
 * Exams: Absolutely no collaboration
 
 We believe that collaboration fosters a healthy and enjoyable educational environment. For this reason, we encourage you to talk with other students about the course material and to form study groups.
@@ -192,7 +183,7 @@ Our policy in CS230 regarding the use of generative AI tools (ChatGPT, Copilot, 
 * They are trained on old information and might not have the most up-to-date information that we discuss in class.
 * Generative AI is trained on large volumes of data from the Internet and the ethics of its usage and proper attribution to originators is a controversial topic.
 
-**Our Policy.** Use generative AI tools to help your learning, not to avoid learning (cheat). Our CS230 policy is that you cannot use any code from generative AI for class submissions nor use it in any capacity during exams, however we recognize the that these tools can be helpful to assist your learning in other ways and here are our recommendations for using them:
+**Our Policy.** Use generative AI tools to help your learning, not to avoid learning (cheat). Our CS230 policy is that you cannot use any code from generative AI for class submissions nor use it in any capacity during exams; however, we recognize the that these tools can be helpful to assist your learning in other ways and here are our recommendations for using them:
 * Ask generative AI to produce questions for you as you study CS230 materials. As stated above, generative AI can produce incorrect solutions so don’t rely on their answers. However, they can produce sample questions and explanations that you can engage with to dive deeper into the course content.
 * It will probably produce reasonable answers for very basic concepts about the class material. You can use these tools to answer a simple question about a very common topic and use its answer to complement the way that topic is explained in class and in the textbook.
 * Practice asking for help. If you are unsure about what to ask of a TA or instructor, you may start formulating your question with generative AI and come to the CS230 team when you have identified your knowledge gap.
@@ -229,8 +220,3 @@ If you or someone you know has experienced discrimination or harassment, support
 
 
 
-<br/>
-
-# Anonymous Feedback Form
-
-To give anonymous feedback to the CS230 instructors about the course, please use the [Anonymous Feedback Form](https://bit.ly/CS230Feedback).
