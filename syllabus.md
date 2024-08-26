@@ -100,10 +100,17 @@ We want you to succeed, and we will do all we can to help you learn the material
 
 **Final Grades.** Your final grade for the course will be computed as a weighted average of several components. The relative weight of each component is shown below:
 * Assignments: 15%
-* Project: 15%
-* First Midterm Exam (in-class): 15%
-* Second Midterm Exam (take-home): 15%
-* Final Exam (during exam period): 40%
+* Midterm I: 15%
+* Midterm II: 20%
+* Final Exam (during exam period): 25%
+* Labs: 15%
+* Team Work: 5%
+* Course Etiquette: 5%. This includes:
+  * Coming to class on time.
+  * Not using phones in class (and keeping phones on “Do Not Disturb” mode).
+  * Using laptops only for note-taking / necessary in-class exercises.
+  * Respectful engagement with the peers, TAs, and course instructors.
+
 
 There is **no arbitrary limit** on the number of A's, B's, C's etc., and every student will be assigned the grade they earn and deserve according to the grading standards of the college.
 
