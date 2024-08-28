@@ -9,3 +9,20 @@ instructors:
     webpage: https://smarandasandu.wordpress.com/
 
 teaching_assistants:
+  - name: Alexa Halim
+    pronouns: she/her
+    major: DS
+    class: 25
+    profile_pic: /_images/pp/alexa-halim.jpg
+  - name: Lilymoon Whalen
+    pronouns: she/her
+    major: CS (Prospective)
+    class: 27
+    profile_pic: /_images/pp/lilymoon-whalen.jpg
+  - name: Nessa Tong
+    pronouns: she/her
+    major: CS and Physics (Prospective)
+    class: 27
+    profile_pic: /_images/pp/nessa-tong.jpg
+  - name: Annie Chen
+

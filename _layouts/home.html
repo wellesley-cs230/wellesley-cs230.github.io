@@ -15,7 +15,7 @@ layout: default
     <br/>
     
     <div>
-        <div style="width:35%; float: left">
+        <div style="width:50%; float: left">
 
             <div class="profile-pic-gallary ">
                 <h2>Instructors</h2>
@@ -24,9 +24,9 @@ layout: default
                     <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
 		    <p>
 		    {% if ins.webpage %}
-                    <a href="{{ ins.webpage }}">{{ins.name}}</a>
+                    <a href="{{ ins.webpage }}"><strong>{{ins.name}}</strong></a>
                     {% else %}
-                    {{ins.name}}
+                    <strong>{{ins.name}}</strong>
                     {% endif %}
                     {% if ins.pronouns %}
 		    <br/>
@@ -38,7 +38,7 @@ layout: default
             </div>
         </div>
 
-        <div style="width:65%; float: left">
+        <div style="width:50%; float: left">
             <div class="profile-pic-gallary ">
                 <h2>Teaching Assistants</h2>
                 {% for ta in site.data.people.teaching_assistants %}
@@ -46,14 +46,19 @@ layout: default
                     <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
 		    <p>
                     {% if ta.webpage %}
-                    <a href="{{ ta.webpage }}">{{ta.name}}</a>
+                    <a href="{{ ta.webpage }}"><strong>{{ta.name}}{% if ta.class %} '{{ta.class}}{% endif %}</strong></a>
                     {% else %}
-                    {{ta.name}}
+                    <strong>{{ta.name}}{% if ta.class %} '{{ta.class}}{% endif %}</strong>
                     {% endif %}
--cover">
+
                     {% if ta.pronouns %}
 		    <br/>
                     ({{ta.pronouns}})
+                    {% endif %}
+
+                    {% if ta.major %}
+		    <br/>
+                    Major: {{ta.major}}
                     {% endif %}
 		    </p>
                 </div>
