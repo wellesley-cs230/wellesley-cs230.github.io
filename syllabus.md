@@ -74,9 +74,7 @@ We want you to succeed, and we will do all we can to help you learn the material
 
 **Lectures.** There are two 75-minute lectures each week that will introduce the main content of the course.
 
-**Labs.** Every student is required to complete and submit the weekly lab practice. Lab work will include exercises to review and reinforce the lecture material and to develop general programming, testing and debugging skills. The labs will also provide further opportunity to ask questions about course material.
-
-**Required Lab.** In labs you will be working with a partner. Labs are not a race to the finish, but are your opportunity to practice and explore the material together with your partner. A successful lab is one where both partners are on the same page about their solution for the tasks, they are communicating honestly and continuously, and are willing to ask for and offer help to one another. 
+**Labs.** Every student is required to complete and submit the weekly lab practice. Lab work will include exercises to review and reinforce the lecture material and to develop general programming, testing and debugging skills. The labs will also provide further opportunity to ask questions about course material. In labs you will be working with a partner. Labs are not a race to the finish, but are your opportunity to practice and explore the material together with your partner. A successful lab is one where both partners are on the same page about their solution for the tasks, they are communicating honestly and continuously, and are willing to ask for and offer help to one another. 
 Our labs this semester will be organized on Google classroom. You should have received an invitation for it. That is where you will find instructions for each lab, how to prepare, what to submit, as well as solutions for some of the tasks. These solutions will be provided by midday on Wednesday. 
 In order to prepare for lab, you will also have to submit some exercises (labeled "Prelab" in Google classroom). These are due Mondays at 7pm. 
 In order to get credit for lab, you have to submit the material described in the instructions, as well as a self-assessment, that asks you to engage with the material, the code you wrote, and your learning. These are due Friday at 5pm. 
@@ -113,10 +111,11 @@ You are expected to check the calendar regularly to make sure you submit what is
   * Coming to class on time.
   * Not using phones in class (and keeping phones on “Do Not Disturb” mode).
   * Using laptops only for note-taking / necessary in-class exercises.
-  * Respectful engagement with the peers, TAs, and course instructors.
+  * Following the [CS department guidelines](https://docs.google.com/document/d/1c8f8XsU1PlKnTT5wvnbDX_vFG16-JbYGjQb_M0G2Lko/edit?usp=sharing), which are designed to create a positive and productive learning environment. These guidelines emphasize respect, integrity, inclusivity, and transparency, ensuring that our department prepares students to lead in a world shaped by computation and data. For a detailed description of these principles and guidelines on attendance, timeliness, respect for others, exam policies, and how to share your thoughts with us, please refer to the [Computer Science Department Guidelines](https://docs.google.com/document/d/1c8f8XsU1PlKnTT5wvnbDX_vFG16-JbYGjQb_M0G2Lko/edit?usp=sharing).
 
 
 There is **no arbitrary limit** on the number of A's, B's, C's etc., and every student will be assigned the grade they earn and deserve according to the grading standards of the college.
+
 
  
 
@@ -161,18 +160,12 @@ In other words, we strongly discourage from writing code as soon as you read the
 
 # Collaboration Policy
 
-Here is overview on our collaboration policy, and it is followed by a more detailed explanation below:
-* Assignments: Pairs of students (when explicitly announced in assignments description).
+**Overview.** In a nutshell, our collaboration policy is:
+* Assignments: Pairs of students (when explicitly announced in the assignments description).
 * Exams: Absolutely no collaboration
 
-We believe that collaboration fosters a healthy and enjoyable educational environment. For this reason, we encourage you to talk with other students about the course material and to form study groups.
+We believe that collaboration fosters a healthy and enjoyable educational environment. For this reason, we encourage you to talk with other students about the course material and to form study groups. Programming assignments in this course can be challenging. Also, teamwork and large-scale collaboration is the norm in the CS industry. Given the above, some of the assignment work is required to be done paired with a partner from the class, while some is required to be done individually. In each assignment tasks will be clearly marked as either "individual" or "pair-programming". The two team members must work closely together on the pair-programming tasks, and turn in a single copy of work they did together.
 
-Programming assignments in this course can be challenging. Also teamwork and large-scale collaboration is the norm in the CS industry. Given the above, some of the assignment work is required to be done paired with a partner from the class, while some is required to be done individually. In each assignment tasks will be clearly marked as either "individual" or "pair-programming". The two team members must work closely together on the pair-programming tasks, and turn in a single copy of work they did together.
-
-
-<br/>
-
-# Pair Programming
 
 **Pair-programming tasks are subject to the following ground rules:**
 * Each team member has to read the assignment problems, think of how to go on solving it, and sketch some solutions, **before** meeting with their partner.
