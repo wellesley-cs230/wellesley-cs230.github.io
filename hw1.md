@@ -17,11 +17,11 @@ Practice with:
 
 ## Description
 
-Write a program, `AreaTriangle`, that prompts the user three times for the side lengths of a triangle. Based on these three inputs, the program checks and prints whether this triangle is isosceles or not, as well as its area. In addition to the `main()` method, **your program should also define three
+Write a program, `AreaTriangle`, that prompts the user three times for the side lengths of a triangle. Based on these three inputs, the program checks and prints whether this triangle is isosceles or not, as well as its area. In addition to the `main` method, **your program should also define three
 other static methods**:
-  1. a predicate method `isValidTriangle()` to check whether the three inputs define a triangle, based on the **triangular inequality** (that is, the sum of any two sides of a triangle is strictly greater than the third side),
-  2. a method to `getHeronArea()` compute the triangle's area based on [Heron's Formula](http://en.wikipedia.org/wiki/Heron%27s_formula) given the three side lengths,
-  3. a predicate method `isIsosceles()`  to check whether the triangle is isosceles
+  1. a predicate method `isValidTriangle` to check whether the three inputs define a triangle, based on the **triangular inequality** (that is, the sum of any two sides of a triangle is strictly greater than the third side),
+  2. a method to `getHeronArea` compute the triangle's area based on [Heron's Formula](http://en.wikipedia.org/wiki/Heron%27s_formula) given the three side lengths,
+  3. a predicate method `isIsosceles`  to check whether the triangle is isosceles
 
 Some important notes on this exercise:
 
@@ -134,7 +134,7 @@ In this exercise, you will learn how to use different types of loops in your cod
 import java.util.Scanner;
 
 /**
- * Write a description of class FunLoops here.
+ * Write a description of class Funloops here.
  *
  * @author (write your name here)
  * @version (write a version number or a date here)
@@ -144,14 +144,6 @@ public class FunLoops{
 
   /**
   * Part 1 of the exercise.
-  * This method should act like a parrot, printing the string 's' n times.
-  */
-  public static void parrot(String s, int n){
-    
-  }
-
-  /**
-  * Part 2 of the exercise.
   * This method should act like a toddler who knows their numbers, once they 
   * are given a number, they start reciting all numbers from 1 to that number.
   * Only one number should be printed per line.
@@ -162,40 +154,68 @@ public class FunLoops{
   }
 
   /**
-  * Part 3 of the exercise.
-  * This method should act like a dreamer, who draws a triangle of stars once 
-  * they are given a number.
+  * Part 2 of the exercise.
+  * Given a number, this method prints a right-angled triangle of stars. 
+  * The height and base of that triangle should consist of a number of stars 
+  * equal to the input number.
   * @param theNum the input number
   */
   public static void dreamer(int theNum){
-
+    
+  }
+  
+  /**
+  * Part 3 of the exercise.
+  * Given a number, this method prints a right-angled triangle of stars.
+  * Unlike the "dreamer", this method prints out a triangle that was
+  * horizontally flipped.
+  * @param theNum the input number
+  */
+  public static void sleeper(int theNum){
+    
   }
 
   public static void main(String[] args){
-    parrot("CS230", 10);
-    
     System.out.println("\nNow calling toddler(6)");
     toddler(6);
     
     System.out.println("\nNow calling dreamer(4)");
     dreamer(4);
+    
+    System.out.println("\nNow calling Sleeper(6)");
+    sleeper(6);
   }
 }
 ```
 
-**Part1: The parrot.**
-Complete the method `parrot()` in the starter code provided for you. This method takes in a string and an integer `n`, printing out the string `n` times.
+**Part1: The toddler.**
+Complete the method `toddler` in the starter code provided for you. This method will be given a number as parameter and it will list out all numbers from 1 to that number. The method should print out each number on their own line.
 
-**Part2: The toddler.**
-Complete the method `toddler()` in the starter code provided for you. This method will be given a number as parameter and it will list out all numbers from 1 to that number. The method should print out each number on their own line.
+**Part2: The dreamer.**
+Complete the method `dreamer` in the starter code provided for you. This method will be given a number as parameter and then it will draw a right-angled triangle of stars. The height and base of that triangle will consist of a number of stars equal to the input number. For example, given the number 4, this method should print:
+```text
+*
+**
+***
+****
+```
 
-**Part3: The dreamer.**
-Complete the method `dreamer()` in the starter code provided for you. This method will be given a number as parameter and then it will draw a right-angled triangle of stars. The height and base of that triangle will consist of a number of stars equal to the input number.
+**Part3: The sleeper.**
+Complete the method `sleeper` in the starter code provided for you. This method is the same as `dreamer`, but prints the triangle horizontally flipped. That is, given the number 4, it should print:
+```text
+   *
+  **
+ ***
+****
+```
+While there are many ways to implement this method, we ask you to take the following approach:
+1. First, implement a *helper* method, `sleeperHelper`, that takes in two integers, `a` and `b`. This method should print out `a` spaces followed by `b` stars (all on the same line).
+2. After having created (and tested) this helper function, use it to implement `sleeper`.
+
 
 Please note:
 * We recommend you start by writing on a piece of paper how the three methods should work. You need to know what your correct answer should look like before you program!
-* You can assume that the user will enter valid input, in the form of integer numbers. You don't need to handle invalid inputs.
-* The sample `main()` we have provided is not complete, in the sense that it does not show all the calls to the methods. To test them you should call each one multiple times. 
+* The sample `main` we have provided is not complete, in the sense that it does not show all the calls to the methods. To test them you should call each one multiple times. 
 * You should test each method you implemented above separately. They should not depend on each other.
 * Some methods can be implemented using more than one type of loop. We will accept all correct answers, as long as the code is not overly complicated.
 
