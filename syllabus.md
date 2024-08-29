@@ -160,24 +160,21 @@ In other words, we strongly discourage from writing code as soon as you read the
 
 # Collaboration Policy
 
-**Overview.** In a nutshell, our collaboration policy is:
-* Assignments: Pairs of students (when explicitly announced in the assignments description).
-* Exams: Absolutely no collaboration
+**Overview.** We believe that collaboration fosters a healthy and enjoyable educational environment. For this reason, we encourage you to talk with other students about the course material and to form study groups. Programming assignments in this course can be challenging. Also, teamwork and large-scale collaboration is the norm in the CS industry. Given this, some of the assignment work is required to be done paired with a partner from the class, while some is required to be done individually. In each assignment tasks will be clearly marked as either "individual" or "pair-programming."
+* On **individual** assignments, students are encouraged to discuss high-level ideas, draft pseudo-code together, discuss debugging strategies. However, students cannot write code together, look at each other's code, etc. Every student must submit their own original work.
+* On **pair-programming** assignments, the two team members must work closely together on the pair-programming tasks, and turn in a single copy of work they did together.
+* On **exams**, we do not allow collaborations of any kind.
 
-We believe that collaboration fosters a healthy and enjoyable educational environment. For this reason, we encourage you to talk with other students about the course material and to form study groups. Programming assignments in this course can be challenging. Also, teamwork and large-scale collaboration is the norm in the CS industry. Given the above, some of the assignment work is required to be done paired with a partner from the class, while some is required to be done individually. In each assignment tasks will be clearly marked as either "individual" or "pair-programming". The two team members must work closely together on the pair-programming tasks, and turn in a single copy of work they did together.
+**Creditting Collaborators.** On every problem you discussed with another peer, whether on the individual or pair-programming assignment, you must credit them. That is, you must list their name at the top of your file.
 
+**Using existing materials.** Students may use any code covered in class, lab, or in the textbook. Students may also reference code from standard helpful sources, like Stack Overflow (though in these cases, cite where the code came from). Students may **not** use code from any other source, including Generative AI (discussed more below), and students may **not** use solutions to previous CS230 materials. If you're unsure whether a source is ok to use, please ask us **before** using it.
 
 **Pair-programming tasks are subject to the following ground rules:**
 * Each team member has to read the assignment problems, think of how to go on solving it, and sketch some solutions, **before** meeting with their partner.
 * While working together, the work must be a true collaboration in which each member of the team will carry their own weight. It is not acceptable for two team members to split the work between them and work independently.
 * The fact that team members have to program together means that you need to carefully consider a potential partner's schedule before forming a team. You cannot be an effective team if you cannot find large chunks of time to spend at a computer together!
-* Except for the first few assignments that are to be done individually, when submitting an assignment, you have to decide on your partner for the next assignment.
-* Working with different partners is a good way to build community in the class. View it as an opportunity.
 
-This semester, the instructors will assign partners for each pair-programming assignment. It is your responsibility to reach out to your partner and arrange times to meet and work on the assignment, keeping in mind the rules above. Sometimes it's hard or impossible to find times to meet, but we expect a good-faith effort.
-
-
-**Expectations:**
+This semester, the instructors will assign partners for each pair-programming assignment. It is your responsibility to reach out to your partner and arrange times to meet and work on the assignment, keeping in mind the rules above. Sometimes it's hard or impossible to find times to meet, but we expect a good-faith effort. Specifically, we expect that you:
 * Contact your partner ASAP
 * Make a good-faith effort to work together
   * Doing the same thing at the same time
@@ -187,27 +184,40 @@ This semester, the instructors will assign partners for each pair-programming as
 
 In general, teams are allowed to discuss assignment tasks with other teams and exchange ideas about how to solve them. However, there is a thin line between collaboration and plagiarizing the work of others. Please do not cross this line.
 
-**Each team or individual student must compose their own solution to each task.** Discussing strategies and approaches with classmates and receiving general debugging advice from them is acceptable and encouraged. However you (and your partner) are required to write and debug all of your code. Furthermore, you should never look at another student's code. For example, it is OK to borrow code from the textbook, from materials discussed in class, and from other sources as long as you give proper credit. However, it is unacceptable and constitutes a **violation of the Honor Code** (1) to write a program together with someone not part of your team and turn in two copies of the same program, (2) to copy code written by your classmates, (3) to read another student's or team's code (4) to view assignments, exams and solutions from previous terms of CS230, (5) to make any of the assignments, exams and solutions available to others online or off-line, or (6) to use generative AI tools such as ChatGPT or Github Co-pilot or any other language generation model. In keeping with the standards of the scientific community, you must give credit where credit is due (i.e. write their names at the top of the file). If you make use of an idea that was developed by (or jointly with) others, please reference them appropriately in your work. It is unacceptable for students to work together but not to acknowledge each other in their write-ups.
-
-
-
-<br/>
-
-# On using Generative AI tools in CS230
-
-Our policy in CS230 regarding the use of generative AI tools (ChatGPT, Copilot, Bard, or any other) is that it is an honor code violation to use generative AI tools for any purpose related to CS230 material while you complete an assignment or exam for CS230. It is also an honor code violation to copy any code from a generative AI tool and submit it as your work for an assignment or your project. If you use generative AI as part of your learning CS230, you need to be mindful about the following aspects of these tools:
-* They can produce incorrect information in a very believable way (known as “hallucinations”), if you take the output of generative AI for its word you might learn incorrect information.
-* They are trained on old information and might not have the most up-to-date information that we discuss in class.
-* Generative AI is trained on large volumes of data from the Internet and the ethics of its usage and proper attribution to originators is a controversial topic.
-
-**Our Policy.** Use generative AI tools to help your learning, not to avoid learning (cheat). Our CS230 policy is that you cannot use any code from generative AI for class submissions nor use it in any capacity during exams; however, we recognize the that these tools can be helpful to assist your learning in other ways and here are our recommendations for using them:
-* Ask generative AI to produce questions for you as you study CS230 materials. As stated above, generative AI can produce incorrect solutions so don’t rely on their answers. However, they can produce sample questions and explanations that you can engage with to dive deeper into the course content.
-* It will probably produce reasonable answers for very basic concepts about the class material. You can use these tools to answer a simple question about a very common topic and use its answer to complement the way that topic is explained in class and in the textbook.
+**Generative AI.** You are free to use generative AI (e.g. ChatGPT, Gemini, etc.) for the following use cases:
+* You can test your knowledge of the material.
+* Use it as an aid to understanding concepts from class.
+* Ask generative AI to produce questions for you as you study CS230 materials. 
 * Practice asking for help. If you are unsure about what to ask of a TA or instructor, you may start formulating your question with generative AI and come to the CS230 team when you have identified your knowledge gap.
 
+However, please note that Generative AI models
+* Can produce incorrect information in a very believable way, if you take the output of generative AI for its word you might learn incorrect information.
+* Are trained on old information and might not have the most up-to-date information that we discuss in class.
+* Are trained on large volumes of data from the internet and the ethics of its usage and proper attribution to originators is a controversial topic.
+
+Finally, to make sure the use of Generative AI does not compromise your learning experience, **do not** use it to:
+* Generate code of any kind.
+* Solve problems on your homework.
+* Summarize assigned readings.
+
+If you’re unsure whether how you want to use generative AI, *please ask the instructors before using it!*
+
+
+
+**Honor Code.** We consider violations of this collaboration policy as honor code violations. If you find yourself, for whatever reason (stress, mental health, life circumstances, etc.), thinking about violating these policies, please come talk to us **before** you do---we want to help you feel happy and proud of your learning and growth. As more examples of honor code violations, consider:
+1. Writing a program together with someone not part of your team and turn in two copies of the same program.
+2. Copying code written by your classmates
+3. Reading another student's or team's code
+4. Viewing assignments and exams and solutions from previous offerings of CS230
+5. Making any of the assignments, exams and solutions available to others online or off-line
+6. Use generative AI tools such as ChatGPT or Github Co-pilot or any other language generation model to assist in completing assignments/exams.
+
+In keeping with the standards of the scientific community, you must give credit where credit is due (i.e. write their names at the top of the file). If you make use of an idea that was developed by (or jointly with) others, please reference them appropriately in your work. It is unacceptable for students to work together but not to acknowledge each other in their write-ups.
+
 
 
 <br/>
+
 
 # Accessibility and Disability
 
