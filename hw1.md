@@ -5,7 +5,7 @@ layout: default
 # Homework 1, Part A: Area of a Triangle
 
 
-## Goals:
+# Goals:
 
 Practice with:
 * working with BlueJ IDE to write, compile, run simple java programs
@@ -188,10 +188,10 @@ public class FunLoops{
 }
 ```
 
-**Part1: The toddler.**
+**Part 1: The toddler.**
 Complete the method `toddler` in the starter code provided for you. This method will be given a number as parameter and it will list out all numbers from 1 to that number. The method should print out each number on their own line.
 
-**Part2: The dreamer.**
+**Part 2: The dreamer.**
 Complete the method `dreamer` in the starter code provided for you. This method will be given a number as parameter and then it will draw a right-angled triangle of stars. The height and base of that triangle will consist of a number of stars equal to the input number. For example, given the number 4, this method should print:
 ```text
 *
@@ -200,7 +200,7 @@ Complete the method `dreamer` in the starter code provided for you. This method 
 ****
 ```
 
-**Part3: The sleeper.**
+**Part 3: The sleeper.**
 Complete the method `sleeper` in the starter code provided for you. This method is the same as `dreamer`, but prints the triangle horizontally flipped. That is, given the number 4, it should print:
 ```text
    *
