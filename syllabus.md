@@ -87,13 +87,13 @@ You are expected to check the calendar regularly to make sure you submit what is
 * Even if the tutor is a friend of yours, they have to respect the honor code with respect to CS 230, so don't ask them for help that you wouldn't ask of an instructor.
 * One-on-one tutoring is also available for CS230. If you’d like to get some one-on-one tutoring, you can schedule it yourself, on the PLTC website. We will probably check in with you, to schedule a conversation about how you’ve been utilizing the existing resources, and come up with a plan for the future (which can include explicit goals we want the one-on-one sessions to achieve). Scheduled one-on-one sessions that you can no longer attend have to be canceled at least 24h in advance.
 
+<!--
 **Supplemental Instruction (SI).** SI is an academic support program offered for selected Wellesley courses. Our academic SI leaders are trained and highly experienced in tutoring CS230. They will offer a study session each week throughout the semester. During SI sessions they will cover problem set solutions and review important concepts. SI sessions are open to all students enrolled in the course. We highly recommend attending the SI session every week, as well as reviewing the handouts used in SI sessions.
 
-
 **Supplemental Instruction (SI) Materials.** The SIs have shared this Google Drive folder of materials with you, so here's a helpful link to the SI documents to make it easier for you to in find it. This folder will include all the handouts they have shared with you in SI.
+-->
 
-
-**Exams:** There will be two midterms and one final non-collaborative, scheduled exam during exam period. The midterms will be done on paper during a regular class period, and will not require the use of a compiler. The dates of the exams are listed on the schedule. **Please mark the exam dates in your calendars as they are not flexible. The final exam will be at a fixed date and time during the College's exam period: TODO.**
+**Exams:** There will be two midterms and one final, scheduled exam during exam period. The midterms will be done on paper during a regular class period, and will not require the use of a compiler. The dates of the exams are listed on the schedule. **Please mark the exam dates in your calendars, as they are not flexible. Moreover, all exams are in-person---we do not allow remote exams. Lastly, the final exam will be at a fixed date and time during the College's exam period, scheduled by the registrar: TBD.**
 
 
 <br/>
@@ -139,9 +139,22 @@ In other words, we strongly discourage from writing code as soon as you read the
 **A running program is just the beginning.** A program submitted that runs correctly on a particular input earns only 60% of the total grade. Careful testing that covers both the basic functionality and border cases will earn another 20% of the grade, if the testing is demonstrated. The remaining 20% of the grade is earned for good design that implements OOP, documentation that includes top-of-the-file description, method explanation, and in-line explanation as needed. Good programming style is also expected, including following the CS230 style guide.
 
 
-**Late Assignment Policy.** Learning programming and data structures is really a sequential process because every new topic builds on the previous. We strongly encourage you to complete your assignment on time, but we know that sometimes this may not be possible.
+<br/>
 
-**For any and all assignments, you could use an automatic 24 hour extension, no need to ask for permission.** However, if that extra day is not sufficient for you to complete the assignment, you are required to contact the instructor and discuss a plan for completing the assignment **before** the assignment is due. We will work together to make sure that plan is a reasonable and effective so that it supports both your learning and your health. **If you do not obtain permission, you can still email your assignment to the instructors for up to one week late for half credit.**
+## Late Policy
+
+**Late Passes.** We offer every student **3 x 24-hour late passes**.
+* Each late pass may be applied to delay one assignment deadline by 24 hours within the semester.
+* Any number of available passes may be applied to any assignment deadline. No work is accepted past the end of the final exam period, regardless of available late passes.
+* Late passes are not transferable, reusable, or divisible.
+* After your late pass budget is exhausted, each additional 24-hour delay in assignment submission is assessed a late penalty that subtracts 10% of the maximum assignment grade from your awarded grade on that assignment.
+* To use a late day, you must fill out [this form]([https://forms.gle/hSsEcrQ1ahyJiMVm9](https://docs.google.com/forms/d/e/1FAIpQLSfoY0C5cdF1LBK4-iXxUANO7EHrJI4mqkEI9_i1v6gLGA2Agw/viewform?usp=sharing)) **before the assignment deadline**.
+
+**Extenuating Circumstances.** In cases of extenuating circumstances, please reach out to your instructor *and* [class dean](https://www1.wellesley.edu/advising/classdeans) so we can, together, work out alternative arrangements.
+
+**Missing Class.** If you know you will need to miss class due to illness or family emergency, let the course instructor know. Together, we can figure out how to proceed. 
+
+
 
 
 <br/>
