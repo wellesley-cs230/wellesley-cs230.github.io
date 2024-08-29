@@ -129,18 +129,18 @@ Practice with:
 In this exercise, you will learn how to use different types of loops in your code, based on the needs of that program. You are given the starter code below, and your goal is to fill in the body of the empty methods with logic based on the descriptions provided here.
 
 
-`Funloops.java`:
+`FunLoops.java`:
 ```java
 import java.util.Scanner;
 
 /**
- * Write a description of class Funloops here.
+ * Write a description of class FunLoops here.
  *
  * @author (write your name here)
  * @version (write a version number or a date here)
  */
 
-public class Funloops{
+public class FunLoops{
 
   /**
   * Part 1 of the exercise.
@@ -212,7 +212,7 @@ It is a standard policy of this course that submissions that have not been signe
 
 Your Gradescope submission should contain the following:
 
-1. your <code>Funloops.java</code> source file
+1. your <code>FunLoops.java</code> source file
 2. your <code>loopsTest.txt</code> text file that contains your testing results
 
 
