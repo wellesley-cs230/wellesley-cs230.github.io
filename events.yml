@@ -298,6 +298,10 @@ events:
     released:
     pre-class: |
       * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
+    extra-credit: |
+      * Attend the talk by Dr. Safiya Noble, [Algorithms of Oppression](https://www1.wellesley.edu/newhouse/events/node/207351).
+      * Talk is at 5-6:30pm @ Tishman Commons.
+      * Submit a reflection on it on Gradescope.
 
   - month: "November"
     day: "12"

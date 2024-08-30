@@ -43,6 +43,7 @@ def main():
             slides = event.get('slides', None)
             due = event.get('due', None)
             released = event.get('released', None)
+            extra_credit = event.get('extra-credit', None)
             exam = event.get('exam', None)
             class_over = event.get('class-meetings-over', None)
 
@@ -95,7 +96,11 @@ def main():
                         with tags.li():
                             tags.span('Released:', cls='tag released_tag')
                             tags.span(convert_md_to_html_if_multiline(released))
-                    
+
+                    if released is not None:
+                        with tags.li():
+                            tags.span('Extra Credit:', cls='tag extracredit_tag')
+                            tags.span(convert_md_to_html_if_multiline(released))                            
                     
     with open('schedule_pre.md', 'r') as f:
         print(f.read())

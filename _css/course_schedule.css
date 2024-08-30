@@ -7,12 +7,20 @@
 .red_tag,
 .gold_tag,
 .blue_tag,
+.black_tag,
 .tag {
     border-radius: 3px;
     border: 1px solid;
     padding: 1px 5px;
     font-size: smaller;
     font-weight: bold;
+}
+
+.black_tag,
+.extracredit_tag {
+    border-color: #000;
+    color: #000;
+    background: #aaa;
 }
 
 .purple_tag,
