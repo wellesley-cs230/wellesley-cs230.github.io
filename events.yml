@@ -13,7 +13,7 @@ events:
     day-of-week: "Tuesday"
     topic: "BlueJ and Java"
     due:
-    released: "[Homework 1](/hw1)"
+    released: 
     pre-class:
 
   - month: "September"
@@ -22,7 +22,7 @@ events:
     topic: "Introduction"
     slides: "https://drive.google.com/drive/folders/1hp7vBmgzhbOae4SygV-DLE9Y8_9_nVjG?usp=drive_link"
     due: "Lab 1 (tomorrow, on Google classroom)"
-    released:
+    released: "[Homework 1](/hw1)"
     pre-class:
 
   - month: "September"
@@ -49,7 +49,7 @@ events:
     day-of-week: "Thursday"
     topic: "Java Constructs"
     slides: "https://drive.google.com/drive/folders/1hXTjLMtH0f49ulIzFDRvEsdy068Yazs-?usp=drive_link"    
-    due: "[Homework 1](/hw1)"
+    due: "[Homework 1](/hw1) by **10pm**"
     released: Homework 2
     pre-class: |
       * Read [Chapters 3 and 4 (optional: 3.6-3.7)](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -79,7 +79,7 @@ events:
     day-of-week: "Thursday"    
     topic: "Objects"
     slides: "https://drive.google.com/drive/folders/1PdJ-CztfiWl0xqw2xJmHoQj30pUiaKli?usp=drive_link"    
-    due: Homework 2
+    due: "Homework 2 by **10pm**"
     released: Homework 3
     pre-class: |
       * Read [Chapter 5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -108,7 +108,7 @@ events:
     day-of-week: "Thursday"
     topic: "Arrays and Arrays of Objects"
     slides: "https://drive.google.com/drive/folders/1uEe65sZoGab5inLmgM8OG-RdUqcZjk2w?usp=drive_link"    
-    due: Homework 3
+    due: "Homework 3 by **10pm**"
     released: Homework 4
     pre-class: |
       * Read [Chapter 7](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -137,7 +137,7 @@ events:
     day-of-week: "Thursday"
     topic: "Inheritance"
     slides: "https://drive.google.com/drive/folders/1LZTKo5CyyJQNAM3f_nRd8sGNtfQ-W-pj?usp=drive_link"
-    due: Homework 4
+    due: "Homework 4 by **10pm**"
     released: 
     pre-class: |
       * Read [Chapter 8](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -223,7 +223,7 @@ events:
     day-of-week: "Thursday"
     topic: "LinearNodes and Linked Stacks"
     slides: "https://drive.google.com/drive/folders/1iBCmi8IMPcTin5pZXYJbAK4bb-fUKf_-?usp=drive_link"
-    due: Homework 5
+    due: "Homework 5 by **10pm**"
     released: Homework 6
     pre-class: |
       * Read [Chapters 14.10-14.14](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -253,7 +253,7 @@ events:
     day-of-week: "Thursday"
     topic: "Sorting"
     slides: "https://drive.google.com/drive/folders/1ykXNSDYRt7sVMQ0pM4o3SVNtRKApm_h0?usp=drive_link"
-    due: Homework 6
+    due: "Homework 6 by **10pm**"
     released: Homework 7
     pre-class: |
       * Read [Chapter 13](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -283,7 +283,7 @@ events:
     day-of-week: "Thursday"
     topic: "Graphs"
     slides: "https://drive.google.com/drive/folders/1DZRIeLlYccw2r9KqOyJFs92tzUPBySCJ?usp=drive_link"
-    due: Homework 7
+    due: "Homework 7 by **10pm**"
     released: Homework 8
     pre-class: |
       * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -316,7 +316,7 @@ events:
     day-of-week: "Thursday"
     topic: "Breadth-First Search"
     slides: "https://drive.google.com/drive/folders/1jOcCxMUvDKBkyzF852X702Jc9wCRtrka?usp=drive_link"
-    due: Homework 8
+    due: "Homework 8 by **10pm**"
     released:
     pre-class: |
       * Read [Chapter 19.5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
@@ -382,7 +382,7 @@ events:
     topic: "Trees"
     slides: "https://drive.google.com/drive/folders/1L6GJiMTynRpTkoHWjaf8aYCMRIQNoCv_?usp=drive_link"
     due: |
-      * Homework 9
+      * Homework 9 by **10pm**
       * Prelab 13 (Google classroom)
     released: Homework 10
     pre-class: |
@@ -413,7 +413,7 @@ events:
     day-of-week: "Monday"
     topic: "Priority Queues and Heaps"
     slides: "https://drive.google.com/drive/folders/1BdK-PB_gKB7-HWIPgpE0PXD_4iPmv1Da?usp=drive_link"
-    due: Homework 10
+    due: "Homework 10 by **10pm**"
     released:
     pre-class: |
       * Read [Chapter 18](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
