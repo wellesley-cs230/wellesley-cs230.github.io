@@ -35,7 +35,7 @@ After completing the course, you should be able to:
 
 # How to Succeed in CS230
 
-We want you to succeed, and we will do all we can to help you learn the material and become a strong programmer. From your side, here are a few things you can do to succeed in this course:
+**What you can do.** We want you to succeed, and we will do all we can to help you learn the material and become a strong programmer. From your side, here are a few things you can do to succeed in this course:
 
 * Programming is hard: Try not to blame yourself for your mistakes; give yourself more time, and ask for help when needed.
 * Programming is a skill: The best programmer has made every mistake in the books!
@@ -48,6 +48,13 @@ We want you to succeed, and we will do all we can to help you learn the material
 * Read homework description immediately (Friday or Saturday at the latest).
 * Start working on the problem set as early as possible, and work on it a little bit every day, rather than trying to finish 1-2 days before it's due.
 * Start homework early, be prepared to make mistakes. That's how you learn a skill!
+
+**Tutors.** CS 230 is fortunate enough to have a number of excellent peer tutors: students who have taken CS 230 in the past and want to help others to succeed. They each hold café (drop-in) hours for two hours each week, and they are also available for one-on-one tutoring. Here are some norms you should remember:
+* They only work for two hours. Please don't approach them outside their working hours or ask them to stay after their café hours have ended.
+* Even if the tutor is a friend of yours, they have to respect the honor code with respect to CS 230, so don't ask them for help that you wouldn't ask of an instructor.
+* One-on-one tutoring is also available for CS230. If you’d like to get some one-on-one tutoring, you can schedule it yourself, on the PLTC website. We will probably check in with you, to schedule a conversation about how you’ve been utilizing the existing resources, and come up with a plan for the future (which can include explicit goals we want the one-on-one sessions to achieve). Scheduled one-on-one sessions that you can no longer attend have to be canceled at least 24h in advance.
+
+**Office Hours.** Attending office hours is an expected and normal part of the learning experience. Moreover, office hours are an opportunity for you to take ownership of your own learning experience—to ask questions that will help you better understand the material, connect it to topics you personally care about, etc. We expect to see you at office hours regularly, asking questions, engaging with the materials, and supporting your peers.
 
 
 
@@ -79,11 +86,6 @@ Our labs this semester will be organized on Google classroom. You should have re
 In order to prepare for lab, you will also have to submit some exercises (labeled "Prelab" in Google classroom). These are due Mondays at 7pm. 
 In order to get credit for lab, you have to submit the material described in the instructions, as well as a self-assessment, that asks you to engage with the material, the code you wrote, and your learning. These are due Friday at 5pm. 
 You are expected to check the calendar regularly to make sure you submit what is necessary on time.
-
-**Tutors.** CS 230 is fortunate enough to have a number of excellent peer tutors: students who have taken CS 230 in the past and want to help others to succeed. They each hold café (drop-in) hours for two hours each week, and they are also available for one-on-one tutoring. Here are some norms you should remember:
-* They only work for two hours. Please don't approach them outside their working hours or ask them to stay after their café hours have ended.
-* Even if the tutor is a friend of yours, they have to respect the honor code with respect to CS 230, so don't ask them for help that you wouldn't ask of an instructor.
-* One-on-one tutoring is also available for CS230. If you’d like to get some one-on-one tutoring, you can schedule it yourself, on the PLTC website. We will probably check in with you, to schedule a conversation about how you’ve been utilizing the existing resources, and come up with a plan for the future (which can include explicit goals we want the one-on-one sessions to achieve). Scheduled one-on-one sessions that you can no longer attend have to be canceled at least 24h in advance.
 
 <!--
 **Supplemental Instruction (SI).** SI is an academic support program offered for selected Wellesley courses. Our academic SI leaders are trained and highly experienced in tutoring CS230. They will offer a study session each week throughout the semester. During SI sessions they will cover problem set solutions and review important concepts. SI sessions are open to all students enrolled in the course. We highly recommend attending the SI session every week, as well as reviewing the handouts used in SI sessions.
@@ -164,7 +166,7 @@ In other words, we strongly discourage from writing code as soon as you read the
 # Collaboration Policy
 
 **Overview.** We believe that collaboration fosters a healthy and enjoyable educational environment. For this reason, we encourage you to talk with other students about the course material and to form study groups. Programming assignments in this course can be challenging. Also, teamwork and large-scale collaboration is the norm in the CS industry. Given this, some of the assignment work is required to be done paired with a partner from the class, while some is required to be done individually. In each assignment tasks will be clearly marked as either "individual" or "pair-programming."
-* On **individual** assignments, students are encouraged to discuss high-level ideas, draft pseudo-code together, discuss debugging strategies. However, students cannot write code together, look at each other's code, etc. Every student must submit their own original work.
+* On **individual** assignments, students are encouraged to discuss high-level ideas, draft pseudo-code together, and discuss debugging strategies. However, students cannot write code together, look at each other's code, etc. Every student must submit their own original work.
 * On **pair-programming** assignments, the two team members must work closely together on the pair-programming tasks, and turn in a single copy of work they did together.
 * On **exams and quizzes**, we do not allow collaborations of any kind.
 
