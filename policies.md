@@ -68,7 +68,7 @@ This semester, the instructors will assign partners for each pair-programming as
 * If you visit OH solo, share the hints with your partner. Don't work on the assignment solo (this includes during OH).
 * Contact us if your partner is not cooperative. (We might be able to re-match you).
 
-In general, teams are allowed to discuss assignment tasks with other teams and exchange ideas about how to solve them. Your team can collavorate with another team in the same way an individual can collaborate with another individual, as per the rules above. If you're unsure about what you can and cannot do, please ask us **before** collaborating.  
+In general, teams are allowed to discuss assignment tasks with other teams and exchange ideas about how to solve them. Your team can collaborate with another team in the same way an individual can collaborate with another individual, as per the rules above. If you're unsure whether a certain behavior , please ask us **before** collaborating.  
 
 **Generative AI.** You are free to use generative AI (e.g. ChatGPT, Gemini, etc.) for the following use cases:
 * You can test your knowledge of the material.
