@@ -58,18 +58,17 @@ There is **no arbitrary limit** on the number of A's, B's, C's etc., and every s
 
 **Pair-programming tasks are subject to the following ground rules:**
 * Each team member has to read the assignment problems, think of how to go on solving it, and sketch some solutions, **before** meeting with their partner.
-* While working together, the work must be a true collaboration in which each member of the team will carry their own weight. It is not acceptable for two team members to split the work between them and work independently.
-* The fact that team members have to program together means that you need to carefully consider a potential partner's schedule before forming a team. You cannot be an effective team if you cannot find large chunks of time to spend at a computer together!
+* While working together, the work must be a true collaboration in which each member of the team will carry their own weight. Under our pair-programming paradigms, it is not acceptable for two team members to split the work between them and work independently.
 
-This semester, the instructors will assign partners for each pair-programming assignment. It is your responsibility to reach out to your partner and arrange times to meet and work on the assignment, keeping in mind the rules above. Sometimes it's hard or impossible to find times to meet, but we expect a good-faith effort. Specifically, we expect that you:
+This semester, the instructors will assign partners for each pair-programming assignment. It is your responsibility to reach out to your partner early and arrange times to meet and work on the assignment, keeping in mind the rules above. Sometimes it's hard to find times to meet, but we expect a good-faith effort. Specifically, we expect that you:
 * Contact your partner ASAP
 * Make a good-faith effort to work together
   * Doing the same thing at the same time
   * Not divide-and-conquer
-* If you visit OH solo, share the hints with your partner. Don't work on the assignment solo.
+* If you visit OH solo, share the hints with your partner. Don't work on the assignment solo (this includes during OH).
 * Contact us if your partner is not cooperative. (We might be able to re-match you).
 
-In general, teams are allowed to discuss assignment tasks with other teams and exchange ideas about how to solve them. However, there is a thin line between collaboration and plagiarizing the work of others. Please do not cross this line.
+In general, teams are allowed to discuss assignment tasks with other teams and exchange ideas about how to solve them. Your team can collavorate with another team in the same way an individual can collaborate with another individual, as per the rules above. If you're unsure about what you can and cannot do, please ask us **before** collaborating.  
 
 **Generative AI.** You are free to use generative AI (e.g. ChatGPT, Gemini, etc.) for the following use cases:
 * You can test your knowledge of the material.
