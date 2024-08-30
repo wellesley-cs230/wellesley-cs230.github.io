@@ -79,6 +79,10 @@ After completing the course, you should be able to:
 
 # Course Requirements
 
+
+**Course Etiquette.** Following the [CS department guidelines](https://docs.google.com/document/d/1c8f8XsU1PlKnTT5wvnbDX_vFG16-JbYGjQb_M0G2Lko/edit?usp=sharing), which are designed to create a positive and productive learning environment. These guidelines emphasize respect, integrity, inclusivity, and transparency, ensuring that our department prepares students to lead in a world shaped by computation and data. For a detailed description of these principles and guidelines on attendance, timeliness, respect for others, exam policies, and how to share your thoughts with us, please refer to the [Computer Science Department Guidelines](https://docs.google.com/document/d/1c8f8XsU1PlKnTT5wvnbDX_vFG16-JbYGjQb_M0G2Lko/edit?usp=sharing).
+
+
 **Lectures.** There are two 75-minute lectures each week that will introduce the main content of the course.
 
 **Labs.** Every student is required to complete and submit the weekly lab practice. Lab work will include exercises to review and reinforce the lecture material and to develop general programming, testing and debugging skills. The labs will also provide further opportunity to ask questions about course material. In labs you will be working with a partner. Labs are not a race to the finish, but are your opportunity to practice and explore the material together with your partner. A successful lab is one where both partners are on the same page about their solution for the tasks, they are communicating honestly and continuously, and are willing to ask for and offer help to one another. 
@@ -93,17 +97,7 @@ You are expected to check the calendar regularly to make sure you submit what is
 **Supplemental Instruction (SI) Materials.** The SIs have shared this Google Drive folder of materials with you, so here's a helpful link to the SI documents to make it easier for you to in find it. This folder will include all the handouts they have shared with you in SI.
 -->
 
-**Quizzes:** Every chapter we cover from the textbook have a quiz associated with it. Each quiz is due before class the day of the readings are assigned, and is linked from the course schedule. Upon submission, you will see which questions you got wrong; you can submit the quiz as many times as you want and only the final submission will be graded. Please use this as an opportunity to check your understanding.
-
-**Exams:** There will be two midterms and one final, scheduled exam during exam period. The midterms will be done on paper during a regular class period, and will not require the use of a compiler. The dates of the exams are listed on the schedule. **Please mark the exam dates in your calendars, as they are not flexible. Moreover, all exams are in-person---we do not allow remote exams. Lastly, the final exam will be at a fixed date and time during the College's exam period, scheduled by the registrar: TBD.**
-
-
-
-<br/>
-
-# Assignments
-
-There will be weekly assignments in which you will write Java programs that emphasize concepts discussed in class. Assignments are an opportunity to delve deeply into topics seen in class, and to answer challenging and complex questions. You may be required to work with a partner on marked task(s) on some of the assignments. Keep in mind that programming often consumes more time than you expect. Start your assignments early! This will give you time to think about the problems and ask questions if you hit an impasse. Assignments are due as indicated on the class schedule.
+**Assignments:** There will be weekly assignments in which you will write Java programs that emphasize concepts discussed in class. Assignments are an opportunity to delve deeply into topics seen in class, and to answer challenging and complex questions. You may be required to work with a partner on marked task(s) on some of the assignments. Keep in mind that programming often consumes more time than you expect. Start your assignments early! This will give you time to think about the problems and ask questions if you hit an impasse. Assignments are due as indicated on the class schedule.
 
 It is strongly recommended that:
 * You start reading the assignment as soon as it becomes available.
@@ -117,5 +111,9 @@ In other words, we strongly discourage from writing code as soon as you read the
 
 **A running program is just the beginning.** A program submitted that runs correctly on a particular input earns only 60% of the total grade. Careful testing that covers both the basic functionality and border cases will earn another 20% of the grade, if the testing is demonstrated. The remaining 20% of the grade is earned for good design that implements OOP, documentation that includes top-of-the-file description, method explanation, and in-line explanation as needed. Good programming style is also expected, including following the CS230 style guide.
 
+
+**Quizzes:** Every chapter we cover from the textbook have a quiz associated with it. Each quiz is due before class the day of the readings are assigned, and is linked from the course schedule. Upon submission, you will see which questions you got wrong; you can submit the quiz as many times as you want and only the final submission will be graded. Please use this as an opportunity to check your understanding.
+
+**Exams:** There will be two midterms and one final, scheduled exam during exam period. The midterms will be done on paper during a regular class period, and will not require the use of a compiler. The dates of the exams are listed on the schedule. **Please mark the exam dates in your calendars, as they are not flexible. Moreover, all exams are in-person---we do not allow remote exams. Lastly, the final exam will be at a fixed date and time during the College's exam period, scheduled by the registrar: TBD.**
 
 

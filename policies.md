@@ -10,18 +10,14 @@ layout: default
 
 **Final Grades.** Your final grade for the course will be computed as a weighted average of several components. The relative weight of each component is shown below:
 * Assignments: 15%
-* Labs: 10%
 * Quizzes: 5%
 * Midterm I: 15%
 * Midterm II: 20%
 * Final Exam (during exam period): 25%
-* Team Work: 5%
-* Course Etiquette: 5%. This includes:
-  * Coming to class on time.
-  * Not using phones in class (and keeping phones on “Do Not Disturb” mode).
-  * Using laptops only for note-taking / necessary in-class exercises.
-  * Following the [CS department guidelines](https://docs.google.com/document/d/1c8f8XsU1PlKnTT5wvnbDX_vFG16-JbYGjQb_M0G2Lko/edit?usp=sharing), which are designed to create a positive and productive learning environment. These guidelines emphasize respect, integrity, inclusivity, and transparency, ensuring that our department prepares students to lead in a world shaped by computation and data. For a detailed description of these principles and guidelines on attendance, timeliness, respect for others, exam policies, and how to share your thoughts with us, please refer to the [Computer Science Department Guidelines](https://docs.google.com/document/d/1c8f8XsU1PlKnTT5wvnbDX_vFG16-JbYGjQb_M0G2Lko/edit?usp=sharing).
-
+* Participation:
+  * Labs: 10%
+  * Team Work: 5%
+  * Course Etiquette: 5%
 
 There is **no arbitrary limit** on the number of A's, B's, C's etc., and every student will be assigned the grade they earn and deserve according to the grading standards of the college.
 
