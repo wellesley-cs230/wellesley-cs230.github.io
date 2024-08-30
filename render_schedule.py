@@ -97,7 +97,7 @@ def main():
                             tags.span('Released:', cls='tag released_tag')
                             tags.span(convert_md_to_html_if_multiline(released))
 
-                    if released is not None:
+                    if extra_credit is not None:
                         with tags.li():
                             tags.span('Extra Credit:', cls='tag extracredit_tag')
                             tags.span(convert_md_to_html_if_multiline(extra_credit))   
