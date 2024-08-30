@@ -3,9 +3,13 @@ items:
   name: Home
   icon_class: fa fa-home fa-lg
 
-- url: /syllabus
-  name: Syllabus
-  icon_class: fas fa-calendar-alt  
+- url: /overview
+  name: Overview
+  icon_class: fas fa-map-alt  
+
+- url: /policies
+  name: Policies
+  icon_class: fas fa-file-alt  
 
 - url: /schedule
   name: Schedule
