@@ -45,7 +45,7 @@ There is **no arbitrary limit** on the number of A's, B's, C's etc., and every s
 
 <br/>
 
-# Collaboration Policy
+# Collaboration, Resource, and AI Policy
 
 **Overview.** We believe that collaboration fosters a healthy and enjoyable educational environment. For this reason, we encourage you to talk with other students about the course material and to form study groups. Programming assignments in this course can be challenging. Also, teamwork and large-scale collaboration is the norm in the CS industry. Given this, some of the assignment work is required to be done paired with a partner from the class, while some is required to be done individually. In each assignment tasks will be clearly marked as either "individual" or "pair-programming."
 * On **individual** assignments, students are encouraged to discuss high-level ideas, draft pseudo-code together, and discuss debugging strategies. However, students cannot write code together, look at each other's code, etc. Every student must submit their own original work.
