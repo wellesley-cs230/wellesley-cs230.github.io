@@ -5,7 +5,7 @@ items:
 
 - url: /overview
   name: Overview
-  icon_class: fas fa-gear
+  icon_class: fas fa-map
 
 - url: /policies
   name: Policies

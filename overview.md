@@ -117,3 +117,9 @@ In other words, we strongly discourage from writing code as soon as you read the
 **Exams:** There will be two midterms and one final, scheduled exam during exam period. The midterms will be done on paper during a regular class period, and will not require the use of a compiler. The dates of the exams are listed on the schedule. **Please mark the exam dates in your calendars, as they are not flexible. Moreover, all exams are in-person---we do not allow remote exams. Lastly, the final exam will be at a fixed date and time during the College's exam period, scheduled by the registrar: TBD.**
 
 
+<br/>
+
+# Anonymous Feedback Form
+
+We value your feedback! If you'd like to provide us with feedback anonymously, please fill out [this form](https://forms.gle/WfjvAGjBR4j868XT9).
+
