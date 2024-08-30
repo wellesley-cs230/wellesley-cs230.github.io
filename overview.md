@@ -119,10 +119,3 @@ In other words, we strongly discourage from writing code as soon as you read the
 
 
 
-<br/>
-
-# Anonymous Feedback Form
-
-We value your feedback! If you'd like to provide us with feedback anonymously, please fill out [this form](https://forms.gle/WfjvAGjBR4j868XT9).
-
-
