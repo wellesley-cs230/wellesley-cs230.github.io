@@ -11,7 +11,7 @@ Practice with:
 * working with BlueJ IDE to write, compile, run simple java programs
 * java primitive data types, expressions and operators
 * defining and calling methods
-* selecting testing values
+* selecting testing values to determine whether program will work in all possible cases
 
 
 
@@ -119,19 +119,17 @@ Your Gradescope submission should contain the following:
 Practice with:
 * working with BlueJ IDE to write, compile, run simple java programs
 * java primitive data types, expressions and operators
-* reading from the standard input (Scanner)
 * practicing loops
 * selecting testing values
 
 
 
 ## Description
-In this exercise, you will learn how to use different types of loops in your code, based on the needs of that program. You are given the starter code below, and your goal is to fill in the body of the empty methods with logic based on the descriptions provided here.
+In this exercise, you will learn how to use different types of loops in your code, based on the needs of that program. You are given the starter code below, and your goal is to fill in the body of the empty methods with logic based on the descriptions provided here. Make sure to also provide the appropriate javadoc at the top of the file. 
 
 
 `FunLoops.java`:
 ```java
-import java.util.Scanner;
 
 /**
  * Write a description of class Funloops here.
