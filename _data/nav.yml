@@ -5,7 +5,7 @@ items:
 
 - url: /overview
   name: Overview
-  icon_class: fas fa-globe-alt  
+  icon_class: fas fa-gear-alt  
 
 - url: /policies
   name: Policies
