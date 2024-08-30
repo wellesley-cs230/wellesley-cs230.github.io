@@ -5,11 +5,15 @@ items:
 
 - url: /overview
   name: Overview
-  icon_class: fas fa-gear-alt  
+  icon_class: fas fa-gear
 
 - url: /policies
   name: Policies
   icon_class: fas fa-file-alt  
+
+- url: /office-hours
+  name: Office Hours
+  icon_class: fas fa-circle-info
 
 - url: /schedule
   name: Schedule
