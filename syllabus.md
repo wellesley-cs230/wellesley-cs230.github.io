@@ -102,10 +102,11 @@ You are expected to check the calendar regularly to make sure you submit what is
 
 **Final Grades.** Your final grade for the course will be computed as a weighted average of several components. The relative weight of each component is shown below:
 * Assignments: 15%
+* Labs: 10%
+* Quizzes: 5%
 * Midterm I: 15%
 * Midterm II: 20%
 * Final Exam (during exam period): 25%
-* Labs: 15%
 * Team Work: 5%
 * Course Etiquette: 5%. This includes:
   * Coming to class on time.
@@ -163,9 +164,9 @@ In other words, we strongly discourage from writing code as soon as you read the
 **Overview.** We believe that collaboration fosters a healthy and enjoyable educational environment. For this reason, we encourage you to talk with other students about the course material and to form study groups. Programming assignments in this course can be challenging. Also, teamwork and large-scale collaboration is the norm in the CS industry. Given this, some of the assignment work is required to be done paired with a partner from the class, while some is required to be done individually. In each assignment tasks will be clearly marked as either "individual" or "pair-programming."
 * On **individual** assignments, students are encouraged to discuss high-level ideas, draft pseudo-code together, discuss debugging strategies. However, students cannot write code together, look at each other's code, etc. Every student must submit their own original work.
 * On **pair-programming** assignments, the two team members must work closely together on the pair-programming tasks, and turn in a single copy of work they did together.
-* On **exams**, we do not allow collaborations of any kind.
+* On **exams and quizzes**, we do not allow collaborations of any kind.
 
-**Creditting Collaborators.** On every problem you discussed with another peer, whether on the individual or pair-programming assignment, you must credit them. That is, you must list their name at the top of your file.
+**Crediting Collaborators.** On every problem you discussed with another peer, whether on the individual or pair-programming assignment, you must credit them. That is, you must list their name at the top of your file.
 
 **Using existing materials.** Students may use any code covered in class, lab, or in the textbook. Students may also reference code from standard helpful sources, like Stack Overflow (though in these cases, cite where the code came from). Students may **not** use code from any other source, including Generative AI (discussed more below), and students may **not** use solutions to previous CS230 materials. If you're unsure whether a source is ok to use, please ask us **before** using it.
 
