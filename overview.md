@@ -80,7 +80,7 @@ After completing the course, you should be able to:
 # Course Requirements
 
 
-**Course Etiquette.** Following the [CS department guidelines](https://docs.google.com/document/d/1c8f8XsU1PlKnTT5wvnbDX_vFG16-JbYGjQb_M0G2Lko/edit?usp=sharing), which are designed to create a positive and productive learning environment. These guidelines emphasize respect, integrity, inclusivity, and transparency, ensuring that our department prepares students to lead in a world shaped by computation and data. For a detailed description of these principles and guidelines on attendance, timeliness, respect for others, exam policies, and how to share your thoughts with us, please refer to the [Computer Science Department Guidelines](https://docs.google.com/document/d/1c8f8XsU1PlKnTT5wvnbDX_vFG16-JbYGjQb_M0G2Lko/edit?usp=sharing).
+**Course Etiquette.** CS 230 is following the [CS department guidelines](https://docs.google.com/document/d/1c8f8XsU1PlKnTT5wvnbDX_vFG16-JbYGjQb_M0G2Lko/edit?usp=sharing), which are designed to create a positive and productive learning environment. These guidelines emphasize respect, integrity, inclusivity, and transparency, ensuring that our department prepares students to lead in a world shaped by computation and data. For a detailed description of these principles and guidelines on attendance, timeliness, respect for others, exam policies, and how to share your thoughts with us, please refer to the [Computer Science Department Guidelines](https://docs.google.com/document/d/1c8f8XsU1PlKnTT5wvnbDX_vFG16-JbYGjQb_M0G2Lko/edit?usp=sharing).
 
 
 **Lectures.** There are two 75-minute lectures each week that will introduce the main content of the course.
