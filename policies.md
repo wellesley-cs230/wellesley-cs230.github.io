@@ -23,7 +23,7 @@ layout: default
 
 There is **no arbitrary limit** on the number of A's, B's, C's etc., and every student will be assigned the grade they earn and deserve according to the grading standards of the college.
 
-
+**Extra Credit.** Problems/work labeled "extra credit" will be factored in at the end of the semester. We do not disclose how these will affect your grade, though you can expect they will be especially helpful for students on the border between two grades.
 
 <br/>
 
