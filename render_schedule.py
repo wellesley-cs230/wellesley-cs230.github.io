@@ -79,7 +79,7 @@ def main():
 
                             if slides is not None:
                                 tags.span('[')
-                                tags.a('slides & code', href=slides, target='_blank')
+                                tags.a('lecture materials', href=slides, target='_blank')
                                 tags.span(']')                                
 
                     if pre_class is not None:
