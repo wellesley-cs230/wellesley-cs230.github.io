@@ -13,7 +13,7 @@ layout: default
 ## Task: L2R and R2L
 
 ### Step 1: Study the problem
-As you know, in order to understand a piece of text in a human language you need to read it either left-to-right (L2R), like in Anglophone languages, or right-to-left (R2L), like in Hebrew or Arabic. However, there are pieces of text that read exactly the same R2L and L2R, in the same language! Such texts are `dad` and `madamiamadam` in English, and  `νιψονανομηματαμημονανοψιν` ("wash your sins, not only your face") in Greek. Note that we only use lower case letters and no spaces.
+As you know, in order to understand a piece of text in a human language you need to read it either left-to-right (L2R), like in Anglophone languages, or right-to-left (R2L), like in Hebrew or Arabic. However, there are pieces of text that read exactly the same R2L and L2R, in the same language! Such texts are `dad` and `madamimadam` in English, and  `νιψονανομηματαμημονανοψιν` ("wash your sins, not only your face") in Greek. Note that we only use lower case letters and no spaces.
 
 In this problem you are asked to write a program to decide whether a given String holds the property of reading the same from L2R and R2L, and report the result:
 
