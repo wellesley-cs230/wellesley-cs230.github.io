@@ -61,7 +61,7 @@ Testing results should include both expected and computed outcome, like: `input:
 
 ## Submission:
 1. Submit the following files (only):
-   * `PseudocodeL2RnR2L` (with the appropriate file extension) containing your pseudocode
+   * `PseudocodeL2RnR2L.pdf` containing your pseudocode
    * `FunWithStrings.java` containing your java code
    * `TestingL2RnR2L.txt` containing your test results
 
@@ -151,7 +151,7 @@ When done, submit your <code>StringOps.java</code> along with the <code>StringOp
 
 # Submission Checklist
 
-* You submitted **all** `.java` files and all `.txt` files.
+* You submitted **all** `.java`, `.txt`, and `.pdf` files.
 * Your files are named **exactly** as in the homework specification, *including file extensions*.
 * You tested **every possible** pathway in your code.
 * You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
