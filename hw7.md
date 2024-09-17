@@ -64,3 +64,11 @@ The meaning of **"trace"** depends on each sorting method.
 * Create a PDF file named `SortingTrace.pdf` by scanning the completed worksheet and submit to Gradescope.
 
 
+
+<br/>
+
+# Submission Checklist
+
+* You submitted **all** `.pdf` files and all `.txt` files.
+* Your files are named **exactly** as in the homework specification, *including file extensions*.
+

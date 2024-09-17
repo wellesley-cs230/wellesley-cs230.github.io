@@ -272,3 +272,15 @@ Of course, once you have the *readPoint()* defined, you will need to test it app
 * Submit only your <code>Point.java</code> file and a <code>TestingPoint.txt</code> file that contains the results of your testing.
 * We expect your code to have careful and meaningful documentation on every method and for the whole file. Also, do not forget to include the `@author` and `@version` fields in the file documentation. Without them, the graders will not grade your work.
 
+
+
+<br/>
+
+# Submission Checklist
+
+* You submitted **all** `.java` files and all `.txt` files.
+* Your files are named **exactly** as in the homework specification, *including file extensions*.
+* You tested **every possible** pathway in your code.
+* You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
+* You wrote javadoc for every function, which includes `@param` and `@return`.
+* You wrote inline comments explaining the logic of your code.

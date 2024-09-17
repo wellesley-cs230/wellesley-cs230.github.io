@@ -219,3 +219,14 @@ And as always, add appropriate javadoc, including `@author` and `@version` tags!
 
 
 
+
+<br/>
+
+# Submission Checklist
+
+* You submitted **all** `.java` files and all `.txt` files.
+* Your files are named **exactly** as in the homework specification, *including file extensions*.
+* You tested **every possible** pathway in your code.
+* You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
+* You wrote javadoc for every function, which includes `@param` and `@return`.
+* You wrote inline comments explaining the logic of your code.

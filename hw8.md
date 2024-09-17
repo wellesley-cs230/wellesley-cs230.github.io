@@ -129,3 +129,14 @@ In Gradescope submit the following files:
 When done, submit the `LinkedQueue.java`, `CircularArrayQueue.java` and `Qtest.java` files along with the `QtestTesting.txt` transcript of your solutions. Include the PDF or PNG of your design. And remember to edit the @author and @version fields of your javadoc!
 
 
+
+<br/>
+
+# Submission Checklist
+
+* You submitted **all** `.java` files and all `.txt` files.
+* Your files are named **exactly** as in the homework specification, *including file extensions*.
+* You tested **every possible** pathway in your code.
+* You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
+* You wrote javadoc for every function, which includes `@param` and `@return`.
+* You wrote inline comments explaining the logic of your code.

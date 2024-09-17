@@ -85,3 +85,10 @@ Make sure the document you submit contains your name.
 
 
 
+<br/>
+
+# Submission Checklist
+
+* You submitted **all** `.pdf` files and all `.txt` files.
+* Your files are named **exactly** as in the homework specification, *including file extensions*.
+
