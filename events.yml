@@ -81,7 +81,7 @@ events:
     topic: "Objects"
     slides: "https://drive.google.com/drive/folders/1PdJ-CztfiWl0xqw2xJmHoQj30pUiaKli?usp=drive_link"    
     due: "[Homework 2](/hw2) by **10pm**"
-    released: Homework 3
+    released: "[Homework 3](/hw3)"
     pre-class: |
       * Read [Chapter 5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
 
@@ -109,7 +109,7 @@ events:
     day-of-week: "Thursday"
     topic: "Arrays and Arrays of Objects"
     slides: "https://drive.google.com/drive/folders/1uEe65sZoGab5inLmgM8OG-RdUqcZjk2w?usp=drive_link"    
-    due: "Homework 3 by **10pm**"
+    due: "[Homework 3](/hw3) by **10pm**"
     released: Homework 4
     pre-class: |
       * Read [Chapter 7](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
