@@ -49,7 +49,9 @@ var activeTableTab = "activeTableTab";
 <hr>
 <pre>public class <span class="typeNameLabel">Point</span>
 extends java.lang.Object</pre>
-<div class="block">
+<div class="block">Point.java
+ This program implements the following extension of Programming Project 3.4 
+ (page 101):<br>
  Defines a class, named Point, to represent a point on the Cartesian plane, 
  making use of the point's x and y coordinates, both of type double. 
  
@@ -101,12 +103,6 @@ extends java.lang.Object</pre>
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr class="altColor">
-<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E()">Point</a></span>&#8203;()</code></th>
-<td class="colLast">
-<div class="block">It creates a Point at location (0.0, 0.0).</div>
-</td>
-</tr>
-<tr class="altColor">
 <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(double,double)">Point</a></span>&#8203;(double&nbsp;xCoord,
      double&nbsp;yCoord)</code></th>
 <td class="colLast">
@@ -147,7 +143,7 @@ extends java.lang.Object</pre>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#findDistance(Point)">findDistance</a></span>&#8203;(<a href="Point.html" title="class in &lt;Unnamed&gt;">Point</a>&nbsp;other)</code></th>
 <td class="colLast">
 <div class="block">Finds and returns the distance between this (the invoking) point and 
- the input Point.</div>
+ the input one.</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
@@ -169,6 +165,13 @@ extends java.lang.Object</pre>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#main(java.lang.String%5B%5D)">main</a></span>&#8203;(java.lang.String[]&nbsp;args)</code></th>
 <td class="colLast">
 <div class="block">Driver method, used to test the class.</div>
+</td>
+</tr>
+<tr id="i5" class="rowColor">
+<td class="colFirst"><code>static <a href="Point.html" title="class in &lt;Unnamed&gt;">Point</a></code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#readPoint(java.util.Scanner)">readPoint</a></span>&#8203;(java.util.Scanner&nbsp;s)</code></th>
+<td class="colLast">
+<div class="block">Reads from the input scanner, two double numbers, to define a Point.</div>
 </td>
 </tr>
 <tr id="i6" class="altColor">
@@ -357,6 +360,23 @@ extends java.lang.Object</pre>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>true if the second point and the third point have -practically- 
  the same distance from this point</dd>
+</dl>
+</li>
+</ul>
+<a id="readPoint(java.util.Scanner)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>readPoint</h4>
+<pre class="methodSignature">public static&nbsp;<a href="Point.html" title="class in &lt;Unnamed&gt;">Point</a>&nbsp;readPoint&#8203;(java.util.Scanner&nbsp;s)</pre>
+<div class="block">Reads from the input scanner, two double numbers, to define a Point.
+ It's used within the main().</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>s</code> - the Scanner object to be used for reading user input</dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>The point entered by the user</dd>
 </dl>
 </li>
 </ul>
