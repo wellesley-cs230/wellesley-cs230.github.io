@@ -187,19 +187,6 @@ public class FlightTest
 
 
 
-### Notes and Tips:
-
-Our experience shows that early-stage programmers make a few common mistakes that could be avoided with a more careful final reading of the specifications (i.e., the description of the assignment in our case). We thought of helping you in this careful reading by adding here a few items to review before submission:
-
-* Did you name your class and constructor correctly?
-* Did you provide getters and setters for all instance variables?
-* Did you name the methods reasonably (or exactly as asked)?
-* Did you test each and every method in the main with printing statements that describe what they do? (e.g. `Testing getOrigin. Expecting: BOS. Producing: BOS`).
-* Did you write meaningful (not verbose) documentation above the class definition and above each method?
-* Did you try to imitate javadoc directives (like using `@author`, `@param`, `@return`, as needed)?
-* Did you save your printout and named it as expected?
-* Did you upload the 2 files you were asked to, and did you check that they were uploaded correctly?
-
 ## What to submit
 * Submit only your <code>Flight.java</code> and your <code>FlightTesting.txt</code> that contains the results of your testing.
 * We expect your code to have careful and meaningful documentation (inline as well as Javadoc) on every method and for the whole file. Also, do not forget to include the `@author` and `@version` fields in the file documentation.
@@ -284,3 +271,5 @@ Of course, once you have the *readPoint()* defined, you will need to test it app
 * You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
 * You wrote javadoc for every function, which includes `@param` and `@return`.
 * You wrote inline comments explaining the logic of your code.
+* You added getters and setters where it makes sense to have them (i.e. with good encapsulation practices)
+
