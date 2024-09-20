@@ -161,17 +161,17 @@ public class FlightTest
     @Test
     public void testStopOver()
     {
-        assertEquals(Flight.stopOver(f1,f2),true);
-        assertEquals(Flight.stopOver(f2,f1),false);
-        assertEquals(Flight.stopOver(f2,f3),true);
+        assertEquals(f1.isAStopOver(f2),true);
+        assertEquals(f2.isAStopOver(f1),false);
+        assertEquals(f2.isAStopOver(f3),true);
     }
     
     @Test
     public void testSetOrigin(){
         f1.setOrigin("SFO");
         assertEquals(f1.getOrigin(), "SFO");
-        assertEquals(Flight.stopOver(f1,f2),true);
-        assertEquals(Flight.stopOver(f2,f1),true);
+        assertEquals(f1.isAStopOver(f2),true);
+        assertEquals(f2.isAStopOver(f1),true);
     }
     
 
