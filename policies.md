@@ -34,7 +34,7 @@ There is **no arbitrary limit** on the number of A's, B's, C's etc., and every s
 * Any number of available passes may be applied to any assignment deadline. No work is accepted past the end of the final exam period, regardless of available late passes.
 * Late passes are not transferable, reusable, or divisible.
 * After your late pass budget is exhausted, each additional 24-hour delay in assignment submission is assessed a late penalty that subtracts 10% of the maximum assignment grade from your awarded grade on that assignment.
-* To use a late day, you must fill out [this form](https://forms.gle/hSsEcrQ1ahyJiMVm9](https://docs.google.com/forms/d/e/1FAIpQLSfoY0C5cdF1LBK4-iXxUANO7EHrJI4mqkEI9_i1v6gLGA2Agw/viewform?usp=sharing) **before the assignment deadline**.
+* To use a late day, you must fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfoY0C5cdF1LBK4-iXxUANO7EHrJI4mqkEI9_i1v6gLGA2Agw/viewform?usp=sf_link) **before the assignment deadline**.
 
 **Extenuating Circumstances.** If an emergency prevents you from completing an assessment/assignment as scheduled, we can make accomodations that support you in collaboration with your [class dean](https://www.wellesley.edu/advising/classdeans/staff) and/or [health services](https://www.wellesley.edu/healthservice). This sets a common standard for all students and ensures you are getting the support you need.
 
