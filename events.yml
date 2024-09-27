@@ -110,7 +110,7 @@ events:
     topic: "Arrays and Arrays of Objects"
     slides: "https://drive.google.com/drive/folders/1uEe65sZoGab5inLmgM8OG-RdUqcZjk2w?usp=drive_link"    
     due: "[Homework 3](/hw3) by **10pm**"
-    released: Homework 4
+    released: "[Homework 4](/hw4)"
     pre-class: |
       * Read [Chapter 7](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
 
@@ -138,7 +138,7 @@ events:
     day-of-week: "Thursday"
     topic: "Inheritance"
     slides: "https://drive.google.com/drive/folders/1LZTKo5CyyJQNAM3f_nRd8sGNtfQ-W-pj?usp=drive_link"
-    due: "Homework 4 by **10pm**"
+    due: "[Homework 4](/hw4) by **10pm**"
     released: 
     pre-class: |
       * Read [Chapter 8](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
