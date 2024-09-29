@@ -114,7 +114,7 @@ In other words, we strongly discourage from writing code as soon as you read the
 
 **Quizzes:** Every chapter we cover from the textbook have a quiz associated with it. Each quiz is due before class the day of the readings are assigned, and is linked from the course schedule. Upon submission, you will see which questions you got wrong; you can submit the quiz as many times as you want and only the final submission will be graded. Please use this as an opportunity to check your understanding.
 
-**Exams:** There will be two midterms and one final, scheduled exam during exam period. The midterms will be done on paper during a regular class period, and will not require the use of a compiler. The dates of the exams are listed on the schedule. **Please mark the exam dates in your calendars, as they are not flexible. Moreover, all exams are in-person---we do not allow remote exams. Lastly, the final exam will be at a fixed date and time during the College's exam period, scheduled by the registrar: TBD.**
+**Exams:** There will be two midterms and one final, scheduled exam during exam period. The midterms will be done on paper during a regular class period, and will not require the use of a compiler. The dates of the exams are listed on the schedule. **Please mark the exam dates in your calendars, as they are not flexible. Moreover, all exams are in-person---we do not allow remote exams. Lastly, the final exam will be at a fixed date and time during the College's exam period, scheduled by the registrar.**
 
 
 <br/>

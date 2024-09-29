@@ -454,6 +454,7 @@ events:
     due:
     released:
     pre-class:
+    exam: "Final Exam: 6-8:30pm	@ PNE-239."
     class-meetings-over: true
 
   - month: "December"
