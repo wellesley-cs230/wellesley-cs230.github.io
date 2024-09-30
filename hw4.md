@@ -98,7 +98,7 @@ AA is using logan for the following flights: (expecting 1 flight)
 ## Submitting your code
 
 * Submit your `Airport.java`, your `LoganAirport.java`, your `LoganTesting.txt`, and your picture of your drawing of the class objects to Gradescope. 
-* No need to upload the `Flight.java` code we linked above, unless it is your own `Flight.java` code (not our sample solutions from the previous assignment.) 
+* Please also upload your own `Flight.java`.
 
 Remember that in Gradescope you have to upload all the files at once. Every submission you do overwrites the previous one, so if you upload one file at a time, only the last will be  saved.
 
