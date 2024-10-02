@@ -169,7 +169,10 @@ events:
     topic:
     due:
     released:
-    pre-class:
+    pre-class: |
+      * Review [this list of topics](https://docs.google.com/document/d/1xEBnfDTSK3nqquttNyq6h5lU7ZCroPJlLqUCI7O2gm0/edit#heading=h.746155gw2ppz)
+      * Try solving [these practice problems](https://docs.google.com/document/d/1sHnfObR7vzfUVGemdmsjNtypOrceoEZM6wSUoiVOPV4/edit?usp=sharing)
+      * Compare your solutions with [these solutions](https://docs.google.com/document/d/159wT4YYjTwrjyP9IguKsTcAscHzQGv-KgjZDZfa1k_A/edit#heading=h.1s5axfyhcyba)
     exam: "Midterm I (everything before inheritance)"
 
   - month: "October"
