@@ -123,7 +123,7 @@ Create a class named <code>Deck</code> that creates a Deck of Card objects. For 
 
 **0. Study and use the provided Card class**
 
-The `Card.java` class is provided for you. Read it very carefully and provide documentation for all the methods. Pay close attention to the equals() method.
+The `Card.java` class is provided for you. Read it very carefully, paying close attention to the equals() method.
 
 `Card.java`:
 ```java
