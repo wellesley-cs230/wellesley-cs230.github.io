@@ -201,7 +201,7 @@ familiar with the Stack interface understands your approach.
 * You can only use the `toCharArray()` method in the String class to
   convert the input string in an array of characters from which you
   will populate a stack. **You cannot not use any other String methods
-  or array operations, other than indexing into an array.**
+  or array operations, other than indexing into an array and checking its length.**
 
 * An input string is read as a `command-line argument` and is checked
   for the palindrome property. If there is no `args[0]` your program
