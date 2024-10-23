@@ -138,11 +138,11 @@ public class EmptyCollectionException extends RuntimeException {
 Create a new BlueJ project and create a `.java` file for each of the above code snippets.
 
 
-# Part 3: Implement a Linked List
+## Part 3: Implement a Linked List
 
 Create a new class, `LinkedList<T>` that satisfies the following:
 1. It uses the `LinearNode<T>` class above.
-2. It `implements` the LinearList<T>` interface above.
+2. It `implements` the `LinearList<T>` interface above.
 
 For brevity, we won't ask you to thoroughly test your code. However, we do recommend that you:
 1. Implement the `toString` method early on.
