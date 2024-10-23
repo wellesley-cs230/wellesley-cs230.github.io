@@ -224,7 +224,7 @@ implies identifying and testing boundary cases as well.
 ## What to submit
 
 Submit 3 files: your `PalindromeChecker.java` file, the picture
-describing your strategy in using stacks, and your testing `.txt`
+describing your strategy in using stacks, and your testing `PalindromeChecker.txt`
 file.
 
 
