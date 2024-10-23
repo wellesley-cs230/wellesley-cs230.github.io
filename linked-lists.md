@@ -1,4 +1,9 @@
-# LinkedList Exercise
+---
+layout: default
+---
+
+
+# Linked List Exercise
 
 In this exercise, you will implement a Stack using a Linked List. We will build up to this in parts.
 
