@@ -187,7 +187,7 @@ first using the array implementation of the CD collection, (as it currently is),
 
 When this client program executes, the output should be presented so that it is clear which part of it is produced by which implementation.
 
-*Task 1B: CD collection using a Stack** (CDcollection_Stack class)
+**Task 1B: CD collection using a Stack** (CDcollection_Stack class)
 
 Define the `CDcollection_Stack` class. As said already, you have to employ a Stack to hold the CDs. Use [java's Stack class](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html) for it. (Think about: What other Stack implementations could you have used?)
 
