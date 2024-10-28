@@ -196,7 +196,7 @@ Add this interface to your BlueJ project. Then, create a class, `LinkedStack<T>`
 
 ## Part 6:  Create a Doubly-Linked List
 
-1. Using your `DoublyLinearNode<T>`, create a new class, `DoublyLinkedList` that implements `LinearList` interface.
-2. Implemenmt every method listed in the interface.
-3. Add a method, `removeLast` that removes the last element of the list. You should be able to implement this *without any loops*.
+1. Using your `DoublyLinearNode<T>`, create a new class, `DoublyLinkedList`, that implements `LinearList` interface.
+2. Implemenmt *every method* listed in the interface.
+3. Add a method, `removeLast`, that removes the last element of the list. You should be able to implement this *without any loops*.
 
