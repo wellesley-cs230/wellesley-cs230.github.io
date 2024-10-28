@@ -107,7 +107,7 @@ public interface LinearList<T> {
      * 
      * @return the element to be returned
      */
-    public T remove();
+    public T removeFirst();
     
     /**
      * Generates a String representation of list; 
@@ -185,4 +185,17 @@ public interface Stack<T> {
 Add this interface to your BlueJ project. Then, create a class, `LinkedStack<T>`, that:
 1. Implements this interface.
 2. Uses your `LinkedList<T>` class.
+
+
+## Part 5: Create a Doubly-Linked List Node
+
+1. Extend the `LinearNode<T>` class to create a `DoublyLinearNode<T>` class.
+2. In addition to maintaining a reference to the *next* element in the list, this class should also maintain a reference to the element *previous* in the list.
+3. Create the necessary getters and setters for this class, following the style of `LinearNode<T>`.
+
+
+## Part 6:  Create a Doubly-Linked List
+
+1. Using your `DoublyLinearNode<T>`, create a new class, `DoublyLinkedList` that implements `LinearList` interface.
+2. Add a method, `removeLast` that removes the last element of the list. You should be able to implement this *without any loops*.
 
