@@ -332,7 +332,8 @@ events:
     topic:
     due:
     released:
-    pre-class:
+    pre-class: |
+      * Review [this list of topics](https://docs.google.com/document/d/1Jtitf5GOxJsEij8W4wkepjmTLmzWKRh8W-gXYyxKUPU/edit?usp=sharing)
     exam: "Midterm II (from Inheritance to Queues)"
 
   - month: "November"
