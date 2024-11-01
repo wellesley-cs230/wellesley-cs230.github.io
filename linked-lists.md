@@ -164,11 +164,11 @@ public interface Stack<T> {
    public void push (T element);
 
    //  Removes and returns the top element from the stack.
-   public T pop();
+   public T pop() throws EmptyCollectionException;
 
    //  Returns a reference to the top element of this stack
    //  without removing it.
-   public T peek();
+   public T peek() throws EmptyCollectionException;
 
    //  Returns true if the stack contains no elements and false
    //  otherwise.
