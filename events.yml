@@ -289,7 +289,7 @@ events:
     topic: "Graphs"
     slides: "https://drive.google.com/drive/folders/1DZRIeLlYccw2r9KqOyJFs92tzUPBySCJ?usp=drive_link"
     due: "[Homework 7](/hw7) by **10pm**"
-    released: Homework 8
+    released: "[Homework 8](/hw8)"
     pre-class: |
       * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 19](https://forms.gle/ZCf1FoUMBFUkwusq9)
@@ -321,7 +321,7 @@ events:
     day-of-week: "Thursday"
     topic: "Breadth-First Search"
     slides: "https://drive.google.com/drive/folders/1jOcCxMUvDKBkyzF852X702Jc9wCRtrka?usp=drive_link"
-    due: "Homework 8 by **10pm**"
+    due: "[Homework 8](/hw8) by **10pm**"
     released:
     pre-class: |
       * Read [Chapter 19.5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
