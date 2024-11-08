@@ -334,6 +334,7 @@ events:
     released:
     pre-class: |
       * Review [this list of topics](https://docs.google.com/document/d/1Jtitf5GOxJsEij8W4wkepjmTLmzWKRh8W-gXYyxKUPU/edit?usp=sharing)
+      * Try solving [these practice problems](https://docs.google.com/document/d/1QIldQ4cd4SGfpPeMlkLLpBF-XwftEmB9k45dVDeIULs/edit?usp=sharing)
     exam: "Midterm II (from Inheritance to Queues)"
 
   - month: "November"
