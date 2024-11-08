@@ -213,7 +213,7 @@ In a couple of paragraphs compare these three implementations. What are the pros
 In another paragraph, describe what you learned from this exercise.
 
 ### How to submit your Work
-Submit the `CDcollection_Stack.java`, `CDcollection_LinkedList.java` and  the `Complexity.txt` to Gradescope. You do not need to submit any prinout of the client.
+Submit `Tunes.java`, `CDcollection_Stack.java`, `CDcollection_LinkedList.java` and  the `Complexity.txt` to Gradescope. You do not need to submit any prinout of the client. Don't forget to test **each one** of these Java classes.
 
 And as always, add appropriate javadoc, including `@author` and `@version` tags!
 
