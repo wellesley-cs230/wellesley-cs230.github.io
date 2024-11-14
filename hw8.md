@@ -91,7 +91,7 @@ Now, you can make sweet music. By pressing any of the keys on your computer keyb
 In Gradescope submit the following files:
 
 1. The `BoundedQueue.java` file
-2. Your testing transcript (`.txt`) for BoundedQueue class
+2. Your testing transcript (`BoundedQueue.txt`) for BoundedQueue class
 3. The `GuitarString.java` file
 
 
