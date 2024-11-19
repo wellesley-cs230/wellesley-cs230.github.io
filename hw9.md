@@ -37,7 +37,7 @@ Together with your partner, take a look at the pseudocode for the depth-first se
 
 Now you’re ready to test your implementation, before sending the graph off to your friends to play with.
 
-Create a new driver program and think carefully about where it should be placed in your project. Test each method thoroughly on all possible paths, marking clearly what result you expect and what you obtained.
+Create a new driver program, `Driver.java`, and think carefully about where it should be placed in your project. Test each method thoroughly on all possible paths, marking clearly what result you expect and what you obtained.
 
 
 
@@ -46,8 +46,12 @@ Create a new driver program and think carefully about where it should be placed 
 
 # Submission Checklist
 
-* You submitted **all** `.pdf` files and all `.txt` files.
+* You submitted **all** `.java` files and all `.txt` files.
 * Your files are named **exactly** as in the homework specification, *including file extensions*.
+* You tested **every possible** pathway in your code.
+* You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
+* You wrote javadoc for every function, which includes `@param` and `@return`.
+* You wrote inline comments explaining the logic of your code.
 
 
 
