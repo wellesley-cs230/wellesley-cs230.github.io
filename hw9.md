@@ -2,6 +2,57 @@
 layout: default
 ---
 
+# Homework 9
+
+
+## Learning Goals
+
+* Use java's Vector and LinkedList classes
+* Implement a graph traversal
+* Implement the DiGraph (Directed Graph) interface
+
+
+## Pair Programming
+
+We will assign you a peer to collaborate with on this assignment. Please,
+* Reach out to your partner ASAP to discuss when you will meet to work on the assignment. You will probably have to meet several times.
+* Work *together* (pair programming) rather than *divide and conquer*.
+* *Discuss* the ideas and diagrams before diving into coding.
+
+
+## Task 1: Complete the Directed Graph Implementation
+
+Download [this starter code](https://drive.google.com/drive/folders/1krBZDDD2eIpduktsZLZI0CSJg6V60E5w?usp=sharing). It contains the solutions from last week's lab. Feel free to use your version, if you feel more comfortable with that one.
+
+Complete the implementation of the DiGraph interface. Take it one method at a time, make sure to include appropriate javadoc, and test as you go. For the methods where you don’t immediately come up with a solution, write the pseudocode before writing the code for the method. Remember, arriving at a solution quickly that hasn’t been thought through and has mistakes will probably take longer to debug than thinking carefully - and slowly - of a solution that works for all cases you can think of.
+
+
+
+## Task 2: Graph Traversal
+
+Together with your partner, take a look at the pseudocode for the depth-first search traversal seen in class. Now write code to implement it. Make sure to test it on a few different kinds of graphs/paths to make sure it works as expected.
+
+
+## Task 3: Graph Driver
+
+Now you’re ready to test your implementation, before sending the graph off to your friends to play with.
+
+Create a new driver program and think carefully about where it should be placed in your project. Test each method thoroughly on all possible paths, marking clearly what result you expect and what you obtained.
+
+
+
+
+<br/>
+
+# Submission Checklist
+
+* You submitted **all** `.pdf` files and all `.txt` files.
+* Your files are named **exactly** as in the homework specification, *including file extensions*.
+
+
+
+
+<!--
 # Homework 9, Part A: Graphs
 
 ## Learning Goals
@@ -83,12 +134,5 @@ Write up your answer on paper and take a photo of it. Submit one PDF file, named
 Make sure the document you submit contains your name.
 
 
-
-
-<br/>
-
-# Submission Checklist
-
-* You submitted **all** `.pdf` files and all `.txt` files.
-* Your files are named **exactly** as in the homework specification, *including file extensions*.
+-->
 
