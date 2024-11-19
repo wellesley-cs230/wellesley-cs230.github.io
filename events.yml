@@ -345,7 +345,7 @@ events:
     day-of-week: "Tuesday"
     topic: "Graphs"
     due:
-    released: Homework 9
+    released: "[Homework 9](/hw9)"
     pre-class:
 
   - month: "November"
@@ -392,7 +392,7 @@ events:
     topic: "Trees"
     slides: "https://drive.google.com/drive/folders/1L6GJiMTynRpTkoHWjaf8aYCMRIQNoCv_?usp=drive_link"
     due: |
-      * Homework 9 by **10pm**
+      * [Homework 9](/hw9) by **10pm**
       * Prelab 13 (Google classroom)
     released: Homework 10
     pre-class: |
