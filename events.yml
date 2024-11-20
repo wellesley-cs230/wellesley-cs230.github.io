@@ -351,7 +351,7 @@ events:
   - month: "November"
     day: "21"
     day-of-week: "Thursday"
-    topic: "The Ethics of Search Engines"
+    topic: "The Ethics of Search Engines [[slides](https://drive.google.com/drive/folders/1ZVBAjdCX6kusS-1-KVxR2Ers2agOB66T?usp=sharing)]"
     due:
     released:
     pre-class: |
