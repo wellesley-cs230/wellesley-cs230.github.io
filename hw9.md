@@ -30,14 +30,14 @@ Complete the implementation of the DiGraph interface. Take it one method at a ti
 
 ## Task 2: Graph Traversal
 
-Together with your partner, take a look at the pseudocode for the depth-first search traversal seen in class. Now write code to implement it. Make sure to test it on a few different kinds of graphs/paths to make sure it works as expected.
+Together with your partner, take a look at the pseudocode for the depth-first search traversal seen in class. Now write code to implement it. Make sure to test it on a few different kinds of graphs/paths to make sure it works as expected. 
 
 
 ## Task 3: Graph Driver
 
 Now you’re ready to test your implementation, before sending the graph off to your friends to play with.
 
-Create a new driver program, `Driver.java`, and think carefully about where it should be placed in your project. Test each method thoroughly on all possible paths, marking clearly what result you expect and what you obtained.
+Create a new driver program, `Driver.java`, and think carefully about where it should be placed in your project. Test each method thoroughly on all possible paths, marking clearly what result you expect and what you obtained. Store the outputs of your tests in `Tests.txt`.
 
 
 
