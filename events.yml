@@ -142,12 +142,13 @@ events:
   - month: "February"
     day: "24"
     day-of-week: "Monday"
+    topic: "Stacks"
+    slides: "https://drive.google.com/drive/folders/1-p8-ATd7olY4EScZkoiXlwGVNq8imtwk?usp=drive_link"
+    due:
+    released: 
     pre-class: |
-      * Review [this list of topics](https://docs.google.com/document/d/1xEBnfDTSK3nqquttNyq6h5lU7ZCroPJlLqUCI7O2gm0/edit#heading=h.746155gw2ppz)
-      * Try solving [these practice problems](https://docs.google.com/document/d/1sHnfObR7vzfUVGemdmsjNtypOrceoEZM6wSUoiVOPV4/edit?usp=sharing)
-      * Compare your solutions with [these solutions](https://docs.google.com/document/d/159wT4YYjTwrjyP9IguKsTcAscHzQGv-KgjZDZfa1k_A/edit#heading=h.1s5axfyhcyba)
-      * Prepare a one page (single sided) note sheet you can bring to the exam      
-    exam: "Midterm I (everything before inheritance)"
+      * Read [Chapters 14.1-14.9](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
+      * Answer the quiz on [Chapter 14](https://forms.gle/YUmRp5B8gx9eDHMy7)
 
   - month: "February"
     day: "26"
@@ -160,14 +161,13 @@ events:
   - month: "February"
     day: "27"
     day-of-week: "Thursday"
-    topic: "Stacks"
-    slides: "https://drive.google.com/drive/folders/1-p8-ATd7olY4EScZkoiXlwGVNq8imtwk?usp=drive_link"
-    due:
-    released: 
     pre-class: |
-      * Read [Chapters 14.1-14.9](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
-      * Answer the quiz on [Chapter 14](https://forms.gle/YUmRp5B8gx9eDHMy7)
-
+      * Review [this list of topics](https://docs.google.com/document/d/1xEBnfDTSK3nqquttNyq6h5lU7ZCroPJlLqUCI7O2gm0/edit#heading=h.746155gw2ppz)
+      * Try solving [these practice problems](https://docs.google.com/document/d/1sHnfObR7vzfUVGemdmsjNtypOrceoEZM6wSUoiVOPV4/edit?usp=sharing)
+      * Compare your solutions with [these solutions](https://docs.google.com/document/d/159wT4YYjTwrjyP9IguKsTcAscHzQGv-KgjZDZfa1k_A/edit#heading=h.1s5axfyhcyba)
+      * Prepare a one page (single sided) note sheet you can bring to the exam      
+    exam: "Midterm I (everything before inheritance)"
+    
   - month: "March"
     day: "03"
     day-of-week: "Monday"
@@ -191,6 +191,8 @@ events:
     day-of-week: "Thursday"
     topic: "LinearNodes and Linked Stacks"
     slides: "https://drive.google.com/drive/folders/1iBCmi8IMPcTin5pZXYJbAK4bb-fUKf_-?usp=drive_link"
+    due: "Homework 5 by **10pm**"
+    released: "Homework 6"    
     pre-class: |
       * Read [Chapters 14.10-14.14](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Skim the [in-class exercise](/linked-lists).
@@ -219,6 +221,8 @@ events:
     day-of-week: "Thursday"
     topic: "Sorting"
     slides: "https://drive.google.com/drive/folders/1ykXNSDYRt7sVMQ0pM4o3SVNtRKApm_h0?usp=drive_link"
+    due: "Homework 6 by **10pm**"
+    released: "Homework 7"    
     pre-class: |
       * Read [Chapter 13](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 13](https://forms.gle/BD38qGmgGYs3VnCu7)
@@ -274,6 +278,8 @@ events:
     day-of-week: "Thursday"
     topic: "Graphs"
     slides: "https://drive.google.com/drive/folders/1DZRIeLlYccw2r9KqOyJFs92tzUPBySCJ?usp=drive_link"
+    due: "Homework 7 by **10pm**"
+    released: "Homework 8"    
     pre-class: |
       * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 19](https://forms.gle/ZCf1FoUMBFUkwusq9)
@@ -301,21 +307,18 @@ events:
     day-of-week: "Thursday"
     topic: "Breadth-First Search"
     slides: "https://drive.google.com/drive/folders/1jOcCxMUvDKBkyzF852X702Jc9wCRtrka?usp=drive_link"
+    due: "Homework 8 by **10pm**"
+    released: "Homework 9"        
     pre-class: |
       * Read [Chapter 19.5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
 
   - month: "April"
     day: "07"
     day-of-week: "Monday"
-    topic:
-    due:
-    released:
+    topic: "The Ethics of Search Engines [[slides](https://drive.google.com/drive/folders/1ZVBAjdCX6kusS-1-KVxR2Ers2agOB66T?usp=sharing)]"
     pre-class: |
-      * Review [this list of topics](https://docs.google.com/document/d/1Jtitf5GOxJsEij8W4wkepjmTLmzWKRh8W-gXYyxKUPU/edit?usp=sharing)
-      * Try solving [these practice problems](https://docs.google.com/document/d/1QIldQ4cd4SGfpPeMlkLLpBF-XwftEmB9k45dVDeIULs/edit?usp=sharing)
-      * Compare your solutions with [these solutions](https://docs.google.com/document/d/12PDiWf2n9ibjWmlH18x6dbz6L2zpXFXM0cdcmA-t-Jo/edit?usp=sharing)
-      * Prepare a one page (single sided) note sheet you can bring to the exam
-    exam: "Midterm II (from Inheritance to Queues)"
+      * Watch [Page Rank](https://www.youtube.com/watch?v=IKXvSKaI2Ko) and [Algorithms of Oppression](https://www.youtube.com/watch?v=yHYbOg62QyE).
+      * Answer the questions on Gradescope by **9am**.
 
   - month: "April"
     day: "09"
@@ -328,13 +331,16 @@ events:
   - month: "April"
     day: "10"
     day-of-week: "Thursday"
-    topic: "The Ethics of Search Engines [[slides](https://drive.google.com/drive/folders/1ZVBAjdCX6kusS-1-KVxR2Ers2agOB66T?usp=sharing)]"
+    topic:
     due:
     released:
     pre-class: |
-      * Watch [Page Rank](https://www.youtube.com/watch?v=IKXvSKaI2Ko) and [Algorithms of Oppression](https://www.youtube.com/watch?v=yHYbOg62QyE).
-      * Answer the questions on Gradescope by **9am**.
-
+      * Review [this list of topics](https://docs.google.com/document/d/1Jtitf5GOxJsEij8W4wkepjmTLmzWKRh8W-gXYyxKUPU/edit?usp=sharing)
+      * Try solving [these practice problems](https://docs.google.com/document/d/1QIldQ4cd4SGfpPeMlkLLpBF-XwftEmB9k45dVDeIULs/edit?usp=sharing)
+      * Compare your solutions with [these solutions](https://docs.google.com/document/d/12PDiWf2n9ibjWmlH18x6dbz6L2zpXFXM0cdcmA-t-Jo/edit?usp=sharing)
+      * Prepare a one page (single sided) note sheet you can bring to the exam
+    exam: "Midterm II (from Inheritance to Queues)"
+    
   - month: "April"
     day: "14"
     day-of-week: "Monday"
@@ -360,8 +366,8 @@ events:
     day-of-week: "Thursday"
     topic: "Hash Tables"
     slides: "https://drive.google.com/drive/folders/1jSOX9bDdKVvVlN8Hqq0FpqKFaDvgKAPu?usp=drive_link"
-    due: 
-    released:
+    due: "Homework 9 by **10pm**"
+    released: "Homework 10"    
     pre-class: |
       * Read [Chapter 20](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 20](https://forms.gle/sk8HyZq2cj5Eop7p8)
@@ -387,7 +393,7 @@ events:
     day-of-week: "Thursday"
     topic: "Trees"
     slides: "https://drive.google.com/drive/folders/1L6GJiMTynRpTkoHWjaf8aYCMRIQNoCv_?usp=drive_link"    
-    due:
+    due: "Homework 10 by **10pm**"
     released:
     pre-class: |
       * Read [Chapters 16.1-16.3](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
