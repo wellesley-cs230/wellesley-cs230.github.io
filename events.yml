@@ -1,23 +1,23 @@
 events:
-  - month: "September"
-    day: "02"
+  - month: "January"
+    day: "20"
     day-of-week: "Monday"
-    special: "Labor Day: no classes."
+    special: "Martin Luther King Jr. Day: no classes."
     topic:
     due:
     released:
     pre-class:
 
-  - month: "September"
-    day: "03"
-    day-of-week: "Tuesday"
+  - month: "January"
+    day: "22"
+    day-of-week: "Wednesday"
     topic: "BlueJ and Java"
     due:
     released: 
     pre-class:
 
-  - month: "September"
-    day: "05"
+  - month: "January"
+    day: "23"
     day-of-week: "Thursday"
     topic: "Introduction"
     slides: "https://drive.google.com/drive/folders/1hp7vBmgzhbOae4SygV-DLE9Y8_9_nVjG?usp=drive_link"
@@ -25,8 +25,8 @@ events:
     released: "[Homework 1](/hw1)"
     pre-class:
 
-  - month: "September"
-    day: "09"
+  - month: "January"
+    day: "27"
     day-of-week: "Monday"
     topic: "Java Constructs"
     slides: "https://drive.google.com/drive/folders/1hXTjLMtH0f49ulIzFDRvEsdy068Yazs-?usp=drive_link"
@@ -37,16 +37,16 @@ events:
       * Read [Chapters 1 and 2](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 1](https://forms.gle/a7VpVrSjeKNYm8NNA) and [Chapter 2](https://forms.gle/Ca9Q5DxwmqSs91EQ9)
 
-  - month: "September"
-    day: "10"
-    day-of-week: "Tuesday"
+  - month: "January"
+    day: "29"
+    day-of-week: "Wednesday"
     topic: "Java Constructs"
     due:
     released:
     pre-class:
 
-  - month: "September"
-    day: "12"
+  - month: "January"
+    day: "30"
     day-of-week: "Thursday"
     topic: "Java Constructs"
     slides: "https://drive.google.com/drive/folders/1hXTjLMtH0f49ulIzFDRvEsdy068Yazs-?usp=drive_link"    
@@ -56,8 +56,8 @@ events:
       * Read [Chapters 3 and 4 (optional: 3.6-3.7)](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 3](https://forms.gle/PTkPGnqZ24XZVYxs7) and [Chapter 4](https://forms.gle/PXXfhu4Mu2Jtwtu37)
 
-  - month: "September"
-    day: "16"
+  - month: "February"
+    day: "03"
     day-of-week: "Monday"
     topic: "Objects"
     slides: "https://drive.google.com/drive/folders/1PdJ-CztfiWl0xqw2xJmHoQj30pUiaKli?usp=drive_link"
@@ -67,17 +67,17 @@ events:
       * Read [Chapter 5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 5](https://forms.gle/wNZ2TGDf6DmP1BhFA)
 
-  - month: "September"
-    day: "17"
-    day-of-week: "Tuesday"
+  - month: "February"
+    day: "05"
+    day-of-week: "Wednesday"
     topic: "Objects"
     due:
     released:
     pre-class:
 
-  - month: "September"
-    day: "19"
-    day-of-week: "Thursday"    
+  - month: "February"
+    day: "06"
+    day-of-week: "Thursday"
     topic: "Objects"
     slides: "https://drive.google.com/drive/folders/1PdJ-CztfiWl0xqw2xJmHoQj30pUiaKli?usp=drive_link"    
     due: "[Homework 2](/hw2) by **10pm**"
@@ -85,8 +85,8 @@ events:
     pre-class: |
       * Read [Chapter 5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
 
-  - month: "September"
-    day: "23"
+  - month: "February"
+    day: "10"
     day-of-week: "Monday"
     topic: "Arrays and Arrays of Objects"
     slides: "https://drive.google.com/drive/folders/1uEe65sZoGab5inLmgM8OG-RdUqcZjk2w?usp=drive_link"
@@ -96,16 +96,16 @@ events:
       * Read [Chapter 7](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 7](https://forms.gle/DPGjdzve1h29ihXd8)
 
-  - month: "September"
-    day: "24"
-    day-of-week: "Tuesday"
+  - month: "February"
+    day: "12"
+    day-of-week: "Wednesday"
     topic: "Arrays and Arrays of Objects"
     due:
     released:
     pre-class:
 
-  - month: "September"
-    day: "26"
+  - month: "February"
+    day: "13"
     day-of-week: "Thursday"
     topic: "Arrays and Arrays of Objects"
     slides: "https://drive.google.com/drive/folders/1uEe65sZoGab5inLmgM8OG-RdUqcZjk2w?usp=drive_link"    
@@ -114,9 +114,10 @@ events:
     pre-class: |
       * Read [Chapter 7](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
 
-  - month: "September"
-    day: "30"
+  - month: "February"
+    day: "17"
     day-of-week: "Monday"
+    special: "Presidents' Day on Monday (no classes). Tuesday follows a Monday schedule."
     topic: "Exceptions and IO"
     slides: "https://drive.google.com/drive/folders/1eOAfDgurJXsP7es-Zg2qPxijz4_3HLFY?usp=drive_link"
     due: "Prelab 5 (Google classroom)"
@@ -125,16 +126,16 @@ events:
       * Read [Chapter 10](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 10](https://forms.gle/TKU1Ut3LbBdbyhfx6)
 
-  - month: "October"
-    day: "01"
-    day-of-week: "Tuesday"
-    topic: "Exceptions and IO"
+  - month: "February"
+    day: "19"
+    day-of-week: "Wednesday"
+    special: "No lab, since Tuesday follows a Monday schedule."
     due:
     released:
     pre-class:
 
-  - month: "October"
-    day: "03"
+  - month: "February"
+    day: "20"
     day-of-week: "Thursday"
     topic: "Inheritance"
     slides: "https://drive.google.com/drive/folders/1LZTKo5CyyJQNAM3f_nRd8sGNtfQ-W-pj?usp=drive_link"
@@ -144,8 +145,8 @@ events:
       * Read [Chapter 8](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 8](https://forms.gle/d9SBF3oqzdxVmyio9)
 
-  - month: "October"
-    day: "07"
+  - month: "February"
+    day: "24"
     day-of-week: "Monday"
     topic: "Polymorphism"
     slides: "https://drive.google.com/drive/folders/1G6cFLJNfFPqJ7JQf2H1bfSR6RIC56aq0?usp=drive_link"
@@ -155,16 +156,16 @@ events:
       * Read [Chapter 9](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 9](https://forms.gle/vec5aVFGQQ212LHd8)
 
-  - month: "October"
-    day: "08"
-    day-of-week: "Tuesday"
+  - month: "February"
+    day: "26"
+    day-of-week: "Wednesday"
     topic: "Inheritance and Polymorphism"
     due:
     released:
     pre-class:
 
-  - month: "October"
-    day: "10"
+  - month: "February"
+    day: "27"
     day-of-week: "Thursday"
     topic:
     due:
@@ -176,27 +177,9 @@ events:
       * Prepare a one page (single sided) note sheet you can bring to the exam      
     exam: "Midterm I (everything before inheritance)"
 
-  - month: "October"
-    day: "14"
+  - month: "March"
+    day: "03"
     day-of-week: "Monday"
-    special: "Indigenous Peoples’ Day: no classes."
-    topic:
-    due:
-    released:
-    pre-class:
-
-  - month: "October"
-    day: "15"
-    day-of-week: "Tuesday"
-    special: "Fall Break: no classes."
-    topic:
-    due:
-    released:
-    pre-class:
-
-  - month: "October"
-    day: "17"
-    day-of-week: "Thursday"
     topic: "Stacks"
     slides: "https://drive.google.com/drive/folders/1-p8-ATd7olY4EScZkoiXlwGVNq8imtwk?usp=drive_link"
     due:
@@ -205,9 +188,17 @@ events:
       * Read [Chapters 14.1-14.9](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 14](https://forms.gle/YUmRp5B8gx9eDHMy7)
 
-  - month: "October"
-    day: "21"
-    day-of-week: "Monday"
+  - month: "March"
+    day: "05"
+    day-of-week: "Wednesday"
+    topic: "Stacks"
+    due:
+    released:
+    pre-class:
+
+  - month: "March"
+    day: "06"
+    day-of-week: "Thursday"
     topic: "Stacks"
     slides: "https://drive.google.com/drive/folders/1-p8-ATd7olY4EScZkoiXlwGVNq8imtwk?usp=drive_link"        
     due: "Prelab 7 (Google classroom)"
@@ -215,17 +206,9 @@ events:
     pre-class: |
       * Read [Chapters 14.1-14.9](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
 
-  - month: "October"
-    day: "22"
-    day-of-week: "Tuesday"
-    topic: "Stacks"
-    due:
-    released:
-    pre-class:
-
-  - month: "October"
-    day: "24"
-    day-of-week: "Thursday"
+  - month: "March"
+    day: "10"
+    day-of-week: "Monday"
     topic: "LinearNodes and Linked Stacks"
     slides: "https://drive.google.com/drive/folders/1iBCmi8IMPcTin5pZXYJbAK4bb-fUKf_-?usp=drive_link"
     due: "[Homework 5](/hw5) by **10pm**"
@@ -234,9 +217,17 @@ events:
       * Read [Chapters 14.10-14.14](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Skim the [in-class exercise](/linked-lists).
 
-  - month: "October"
-    day: "28"
-    day-of-week: "Monday"
+  - month: "March"
+    day: "12"
+    day-of-week: "Wednesday"
+    topic:
+    due:
+    released:
+    pre-class:
+
+  - month: "March"
+    day: "13"
+    day-of-week: "Thursday"
     topic: "Algorithm Analysis"
     slides: "https://drive.google.com/drive/folders/1bm22U4t23ByRSYCu6v0ivvipkgfiw4G3?usp=drive_link"
     due: 
@@ -245,18 +236,36 @@ events:
       * Read [Chapter 12](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 12](https://forms.gle/kfwiFpH5hfzpURPC7)
 
-  - month: "October"
-    day: "29"
-    day-of-week: "Tuesday"
-    special: "Tanner Conference: no classes."
+  - month: "March"
+    day: "17"
+    day-of-week: "Monday"
+    special: "Spring Break: no classes."
     topic:
     due:
     released:
     pre-class:
 
-  - month: "October"
-    day: "31"
+  - month: "March"
+    day: "19"
+    day-of-week: "Wednesday"
+    special: "Spring Break: no classes."
+    topic:
+    due:
+    released:
+    pre-class:
+
+  - month: "March"
+    day: "20"
     day-of-week: "Thursday"
+    special: "Spring Break: no classes."
+    topic:
+    due:
+    released:
+    pre-class:
+
+  - month: "March"
+    day: "24"
+    day-of-week: "Monday"
     topic: "Sorting"
     slides: "https://drive.google.com/drive/folders/1ykXNSDYRt7sVMQ0pM4o3SVNtRKApm_h0?usp=drive_link"
     due: "[Homework 6](/hw6) by **10pm**"
@@ -265,9 +274,17 @@ events:
       * Read [Chapter 13](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 13](https://forms.gle/BD38qGmgGYs3VnCu7)
 
-  - month: "November"
-    day: "04"
-    day-of-week: "Monday"
+  - month: "March"
+    day: "26"
+    day-of-week: "Wednesday"
+    topic:
+    due:
+    released:
+    pre-class:
+
+  - month: "March"
+    day: "27"
+    day-of-week: "Thursday"
     topic: "Queues"
     slides: "https://drive.google.com/drive/folders/1KAlwHY8hxN3JZGy8Ja_7ywbUEyBKSuzm?usp=drive_link"
     due: "Prelab 9 (Google classroom)"
@@ -276,17 +293,9 @@ events:
       * Read [Chapter 15](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 15](https://forms.gle/Nxg4im3XEzSo2VL88)
 
-  - month: "November"
-    day: "05"
-    day-of-week: "Tuesday"
-    topic: "Queues"
-    due:
-    released:
-    pre-class:
-
-  - month: "November"
-    day: "07"
-    day-of-week: "Thursday"
+  - month: "March"
+    day: "31"
+    day-of-week: "Monday"
     topic: "Graphs"
     slides: "https://drive.google.com/drive/folders/1DZRIeLlYccw2r9KqOyJFs92tzUPBySCJ?usp=drive_link"
     due: "[Homework 7](/hw7) by **10pm**"
@@ -295,31 +304,27 @@ events:
       * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 19](https://forms.gle/ZCf1FoUMBFUkwusq9)
 
-  - month: "November"
-    day: "11"
-    day-of-week: "Monday"
+  - month: "April"
+    day: "02"
+    day-of-week: "Wednesday"
+    topic:
+    due:
+    released:
+    pre-class:
+
+  - month: "April"
+    day: "03"
+    day-of-week: "Thursday"
     topic: "Depth-First Search"
     slides: "https://drive.google.com/drive/folders/1OyPPyDE7TYZ4j3IaOFUBPgb3Jqh6ZIoN?usp=drive_link"
     due: "Prelab 10 (Google classroom)"
     released:
     pre-class: |
       * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
-    extra-credit: |
-      * <s>Attend the talk by Dr. Safiya Noble, [Algorithms of Oppression](https://www1.wellesley.edu/newhouse/events/node/207351)</s>
-      * <s>Talk is at 5-6:30pm @ Tishman Commons</s>
-      * Ethics discussion @ SCI H305
 
-  - month: "November"
-    day: "12"
-    day-of-week: "Tuesday"
-    topic: "Graphs"
-    due:
-    released:
-    pre-class:
-
-  - month: "November"
-    day: "14"
-    day-of-week: "Thursday"
+  - month: "April"
+    day: "07"
+    day-of-week: "Monday"
     topic: "Breadth-First Search"
     slides: "https://drive.google.com/drive/folders/1jOcCxMUvDKBkyzF852X702Jc9wCRtrka?usp=drive_link"
     due: "[Homework 8](/hw8) by **10pm**"
@@ -327,9 +332,17 @@ events:
     pre-class: |
       * Read [Chapter 19.5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
 
-  - month: "November"
-    day: "18"
-    day-of-week: "Monday"
+  - month: "April"
+    day: "09"
+    day-of-week: "Wednesday"
+    topic: "Graphs"
+    due:
+    released:
+    pre-class:
+
+  - month: "April"
+    day: "10"
+    day-of-week: "Thursday"
     topic:
     due:
     released:
@@ -340,17 +353,9 @@ events:
       * Prepare a one page (single sided) note sheet you can bring to the exam
     exam: "Midterm II (from Inheritance to Queues)"
 
-  - month: "November"
-    day: "19"
-    day-of-week: "Tuesday"
-    topic: "Graphs"
-    due:
-    released: "[Homework 9](/hw9)"
-    pre-class:
-
-  - month: "November"
-    day: "21"
-    day-of-week: "Thursday"
+  - month: "April"
+    day: "14"
+    day-of-week: "Monday"
     topic: "The Ethics of Search Engines [[slides](https://drive.google.com/drive/folders/1ZVBAjdCX6kusS-1-KVxR2Ers2agOB66T?usp=sharing)]"
     due:
     released:
@@ -358,9 +363,18 @@ events:
       * Watch [Page Rank](https://www.youtube.com/watch?v=IKXvSKaI2Ko) and [Algorithms of Oppression](https://www.youtube.com/watch?v=yHYbOg62QyE).
       * Answer the questions on Gradescope by **9am**.
 
-  - month: "November"
-    day: "25"
-    day-of-week: "Monday"
+  - month: "April"
+    day: "16"
+    day-of-week: "Wednesday"
+    special: "Ruhlman Conference: no lab."
+    topic:
+    due:
+    released:
+    pre-class:
+
+  - month: "April"
+    day: "17"
+    day-of-week: "Thursday"
     topic: "Hash Tables"
     slides: "https://drive.google.com/drive/folders/1jSOX9bDdKVvVlN8Hqq0FpqKFaDvgKAPu?usp=drive_link"
     due: "Prelab 12 (Google classroom)"
@@ -369,25 +383,8 @@ events:
       * Read [Chapter 20](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 20](https://forms.gle/sk8HyZq2cj5Eop7p8)
 
-  - month: "November"
-    day: "26"
-    day-of-week: "Tuesday"
-    topic: "Hash Tables"
-    due:
-    released:
-    pre-class:
-
-  - month: "November"
-    day: "28"
-    day-of-week: "Thursday"
-    special: "Thanksgiving Break: no classes."
-    topic:
-    due:
-    released:
-    pre-class:
-
-  - month: "December"
-    day: "02"
+  - month: "April"
+    day: "21"
     day-of-week: "Monday"
     topic: "Trees"
     slides: "https://drive.google.com/drive/folders/1L6GJiMTynRpTkoHWjaf8aYCMRIQNoCv_?usp=drive_link"
@@ -397,18 +394,17 @@ events:
     released: "[Homework 10](/hw10)"
     pre-class: |
       * Read [Chapters 16.1-16.3](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
-      
 
-  - month: "December"
-    day: "03"
-    day-of-week: "Tuesday"
-    topic: "Trees"
+  - month: "April"
+    day: "23"
+    day-of-week: "Wednesday"
+    topic:
     due:
     released:
     pre-class:
 
-  - month: "December"
-    day: "05"
+  - month: "April"
+    day: "24"
     day-of-week: "Thursday"
     topic: "Trees"
     slides: "https://drive.google.com/drive/folders/1L6GJiMTynRpTkoHWjaf8aYCMRIQNoCv_?usp=drive_link"    
@@ -417,10 +413,24 @@ events:
     pre-class: |
       * Read [Chapters 16.1-16.3](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 16](https://forms.gle/odsfaWDt3ZjWXms98)
+    class-meetings-over: true
 
-  - month: "December"
-    day: "09"
+  - month: "April"
+    day: "28"
     day-of-week: "Monday"
+
+  - month: "April"
+    day: "30"
+    day-of-week: "Wednesday"
+    topic: 
+    due:
+    released:
+    pre-class:
+
+  - month: "May"
+    day: "01"
+    day-of-week: "Thursday"
+    special: "Reading Period Begins (Tomorrow)."
     topic: "Priority Queues and Heaps"
     slides: "https://drive.google.com/drive/folders/1BdK-PB_gKB7-HWIPgpE0PXD_4iPmv1Da?usp=drive_link"
     due: 
@@ -429,49 +439,27 @@ events:
       * Read [Chapter 18](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
       * Answer the quiz on [Chapter 18](https://forms.gle/SRCXB42be8w7ovSK8)
 
-  - month: "December"
-    day: "10"
-    day-of-week: "Tuesday"
-    topic: "Review"
-    due: "[Homework 10](/hw10) by **10pm on Wednesday**"
-    released:
-    pre-class:
-
-  - month: "December"
-    day: "12"
-    day-of-week: "Thursday"
-    special: "Reading Period Begins."
-    topic:
-    due:
-    released:
-    pre-class:
-    class-meetings-over: true
-
-  - month: "December"
-    day: "16"
+  - month: "May"
+    day: "05"
     day-of-week: "Monday"
+    special: "Reading Period Ends."
     topic:
     due:
     released:
     pre-class:
     class-meetings-over: true
 
-  - month: "December"
-    day: "17"
-    day-of-week: "Tuesday"
+  - month: "May"
+    day: "07"
+    day-of-week: "Wednesday"
     topic:
     due:
     released:
-    pre-class: |
-      * Review [this list of topics](https://docs.google.com/document/d/1W0whLsRKhlR3yBm7mA6iHmMPV3oRIzYDuM21SvGvsjs/edit?usp=sharing)
-      * Try solving [these practice problems](https://docs.google.com/document/d/1rJ5rnY1o0DE5aRZiiQjr_c5MCi_7SK4Fg-KGGIbgl5Q/edit?usp=sharing)
-      * Compare your solutions with [these solutions](https://docs.google.com/document/d/11AyePbPvEPvYS_wocBXZ41PVnLLY_GWRJwRODC0I8CE/edit?usp=sharing)      
-      * Prepare a one page, **double-sided**, note sheet you can bring to the exam
-    exam: "Final Exam: 6-8:30pm	@ PNE-239."
+    pre-class:
     class-meetings-over: true
 
-  - month: "December"
-    day: "19"
+  - month: "May"
+    day: "08"
     day-of-week: "Thursday"
     topic:
     due:

@@ -22,7 +22,7 @@ def main():
     with open('events.yml', 'r') as f:
         events = yaml.safe_load(f)['events']
 
-    doc =tags.table(cls='table course_calendar')
+    doc = tags.table(cls='table course_calendar')
 
     with doc.add(tags.tbody()):
         with tags.thead():
@@ -55,9 +55,13 @@ def main():
             if class_over:
                 td_tags += ' readingperiod'
 
-            with row.add(tags.td(cls=td_tags)):                    
-                tags.span(event['day'], cls='date_label date_label_day')   
-                tags.span(event['month'], cls='date_label date_label_month')
+            with row.add(tags.td(cls=td_tags)):
+                # TODO do not hardcode this
+                if event['day-of-week'] == 'Wednesday':           
+                    tags.span('Lab', cls='date_label date_label_day')
+                else:
+                    tags.span(event['day'], cls='date_label date_label_day')   
+                    tags.span(event['month'], cls='date_label date_label_month')
 
                 with tags.ul(cls='day_agenda'):
                     if special is not None:
