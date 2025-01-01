@@ -162,9 +162,8 @@ events:
     day: "27"
     day-of-week: "Thursday"
     pre-class: |
-      * Review [this list of topics](https://docs.google.com/document/d/1xEBnfDTSK3nqquttNyq6h5lU7ZCroPJlLqUCI7O2gm0/edit#heading=h.746155gw2ppz)
-      * Try solving [these practice problems](https://docs.google.com/document/d/1sHnfObR7vzfUVGemdmsjNtypOrceoEZM6wSUoiVOPV4/edit?usp=sharing)
-      * Compare your solutions with [these solutions](https://docs.google.com/document/d/159wT4YYjTwrjyP9IguKsTcAscHzQGv-KgjZDZfa1k_A/edit#heading=h.1s5axfyhcyba)
+      * Review [this list of topics](https://docs.google.com/document/d/1B10UeBPa-w7O9VGIwkFc31jFtY_7LnJP5rOAzRT1-T0/edit?usp=sharing)
+      * Solve practice problems (released closer to the exam day)      
       * Prepare a one page (single sided) note sheet you can bring to the exam      
     exam: "Midterm I (everything before inheritance)"
     
@@ -335,9 +334,8 @@ events:
     due:
     released:
     pre-class: |
-      * Review [this list of topics](https://docs.google.com/document/d/1Jtitf5GOxJsEij8W4wkepjmTLmzWKRh8W-gXYyxKUPU/edit?usp=sharing)
-      * Try solving [these practice problems](https://docs.google.com/document/d/1QIldQ4cd4SGfpPeMlkLLpBF-XwftEmB9k45dVDeIULs/edit?usp=sharing)
-      * Compare your solutions with [these solutions](https://docs.google.com/document/d/12PDiWf2n9ibjWmlH18x6dbz6L2zpXFXM0cdcmA-t-Jo/edit?usp=sharing)
+      * Review [this list of topics](https://docs.google.com/document/d/1QfwKBLnTHZgX5jSg7PkCHVxlPGd1U1HsL-SCBpaqkVw/edit?usp=drive_link)
+      * Solve practice problems (released closer to the exam day)
       * Prepare a one page (single sided) note sheet you can bring to the exam
     exam: "Midterm II (from Inheritance to Queues)"
     
