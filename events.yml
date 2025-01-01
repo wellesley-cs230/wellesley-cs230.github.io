@@ -25,7 +25,7 @@ events:
     released: "[Homework 1](/hw1)"
     pre-class: |
       * Answer the [syllabus quiz](https://docs.google.com/forms/d/e/1FAIpQLSeZHzjGBgvTQs-ddYuiw15vPtWLfigRiewoixkR7XF15O0cfQ/viewform?usp=sf_link)        
-      * Read [Chapters 1-2](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL) 
+      * Read [Chapters 1-2](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing) 
       * Answer the quiz on [Chapter 1](https://docs.google.com/forms/d/e/1FAIpQLSd-n94Dd_0cuMwcROeTUwRSMBprwtNoxufMqr-q-DAS4B5uZg/viewform?usp=sf_link) and [Chapter 2](https://docs.google.com/forms/d/e/1FAIpQLSfAZ-3jgAIaF2Vtqs_Uxut7pA8_AiZ3SYPpFYKqrGSvpxJNSw/viewform?usp=sf_link)
 
   - month: "January"
@@ -36,7 +36,7 @@ events:
     due: 
     released:
     pre-class: |
-      * Read [Chapters 3-4](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL) (optional: 3.6-3.7)
+      * Read [Chapters 3-4](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing) (optional: 3.6-3.7)
       * Answer the quiz on [Chapter 3](https://docs.google.com/forms/d/e/1FAIpQLSeSuKjMNvgS1VwL13MdSS9RrZBc23CXLgwWtbzAG7NVDB4xIg/viewform?usp=sf_link), and [Chapter 4](https://docs.google.com/forms/d/e/1FAIpQLSfi9Ge7Jd0dmVnwQe6LqlK9qFb_Siqi366dNx5i77tKgwKB8g/viewform?usp=sf_link)
 
   - month: "January"
@@ -55,7 +55,7 @@ events:
     due: "Homework 1 by **10pm**"
     released: "Homework 2"
     pre-class: |
-      * Read [Chapter 5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
+      * Read [Chapter 5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 5](https://docs.google.com/forms/d/e/1FAIpQLSfMWVdOa-oLOtlFJaeWhDxtnvnfrcrN0rQ-zQsbonhhHqpusg/viewform?usp=sf_link)
 
   - month: "February"
@@ -64,7 +64,7 @@ events:
     topic: "Objects"
     slides: "https://drive.google.com/drive/folders/1PdJ-CztfiWl0xqw2xJmHoQj30pUiaKli?usp=drive_link"    
     pre-class: |
-      * Read [Chapter 5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
+      * Read [Chapter 5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
   - month: "February"
     day: "05"
@@ -82,8 +82,8 @@ events:
     due: "Homework 2 by **10pm**"
     released: "Homework 3"
     pre-class: |
-      * Read [Chapter 7](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
-      * Answer the quiz on [Chapter 7](https://forms.gle/DPGjdzve1h29ihXd8)
+      * Read [Chapter 7](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 7](https://docs.google.com/forms/d/e/1FAIpQLScNmSvpFLFaNtv2sZhRZeLnExWvEcDuBMZ1MAMRK2MMAQI_3g/viewform?usp=sf_link)
 
   - month: "February"
     day: "10"
@@ -91,7 +91,7 @@ events:
     topic: "Arrays and Arrays of Objects"
     slides: "https://drive.google.com/drive/folders/1uEe65sZoGab5inLmgM8OG-RdUqcZjk2w?usp=drive_link"    
     pre-class: |
-      * Read [Chapter 7](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
+      * Read [Chapter 7](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
   - month: "February"
     day: "12"
@@ -109,8 +109,8 @@ events:
     due: "Homework 3 by **10pm**"
     released: "Homework 4"
     pre-class: |
-      * Read [Chapter 10](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
-      * Answer the quiz on [Chapter 10](https://forms.gle/TKU1Ut3LbBdbyhfx6)
+      * Read [Chapter 10](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 10](https://docs.google.com/forms/d/e/1FAIpQLSfQNeSShwv4mEU3x5kHSm8V2T_TQrYPC6kSc6dV4Jha91uYgQ/viewform?usp=sf_link)
 
   - month: "February"
     day: "17"
@@ -119,8 +119,8 @@ events:
     topic: "Inheritance"
     slides: "https://drive.google.com/drive/folders/1LZTKo5CyyJQNAM3f_nRd8sGNtfQ-W-pj?usp=drive_link"
     pre-class: |
-      * Read [Chapter 8](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
-      * Answer the quiz on [Chapter 8](https://forms.gle/d9SBF3oqzdxVmyio9)
+      * Read [Chapter 8](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 8](https://docs.google.com/forms/d/e/1FAIpQLSeSzzvp1aNqPbErHByzVhHpkhp9cV1r8ekSTAxPBs-OTRDlxw/viewform?usp=sf_link)
 
   - month: "February"
     day: "19"
@@ -138,8 +138,8 @@ events:
     due: "Homework 4 by **10pm**"
     released: "Homework 5"
     pre-class: |
-      * Read [Chapter 9](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
-      * Answer the quiz on [Chapter 9](https://forms.gle/vec5aVFGQQ212LHd8)
+      * Read [Chapter 9](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 9](https://docs.google.com/forms/d/e/1FAIpQLScBSjz2QduQVzu59nEHkMlSwlYMgmksAtsWniIC0FbjUP9IYA/viewform?usp=sf_link)
 
   - month: "February"
     day: "24"
@@ -149,8 +149,8 @@ events:
     due:
     released: 
     pre-class: |
-      * Read [Chapters 14.1-14.9](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
-      * Answer the quiz on [Chapter 14](https://forms.gle/YUmRp5B8gx9eDHMy7)
+      * Read [Chapters 14.1-14.9](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 14](https://docs.google.com/forms/d/e/1FAIpQLSc1v1aGlggmQpdh9hLN1C0UsAqzkJ8lIy4zDB_RxGiF6TEOqQ/viewform?usp=sf_link)
 
   - month: "February"
     day: "26"
@@ -177,7 +177,7 @@ events:
     due: 
     released:
     pre-class: |
-      * Read [Chapters 14.1-14.9](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
+      * Read [Chapters 14.1-14.9](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
   - month: "March"
     day: "05"
@@ -195,7 +195,7 @@ events:
     due: "Homework 5 by **10pm**"
     released: "Homework 6"    
     pre-class: |
-      * Read [Chapters 14.10-14.14](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
+      * Read [Chapters 14.10-14.14](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Skim the [in-class exercise](/linked-lists).
 
   - month: "March"
@@ -206,8 +206,8 @@ events:
     due: 
     released:
     pre-class: |
-      * Read [Chapter 12](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
-      * Answer the quiz on [Chapter 12](https://forms.gle/kfwiFpH5hfzpURPC7)
+      * Read [Chapter 12](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 12](https://docs.google.com/forms/d/e/1FAIpQLSeESUMXnlhnGv7kgHsJ1ysvudHGSlmJ0h7IGNzusUpVrAZHpA/viewform?usp=sf_link)
 
   - month: "March"
     day: "12"
@@ -225,8 +225,8 @@ events:
     due: "Homework 6 by **10pm**"
     released: "Homework 7"    
     pre-class: |
-      * Read [Chapter 13](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
-      * Answer the quiz on [Chapter 13](https://forms.gle/BD38qGmgGYs3VnCu7)
+      * Read [Chapter 13](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 13](https://docs.google.com/forms/d/e/1FAIpQLSfOFu_zpwkwWOIlUrgHs4x42b3QWs9eQ9AcBONH9YBKkJONqA/viewform?usp=sf_link)
 
   - month: "March"
     day: "17"
@@ -263,8 +263,8 @@ events:
     due: 
     released:
     pre-class: |
-      * Read [Chapter 15](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
-      * Answer the quiz on [Chapter 15](https://forms.gle/Nxg4im3XEzSo2VL88)
+      * Read [Chapter 15](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 15](https://docs.google.com/forms/d/e/1FAIpQLSc3bTN9zvAkGH96d58HH_dLzMjQ2OUH0h8bmqJkqIDN1udhPw/viewform?usp=sf_link)
 
   - month: "March"
     day: "26"
@@ -282,8 +282,8 @@ events:
     due: "Homework 7 by **10pm**"
     released: "Homework 8"    
     pre-class: |
-      * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
-      * Answer the quiz on [Chapter 19](https://forms.gle/ZCf1FoUMBFUkwusq9)
+      * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 19](https://docs.google.com/forms/d/e/1FAIpQLSfi1gftarGEPNiOIjG5csihhEulBhuyAjwNTXUOGGfXINMtKQ/viewform?usp=sf_link)
 
   - month: "March"
     day: "31"
@@ -293,7 +293,7 @@ events:
     due: 
     released:
     pre-class: |
-      * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
+      * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
   - month: "April"
     day: "02"
@@ -311,7 +311,7 @@ events:
     due: "Homework 8 by **10pm**"
     released: "Homework 9"        
     pre-class: |
-      * Read [Chapter 19.5](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
+      * Read [Chapter 19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
   - month: "April"
     day: "07"
@@ -349,8 +349,8 @@ events:
     due: 
     released:
     pre-class: |
-      * Read [Chapter 20](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
-      * Answer the quiz on [Chapter 20](https://forms.gle/sk8HyZq2cj5Eop7p8)
+      * Read [Chapter 20](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 20](https://docs.google.com/forms/d/e/1FAIpQLSesP-ow-bWEPpYw4aGgF0x7sOEHpX5hRJT1y_ttS0qX5EXwpw/viewform?usp=sf_link)
 
   - month: "April"
     day: "16"
@@ -369,8 +369,7 @@ events:
     due: "Homework 9 by **10pm**"
     released: "Homework 10"    
     pre-class: |
-      * Read [Chapter 20](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
-      * Answer the quiz on [Chapter 20](https://forms.gle/sk8HyZq2cj5Eop7p8)
+      * Read [Chapter 20](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
     
   - month: "April"
     day: "21"
@@ -378,7 +377,7 @@ events:
     topic: "Trees"
     slides: "https://drive.google.com/drive/folders/1L6GJiMTynRpTkoHWjaf8aYCMRIQNoCv_?usp=drive_link"
     pre-class: |
-      * Read [Chapters 16.1-16.3](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
+      * Read [Chapters 16.1-16.3](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
     
   - month: "April"
     day: "23"
@@ -396,8 +395,8 @@ events:
     due: "Homework 10 by **10pm**"
     released:
     pre-class: |
-      * Read [Chapters 16.1-16.3](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
-      * Answer the quiz on [Chapter 16](https://forms.gle/odsfaWDt3ZjWXms98)
+      * Read [Chapters 16.1-16.3](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 16](https://docs.google.com/forms/d/e/1FAIpQLScE08RdnZMHdLerrDUgY-9oDMe8X4UGAB7aFKVBBgrgdESCrw/viewform?usp=sf_link)
     
   - month: "April"
     day: "28"
@@ -407,8 +406,8 @@ events:
     due: 
     released:
     pre-class: |
-      * Read [Chapter 18](https://drive.google.com/file/d/17awNc6gcaXupgFkS3-27d9MArEzKGyRL)
-      * Answer the quiz on [Chapter 18](https://forms.gle/SRCXB42be8w7ovSK8)
+      * Read [Chapter 18](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 18](https://docs.google.com/forms/d/e/1FAIpQLSfk0iCXOo5CEKUmEIRdU8dkYlHlW4wrPWO0EiS2fYSbFtsoXg/viewform?usp=sf_link)
 
   - month: "April"
     day: "30"
