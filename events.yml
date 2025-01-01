@@ -20,7 +20,7 @@ events:
     day: "23"
     day-of-week: "Thursday"
     topic: "Introduction"
-    slides: "https://drive.google.com/drive/folders/1hp7vBmgzhbOae4SygV-DLE9Y8_9_nVjG?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/1NDMJvhhn2IqrnnHT01b6sEQ2L6ws2UOn?usp=drive_link"
     due: 
     released: "[Homework 1](/hw1)"
     pre-class: |
@@ -32,7 +32,7 @@ events:
     day: "27"
     day-of-week: "Monday"
     topic: "Java Constructs"
-    slides: "https://drive.google.com/drive/folders/1hXTjLMtH0f49ulIzFDRvEsdy068Yazs-?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/1bpi4EHMLo3FFDmzdjAuLqKxR1PXrAT5f?usp=drive_link"
     due: 
     released:
     pre-class: |
@@ -51,7 +51,7 @@ events:
     day: "30"
     day-of-week: "Thursday"
     topic: "Objects"
-    slides: "https://drive.google.com/drive/folders/1PdJ-CztfiWl0xqw2xJmHoQj30pUiaKli?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/1mBPQ20GVaYAnciw77lBrVlB-AR-OViKt?usp=drive_link"
     due: "Homework 1 by **10pm**"
     released: "Homework 2"
     pre-class: |
@@ -62,7 +62,7 @@ events:
     day: "03"
     day-of-week: "Monday"
     topic: "Objects"
-    slides: "https://drive.google.com/drive/folders/1PdJ-CztfiWl0xqw2xJmHoQj30pUiaKli?usp=drive_link"    
+    slides: "https://drive.google.com/drive/folders/1mBPQ20GVaYAnciw77lBrVlB-AR-OViKt?usp=drive_link"
     pre-class: |
       * Read [Chapter 5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
@@ -78,7 +78,7 @@ events:
     day: "06"
     day-of-week: "Thursday"
     topic: "Arrays and Arrays of Objects"
-    slides: "https://drive.google.com/drive/folders/1uEe65sZoGab5inLmgM8OG-RdUqcZjk2w?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/1bOkedRAAO9qAbWRyqSlZen2x0a_FSYdU?usp=drive_link"
     due: "Homework 2 by **10pm**"
     released: "Homework 3"
     pre-class: |
@@ -89,7 +89,7 @@ events:
     day: "10"
     day-of-week: "Monday"
     topic: "Arrays and Arrays of Objects"
-    slides: "https://drive.google.com/drive/folders/1uEe65sZoGab5inLmgM8OG-RdUqcZjk2w?usp=drive_link"    
+    slides: "https://drive.google.com/drive/folders/1bOkedRAAO9qAbWRyqSlZen2x0a_FSYdU?usp=drive_link"    
     pre-class: |
       * Read [Chapter 7](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
@@ -105,7 +105,7 @@ events:
     day: "13"
     day-of-week: "Thursday"
     topic: "Exceptions and IO"
-    slides: "https://drive.google.com/drive/folders/1eOAfDgurJXsP7es-Zg2qPxijz4_3HLFY?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/1bvYuCaKrUiMfZ2MMtb5UVrVfBF85P-lY?usp=drive_link"
     due: "Homework 3 by **10pm**"
     released: "Homework 4"
     pre-class: |
@@ -117,7 +117,7 @@ events:
     day-of-week: "Monday"
     special: "Presidents' Day on Monday (no classes). Tuesday follows a Monday schedule."
     topic: "Inheritance"
-    slides: "https://drive.google.com/drive/folders/1LZTKo5CyyJQNAM3f_nRd8sGNtfQ-W-pj?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/14QJe3SxOuWtvBFAkvah1AoLVVImR37IR?usp=drive_link"
     pre-class: |
       * Read [Chapter 8](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 8](https://docs.google.com/forms/d/e/1FAIpQLSeSzzvp1aNqPbErHByzVhHpkhp9cV1r8ekSTAxPBs-OTRDlxw/viewform?usp=sf_link)
@@ -134,7 +134,7 @@ events:
     day: "20"
     day-of-week: "Thursday"
     topic: "Polymorphism"
-    slides: "https://drive.google.com/drive/folders/1G6cFLJNfFPqJ7JQf2H1bfSR6RIC56aq0?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/15WWCmH55pzx31XwZU8sAeRFgEj5bEeGT?usp=drive_link"
     due: "Homework 4 by **10pm**"
     released: "Homework 5"
     pre-class: |
@@ -145,7 +145,7 @@ events:
     day: "24"
     day-of-week: "Monday"
     topic: "Stacks"
-    slides: "https://drive.google.com/drive/folders/1-p8-ATd7olY4EScZkoiXlwGVNq8imtwk?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/11qHHfpeHa9iWZuyPB-c85A6w6RqC_bjS?usp=drive_link"
     due:
     released: 
     pre-class: |
@@ -173,7 +173,7 @@ events:
     day: "03"
     day-of-week: "Monday"
     topic: "Stacks"
-    slides: "https://drive.google.com/drive/folders/1-p8-ATd7olY4EScZkoiXlwGVNq8imtwk?usp=drive_link"        
+    slides: "https://drive.google.com/drive/folders/11qHHfpeHa9iWZuyPB-c85A6w6RqC_bjS?usp=drive_link"        
     due: 
     released:
     pre-class: |
@@ -191,7 +191,7 @@ events:
     day: "06"
     day-of-week: "Thursday"
     topic: "LinearNodes and Linked Stacks"
-    slides: "https://drive.google.com/drive/folders/1iBCmi8IMPcTin5pZXYJbAK4bb-fUKf_-?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/1anhp1QFY3umRoXT1jjt5L40o5wLGzLuW?usp=drive_link"
     due: "Homework 5 by **10pm**"
     released: "Homework 6"    
     pre-class: |
@@ -202,7 +202,7 @@ events:
     day: "10"
     day-of-week: "Monday"
     topic: "Algorithm Analysis"
-    slides: "https://drive.google.com/drive/folders/1bm22U4t23ByRSYCu6v0ivvipkgfiw4G3?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/1qiW45AOgDthS7OhwjlJrsERQyuq8vgVG?usp=drive_link"
     due: 
     released:
     pre-class: |
@@ -221,7 +221,7 @@ events:
     day: "13"
     day-of-week: "Thursday"
     topic: "Sorting"
-    slides: "https://drive.google.com/drive/folders/1ykXNSDYRt7sVMQ0pM4o3SVNtRKApm_h0?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/1IWex3KUtTUOTlU5YAnbtwhYsHt1KJIMG?usp=drive_link"
     due: "Homework 6 by **10pm**"
     released: "Homework 7"    
     pre-class: |
@@ -259,7 +259,7 @@ events:
     day: "24"
     day-of-week: "Monday"
     topic: "Queues"
-    slides: "https://drive.google.com/drive/folders/1KAlwHY8hxN3JZGy8Ja_7ywbUEyBKSuzm?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/1z0tDbVYAW_BFYcyU0Xu5KzNkV2XL3Iv0?usp=drive_link"
     due: 
     released:
     pre-class: |
@@ -278,7 +278,7 @@ events:
     day: "27"
     day-of-week: "Thursday"
     topic: "Graphs"
-    slides: "https://drive.google.com/drive/folders/1DZRIeLlYccw2r9KqOyJFs92tzUPBySCJ?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/16t1yfZja3urbdy3AXN8fnWqYu_2tSQY1?usp=drive_link"
     due: "Homework 7 by **10pm**"
     released: "Homework 8"    
     pre-class: |
@@ -289,7 +289,7 @@ events:
     day: "31"
     day-of-week: "Monday"
     topic: "Depth-First Search"
-    slides: "https://drive.google.com/drive/folders/1OyPPyDE7TYZ4j3IaOFUBPgb3Jqh6ZIoN?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/1XqmtnD8ipUcDxQJe7B8wJkWwBsjKJ9rc?usp=drive_link"
     due: 
     released:
     pre-class: |
@@ -307,7 +307,7 @@ events:
     day: "03"
     day-of-week: "Thursday"
     topic: "Breadth-First Search"
-    slides: "https://drive.google.com/drive/folders/1jOcCxMUvDKBkyzF852X702Jc9wCRtrka?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/1QUjilSVffGm6Jbw1lA2DLfCGktOYZokq?usp=drive_link"
     due: "Homework 8 by **10pm**"
     released: "Homework 9"        
     pre-class: |
@@ -316,7 +316,8 @@ events:
   - month: "April"
     day: "07"
     day-of-week: "Monday"
-    topic: "The Ethics of Search Engines [[slides](https://drive.google.com/drive/folders/1ZVBAjdCX6kusS-1-KVxR2Ers2agOB66T?usp=sharing)]"
+    slides: "https://drive.google.com/drive/folders/189I-gjFBhFeoyZ6ckJuXco650EWKQ8ni?usp=drive_link"
+    topic: "The Ethics of Search Engines"
     pre-class: |
       * Watch [Page Rank](https://www.youtube.com/watch?v=IKXvSKaI2Ko) and [Algorithms of Oppression](https://www.youtube.com/watch?v=yHYbOg62QyE).
       * Answer the questions on Gradescope by **9am**.
@@ -345,7 +346,7 @@ events:
     day: "14"
     day-of-week: "Monday"
     topic: "Hash Tables"
-    slides: "https://drive.google.com/drive/folders/1jSOX9bDdKVvVlN8Hqq0FpqKFaDvgKAPu?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/1nJ6utxEsal9E5H9y95yYn645x0M4DnwT?usp=drive_link"
     due: 
     released:
     pre-class: |
@@ -365,7 +366,7 @@ events:
     day: "17"
     day-of-week: "Thursday"
     topic: "Hash Tables"
-    slides: "https://drive.google.com/drive/folders/1jSOX9bDdKVvVlN8Hqq0FpqKFaDvgKAPu?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/1nJ6utxEsal9E5H9y95yYn645x0M4DnwT?usp=drive_link"
     due: "Homework 9 by **10pm**"
     released: "Homework 10"    
     pre-class: |
@@ -375,7 +376,7 @@ events:
     day: "21"
     day-of-week: "Monday"
     topic: "Trees"
-    slides: "https://drive.google.com/drive/folders/1L6GJiMTynRpTkoHWjaf8aYCMRIQNoCv_?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/13SRo066DZSWM02xz33UaS-L19I945x1X?usp=drive_link"
     pre-class: |
       * Read [Chapters 16.1-16.3](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
     
@@ -391,7 +392,7 @@ events:
     day: "24"
     day-of-week: "Thursday"
     topic: "Trees"
-    slides: "https://drive.google.com/drive/folders/1L6GJiMTynRpTkoHWjaf8aYCMRIQNoCv_?usp=drive_link"    
+    slides: "https://drive.google.com/drive/folders/13SRo066DZSWM02xz33UaS-L19I945x1X?usp=drive_link"    
     due: "Homework 10 by **10pm**"
     released:
     pre-class: |
@@ -402,7 +403,7 @@ events:
     day: "28"
     day-of-week: "Monday"
     topic: "Priority Queues and Heaps"
-    slides: "https://drive.google.com/drive/folders/1BdK-PB_gKB7-HWIPgpE0PXD_4iPmv1Da?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/1zyhcyAjfIlSJkZEhHiTbb3zj3C6HL5HW?usp=drive_link"
     due: 
     released:
     pre-class: |
@@ -422,7 +423,7 @@ events:
     day-of-week: "Thursday"
     special: "Reading Period Begins (Tomorrow)."
     topic: "Priority Queues and Heaps"
-    slides: "https://drive.google.com/drive/folders/1BdK-PB_gKB7-HWIPgpE0PXD_4iPmv1Da?usp=drive_link"
+    slides: "https://drive.google.com/drive/folders/1zyhcyAjfIlSJkZEhHiTbb3zj3C6HL5HW?usp=drive_link"
     due: 
     released:
 
