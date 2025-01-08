@@ -15,15 +15,15 @@ layout: home
 **Prerequisites:** A student is required to have confirmation of authorization from the CS 111 faculty that is based on the mastery of the CS 111 concepts in order to enroll in CS 230. Students who did not take CS 111 at Wellesley and who wish to enroll in CS 230 should contact the CS department to take a placement questionnaire.
 
 **Meeting Times and Locations:**
-* Lecture: Mondays and Thursdays
+* Lecture: Mondays and Thursdays @ SCI L180
   * Lecture 01: 8:30-9:45am
   * Lecture 02: 9:55-11:10am
 * Lab:
-  * L01: Wednesdays, 10:30-12:20pm
-  * L02: Wednesdays, 1:30-3:20pm
-  * L03: Wednesdays, 3:30-5:20pm
-  * L04: Tuesdays, 11:30-1:20pm
-  * L05: Tuesdays, 1:30-3:20pm
+  * L01: Wednesdays, 10:30-12:20pm @ SCI H402
+  * L02: Wednesdays, 1:30-3:20pm @ SCI H402
+  * L03: Wednesdays, 3:30-5:20pm @ SCI H402
+  * L04: Tuesdays, 11:30-1:20pm @ SCI H402
+  * L05: Tuesdays, 1:30-3:20pm @ SCI E101 (note the different location!)
 
 <br/>
 
