@@ -43,7 +43,7 @@ After completing the course, you should be able to:
 * Attend all lectures, quit all social media while in class.
 * Attend all labs, quit all social media while in class.
 * Treat labs as an opportunity to engage your curiosity, delve deeply into topics introduced in class, practice asking and answering questions.
-* Read the book twice a week.
+* Read the assigned chapters before lecture.
 * Review the relevant book chapters, slides, and lab exercises BEFORE attempting to do the homework.
 * Read homework description immediately (Friday or Saturday at the latest).
 * Start working on the problem set as early as possible, and work on it a little bit every day, rather than trying to finish 1-2 days before it's due.

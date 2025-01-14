@@ -12,14 +12,12 @@ layout: default
 
 **Final Grades.** Your final grade for the course will be computed as a weighted average of several components. The relative weight of each component is shown below:
 * Assignments: 15%
+* Labs: 10%
 * Quizzes: 5%
 * Midterm I: 15%
 * Midterm II: 20%
 * Final Exam (during exam period): 25%
-* Participation:
-  * Labs: 10%
-  * Team Work: 5%
-  * Course Etiquette: 5%
+* Class participation, team work, and respectul engagement: 10%
 
 There is **no arbitrary limit** on the number of A's, B's, C's etc., and every student will be assigned the grade they earn and deserve according to the grading standards of the college.
 
@@ -49,7 +47,7 @@ We expect students to follow the guidelines below when emailing the course instr
 * After your late pass budget is exhausted, each additional 24-hour delay in assignment submission is assessed a late penalty that subtracts 10% of the maximum assignment grade from your awarded grade on that assignment.
 * To use a late day, you must fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSflfVaQmnH7WB6zUAag_zShihv7aV3wXWtmq6kfroItiEWHSg/viewform?usp=sf_link) **before the assignment deadline**.
 
-**Extenuating Circumstances.** If an emergency prevents you from completing an assessment/assignment as scheduled, we can make accomodations that support you in collaboration with your [class dean](https://www.wellesley.edu/advising/classdeans/staff) and/or [health services](https://www.wellesley.edu/healthservice). This sets a common standard for all students and ensures you are getting the support you need.
+**Extenuating Circumstances.** If an emergency prevents you from completing an assessment/assignment as scheduled, please let us know ASAP. Together with your [class dean](https://www.wellesley.edu/advising/classdeans/staff) and/or [health services](https://www.wellesley.edu/healthservice), we will find a way to support you! This sets a common standard for all students and ensures you are getting the support you need.
 
 **Missing Class.** If you know you will need to miss class due to illness or family emergency, let the course instructor know. Together, we can figure out how to proceed. 
 
