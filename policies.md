@@ -47,6 +47,8 @@ We expect students to follow the guidelines below when emailing the course instr
 * After your late pass budget is exhausted, each additional 24-hour delay in assignment submission is assessed a late penalty that subtracts 10% of the maximum assignment grade from your awarded grade on that assignment.
 * To use a late day, you must fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSflfVaQmnH7WB6zUAag_zShihv7aV3wXWtmq6kfroItiEWHSg/viewform?usp=sf_link) **before the assignment deadline**.
 
+**Late Assignments.** We *do not* accept assignments more than 3 days past the deadline. The goal of this policy is to make sure we're able to get you feedback in a timely matter, and to ensure the TAs' grading work is manageable (they are taking difficult courses, just like you!). 
+
 **Extenuating Circumstances.** If an emergency prevents you from completing an assessment/assignment as scheduled, please let us know ASAP. Together with your [class dean](https://www.wellesley.edu/advising/classdeans/staff) and/or [health services](https://www.wellesley.edu/healthservice), we will find a way to support you! This sets a common standard for all students and ensures you are getting the support you need.
 
 **Missing Class.** If you know you will need to miss class due to illness or family emergency, let the course instructor know. Together, we can figure out how to proceed. 
