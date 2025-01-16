@@ -49,6 +49,8 @@ We expect students to follow the guidelines below when emailing the course instr
 
 **Late Assignments.** We *do not* accept assignments more than 3 days past the deadline. The goal of this policy is to make sure we're able to get you feedback in a timely matter, and to ensure the TAs' grading work is manageable (they are taking difficult courses, just like you!). 
 
+**Partnered Assignments.** You *cannot* use late days on partnered assignments. As in individual assignments, 10% of the maximum assignment grade will be deducted for every late day, and we *will not* accept assignments more than 3 days late. Students who submit partnered assignments individually will receive very delayed feedback (for logistical reasons), and will be marked down in their participation / team-work grade.
+
 **Extenuating Circumstances.** If an emergency prevents you from completing an assessment/assignment as scheduled, please let us know ASAP. Together with your [class dean](https://www.wellesley.edu/advising/classdeans/staff) and/or [health services](https://www.wellesley.edu/healthservice), we will find a way to support you! This sets a common standard for all students and ensures you are getting the support you need.
 
 **Missing Class.** If you know you will need to miss class due to illness or family emergency, let the course instructor know. Together, we can figure out how to proceed. 
