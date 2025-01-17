@@ -43,7 +43,7 @@ events:
   - month: "January"
     day: "29"
     day-of-week: "Wednesday"
-    topic: "Java Constructs (User Names, Voting)"
+    topic: "Java Constructs User Names, Voting"
     slides: "https://docs.google.com/document/d/14783tuldvGVW16WgvZGitPtZ_n14VYMM/edit#heading=h.gjdgxs"
     due:
     released:
