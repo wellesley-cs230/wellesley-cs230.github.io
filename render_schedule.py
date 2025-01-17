@@ -57,7 +57,9 @@ def main():
 
             with row.add(tags.td(cls=td_tags)):
                 # TODO do not hardcode this
+                lab = False
                 if event['day-of-week'] == 'Wednesday':           
+                    lab = True
                     tags.span('Lab', cls='date_label date_label_day')
                 else:
                     tags.span(event['day'], cls='date_label date_label_day')   
@@ -88,7 +90,7 @@ def main():
 
                     if pre_class is not None:
                         with tags.li():
-                            tags.span('Pre-Class:', cls='tag preclass_tag')
+                            tags.span('Pre-Lab:' if lab else 'Pre-Class:', cls='tag preclass_tag')
                             tags.span(convert_md_to_html_if_multiline(pre_class))
                             
                     if due is not None:
