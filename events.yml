@@ -32,7 +32,7 @@ events:
   - month: "January"
     day: "27"
     day-of-week: "Monday"
-    topic: "Java Constructs"
+    topic: "Java Constructs (User Names, Voting)"
     slides: "https://drive.google.com/drive/folders/1bpi4EHMLo3FFDmzdjAuLqKxR1PXrAT5f?usp=drive_link"
     due: 
     released:
