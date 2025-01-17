@@ -85,11 +85,11 @@ After completing the course, you should be able to:
 
 **Lectures.** There are two 75-minute lectures each week that will introduce the main content of the course.
 
-**Labs.** Every student is required to complete and submit the weekly lab practice. Lab work will include exercises to review and reinforce the lecture material and to develop general programming, testing and debugging skills. The labs will also provide further opportunity to ask questions about course material. In labs you will be working with a partner. Labs are not a race to the finish, but are your opportunity to practice and explore the material together with your partner. A successful lab is one where both partners are on the same page about their solution for the tasks, they are communicating honestly and continuously, and are willing to ask for and offer help to one another. 
-Our labs this semester will be organized on Google classroom. You should have received an invitation for it. That is where you will find instructions for each lab, how to prepare, what to submit, as well as solutions for some of the tasks. These solutions will be provided by midday on Wednesday. 
-In order to prepare for lab, you will also have to submit some exercises (labeled "Prelab" in Google classroom). These are due Mondays at 7pm. 
-In order to get credit for lab, you have to submit the material described in the instructions, as well as a self-assessment, that asks you to engage with the material, the code you wrote, and your learning. These are due Friday at 5pm. 
-You are expected to check the calendar regularly to make sure you submit what is necessary on time.
+**Labs.** Attending your 110-minute lab each week is a requirement. 
+Lab work includes exercises to review and reinforce the lecture material and to develop general programming, testing and debugging skills. You will be working mostly with a partner in the lab. Labs give you also an extra opportunity to ask questions about course material. In general, note that some labs might contain more tasks than can reasonably be done in the available class time. This is on purpose! Labs are not a race to the finish, but are your opportunity to practice and explore the material together with your partner. 
+At the end of the day of your lab, each student is required to individually submit whatever lab work they have produced until then. 
+Solutions to lab exercises will be provided at the end of the last lab day; you are strongly encouraged to incorporate studying these solutions as part of your studying for the class. 
+Some labs contain a 'pre-lab' component which is to be completed individually and submitted before the lab. 
 
 <!--
 **Supplemental Instruction (SI).** SI is an academic support program offered for selected Wellesley courses. Our academic SI leaders are trained and highly experienced in tutoring CS230. They will offer a study session each week throughout the semester. During SI sessions they will cover problem set solutions and review important concepts. SI sessions are open to all students enrolled in the course. We highly recommend attending the SI session every week, as well as reviewing the handouts used in SI sessions.
