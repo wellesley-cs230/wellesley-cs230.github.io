@@ -72,7 +72,7 @@ events:
     day: "05"
     day-of-week: "Wednesday"
     topic: "User Defined Classes, Objects"
-    slides: Animal: "https://docs.google.com/document/d/14783tuldvGVW16WgvZGitPtZ_n14VYMM/edit#heading=h.gjdgxs"
+    slides: "https://docs.google.com/document/d/14783tuldvGVW16WgvZGitPtZ_n14VYMM/edit#heading=h.gjdgxs"
     due:
     released:
     pre-class:
