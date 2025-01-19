@@ -15,7 +15,8 @@ events:
     slides: "https://docs.google.com/document/d/1POgUhEaG-a8xKDkJuMc1m682slkgdPl2/edit#heading=h.x069wb5bgija"
     due:
     released: 
-    pre-class:
+    pre-class: |
+      * Answer the [entry questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSfXlIIodr9puEdUVqeI9NmsmRk8eF5VDm_KZ-Vhxsrz-QcVSA/viewform?usp=sf_link) by **Sunday, Jan 19 at midnight**.
 
   - month: "January"
     day: "23"
