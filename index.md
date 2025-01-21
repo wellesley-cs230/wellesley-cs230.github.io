@@ -22,8 +22,8 @@ layout: home
   * L01: Wednesdays, 10:30-12:20pm @ SCI H402
   * L02: Wednesdays, 1:30-3:20pm @ SCI H402
   * L03: Wednesdays, 3:30-5:20pm @ SCI H402
-  * L04: Tuesdays, 11:30-1:20pm @ SCI H402
-  * L05: Tuesdays, 1:30-3:20pm @ SCI E101 (note the different location!)
+  * L04: Tuesdays, 11:30-1:20pm @ SCI E101 (note the new location!)
+  * L05: Tuesdays, 1:30-3:20pm @ SCI E101 
 
 <br/>
 
