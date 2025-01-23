@@ -246,7 +246,7 @@ Your Gradescope submission should contain the following:
 <br/>
 
 
-# Homework 1, Part C: Recursion
+# Homework 1, Part C: Sequences with Recursion
 
 
 ## Goals:
@@ -263,7 +263,20 @@ Write a program, `RecursionPractice.java`, that contains two methods:
 
 ## Testing your program
 
-Please follow the same guidelines for testing as above, savings the results of your testing in a file called `RecursionPractice.txt`.
+Please include a `main` method in your program where you will write your tests. As before, your tests should rigorously test all aspects of your code. Additionally, your tests should make it easy for the grader to know what your code produced and what it should expect. For example, for testing `fibonacci`, your `.txt` test file should look like:
+```
+Testing fibonacci...
+Term n = 1 should be 1. Got 1.
+Term n = 2 should be 1. Got 1.
+Term n = 3 should be 2. Got 2.
+Term n = 4 should be 3. Got 3.
+Term n = 5 should be 5. Got 5.
+...
+```
+Notice how this `.txt` file makes it clear (a) what is being tested, (b) what the program *should* output, and (c) what your program *actually* outputted.
+
+Please save the results of your testing in a file called `RecursionPractice.txt`.
+
 
 
 ## What to submit
