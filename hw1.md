@@ -5,23 +5,23 @@ layout: default
 # Homework 1, Part A: Area of a Triangle
 
 
-# Goals:
+## Goals:
 
 Practice with:
-* working with BlueJ IDE to write, compile, run simple java programs
-* java primitive data types, expressions and operators
-* defining and calling methods
-* selecting testing values to determine whether program will work in all possible cases
+* Working with BlueJ IDE to write, compile, run simple java programs
+* Java primitive data types, expressions and operators
+* Defining and calling methods
+* Selecting testing values to determine whether program will work in all possible cases
 
 
 
 ## Description
 
-Write a program, `AreaTriangle`, that prompts the user three times for the side lengths of a triangle. Based on these three inputs, the program checks and prints whether this triangle is isosceles or not, as well as its area. In addition to the `main` method, **your program should also define three
+Write a program, `AreaTriangle.java`, that prompts the user three times for the side lengths of a triangle. Based on these three inputs, the program checks and prints whether this triangle is isosceles or not, as well as its area. In addition to the `main` method, **your program should also define three
 other static methods**:
-  1. a predicate method `isValidTriangle` to check whether the three inputs define a triangle, based on the **triangular inequality** (that is, the sum of any two sides of a triangle is strictly greater than the third side),
-  2. a method to `getHeronArea` compute the triangle's area based on [Heron's Formula](http://en.wikipedia.org/wiki/Heron%27s_formula) given the three side lengths,
-  3. a predicate method `isIsosceles`  to check whether the triangle is isosceles
+  1. A predicate method `isValidTriangle` to check whether the three inputs define a triangle, based on the **triangular inequality** (that is, the sum of any two sides of a triangle is strictly greater than the third side),
+  2. A method to `getHeronArea` compute the triangle's area based on [Heron's Formula](http://en.wikipedia.org/wiki/Heron%27s_formula) given the three side lengths,
+  3. A predicate method `isIsosceles`  to check whether the triangle is isosceles
 
 Some important notes on this exercise:
 
@@ -42,6 +42,13 @@ Please use the starter code below:
 
 `AreaTriangle.java`:
 ```java
+/**
+ * Write a description of AreaTriangle here.
+ *
+ * @author (write your name here)
+ * @version (write a version number or a date here)
+ */
+
 // Import the necessary library (Scanner), to read user-inputted text
 import java.util.Scanner;
 
@@ -94,7 +101,10 @@ public class AreaTriangle
 
 ## Testing your program
 
-Think carefully about the set of inputs (testing cases) you will provide to your program to assert its correctness. Your inputs should be such that every method you wrote is tested (invoked) as your program runs.
+To test your program, we encourage you to think of:
+1. Does your code satisfy all requirements from the specification above?
+2. What types of "edge" cases might trip up your code?
+3. Do your tests check *every execution path* in your code? That is, if you have an if-else expression, one test should make the program go through the 'if' and another should go througth the 'else'.
 
 To show work for your testing, please run the program with many different inputs that trigger every execution path. For each run, save the results of your testing produced in the "BlueJ: Terminal Window" into a `.txt` file (Options > Save to File...). Finally, compose a file called `AreaTriangleTest.txt` containing the outputs of each of your test runs.
 
@@ -103,24 +113,24 @@ To show work for your testing, please run the program with many different inputs
 
 It is a standard policy of this course that submissions that have not been signed (`@author`) and dated (`@version`) will not be graded.
 
-
-
 Your Gradescope submission should contain the following:
 
-1. your <code>AreaTriangle.java</code> file
-2. your <code>AreaTriangleTest.txt</code> file that contains your testing results
+1. Your `AreaTriangle.java` file
+2. Your `AreaTriangleTest.txt` file
 
 
 <br/>
 
 # Homework 1, Part B: Fun with Loops
 
+
 ## Goals:
+
 Practice with:
-* working with BlueJ IDE to write, compile, run simple java programs
-* java primitive data types, expressions and operators
-* practicing loops
-* selecting testing values
+* Working with BlueJ IDE to write, compile, run simple java programs
+* Java primitive data types, expressions and operators
+* Practicing loops
+* Selecting testing values
 
 
 
@@ -220,9 +230,7 @@ Please note:
 
 ## Testing your program
 
-Think carefully about the set of inputs (testing cases) you will provide to your program to assert its correctness. Your inputs should be such that every method you wrote is tested (invoked) as your program runs.
-
-In BlueJ, save the results of your testing produced in the "BlueJ: Terminal Window" into a file called loopsTest.txt. (Options > Save to File...)
+Please follow the same guidelines for testing as above, savings the results of your testing in a file called `FunLoopsTest.txt`.
 
 ## What to submit
 
@@ -230,8 +238,8 @@ It is a standard policy of this course that submissions that have not been signe
 
 Your Gradescope submission should contain the following:
 
-1. your <code>FunLoops.java</code> source file
-2. your <code>loopsTest.txt</code> text file that contains your testing results
+1. Uour `FunLoops.java` source file
+2. Your `FunLoopsTest.txt` text file 
 
 
 
@@ -246,3 +254,4 @@ Your Gradescope submission should contain the following:
 * You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
 * You wrote javadoc for every function, which includes `@param` and `@return`.
 * You wrote inline comments explaining the logic of your code.
+
