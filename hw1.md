@@ -243,6 +243,25 @@ Your Gradescope submission should contain the following:
 
 
 
+# Homework 1, Part C: Recursion
+
+
+## Goals:
+
+Practice with recursion!
+
+
+## Description
+
+Write a program, `RecursionPractice.java`, that contains two methods:
+* `public static double power(double x, int p)`. This method should use recursion to compute $x^p$. Note: this method should work for *all* possible values of $p$.
+* `public static int fibonacci(int n)`. This method should use recursion to compute the $n$th term in the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence). For example, if $n = 7$, the sequence is `1 1 2 3 5 8 13`, and the method should return 13. Here, you can assume $n > 0$.
+
+
+# Testing your program
+
+Please follow the same guidelines for testing as above, savings the results of your testing in a file called `RecursionPractice.txt`.
+
 
 <br/>
 
