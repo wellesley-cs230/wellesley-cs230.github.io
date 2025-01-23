@@ -261,7 +261,7 @@ Write a program, `RecursionPractice.java`, that contains two methods:
 * `public static int fibonacci(int n)`. This method should use recursion to compute the $n$th term in the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence). For example, if $n = 7$, the sequence is `1 1 2 3 5 8 13`, and the method should return 13. Here, you can assume $n > 0$.
 
 
-# Testing your program
+## Testing your program
 
 Please follow the same guidelines for testing as above, savings the results of your testing in a file called `RecursionPractice.txt`.
 
