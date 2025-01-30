@@ -145,7 +145,35 @@ Finally, save the results of your program into a textfile named `StringOpsTestin
 When done, submit your <code>StringOps.java</code> along with the <code>StringOpsTesting.txt</code> that shows the results of your comprehensive testing. Please DO NOT submit any other file but these two.
 
  
- 
+# Homework 2, Part C: Practice Creating Classes
+
+## Goals
+1. To practice creating Java classes
+2. Practice testing your code
+
+## Task
+
+**Attributes.** Create a new class called `LibraryBook`, which has the following properties:
+* `title`
+* `author`
+* `isCheckedOut`
+
+For each of these properties, consider: what type of variable will you store them in? and how will you encapsulate them?
+
+**Behaviors.** The class should also support the following behaviors:
+* `getTitle`, returns the title of the book.
+* `getAuthor`, returns the author of the book.
+* `isAvailable`, returns true if the book is in the library.
+* `checkOut`, marks the book as checked out. The method should print out an error message if trying to checkout a book that's not available.
+* `returnBook`, marks the book as available. The method should print out an error message if trying to return a book that's not currently checked out.
+* `toString`, returns a string representation of the book.
+
+For each of these methods, consider: what should it take as input, and what should it return?
+
+**Testing.** Create a `main` method in which you instantiate your favorite book and test each of the methods you implemented.
+As always, your tests should make it easy for the grader to know what you're testing, what your code produced, and what it should have produced.
+Store your tests in `LibraryBookTests.txt`.
+
  
 <br/>
 
