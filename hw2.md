@@ -24,7 +24,6 @@ In this problem you are asked to write a program to decide whether a given Strin
 
 ###  Step 2: The plan
 As is the case with any non-trivial problem, there are more than one way to solve it. We encourage you to try to think of one on your own.
-
 However, for this task, you need to implement the plan described here:
  * Write a method `reverseString()` that returns a copy of the input string containing its characters in reverse order.
  * Write a predicate method `theSame()` that compares two input strings (the original and the reversed copy) character-by-character. If all characters match, then it returns true. If not, it returns false.
@@ -42,7 +41,7 @@ Only now you are ready to start writing Java code.
 
 Create a new project and add a class named `FunWithStrings`. In there:
 
-1. Add a `main()` method to hold your testing as you go. 
+1. Add a `main` method to hold your testing as you go. 
 
 2. Add method `public static String reverseString(String s)` that takes as input a string and returns another string with its characters in reverse order. Test this method to make sure it works as intended before moving to the next one.
 
@@ -143,6 +142,10 @@ Finally, save the results of your program into a textfile named `StringOpsTestin
 
 ## Submitting
 When done, submit your <code>StringOps.java</code> along with the <code>StringOpsTesting.txt</code> that shows the results of your comprehensive testing. Please DO NOT submit any other file but these two.
+
+
+
+<br/>
 
  
 # Homework 2, Part C: Practice Creating Classes
