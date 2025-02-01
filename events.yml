@@ -74,7 +74,7 @@ events:
     day: "05"
     day-of-week: "Wednesday"
     topic: "User Defined Classes, Objects (Animal class)"
-    slides: "https://docs.google.com/document/d/1BIZJla7aavD0UVnVn5D7dP850riasOI0/edit"
+    slides: "hhttps://docs.google.com/document/d/1BIZJla7aavD0UVnVn5D7dP850riasOI0/edit"
     due:
     released:
     pre-class:
@@ -101,7 +101,8 @@ events:
   - month: "February"
     day: "12"
     day-of-week: "Wednesday"
-    topic: "Arrays and Arrays of Objects"
+    topic: "Arrays and Arrays of Objects (Zoo of Animals)"
+    slides: "https://docs.google.com/document/d/16eec_3UMjGvtIdq0FY5-I0B2KSUn52i8/edit"
     due:
     released:
     pre-class:
