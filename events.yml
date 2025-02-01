@@ -77,7 +77,7 @@ events:
     slides: "https://docs.google.com/document/d/1BIZJla7aavD0UVnVn5D7dP850riasOI0/edit"
     due:
     released:
-    pre-class:
+   pre-class: "Complete pre-lab tasks."
 
   - month: "February"
     day: "06"
