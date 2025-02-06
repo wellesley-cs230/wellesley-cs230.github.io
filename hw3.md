@@ -187,7 +187,7 @@ public class FlightTest
 
 
 ## What to submit
-* Submit only your <code>Flight.java` and your <code>FlightTesting.txt` that contains the results of your testing.
+* Submit only your `Flight.java` and your `FlightTesting.txt` that contains the results of your testing.
 * We expect your code to have careful and meaningful documentation (inline as well as Javadoc) on every method and for the whole file. Also, do not forget to include the `@author` and `@version` fields in the file documentation.
 
 
