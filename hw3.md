@@ -13,36 +13,35 @@ layout: default
 
 ## Task: Flights and Stopovers <small>Flight Class</small>
 
-Implement a class called **Flight**
-[(here is the Flight javadoc)](/docs/Flight.html)
-to represents an airline flight.
+Implement a class called `Flight`, following its specification in [its javadoc](/docs/Flight.html).
 
 ### Step 1: Instance variables
-The following properties represent a Flight object:
+You'll notice from the javadoc, a `Flight` has several properties, including:
 1. the name of the airline,
 2. the flight number,
 3. the flight's origin city, and
 4. the flights's destination city.
 
 ### Step 2: Constructor
-Create a constructor for a `Flight` object. This should take as input all the needed information to create a flight. Think carefully: how many parameters should it have? What types should these parameters be?
+Create a constructor for a `Flight` object. This should take as input all the needed information to create a flight. How many parameters should it have? What types should these parameters be?
 
-### Step 3: Instance methods
+### Step 3: Instance and static methods
+
+Implement the `Flight` class's method from the javadoc. Among them are the following **instance** methods:
+
 1. `toString()`. As with any other class you write, define this method to provide the means of printing the contents of the object in an informative and concise way. Don't forget to use this method as you test your code in the main().
-
 2. `isAnAlternative()`, a predicate method that takes as input a flight and returns true iff (if and only if) the invoker flight's origin and destination are the same as the input flight's origin and destination.
-
 3. `isAStopOver()`, a predicate method that takes as input a flight and returns true iff (if and only if) the invoker flight's destination is the same as the input flight's origin.
 
-
-### Step 4: Static methods
-Create the following methods:
-
+Additionally, implement the **static** methods, including:
 1. `readFlight()`, a *static* method that asks and collects from the user all the information regarding a flight. Using this information, it creates a `Flight`, and returns it. This method takes as input a `Scanner`.
-
 2. Make sure to include a  `main()` method, for testing purposes. As always, make sure you test all the methods you have defined, and to test each method before moving onto the next one.
 
-It is important that you write code in your `main()` method to test your program thoroughly. In it create a few `Flight` objects, and test all your methods on them. Save the results of your testing into `FlightTesting.txt` to be submitted with your source code. You can take a look at the result of our test code for inspiration:
+
+### Step 4: Testing
+
+It is important that you write code in your `main` method to test your program thoroughly. In it, create a few `Flight` objects, and test all your methods on them. Save the results of your testing into `FlightTesting.txt` to be submitted with your source code. You can take a look at the result of our test code for inspiration:
+
 
 ```text
 Testing manual entry
@@ -80,7 +79,7 @@ Flights DL55 from LAX to SFO  and AA123 from SFO to BOS  share stopover city (TR
 ```
 
 
-### Step 5: Unit-Testing your code (optional)
+### Step 5: Unit-Testing your code (optional, but recommended!)
 
 Use the code below to test your implementation. To do this, create a new class, `FlightTest.java`, and replace its content with the code below. After compiling all of your code, write click on the class in the project viewer, and select "Test All." You will be using this code in the next homework, so it's good to make sure it's correct!
 
@@ -188,7 +187,7 @@ public class FlightTest
 
 
 ## What to submit
-* Submit only your <code>Flight.java</code> and your <code>FlightTesting.txt</code> that contains the results of your testing.
+* Submit only your <code>Flight.java` and your <code>FlightTesting.txt` that contains the results of your testing.
 * We expect your code to have careful and meaningful documentation (inline as well as Javadoc) on every method and for the whole file. Also, do not forget to include the `@author` and `@version` fields in the file documentation.
 
 
@@ -209,11 +208,12 @@ public class FlightTest
 <!-- Refresh your memory on how to use recursion -->
 * Understand how to compare floats
 
+
 ## Task:  Points and Distances
 
-### Point Class
-Create a class, named <code>Point</code> to represent a point on the Cartesian plane.
-[Study our own Point documentation.](/docs/Point.html)
+
+Create a class, named `Point` to represent a point on the Cartesian plane, following [this javadoc](/docs/Point.html).
+
 
 ### Step 1: Instance Variables
  A point in the Cartesian plane has **x** and **y** coordinates, both of type `double`.
@@ -232,14 +232,10 @@ Include appropriate getters and setters. Make sure to check the [javadoc](/docs/
 
 ### Step 5: Instance Methods
 
-Define the following instance methods:
-
-* `findDistance()`: an *instance* method that takes as parameter a `Point`. It computes and returns the distance between the current `Point` (also known as <code>this</code>) and the parameter, using the Pythagorean formula.
-
+Define all instance methods listed in the javadoc, including:
+* `findDistance()`: an *instance* method that takes as parameter a `Point`. It computes and returns the distance between the current `Point` (also known as `this`) and the parameter, using the Pythagorean formula.
 * `areEquidistant()`: an *instance* predicate method that takes as input two `Point` objects, and returns true iff (if and only if) the distances between the current (`this`) Point and each of the input points differ by less than some amount called *TOLERANCE*. Define TOLERANCE as a final variable with the value of 0.01.
-
-<!--* **readPoint()**: a *static* method that reads the **x** and **y** coordinates from the keyboard, and calls the constructor to create and return a new `Point` object.-->
-
+* **readPoint()**: a *static* method that reads the **x** and **y** coordinates from the keyboard, and calls the constructor to create and return a new `Point` object.
 * Include a  `main()` method for testing purposes. Make sure to create at least three instances of type `Point`. Compute, and report if any of the points created is equidistant to the other two.
 
 
@@ -249,14 +245,14 @@ Define the following instance methods:
 * The `main` method should be short and high level: It should consist primarily of calling other methods from the class.
 * Make sure to test each method carefully before moving on to the next one.
 * Choose your testing cases carefully to thoroughly test all the methods you defined. Print what you expect the test to produce and the result of your method call.
-* When finished, save the printout of your `main` into a file named <code>TestingPoint.txt</code>. You will submit this file too.
+* When finished, save the printout of your `main` into a file named `TestingPoint.txt`. You will submit this file too.
 * Make sure to read the javadoc provided carefully, to ensure your methods work as expected.
+* We recommend that you implement and test the *instance* methods first, and leave the static *readPoint()* for last. We encourage you to test the instance methods using "hard values" first, like for example: `new Point(1.0, 2.0)`. This way you can test your code in a quick and efficient way. Using the *readPoint()* to get the input from every single testing from the keyboard would be very time consuming.
+Of course, once you have the *readPoint()* defined, you will need to test it appropriately.
 
-<!--* We recommend that you implement and test the *instance* methods first, and leave the static *readPoint()* for last. We encourage you to test the instance methods using "hard values" first, like for example: `new Point(1.0, 2.0)`. This way you can test your code in a quick and efficient way. Using the *readPoint()* to get the input from every single testing from the keyboard would be very time consuming.
-Of course, once you have the *readPoint()* defined, you will need to test it appropriately.-->
 ## What to submit:
 
-* Submit only your <code>Point.java</code> file and a <code>TestingPoint.txt</code> file that contains the results of your testing.
+* Submit only your `Point.java` file and a `TestingPoint.txt` file that contains the results of your testing.
 * We expect your code to have careful and meaningful documentation on every method and for the whole file. Also, do not forget to include the `@author` and `@version` fields in the file documentation. Without them, the graders will not grade your work.
 
 
