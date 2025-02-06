@@ -73,11 +73,11 @@ events:
   - month: "February"
     day: "05"
     day-of-week: "Wednesday"
-    topic: "User Defined Classes, Objects"
-    slides: "https://docs.google.com/document/d/14783tuldvGVW16WgvZGitPtZ_n14VYMM/edit#heading=h.gjdgxs"
+    topic: "User Defined Classes, Objects (Animal class)"
+    slides: "https://docs.google.com/document/d/1BIZJla7aavD0UVnVn5D7dP850riasOI0/edit"
     due:
     released:
-    pre-class:
+    pre-class: "Complete pre-lab tasks."
 
   - month: "February"
     day: "06"
@@ -101,10 +101,11 @@ events:
   - month: "February"
     day: "12"
     day-of-week: "Wednesday"
-    topic: "Arrays and Arrays of Objects"
+    topic: "Arrays and Arrays of Objects (Zoo of Animals)"
+    slides: "https://docs.google.com/document/d/16eec_3UMjGvtIdq0FY5-I0B2KSUn52i8/edit#heading=h.gy3vrxr13hh0"
     due:
     released:
-    pre-class:
+    pre-class: "Complete pre-lab tasks."
 
   - month: "February"
     day: "13"
