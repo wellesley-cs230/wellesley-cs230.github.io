@@ -29,13 +29,13 @@ Create a constructor for a `Flight` object. This should take as input all the ne
 
 Implement the `Flight` class's method from the javadoc. Among them are the following **instance** methods:
 
-1. `toString()`. As with any other class you write, define this method to provide the means of printing the contents of the object in an informative and concise way. Don't forget to use this method as you test your code in the main().
-2. `isAnAlternative()`, a predicate method that takes as input a flight and returns true iff (if and only if) the invoker flight's origin and destination are the same as the input flight's origin and destination.
-3. `isAStopOver()`, a predicate method that takes as input a flight and returns true iff (if and only if) the invoker flight's destination is the same as the input flight's origin.
+1. `toString`. As with any other class you write, define this method to provide the means of printing the contents of the object in an informative and concise way. Don't forget to use this method as you test your code in the main.
+2. `isAnAlternative`, a predicate method that takes as input a flight and returns true iff (if and only if) the invoker flight's origin and destination are the same as the input flight's origin and destination.
+3. `isAStopOver`, a predicate method that takes as input a flight and returns true iff (if and only if) the invoker flight's destination is the same as the input flight's origin.
 
 Additionally, implement the **static** methods, including:
-1. `readFlight()`, a *static* method that asks and collects from the user all the information regarding a flight. Using this information, it creates a `Flight`, and returns it. This method takes as input a `Scanner`.
-2. Make sure to include a  `main()` method, for testing purposes. As always, make sure you test all the methods you have defined, and to test each method before moving onto the next one.
+1. `readFlight`, a *static* method that asks and collects from the user all the information regarding a flight. Using this information, it creates a `Flight`, and returns it. This method takes as input a `Scanner`.
+2. Make sure to include a  `main` method, for testing purposes. As always, make sure you test all the methods you have defined, and to test each method before moving onto the next one.
 
 
 ### Step 4: Testing
@@ -223,8 +223,8 @@ Provide two constructors:
 * A constructor without parameters creates a `Point` at location (0.0, 0.0).
 * A two-parameter constructor takes as input two `double` numbers corresponding to x and y, and constructs an object of type `Point` at location (x, y).
 
-### Step 3: `toString()`
-As with any other class you write, define a **toString()** method to provide the means of
+### Step 3: `toString`
+As with any other class you write, define a `toString` method to provide the means of
 printing the contents of the object in an informative and concise way.
 
 ### Step 4: Getters and Setters
@@ -233,10 +233,10 @@ Include appropriate getters and setters. Make sure to check the [javadoc](/docs/
 ### Step 5: Instance Methods
 
 Define all instance methods listed in the javadoc, including:
-* `findDistance()`: an *instance* method that takes as parameter a `Point`. It computes and returns the distance between the current `Point` (also known as `this`) and the parameter, using the Pythagorean formula.
-* `areEquidistant()`: an *instance* predicate method that takes as input two `Point` objects, and returns true iff (if and only if) the distances between the current (`this`) Point and each of the input points differ by less than some amount called *TOLERANCE*. Define TOLERANCE as a final variable with the value of 0.01.
-* **readPoint()**: a *static* method that reads the **x** and **y** coordinates from the keyboard, and calls the constructor to create and return a new `Point` object.
-* Include a  `main()` method for testing purposes. Make sure to create at least three instances of type `Point`. Compute, and report if any of the points created is equidistant to the other two.
+* `findDistance`: an *instance* method that takes as parameter a `Point`. It computes and returns the distance between the current `Point` (also known as `this`) and the parameter, using the Pythagorean formula.
+* `areEquidistant`: an *instance* predicate method that takes as input two `Point` objects, and returns true iff (if and only if) the distances between the current (`this`) Point and each of the input points differ by less than some amount called *TOLERANCE*. Define TOLERANCE as a final variable with the value of 0.01.
+* `readPoint`: a *static* method that reads the **x** and **y** coordinates from the keyboard, and calls the constructor to create and return a new `Point` object.
+* Include a  `main` method for testing purposes. Make sure to create at least three instances of type `Point`. Compute, and report if any of the points created is equidistant to the other two.
 
 
 ### Notes and Tips:
@@ -247,8 +247,8 @@ Define all instance methods listed in the javadoc, including:
 * Choose your testing cases carefully to thoroughly test all the methods you defined. Print what you expect the test to produce and the result of your method call.
 * When finished, save the printout of your `main` into a file named `TestingPoint.txt`. You will submit this file too.
 * Make sure to read the javadoc provided carefully, to ensure your methods work as expected.
-* We recommend that you implement and test the *instance* methods first, and leave the static *readPoint()* for last. We encourage you to test the instance methods using "hard values" first, like for example: `new Point(1.0, 2.0)`. This way you can test your code in a quick and efficient way. Using the *readPoint()* to get the input from every single testing from the keyboard would be very time consuming.
-Of course, once you have the *readPoint()* defined, you will need to test it appropriately.
+* We recommend that you implement and test the *instance* methods first, and leave the static *readPoint* for last. We encourage you to test the instance methods using "hard values" first, like for example: `new Point(1.0, 2.0)`. This way you can test your code in a quick and efficient way. Using the *readPoint* to get the input from every single testing from the keyboard would be very time consuming.
+Of course, once you have the *readPoint* defined, you will need to test it appropriately.
 
 ## What to submit:
 
