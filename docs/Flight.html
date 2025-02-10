@@ -179,8 +179,8 @@ extends java.lang.Object</pre>
 </td>
 </tr>
 <tr id="i10" class="altColor">
-<td class="colFirst"><code>static boolean</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#stopOver(Flight,Flight)">stopOver</a></span>&#8203;(<a href="Flight.html" title="class in &lt;Unnamed&gt;">Flight</a>&nbsp;f1,
+<td class="colFirst"><code>boolean</code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#isAStopOver(Flight,Flight)">isAStopOver</a></span>&#8203;(<a href="Flight.html" title="class in &lt;Unnamed&gt;">Flight</a>&nbsp;f1,
         <a href="Flight.html" title="class in &lt;Unnamed&gt;">Flight</a>&nbsp;f2)</code></th>
 <td class="colLast">
 <div class="block">Checks weather the destination of the first iput flight is the same as origin ofthe second.</div>
@@ -359,16 +359,14 @@ extends java.lang.Object</pre>
 </dl>
 </li>
 </ul>
-<a id="stopOver(Flight,Flight)">
+<a id="isAStopOver(Flight,Flight)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>stopOver</h4>
-<pre class="methodSignature">public static&nbsp;boolean&nbsp;stopOver&#8203;(<a href="Flight.html" title="class in &lt;Unnamed&gt;">Flight</a>&nbsp;f1,
-                               <a href="Flight.html" title="class in &lt;Unnamed&gt;">Flight</a>&nbsp;f2)</pre>
-<div class="block">Checks weather the destination of the first iput flight is the same as origin ofthe second.
- It returns true if this is the case, false otherwise</div>
+<h4>isAStopOver</h4>
+<pre class="methodSignature">public static&nbsp;boolean&nbsp;isAStopOver&#8203;(<a href="Flight.html" title="class in &lt;Unnamed&gt;">Flight</a>&nbsp;f)</pre>
+<div class="block">Checks weather the destination of the flight is the same as origin of the flight that was passed in. It returns true if this is the case, false otherwise</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>f1</code> - the first flight</dd>
