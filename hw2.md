@@ -53,7 +53,7 @@ Create a new project and add a class named `FunWithStrings`. In there:
 
 It is expected that your code has careful and meaningful **documentation** (top of the file and top of methods javadoc, as well as inline documentation). Top of the file javadoc should include values for the `@author` and `@version` tags. Top of the method javadoc should include values for the `@param` and `@return` tags as needed.
 
-In BlueJ produce the `TestingL2RnR2L.txt` file to contain testing results from running the top level method (`sameBackAndForth()`). (Terminal Window --> Options --> Save to file...)
+In BlueJ produce the `TestingL2RnR2L.txt` file to contain testing of every method you implemented. (Terminal Window --> Options --> Save to file...)
 
 
 Testing results should include both expected and computed outcome, like: `input: dad. Expect: true Computed: true`.
