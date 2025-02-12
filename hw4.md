@@ -11,11 +11,10 @@ layout: default
 
 ## Tasks
 
-Create a class named <code>Airport</code> that keeps track of the flights that use a certain airport, either as their origin or destination. Consult the provided [Airport](/docs/Airport.html) javadoc-generated documentation.
-
+Create a class named <code>Airport</code> that keeps track of the flights that use a certain airport, either as their origin or destination.
 For this exercise you are **NOT allowed to use Java's `Array` class**. Just use arrays of Objects as we did in lectures.
 
-**0. Draw your class objects as you design and before you code them**
+**0. Draw your class objects (before coding them)**
 
 You will need to submit a picture of your drawing, so keep it (reasonably) neat and clean. If you need a reminder on how to draw these class objects, make sure to revisit the slides and see the CD and CDCollection objects. 
 
@@ -47,7 +46,7 @@ it prints all the flights of this airline that are using this airport. While the
 
 **4. No `main()` is required in the Airport class but create a separate client class**
 
-Instead, create another client class called `LoganAirport.java`. This class contains only a <code>main()</code> method. It main purpose is to test your `Airport` class. Make sure you test your methods as you develop your code. Start by creating an instance of type <code>Airport</code> called `logan`, and some <code>Flight</code> instances. For the `Flight` class, use your implementation from the previous homework. If you think your `Flight` class might have bugs, you may ask the staff for their solution. We highly recommend testing your implementation using the unit tests we provided in the previous assignment.
+Instead, create another client class called `LoganAirport`. This class is a driver class, so it should only contain the <code>main()</code> method. It main purpose is to test your `Airport` class. Make sure you test your methods as you develop your code. Start by creating an instance of type <code>Airport</code> called `logan`, and some <code>Flight</code> instances. For the `Flight` class, use your implementation from the previous homework. If you think your `Flight` class might have bugs, you may ask the staff for their solution. We highly recommend testing your implementation using the unit tests we provided in the previous assignment.
 
 
 **5. Write good javadoc**
