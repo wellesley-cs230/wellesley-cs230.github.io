@@ -16,7 +16,12 @@ For this exercise you are **NOT allowed to use Java's `Array` class**. Just use 
 
 **0. Draw your class objects (before coding them)**
 
-You will need to submit a picture of your drawing, so keep it (reasonably) neat and clean. If you need a reminder on how to draw these class objects, make sure to revisit the slides and see the CD and CDCollection objects. 
+Please draw two diagrams representing your Airport and Flight classes.
+* A UML diagram, describing the structure of your code.
+* An example of a memory diagram for a single instance of the Airport class (that has some Flights in it).
+
+You will need to submit a picture of your drawings, so keep please make sure they are legible.
+If you need a reminder on how to draw these diagrams, refer to the slides on the `CD` and `CDCollection` objects. 
 
 Your class should contain the following:
 
