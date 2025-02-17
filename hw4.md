@@ -76,8 +76,7 @@ DL55 from LAX to BOS
 LX422 from FRA to BOS 
 LX441 from BOS to FRA 
 DL522 from BOS to ATH 
-	addFlight():: BOS airport cannot accommodate any more flights
-
+	
 Listing BOS airport flights.
 BOS airport can accommodate 5 flights.
 It is currently serving the following 5 flights:
