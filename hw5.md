@@ -87,7 +87,7 @@ The `Account` class should contain all the common characteristics and functional
 Notes:
 1. The `withdraw` method behaves differently depending on the kind of the account. Therefore, think carefully: can you provide the definition for this method in the `Account` class? If not, where should it be defined?
 2. The `toString` method behaves almost the same in both types of accounts, but in the case of a *checking account* it should also include the minimum balance, while in the case of a *saving account* it should include the interest rate.
-3. You can assume that the method to *accrue interest*, relevant only in Savings Accounts!, is called manually once a month; no need to keep track of dates. (Since the given interest rate is annual, make sure to calculate the monthly interest accordingly.)
+3. You can assume that the method to *accrue interest*, relevant only in Savings Accounts, is called manually once a month; no need to keep track of dates. 
 4. An account cannot be removed from the `Bank` once it has been added, and the maximum number of accounts that a `Bank` can hold cannot change.
 
 
