@@ -16,7 +16,7 @@ layout: default
 
 We will assign you a peer to collaborate with on this assignment. Please,
 * Reach out to your partner ASAP to discuss when you will meet to work on the assignment. You will probably have to meet several times.
-* Work *together* (pair programming) rather than *divide and conquer*.
+* Work *together* (pair programming) rather than *dividing the work*.
 * *Discuss* the ideas and diagrams before diving into coding.
 
 
@@ -31,12 +31,12 @@ We recommend that you start with keeping notes on paper and you draw the `UML di
 
 ### Problem Description
 
-Design and write the basic software that will manage bank accounts and their required functionality. Below are the requirements that were provided to you by the bank manager, a Wellesley graduate with CS230 experience (and a passion for creating classes through inheritance ;-)
+Design and write the basic software that will manage bank accounts and their required functionality. Below are the requirements that were provided to you by the bank manager, a Wellesley graduate with CS230 experience (and a passion for creating classes through inheritance).
 
-According to the bank specifications, a client can **open** a new account in the bank. With every new account opened, the Bank produces a `unique` account number to associate with that new account. There are two types of accounts in the bank:
+According to the bank specifications, a client can **open** a new account in the bank. With every new account opened, the Bank produces a **unique** account number to associate with that new account. There are two types of accounts in the bank:
 
 * A **`Checking Account`** has a **minimum balance** of $100, and an **overdraft fee** of $25. (The overdraft fee is a penalty that the Bank charges automatically if your balance falls under the minimum balance.) 
-* A **`SavingsAccount`** has no minimum balance or overdraft fees. Every Savings account earns some **interest**, currently at an annual rate of 0.5%. The Bank calculates the earned interest and adds it to the balance on a monthly basis.
+* A **`SavingsAccount`** has no minimum balance or overdraft fees. Every Savings account earns some **interest**, currently at a monthly rate of 0.5%. The Bank calculates the earned interest and adds it to the balance on a monthly basis.
 
 The following requirements must be implemented in your software:
 * The two types of accounts have some attributes and behaviors in common. Think about how to use Java's inheritance model to design your application.
@@ -49,7 +49,7 @@ The following requirements must be implemented in your software:
   > * A withdraw of $180 is ordered. The new balance would be $20, which is below the minimum balance. Therefore the overdraft fee of $25 is charged, which brings the account balance to $-5.
 
 * Account owners should also be able to see a **display** of their account, including the kind of the account, the account number, its balance and other characteristics as appropriate (depending on the kind of the account).
-* Finally, the **Bank** maintains a collection of accounts. It should be able to add directly an account to its collection, look for an account given its unique account number, print all accounts, and calculate all available funds (total of funds across all checking and saving accounts in the bank.)  
+* Finally, the `Bank` maintains a collection of accounts. It should be able to add directly an account to its collection, look for an account given its unique account number, print all accounts, and calculate all available funds (total of funds across all checking and saving accounts in the bank.)  
 
 
 
@@ -78,15 +78,15 @@ connecting the different classes:
 To help you get started, here is a small description of one of the classes you should have in your application.
 
 The `Account` class should contain all the common characteristics and functionality of any type of bank account. These include:
-1. the -unique for each account- account number
-2. the account balance
-3. `deposit()`: a method for depositing an amount to the account
-4. `withdraw()`: a method for withdrawing an amount from the account, and
-5. `toString()`: a method to be used for printing the account.
+1. The unique account number
+2. The account balance
+3. `deposit`: a method for depositing an amount to the account
+4. `withdraw`: a method for withdrawing an amount from the account, and
+5. `toString`: a method to be used for printing the account.
 
 Notes:
-1. The `withdraw()` method behaves differently depending on the kind of the account. Therefore, think carefully: can you provide the definition for this method in the `Account` class? If not, where should it be defined?
-2. The `toString()` method behaves almost the same in both types of accounts, but in the case of a *checking account* it should also include the minimum balance, while in the case of a *saving account* it should include the interest rate.
+1. The `withdraw` method behaves differently depending on the kind of the account. Therefore, think carefully: can you provide the definition for this method in the `Account` class? If not, where should it be defined?
+2. The `toString` method behaves almost the same in both types of accounts, but in the case of a *checking account* it should also include the minimum balance, while in the case of a *saving account* it should include the interest rate.
 3. You can assume that the method to *accrue interest*, relevant only in Savings Accounts!, is called manually once a month; no need to keep track of dates. (Since the given interest rate is annual, make sure to calculate the monthly interest accordingly.)
 4. An account cannot be removed from the `Bank` once it has been added, and the maximum number of accounts that a `Bank` can hold cannot change.
 
@@ -192,31 +192,12 @@ familiar with the Stack interface understands your approach.
 
 ### Specifications
 
-* Your program should contain a **predicate** method `isPalindrome()` that returns true or false as appropriate.
-
+* Your program should contain a **predicate** method `isPalindrome` that returns true or false as appropriate.
 * Your program should use Java's [Stack implementation](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html), relying only the stack methods `empty`, `peek`, `pop`, and `push`.
-
-* Your `main()` method should test your code and show that it's correct.
-
-* You can only use the `toCharArray()` method in the String class to
-  convert the input string in an array of characters from which you
-  will populate a stack. **You cannot not use any other String methods
-  or array operations, other than indexing into an array and checking its length.**
-
-* An input string is read as a `command-line argument` and is checked
-  for the palindrome property. If there is no `args[0]` your program
-  prints a message and continues execution (it does not crash). That
-  way you can assign other strings as input and check for palindrome
-  without having to re-run the program.
-
+* Your `main` method should test your code and show that it's correct.
+* You can only use the `toCharArray` method in the String class to convert the input string in an array of characters from which you will populate a stack **You cannot not use any other String methods or array operations, other than indexing into an array and checking its length.**
 * Assume that the input string contains no spaces or special characters.
-
-You are expected to **create your own test cases**, and demonstrate
-that your code meets expectations. Remember that thorough testing
-implies identifying and testing boundary cases as well.
-
-
-* Optionally, you can get more practice by:
+* You are expected to **create your own test cases**, and demonstrate that your code meets expectations. Remember that thorough testing implies identifying and testing boundary cases as well. Optionally, you can get more practice by:
   * Create a JUnit testing file to test your design.
   * Describe at least 2 different ways of using two stacks to solve the problem. Which one is better? Why?
 
