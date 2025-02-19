@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-# Homework 5, Part A: Banks
+# Homework 5, Part A: Banks (in Pairs)
 
 ## Learning Goals:
 * Practice with the Java hierarchy through inheritance
@@ -157,13 +157,13 @@ Your Gradescope submission should contain the following:
 2. your corresponding <code>BankTesting.txt</code> files that contain your testing results
 3. A PDF or PNG file of the UML diagram that corresponds to your solution.
 
-
+**Note:** You must submit your solution *as a pair*. You can do this by adding group members to your submission, following [this tutorial](https://guides.gradescope.com/hc/en-us/articles/21863861823373-Adding-Group-Members-to-a-Submission). 
 
 
 
 <br/>
 
-# Homework 5, Part B: Stacks
+# Homework 5, Part B: Stacks (Individual)
 
 ## Learning goals
 * Get familiarity with Stacks
