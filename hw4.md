@@ -308,7 +308,7 @@ public class DeckTest {
 
 ## Submitting your code
 
-Submit your commented `Card.java`, your `Deck.java`, your `Game.java`, and your `GameTesting.txt`, to Gradescope. 
+Submit `Card.java`, your `Deck.java`, your `Game.java`, and your `GameTesting.txt`, to Gradescope. 
 
 Remember that in Gradescope you have to upload all the files at once. Every submission you do overwrites the previous one, so if you upload one file at a time, only the last will be  saved.
 
