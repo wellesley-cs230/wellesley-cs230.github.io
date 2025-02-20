@@ -150,7 +150,7 @@ events:
   - month: "February"
     day: "24"
     day-of-week: "Monday"
-    topic: "Stacks"
+    topic: "Interfaces (from last week) + Stacks"
     slides: "https://drive.google.com/drive/folders/11qHHfpeHa9iWZuyPB-c85A6w6RqC_bjS?usp=drive_link"
     due:
     released: 
