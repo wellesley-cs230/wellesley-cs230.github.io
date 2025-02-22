@@ -165,7 +165,7 @@ events:
     slides: "https://docs.google.com/document/d/1Km64PsYoWQP9uThOuujXX_9Grtjpf8-l/edit?usp=sharing&ouid=106913556297077318828&rtpof=true&sd=true"
     due:
     released:
-    pre-class:
+    pre-class: "Complete pre-lab tasks."
 
   - month: "February"
     day: "27"
