@@ -451,9 +451,12 @@ events:
     day-of-week: "Wednesday"
     topic:
     due:
-    exam: "Final Exam: **Tuesday May 6 from 6-8:30pm.** Section 01: PNE-339. Section 02: PNE-127."    
+    exam: "Final Exam: **Tuesday May 6 from 6-8:30pm.** Locations: PNE-339 (Section 01) and PNE-127 (Section 02)." 
     released:
-    pre-class:
+    pre-class: |
+      * Review this [list of topics](https://docs.google.com/document/d/1QTgu6CRxqEh-0cMPcFIx2wlDFoiX6ZXQwdzWACvTly0/edit?usp=sharing)
+      * Solve practice problems (released closer to the exam day)
+      * Prepare a one page, **two-sided** note sheet you can bring to the exam
     class-meetings-over: true
 
   - month: "May"
