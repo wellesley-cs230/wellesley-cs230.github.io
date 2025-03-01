@@ -5,7 +5,7 @@ layout: default
 
 # Linked List Exercise
 
-In this exercise, you will implement a Stack using a Linked List. We will build up to this in parts.
+In this exercise, you will implement a Stack using a Linked List. We will build up to this in parts. 
 
 
 ## Part 1: Familiarize Yourself with the Code
