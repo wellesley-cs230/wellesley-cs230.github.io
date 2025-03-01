@@ -164,11 +164,11 @@ public interface Stack<T> {
    public void push (T element);
 
    //  Removes and returns the top element from the stack.
-   public T pop() throws EmptyCollectionException;
+   public T pop();
 
    //  Returns a reference to the top element of this stack
    //  without removing it.
-   public T peek() throws EmptyCollectionException;
+   public T peek();
 
    //  Returns true if the stack contains no elements and false
    //  otherwise.
@@ -187,6 +187,8 @@ Add this interface to your BlueJ project. Then, create a class, `LinkedStack<T>`
 2. Uses your `LinkedList<T>` class.
 
 
+<!--
+
 ## Part 5: Create a Doubly-Linked List Node
 
 1. Extend the `LinearNode<T>` class to create a `DoublyLinearNode<T>` class.
@@ -200,3 +202,4 @@ Add this interface to your BlueJ project. Then, create a class, `LinkedStack<T>`
 2. Implemenmt *every method* listed in the interface.
 3. Add a method, `removeLast`, that removes the last element of the list. You should be able to implement this *without any loops*.
 
+-->
