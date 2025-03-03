@@ -192,11 +192,11 @@ familiar with the Stack interface understands your approach.
 
 ### Specifications
 
-* Your program should contain a **predicate** method `isPalindrome` that returns true or false as appropriate.
+* Your program should contain a **predicate** method `isPalindrome` takes in a String and returns true or false as appropriate.
 * Your program should use Java's [Stack implementation](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html), relying only the stack methods `empty`, `peek`, `pop`, and `push`.
 * Your `main` method should test your code and show that it's correct.
 * You can only use the `toCharArray` method in the String class to convert the input string in an array of characters from which you will populate a stack **You cannot not use any other String methods or array operations, other than indexing into an array and checking its length.**
-* Assume that the input string contains no spaces or special characters.
+* Assume that the input string contains no spaces or special characters, and assume that it is all lower case.
 * You are expected to **create your own test cases**, and demonstrate that your code meets expectations. Remember that thorough testing implies identifying and testing boundary cases as well. Optionally, you can get more practice by:
   * Create a JUnit testing file to test your design.
   * Describe at least 2 different ways of using two stacks to solve the problem. Which one is better? Why?
