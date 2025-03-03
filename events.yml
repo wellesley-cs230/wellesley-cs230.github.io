@@ -192,9 +192,10 @@ events:
     day: "05"
     day-of-week: "Wednesday"
     topic: "Stacks"
+    slides: "https://docs.google.com/document/d/12a6pK3bgdFqUTq1X7nzNUBJHQp5AxD8i/edit?usp=sharing&ouid=106913556297077318828&rtpof=true&sd=true"
     due:
     released:
-    pre-class:
+    pre-class: "Complete pre-lab tasks."
 
   - month: "March"
     day: "06"
