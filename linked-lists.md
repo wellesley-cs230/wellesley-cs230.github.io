@@ -5,7 +5,7 @@ layout: default
 
 # Linked List Exercise
 
-In this exercise, you will implement a Stack using a Linked List. We will build up to this in parts. 
+In this exercise, you will implement a Linked List. We will build up to this in parts. 
 
 
 ## Part 1: Familiarize Yourself with the Code
@@ -87,27 +87,28 @@ public interface LinearList<T> {
      * @return the size (or length) of the list
      */
     public int size();
-    
+
     /**
-     * Adds an element at the rear (or end) of the list
+     * Inserts an element at the given position in the list.
      * 
+     * @param the index of the element to be added
      * @param the element to be added
      */
-    public void addLast(T element);
+    public void insert(int position, T element);
     
     /**
-     * Adds an element at the front (or beginning) of the list
-     * 
-     * @param the element to be added
-     */
-    public void addFirst(T element);
-    
-    /**
-     * Removes the element at the head (or front) of the list
+     * Removes the element at the specified position from the list
      * 
      * @return the element to be returned
      */
-    public T removeFirst();
+    public T remove(int position);
+
+    /**
+     * Returns an array containing all of the elements in this list in proper sequence (from first to last element)
+     *
+     * @return an array representation of the linked list
+     */
+    public T[] toArray();
     
     /**
      * Generates a String representation of list; 
@@ -123,20 +124,19 @@ Then, answer:
 * What are interfaces used for?
 * What does it mean to create an object that `implements` this interface?
 
-**The EmptyCollectionException.** Below is a class that implements an exception that should be thrown
-when a client tries to operate on an empty collection.
-* Which methods in the LinearList interface should throw this exception? Why?
+**The InvalidOperationException.** Below is a class that implements an exception that should be thrown
+when a client tries to do something invalid with your list:
 ```java
-public class EmptyCollectionException extends RuntimeException {
-   //------------------------------------------------------------------
-   //  Sets up this exception with an appropriate message.
-   //------------------------------------------------------------------
-   public EmptyCollectionException (String message)
-   {
-      super (message);
+public class InvalidOperationException extends RuntimeException {
+   public InvalidOperationException(String message) {
+      super(message);
    }
 }
 ```
+
+Answer: which methods in the LinearList interface should throw this exception? Why?
+
+
 
 ## Part 2: Creating a BlueJ Project
 
@@ -154,37 +154,17 @@ For brevity, we won't ask you to thoroughly test your code. However, we do recom
 2. Use the `toString` method to check your other methods work.
 
 
-## Part 4: Implement a Stack using a Linked List
+# Part 4: Concatenation
 
-Below is the `Stack` interface:
+Although your `LinkedList<T>` must implement the `LinearList<T>` interface, it can **additionally** have other methods.
+Please implement an instance method, `concatenate`, that takes in a `LinkedList<T> other` as argument:
+* Appends `other` to the end of the linked list.
+* Empties out `other`.
 
-```java
-public interface Stack<T> {
-   //  Adds the specified element to the top of the stack.
-   public void push (T element);
+After implementing this method, answer: what would `concatenate` look like for an array-based list?
+And is it more or less efficient than your linked-based implementation? Why?
 
-   //  Removes and returns the top element from the stack.
-   public T pop();
 
-   //  Returns a reference to the top element of this stack
-   //  without removing it.
-   public T peek();
-
-   //  Returns true if the stack contains no elements and false
-   //  otherwise.
-   public boolean isEmpty();
-
-   //  Returns the number of elements in the stack.
-   public int size();
-
-   //  Returns a string representation of the stack.
-   public String toString();
-}
-```
-
-Add this interface to your BlueJ project. Then, create a class, `LinkedStack<T>`, that:
-1. Implements this interface.
-2. Uses your `LinkedList<T>` class.
 
 
 <!--
