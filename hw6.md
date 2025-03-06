@@ -3,6 +3,65 @@ layout: default
 ---
 
 
+# Homework 6, Part A: Doubly Linked Lists
+
+Here, you will create your own implementation of a doubly linked list.
+A doubly linked list is a linked list in which every node maintains a reference to the item next in the list,
+**as well as** the item previous in the list.
+
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbrianross-95869.medium.com%2Fdoubly-linked-lists-double-the-trouble-but-double-the-fun-1d13ed215dfe&psig=AOvVaw08dqXLXzd6giBQ4HaCPHGW&ust=1741312229178000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODf-92r9IsDFQAAAAAdAAAAABAE" />
+
+
+## Task 0: Getting Settled
+
+Copy over the `LinearList<T>` interface from the [in-class exercise](/linked-lists).
+Your linked list should implement this interface.
+
+
+## Task 1: Doubly Linear Node
+
+Create a class, `DoublyLinearNode<T>`, to represent a node in your linked list.
+You can follow the `LinearNode` from the [in-class exercise](/linked-lists) for inspiration.
+
+
+## Task 2: Implementing the Doubly Linked list
+
+Create a class, `DoublyLinkedList<T>` that uses your `DoublyLinearNode<T>` to implement the `LinearList<T>` interface.
+
+
+## Task 3: Testing
+
+Please test your `DoublyLinkedList<T>` in a main method belonging to the same class.
+There's no need to test your `DoublyLinearNode<T>`.
+
+
+
+
+# Homework 6, Part B: Implement a Queue
+
+
+
+
+
+
+<br/>
+
+# Submission Checklist
+
+* You submitted **all** `.java` files and all `.txt` files.
+* Your files are named **exactly** as in the homework specification, *including file extensions*.
+* You tested **every possible** pathway in your code.
+* You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
+* You wrote javadoc for every function, which includes `@param` and `@return`.
+* You wrote inline comments explaining the logic of your code.
+
+
+
+
+
+<!--
+
+
 # Homework 6: Stacks and Linked Lists
 
 
@@ -230,3 +289,6 @@ And as always, add appropriate javadoc, including `@author` and `@version` tags!
 * You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
 * You wrote javadoc for every function, which includes `@param` and `@return`.
 * You wrote inline comments explaining the logic of your code.
+
+
+-->
