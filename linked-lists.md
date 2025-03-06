@@ -148,6 +148,8 @@ For brevity, we won't ask you to thoroughly test your code. However, we do recom
 1. Implement the `toString` method early on.
 2. Use the `toString` method to check your other methods work.
 
+Please write pseudo-code on the whiteboards for **all methods** before implementing them in Java.
+
 
 <br/>
 
@@ -157,6 +159,8 @@ Although your `LinkedList<T>` must implement the `LinearList<T>` interface, it c
 Please implement an instance method, `concatenate`, that takes in a `LinkedList<T> other` as argument and:
 1. Appends `other` to the end of the linked list.
 2. Empties out `other`.
+
+As before, please write pseudo-code on the whiteboards before writing code on the computer.
 
 After implementing this method, answer: what would `concatenate` look like for an array-based list?
 And is it more or less efficient than your linked-based implementation? Why?
