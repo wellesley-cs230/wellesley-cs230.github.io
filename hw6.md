@@ -32,9 +32,9 @@ Create a class, `DoublyLinkedList<T>` that uses your `DoublyLinearNode<T>` to im
 Before implementing each method, **draw a memory diagram** to make sure you know what pointer manipulations you plan to use.
 You may find it helpful to draw multiple versions of these memory diagrams corresponding to lists of various sizes.
 
-Additionallyi, in your implementation: please,
+Additionally, in your implementation, please:
 * Store both a reference to the front of the list **and the rear**.
-* Be sure to update these references appropriately when inserting/removing.
+* Update these references appropriately when inserting/removing.
 * Use the reference to rear for fast get/insertion/removal from the very end of the list (i.e. if someone wants to operate on the last element of the list, they shouldn't have to iterate over the whole list to find it).
 
 
