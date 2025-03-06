@@ -46,6 +46,7 @@ There's no need to test your `DoublyLinearNode<T>`.
 
 
 
+</br>
 
 # Homework 6, Part B: Implement a Queue
 
@@ -86,7 +87,8 @@ Create a class, `LinkedQueue<T>` that implements the `Queue<T>` interface.
 You should use your `DoublyLinkedList<T>` in your implementation.
 Before starting to code, determine whether `LinkedQueue<T>` should have an **is-a** or **has-a** relationship with `DoublyLinkedList<T>`.
 
-## Task 2: Test your queue implementation.
+
+## Task 2: Test your queue implementation
 
 Write your tests in a `main` method in the same file as `LinkedQueue<T>`.
 Please save your tests in `LinkedQueueTests.txt`.
