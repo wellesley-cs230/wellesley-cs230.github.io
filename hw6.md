@@ -7,9 +7,11 @@ layout: default
 
 Here, you will create your own implementation of a doubly linked list.
 A doubly linked list is a linked list in which every node maintains a reference to the item next in the list,
-**as well as** the item previous in the list.
+**as well as** the item previous in the list:
 
+<center>
 <img src="https://miro.medium.com/v2/resize:fit:1230/format:webp/1*5wRMqVjLatOGX88VrZgacA.jpeg" />
+</center>
 
 
 ## Task 0: Getting Settled
@@ -33,13 +35,13 @@ You may find it helpful to draw multiple versions of these memory diagrams corre
 Additionallyi, in your implementation: please,
 * Store both a reference to the front of the list **and the rear**.
 * Be sure to update these references appropriately when inserting/removing.
-* Use the reference to rear for fast removal from the very end of the list. That is, if someone wants to remove the last element in the list, use rear instead of iterating through the whole list.
+* Use the reference to rear for fast get/insertion/removal from the very end of the list (i.e. if someone wants to operate on the last element of the list, they shouldn't have to iterate over the whole list to find it).
 
 
 ## Task 3: Testing
 
 Please test your `DoublyLinkedList<T>` in a main method belonging to the same class.
-You can save your tests in `DoublyLinkedList.txt`.
+You can save your tests in `DoublyLinkedListTests.txt`.
 There's no need to test your `DoublyLinearNode<T>`.
 
 
@@ -52,35 +54,42 @@ Here, you will implement a queue using your implementation of the doubly linked 
 
 ## Task 0: Getting Settled
 
-Your queue should implement the `Queue` interface:
+Your queue should implement the `Queue<T>` interface:
 ```java
 public interface Queue<T> {
-  // Adds element to rear of the queue
-  public void enqueue (T element);
+    // Adds element to rear of the queue
+    public void enqueue(T element);
 
-  // Removes and returns element at front of queue
-  public T dequeue();
+    // Removes and returns element at front of queue
+    public T dequeue();
 
-  // Return reference to first element without removing
-  public T first();
+    // Return reference to first element without removing
+    public T first();
 
-  // Returns true if queue contains no elements
-  public boolean isEmpty();
+    // Returns true if queue contains no elements
+    public boolean isEmpty();
 
-  // Returns number of elements
-  public int size();
+    // Returns number of elements
+    public int size();
 
-  // Returns string representation
-  public String toString();
+    // Returns string representation
+    public String toString();
 }
 ```
 
 Create a file for it in your BlueJ project.
 
 
-## Task 1: Implement the Queue
+## Task 1: Implement the queue
 
-Create a class, `LinkedQueue` that implements the `Queue` interface.
+Create a class, `LinkedQueue<T>` that implements the `Queue<T>` interface.
+You should use your `DoublyLinkedList<T>` in your implementation.
+Before starting to code, determine whether `LinkedQueue<T>` should have an **is-a** or **has-a** relationship with `DoublyLinkedList<T>`.
+
+## Task 2: Test your queue implementation.
+
+Write your tests in a `main` method in the same file as `LinkedQueue<T>`.
+Please save your tests in `LinkedQueueTests.txt`.
 
 
 
