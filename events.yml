@@ -203,7 +203,7 @@ events:
     topic: "LinearNodes and Linked Stacks"
     slides: "https://drive.google.com/drive/folders/1anhp1QFY3umRoXT1jjt5L40o5wLGzLuW?usp=drive_link"
     due: "Homework 5 (in pairs) by **10pm**"
-    released: "Homework 6"    
+    released: "[Homework 6](/hw6)"    
     pre-class: |
       * Read [Chapters 14.10-14.14](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Skim the [in-class exercise](/linked-lists).
