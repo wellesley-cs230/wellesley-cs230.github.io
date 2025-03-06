@@ -8,6 +8,8 @@ layout: default
 In this exercise, you will implement a Linked List. We will build up to this in parts. 
 
 
+<br/>
+
 ## Part 1: Familiarize Yourself with the Code
 
 **The LinearNode Class.** Recall the `LinearNode` class from lecture:
@@ -17,46 +19,28 @@ public class LinearNode<T> {
    private LinearNode<T> next;
    private T element;
 
-   //-----------------------------------------------------------------
-   //  Creates an empty node.
-   //-----------------------------------------------------------------
    public LinearNode() {
       next = null;
       element = null;
    }
 
-   //-----------------------------------------------------------------
-   //  Creates a node storing the specified element.
-   //-----------------------------------------------------------------
    public LinearNode(T elem) {
       next = null;
       element = elem;
    }
 
-   //-----------------------------------------------------------------
-   //  Returns the node that follows this one.
-   //-----------------------------------------------------------------
    public LinearNode<T> getNext() {
       return next;
    }
 
-   //-----------------------------------------------------------------
-   //  Sets the node that follows this one.
-   //-----------------------------------------------------------------
    public void setNext(LinearNode<T> node) {
       next = node;
    }
 
-   //-----------------------------------------------------------------
-   //  Returns the element stored in this node.
-   //-----------------------------------------------------------------
    public T getElement() {
       return element;
    }
 
-   //-----------------------------------------------------------------
-   //  Sets the element stored in this node.
-   //-----------------------------------------------------------------
    public void setElement(T elem) {
       element = elem;
    }
@@ -137,11 +121,14 @@ public class InvalidOperationException extends RuntimeException {
 Answer: which methods in the LinearList interface should throw this exception? Why?
 
 
+<br/>
 
 ## Part 2: Creating a BlueJ Project
 
 Create a new BlueJ project and create a `.java` file for each of the above code snippets.
 
+
+<br/>
 
 ## Part 3: Implement a Linked List
 
@@ -154,7 +141,9 @@ For brevity, we won't ask you to thoroughly test your code. However, we do recom
 2. Use the `toString` method to check your other methods work.
 
 
-# Part 4: Concatenation
+<br/>
+
+## Part 4: Concatenation
 
 Although your `LinkedList<T>` must implement the `LinearList<T>` interface, it can **additionally** have other methods.
 Please implement an instance method, `concatenate`, that takes in a `LinkedList<T> other` as argument:
@@ -169,11 +158,16 @@ And is it more or less efficient than your linked-based implementation? Why?
 
 <!--
 
+<br/>
+
 ## Part 5: Create a Doubly-Linked List Node
 
 1. Extend the `LinearNode<T>` class to create a `DoublyLinearNode<T>` class.
 2. In addition to maintaining a reference to the *next* element in the list, this class should also maintain a reference to the element *previous* in the list.
 3. Create the necessary getters and setters for this class, following the style of `LinearNode<T>`.
+
+
+<br/>
 
 
 ## Part 6:  Create a Doubly-Linked List
