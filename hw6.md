@@ -27,11 +27,19 @@ You can follow the `LinearNode` from the [in-class exercise](/linked-lists) for 
 ## Task 2: Implementing the Doubly Linked list
 
 Create a class, `DoublyLinkedList<T>` that uses your `DoublyLinearNode<T>` to implement the `LinearList<T>` interface.
+Before implementing each method, **draw a memory diagram** to make sure you know what pointer manipulations you plan to use.
+You may find it helpful to draw multiple versions of these memory diagrams corresponding to lists of various sizes.
+
+Additionallyi, in your implementation: please,
+* Store both a reference to the front of the list **and the rear**.
+* Be sure to update these references appropriately when inserting/removing.
+* Use the reference to rear for fast removal from the very end of the list. That is, if someone wants to remove the last element in the list, use rear instead of iterating through the whole list.
 
 
 ## Task 3: Testing
 
 Please test your `DoublyLinkedList<T>` in a main method belonging to the same class.
+You can save your tests in `DoublyLinkedList.txt`.
 There's no need to test your `DoublyLinearNode<T>`.
 
 
