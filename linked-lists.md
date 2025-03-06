@@ -73,6 +73,14 @@ public interface LinearList<T> {
     public int size();
 
     /**
+     * Returns the element at the specified position from the list
+     *
+     * @param index of the element in the list
+     * @return the element to be returned
+     */
+    public T get(int position);
+
+    /**
      * Inserts an element at the given position in the list.
      * 
      * @param the index of the element to be added
