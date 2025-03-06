@@ -146,9 +146,9 @@ For brevity, we won't ask you to thoroughly test your code. However, we do recom
 ## Part 4: Concatenation
 
 Although your `LinkedList<T>` must implement the `LinearList<T>` interface, it can **additionally** have other methods.
-Please implement an instance method, `concatenate`, that takes in a `LinkedList<T> other` as argument:
-* Appends `other` to the end of the linked list.
-* Empties out `other`.
+Please implement an instance method, `concatenate`, that takes in a `LinkedList<T> other` as argument and:
+1. Appends `other` to the end of the linked list.
+2. Empties out `other`.
 
 After implementing this method, answer: what would `concatenate` look like for an array-based list?
 And is it more or less efficient than your linked-based implementation? Why?
