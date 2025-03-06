@@ -9,7 +9,7 @@ Here, you will create your own implementation of a doubly linked list.
 A doubly linked list is a linked list in which every node maintains a reference to the item next in the list,
 **as well as** the item previous in the list.
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbrianross-95869.medium.com%2Fdoubly-linked-lists-double-the-trouble-but-double-the-fun-1d13ed215dfe&psig=AOvVaw08dqXLXzd6giBQ4HaCPHGW&ust=1741312229178000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODf-92r9IsDFQAAAAAdAAAAABAE" />
+<img src="https://miro.medium.com/v2/resize:fit:1230/format:webp/1*5wRMqVjLatOGX88VrZgacA.jpeg" />
 
 
 ## Task 0: Getting Settled
@@ -39,8 +39,40 @@ There's no need to test your `DoublyLinearNode<T>`.
 
 # Homework 6, Part B: Implement a Queue
 
+Here, you will implement a queue using your implementation of the doubly linked list above.
 
 
+## Task 0: Getting Settled
+
+Your queue should implement the `Queue` interface:
+```java
+public interface Queue<T> {
+  // Adds element to rear of the queue
+  public void enqueue (T element);
+
+  // Removes and returns element at front of queue
+  public T dequeue();
+
+  // Return reference to first element without removing
+  public T first();
+
+  // Returns true if queue contains no elements
+  public boolean isEmpty();
+
+  // Returns number of elements
+  public int size();
+
+  // Returns string representation
+  public String toString();
+}
+```
+
+Create a file for it in your BlueJ project.
+
+
+## Task 1: Implement the Queue
+
+Create a class, `LinkedQueue` that implements the `Queue` interface.
 
 
 
