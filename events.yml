@@ -222,10 +222,11 @@ events:
   - month: "March"
     day: "12"
     day-of-week: "Wednesday"
-    topic:
+    topic: LinkeLists implementation
+    slides: "https://docs.google.com/document/d/1QcUEqrpZIX1kWbtqplnMdZadiHPSEAGR/edit#heading=h.abzg01gzbgow"
     due:
     released:
-    pre-class:
+    pre-class: "Complete pre-lab tasks."
 
   - month: "March"
     day: "13"
