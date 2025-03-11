@@ -2,6 +2,181 @@
 layout: default
 ---
 
+
+# Homework 7, Part A: Merge Sorting a Linked List
+
+
+## Task 0: Creating your BlueJ project
+
+Create a BlueJ project with the following starter code.
+
+`LinearList.java`:
+```java
+public interface LinearList<T> {
+    public boolean isEmpty();
+    public int size();
+    public T get(int position);
+    public void insert(int position, T element);
+    public T remove(int position);
+    public T[] toArray();
+    public String toString();
+}
+```
+
+`LinearNode.java`:
+```java
+public class LinearNode<T> {
+   private LinearNode<T> next;
+   private T element;
+
+   public LinearNode() {
+      next = null;
+      element = null;
+   }
+
+   public LinearNode(T elem) {
+      next = null;
+      element = elem;
+   }
+
+   public LinearNode<T> getNext() {
+      return next;
+   }
+
+   public void setNext(LinearNode<T> node) {
+      next = node;
+   }
+
+   public T getElement() {
+      return element;
+   }
+
+   public void setElement(T elem) {
+      element = elem;
+   }
+}
+```
+
+`LinkedList.java`:
+```java
+public class LinkedList<T> implements LinearList<T> {
+    protected LinearNode<T> front;
+    protected int count;
+    
+    public LinkedList() {
+        this.front = null;
+        this.count = 0;
+    }
+    
+    public boolean isEmpty() {
+        return this.count == 0;
+    }
+    
+    public int size() {
+        return this.count;
+    }
+
+    protected LinearNode<T> getNode(int position) {
+        if (position < 0 || position >= this.count) {
+            throw new RuntimeException(
+                "Asking for element at index " + position 
+                + " in a list of size" + this.count
+            );
+        }
+        
+        LinearNode<T> current = this.front;
+        for (int i = 0; i < position; i++) {
+            current = current.getNext();
+        }
+        
+        return current;
+    }
+    
+    public T get(int position) {
+        LinearNode<T> node = this.getNode(position);
+        if (node == null) {
+            return null;
+        }
+        
+        return node.getElement();
+    }
+    
+    public void insert(int position, T element) {
+        LinearNode<T> node = new LinearNode<T>(element);
+        
+        if (position == 0) {
+            node.setNext(front);
+            front = node;
+        } else {
+            LinearNode<T> before = this.getNode(position - 1);
+            node.setNext(before.getNext());
+            before.setNext(node);
+        }
+        
+        this.count++;
+    }
+    
+    public T remove(int position) {
+        LinearNode<T> current;
+        if (position == 0) {
+            current = front;
+            front = front.getNext();
+        } else {
+            LinearNode<T> before = this.getNode(position - 1);
+            current = before.getNext();
+            before.setNext(current.getNext());
+        }  
+        
+        this.count--;
+        return current.getElement();
+    }
+
+    public T[] toArray() {
+        T[] array = (T[]) (new Object[this.count]);
+        
+        LinearNode<T> current = this.front;
+        for (int i = 0; i < this.size(); i++) {
+            array[i] = current.getElement();
+            current = current.getNext();
+        }
+        
+        return array;
+    }
+    
+    public String toString() {
+        String s = "[ ";
+        
+        LinearNode<T> current = this.front;
+        for (int i = 0; i < this.size(); i++) {
+            s += current.getElement().toString() + ", ";
+            current = current.getNext();
+        }
+        
+        return s + "]";
+    }
+}
+```
+
+
+
+
+<br/>
+
+# Submission Checklist
+
+* You submitted **all** `.java` files and all `.txt` files.
+* Your files are named **exactly** as in the homework specification, *including file extensions*.
+* You tested **every possible** pathway in your code.
+* You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
+* You wrote javadoc for every function, which includes `@param` and `@return`.
+* You wrote inline comments explaining the logic of your code.
+
+
+
+
+
+<!--
+
 # Homework 7, Part A: Big-O
 
 ## Learning Goals
@@ -72,3 +247,4 @@ The meaning of **"trace"** depends on each sorting method.
 * You submitted **all** `.pdf` files and all `.txt` files.
 * Your files are named **exactly** as in the homework specification, *including file extensions*.
 
+-->
