@@ -5,6 +5,12 @@ layout: default
 
 # Homework 7, Part A: Merge Sorting a Linked List
 
+In this assignment, we will walk you through implementing merge sort for a linked list.
+In addition to the coding problems, we ask you to answer **open-response questions** and submit your answers in a file called `Answers.txt`.
+
+
+<br/>
+
 
 ## Task 0: Creating your BlueJ project
 
@@ -157,6 +163,36 @@ public class LinkedList<T> implements LinearList<T> {
 }
 ```
 
+Then, answer:
+1. Which instance variables/methods are `protected`?
+2. Why would we choose to make them `protected` instead of `private` for this assignment?
+
+
+<br/>
+
+## Task 1
+
+Create a class, `SortableLinkedList`, with the following header:
+
+```java
+public class SortableLinkedList<T extends Comparable<T>> extends LinkedList<T> {
+  ...
+}
+```
+
+This is the class in which you will implement your sortable linked list.
+
+Then, answer:
+3. Explain the class header---what does each part of the syntax mean?
+4. Why do we mention `Comparable<T>` in the class header?
+
+
+
+<br/>
+
+## Task 2
+
+TODO
 
 
 
