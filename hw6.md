@@ -37,6 +37,12 @@ Additionally, in your implementation, please:
 * Update these references appropriately when inserting/removing.
 * Use the reference to rear for fast get/insertion/removal from the very end of the list (i.e. if someone wants to operate on the last element of the list, they shouldn't have to iterate over the whole list to find it).
 
+**Hints:** For both *insert* and *remove*, you may want to break your code into several cases:
+* When the list is empty
+* When removing from a list of size 1
+* When inserting/removing at the front
+* When inserting/removing at the rear
+
 
 ## Task 3: Testing
 
