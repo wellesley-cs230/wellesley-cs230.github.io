@@ -226,6 +226,60 @@ As before, after implementing this method, **test it** in the `main` method of t
 
 
 
+<br/>
+
+## Task 4
+
+Implement a helper method with the following header:
+```java
+private void reverse() {
+  ...
+}
+```
+
+As the name suggests, this method should reverse the order of the nodes in the linked list.
+Hint: you should be able to do this with a single while loop and without any additional data structures.
+
+As before, after implementing this method, **test it** in the `main` method of the same file.
+
+
+
+<br/>
+
+## Task 5
+
+Implement a helper method with the following header:
+```java
+private void merge(SortableLinkedList<T> right) {
+  ...
+}
+```
+
+This method takes in a second linked list, `right`, and merges into `this` linked list, using merge-sort's merge algorithm.
+
+Hints:
+* You may want to create a **new linked list** to contain the merged elements. Then, you can assign its contents to `this`.
+* You can do this **without** any pointer manipulation!
+* You may find `reverse` helpful here.
+
+As before, after implementing this method, **test it** in the `main` method of the same file.
+
+
+<br/>
+
+## Task 6
+
+Finally, implement merge sort:
+```java
+public void sort() {
+  ...
+}
+```
+
+Hint: every helper method above you haven't yet used will be helpful here.
+
+Don't forget to test your sorting!
+
 
 
 <br/>
