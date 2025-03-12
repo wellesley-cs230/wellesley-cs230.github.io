@@ -284,6 +284,27 @@ Don't forget to test your sorting!
 
 <br/>
 
+# Homework 7, Part B: Big-O
+
+
+
+Consider the following method that removes a CD from a linear collection (e.g. array):
+
+<img src="_images/figs/code.png" alt="code to remove a CD from an array" style="width: 750px;"/>
+
+
+
+Assume that the collection has `N` CDs to start with. Answer each of the questions below. Provide your answer by writing a sentence for each question, and then explaining the Big-O notation associated with the relevant statement.
+
+**Note:** If you find any of the Questions ambiguous (that is, it may mean two different things and you are not sure which one is the correct interpretation), explain why and give your answer **for each alternative**.
+
+Write your answer in a text file called `BigO.txt` and submit it in the proper assignment folder.
+
+
+
+
+<br/>
+
 # Submission Checklist
 
 * You submitted **all** `.java` files and all `.txt` files.
@@ -298,27 +319,6 @@ Don't forget to test your sorting!
 
 
 <!--
-
-# Homework 7, Part A: Big-O
-
-## Learning Goals
-
-* Understanding the Big-O complexity at the level of individual statements and methods
-
-
-## Task: Find the running time of statements in a method
-
-Consider the following method that removes a CD from a linear collection (e.g. array).
-
-
-<img src="_images/figs/code.png" alt="code to remove a CD from an array" style="width: 750px;"/>
-
-
-Assume that the collection has `n` CDs to start with. Answer each of the questions below. Provide your answer by writing a sentence for each question, and then explaining the Big-O notation associated with the relevant statement.
-
-**Note:** If you find any of the Questions ambiguous (that is, it may mean two different things and you are not sure which one is the correct interpretation), explain why and give your answer **for each alternative**.
-
-Write your answer in a text file called `BigO.txt` (not a Word `.doc` or some other special format---just plain text) and submit it in the proper assignment folder.
 
 
 
