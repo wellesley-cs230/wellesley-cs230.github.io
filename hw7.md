@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-# Homework 7, Part A: Merge Sorting a Linked List
+# Homework 7, Part A: Merge-Sorting a Linked List
 
 In this assignment, we will walk you through implementing merge sort for a linked list.
 In addition to the coding problems, we ask you to answer **open-response questions** and submit your answers in a file called `Answers.txt`.
@@ -192,7 +192,22 @@ Then, answer:
 
 ## Task 2
 
-TODO
+Implement a helper method with the following header:
+```java
+private void swapIfBigger(LinearNode<T> left, LinearNode<T> right) {
+  ...
+}
+```
+
+If the element stored in `left` is larger than the element stored in `right`, this method should swap the elements.
+Otherwise, this method should do nothing.
+Note that we're asking you to swap **elements**, not the nodes' place in the linked list; this is because swapping the elements doesn't require confusing pointer manipulation.
+
+After implementing this method, **test it**.
+We highly recommend you **do not** continue without confidence this method words correctly.
+
+
+
 
 
 
