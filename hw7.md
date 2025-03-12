@@ -172,7 +172,7 @@ Then, answer:
 
 ## Task 1
 
-Create a class, `SortableLinkedList`, with the following header:
+**Instructions.** Create a class, `SortableLinkedList`, with the following header:
 
 ```java
 public class SortableLinkedList<T extends Comparable<T>> extends LinkedList<T> {
@@ -182,8 +182,8 @@ public class SortableLinkedList<T extends Comparable<T>> extends LinkedList<T> {
 
 This is the class in which you will implement your sortable linked list.
 
-Then, answer:
-3. Explain the class header---what does each part of the syntax mean?
+**Answer.**
+3. What does each part of the syntax in the class header mean?
 4. Why do we mention `Comparable<T>` in the class header?
 
 
@@ -192,7 +192,7 @@ Then, answer:
 
 ## Task 2
 
-Implement a helper method with the following header:
+**Instructions.** Implement a helper method with the following header:
 ```java
 private void swapIfBigger(LinearNode<T> left, LinearNode<T> right) {
   ...
@@ -203,7 +203,7 @@ If the element stored in `left` is larger than the element stored in `right`, th
 Otherwise, this method should do nothing.
 Note that we're asking you to swap **elements**, not the nodes' place in the linked list; this is because swapping the elements doesn't require confusing pointer manipulation.
 
-After implementing this method, **test it** in the `main` method of the same file.
+**Tests.** After implementing this method, **test it** in the `main` method of the same file.
 We highly recommend you **do not** continue without confidence this method words correctly.
 
 
@@ -212,7 +212,7 @@ We highly recommend you **do not** continue without confidence this method words
 
 ## Task 3
 
-Implement a helper method with the following header:
+**Instructions.** Implement a helper method with the following header:
 ```java
 private SortableLinkedList<T> split() {
   ...
@@ -222,7 +222,7 @@ private SortableLinkedList<T> split() {
 This method cuts `this` linked list into two halves.
 The left half should remain in `this`, while the right half should be returned as its own linked list.
 
-As before, after implementing this method, **test it** in the `main` method of the same file.
+**Tests.** As before, after implementing this method, **test it** in the `main` method of the same file.
 
 
 
@@ -230,7 +230,7 @@ As before, after implementing this method, **test it** in the `main` method of t
 
 ## Task 4
 
-Implement a helper method with the following header:
+**Instructions.** Implement a helper method with the following header:
 ```java
 private void reverse() {
   ...
@@ -238,9 +238,10 @@ private void reverse() {
 ```
 
 As the name suggests, this method should reverse the order of the nodes in the linked list.
-Hint: you should be able to do this with a single while loop and without any additional data structures.
 
-As before, after implementing this method, **test it** in the `main` method of the same file.
+**Hint.** you should be able to do this with a single while loop and without any additional data structures.
+
+**Tests.** As before, after implementing this method, **test it** in the `main` method of the same file.
 
 
 
@@ -248,7 +249,7 @@ As before, after implementing this method, **test it** in the `main` method of t
 
 ## Task 5
 
-Implement a helper method with the following header:
+**Instructions.** Implement a helper method with the following header:
 ```java
 private void merge(SortableLinkedList<T> right) {
   ...
@@ -257,28 +258,34 @@ private void merge(SortableLinkedList<T> right) {
 
 This method takes in a second linked list, `right`, and merges into `this` linked list, using merge-sort's merge algorithm.
 
-Hints:
+**Hints.**
 * You may want to create a **new linked list** to contain the merged elements. Then, you can assign its contents to `this`.
 * You can do this **without** any pointer manipulation!
 * You may find `reverse` helpful here.
 
-As before, after implementing this method, **test it** in the `main` method of the same file.
+**Tests.** As before, after implementing this method, **test it** in the `main` method of the same file.
 
 
 <br/>
 
 ## Task 6
 
-Finally, implement merge sort:
+**Instructions.** Finally, implement merge sort:
 ```java
 public void sort() {
   ...
 }
 ```
 
-Hint: every helper method above you haven't yet used will be helpful here.
+**Hint.** Every helper method above you haven't yet used will be helpful here.
 
-Don't forget to test your sorting!
+**Tests.** Don't forget to test your sorting algorithm!
+For ease of checking your code, you may want to sort something simple, like integers, instead of strings:
+```
+SortableLinkedList<Integer> l = new SortableLinkedList<Integer>();
+l.insert(0, 0);
+...
+```
 
 
 
@@ -292,13 +299,13 @@ Consider the following method that removes a CD from a linear collection (e.g. a
 
 <img src="_images/figs/code.png" alt="code to remove a CD from an array" style="width: 750px;"/>
 
+Assume that the collection has `N` CDs to start with.
+Please write the Big-O of every line marked in the code.
+For lines inside a loop, please write the Big-O of the line *including its repetition**.
+Write your answer in a text file called `BigO.txt` and submit it.
 
+**Note:** If you find any of the questions ambiguous (that is, if you believe there are multiple interpretations), give your answer *for each interpretation*.
 
-Assume that the collection has `N` CDs to start with. Answer each of the questions below. Provide your answer by writing a sentence for each question, and then explaining the Big-O notation associated with the relevant statement.
-
-**Note:** If you find any of the Questions ambiguous (that is, it may mean two different things and you are not sure which one is the correct interpretation), explain why and give your answer **for each alternative**.
-
-Write your answer in a text file called `BigO.txt` and submit it in the proper assignment folder.
 
 
 
