@@ -301,7 +301,7 @@ Consider the following method that removes a CD from a linear collection (e.g. a
 
 Assume that the collection has `N` CDs to start with.
 Please write the Big-O of every line marked in the code.
-For lines inside a loop, please write the Big-O of the line *including its repetition**.
+For lines inside a loop, please write the Big-O of the line, *accounting for its repetition*.
 Write your answer in a text file called `BigO.txt` and submit it.
 
 **Note:** If you find any of the questions ambiguous (that is, if you believe there are multiple interpretations), give your answer *for each interpretation*.
