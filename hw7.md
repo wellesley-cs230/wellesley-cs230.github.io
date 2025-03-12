@@ -203,9 +203,26 @@ If the element stored in `left` is larger than the element stored in `right`, th
 Otherwise, this method should do nothing.
 Note that we're asking you to swap **elements**, not the nodes' place in the linked list; this is because swapping the elements doesn't require confusing pointer manipulation.
 
-After implementing this method, **test it**.
+After implementing this method, **test it** in the `main` method of the same file.
 We highly recommend you **do not** continue without confidence this method words correctly.
 
+
+
+<br/>
+
+## Task 3
+
+Implement a helper method with the following header:
+```java
+private SortableLinkedList<T> split() {
+  ...
+}
+```
+
+This method cuts `this` linked list into two halves.
+The left half should remain in `this`, while the right half should be returned as its own linked list.
+
+As before, after implementing this method, **test it** in the `main` method of the same file.
 
 
 
