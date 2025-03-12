@@ -208,6 +208,7 @@ We highly recommend you **do not** continue without confidence this method words
 
 
 
+
 <br/>
 
 ## Task 3
@@ -221,6 +222,7 @@ private SortableLinkedList<T> split() {
 
 This method cuts `this` linked list into two halves.
 The left half should remain in `this`, while the right half should be returned as its own linked list.
+This method should take no more than O(N) time.
 
 **Tests.** As before, after implementing this method, **test it** in the `main` method of the same file.
 
@@ -238,6 +240,7 @@ private void reverse() {
 ```
 
 As the name suggests, this method should reverse the order of the nodes in the linked list.
+This method should take no more than O(N) time.
 
 **Hint.** you should be able to do this with a single while loop and without any additional data structures.
 
@@ -257,6 +260,7 @@ private void merge(SortableLinkedList<T> right) {
 ```
 
 This method takes in a second linked list, `right`, and merges into `this` linked list, using merge-sort's merge algorithm.
+This method should take no more than O(N) time.
 
 **Hints.**
 * You may want to create a **new linked list** to contain the merged elements. Then, you can assign its contents to `this`.
