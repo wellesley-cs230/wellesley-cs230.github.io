@@ -204,6 +204,7 @@ Otherwise, this method should do nothing.
 Note that we're asking you to swap **elements**, not the nodes' place in the linked list; this is because swapping the elements doesn't require confusing pointer manipulation.
 
 **Tests.** After implementing this method, **test it** in the `main` method of the same file.
+You can store the results of all of your testing in `SortableLinkedlistTesting.txt`.
 We highly recommend you **do not** continue without confidence this method words correctly.
 
 
@@ -225,6 +226,7 @@ The left half should remain in `this`, while the right half should be returned a
 This method should take no more than O(N) time.
 
 **Tests.** As before, after implementing this method, **test it** in the `main` method of the same file.
+We highly recommend you **do not** continue without confidence this method words correctly.
 
 
 
@@ -245,6 +247,7 @@ This method should take no more than O(N) time.
 **Hint.** you should be able to do this with a single while loop and without any additional data structures.
 
 **Tests.** As before, after implementing this method, **test it** in the `main` method of the same file.
+We highly recommend you **do not** continue without confidence this method words correctly.
 
 
 
@@ -268,6 +271,7 @@ This method should take no more than O(N) time.
 * You may find `reverse` helpful here.
 
 **Tests.** As before, after implementing this method, **test it** in the `main` method of the same file.
+We highly recommend you **do not** continue without confidence this method words correctly.
 
 
 <br/>
