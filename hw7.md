@@ -164,8 +164,8 @@ public class LinkedList<T> implements LinearList<T> {
 ```
 
 Then, answer:
-1. Which instance variables/methods are `protected`?
-2. Why would we choose to make them `protected` instead of `private` for this assignment?
+* Which instance variables/methods are `protected`?
+* Why would we choose to make them `protected` instead of `private` for this assignment?
 
 
 <br/>
@@ -183,8 +183,8 @@ public class SortableLinkedList<T extends Comparable<T>> extends LinkedList<T> {
 This is the class in which you will implement your sortable linked list.
 
 **Answer.**
-3. What does each part of the syntax in the class header mean?
-4. Why do we mention `Comparable<T>` in the class header?
+* What does each part of the syntax in the class header mean?
+* Why do we mention `Comparable<T>` in the class header?
 
 
 
