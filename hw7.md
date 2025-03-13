@@ -237,7 +237,7 @@ This method should take no more than O(N) time.
 
 **Hints.**
 * You may want to create a **new linked list** to contain the merged elements. Then, you can assign its contents to `this`.
-* You can do this **without** any pointer manipulation!
+* You should do this **without** any pointer manipulation, only relying on other methods of the linked list.
 * You may find `reverse` helpful here.
 
 **Tests.** As before, after implementing this method, **test it** in the `main` method of the same file.
