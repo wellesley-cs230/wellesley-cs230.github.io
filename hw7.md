@@ -24,7 +24,6 @@ public interface LinearList<T> {
     public T get(int position);
     public void insert(int position, T element);
     public T remove(int position);
-    public T[] toArray();
     public String toString();
 }
 ```
@@ -137,18 +136,6 @@ public class LinkedList<T> implements LinearList<T> {
         return current.getElement();
     }
 
-    public T[] toArray() {
-        T[] array = (T[]) (new Object[this.count]);
-        
-        LinearNode<T> current = this.front;
-        for (int i = 0; i < this.size(); i++) {
-            array[i] = current.getElement();
-            current = current.getNext();
-        }
-        
-        return array;
-    }
-    
     public String toString() {
         String s = "[ ";
         

@@ -96,13 +96,6 @@ public interface LinearList<T> {
     public T remove(int position);
 
     /**
-     * Returns an array containing all of the elements in this list in proper sequence (from first to last element)
-     *
-     * @return an array representation of the linked list
-     */
-    public T[] toArray();
-    
-    /**
      * Generates a String representation of list; 
      * first element in the representation is the front
      * 
