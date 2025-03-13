@@ -213,7 +213,8 @@ private void reverse() {
 As the name suggests, this method should reverse the order of the nodes in the linked list.
 This method should take no more than O(N) time.
 
-**Hint.** you should be able to do this with a single while loop and without any additional data structures.
+**Hint.** You should be able to do this with a single while loop and without any additional data structures.
+If you wish, you may use one of the data structures we've previously covered in class (from the Java API).
 
 **Tests.** As before, after implementing this method, **test it** in the `main` method of the same file.
 We highly recommend you **do not** continue without confidence this method words correctly.
