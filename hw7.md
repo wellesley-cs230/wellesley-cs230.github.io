@@ -214,7 +214,7 @@ As the name suggests, this method should reverse the order of the nodes in the l
 This method should take no more than O(N) time.
 
 **Hint.** You should be able to do this with a single while loop and without any additional data structures.
-If you wish, you may use one of the data structures we've previously covered in class (from the Java API).
+If you wish, you may use a Queue or Stack from the Java API (only using the appropriate methods).
 
 **Tests.** As before, after implementing this method, **test it** in the `main` method of the same file.
 We highly recommend you **do not** continue without confidence this method words correctly.
