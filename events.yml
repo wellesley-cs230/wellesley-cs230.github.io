@@ -222,7 +222,7 @@ events:
   - month: "March"
     day: "12"
     day-of-week: "Wednesday"
-    topic: LinkeLists implementation
+    topic: LinkedLists implementations
     slides: "https://docs.google.com/document/d/1QcUEqrpZIX1kWbtqplnMdZadiHPSEAGR/edit#heading=h.abzg01gzbgow"
     due:
     released:
@@ -280,7 +280,8 @@ events:
   - month: "March"
     day: "26"
     day-of-week: "Wednesday"
-    topic:
+    topic: queue implementations
+    slides: "https://docs.google.com/file/d/1Y52zYnGkHX9xIhiATFBRWOmDd07NqbtS/edit?usp=docslist_api&filetype=msword"
     due:
     released:
     pre-class:
