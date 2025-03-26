@@ -289,7 +289,7 @@ events:
   - month: "March"
     day: "27"
     day-of-week: "Thursday"
-    topic: "Graphs"
+    topic: "Binary Search and Graphs"
     slides: "https://drive.google.com/drive/folders/16t1yfZja3urbdy3AXN8fnWqYu_2tSQY1?usp=drive_link"
     due: "Homework 7 by **10pm**"
     released: "Homework 8"    
