@@ -310,7 +310,8 @@ events:
   - month: "April"
     day: "02"
     day-of-week: "Wednesday"
-    topic:
+    extra-credit: "Attend talk, *Algorithms of Oppression*, by Safiya Noble on April 2nd, 5pm in Tishman. Submit a reflection on Gradescope."
+    topic: 
     due:
     released:
     pre-class:
