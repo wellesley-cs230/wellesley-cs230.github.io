@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Homework 8, Part A: Guitar
+# Homework 8: Guitar
 
 
 
@@ -97,9 +97,6 @@ In Gradescope submit the following files:
 
 
 
-<br/>
-
-# Homework 8, Part B: TBD
 
 
 
