@@ -22,7 +22,7 @@ We will assign you a peer to collaborate with on this assignment. Please,
 
 ## Task 1: Complete the Directed Graph Implementation
 
-Download [this starter code](https://drive.google.com/drive/folders/1krBZDDD2eIpduktsZLZI0CSJg6V60E5w?usp=sharing). 
+Download this starter code. 
 Complete the implementation of the DiGraph interface. Take it one method at a time, make sure to include appropriate javadoc, and test as you go. For the methods where you don’t immediately come up with a solution, write the pseudocode before writing the code for the method. Remember, arriving at a solution quickly that hasn’t been thought through and has mistakes will probably take longer to debug than thinking carefully - and slowly - of a solution that works for all cases you can think of.
 
 
