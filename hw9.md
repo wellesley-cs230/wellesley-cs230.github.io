@@ -20,10 +20,21 @@ We will assign you a peer to collaborate with on this assignment. Please,
 * *Discuss* the ideas and diagrams before diving into coding.
 
 
+## Task 0: Familiarize yourself with the starter code.
+
+* Download this starter code.
+* Skim each file and ask yourself---what does it do? Many of the files you've already seen as parts of examples from class.
+* Next, look at the APIs for Java's `LinkedList` and `Vector` classes. You'll be using those later.
+
+
 ## Task 1: Complete the Directed Graph Implementation
 
-Download this starter code. 
-Complete the implementation of the DiGraph interface. Take it one method at a time, make sure to include appropriate javadoc, and test as you go. For the methods where you don’t immediately come up with a solution, write the pseudocode before writing the code for the method. Remember, arriving at a solution quickly that hasn’t been thought through and has mistakes will probably take longer to debug than thinking carefully - and slowly - of a solution that works for all cases you can think of.
+Complete the implementation of the `DiGraph` interface in the `AdjListsDiGraph<T>` class.
+You can test your code in a new file called `Driver.java`, storing the output of your testing in `Tests.txt`.
+
+Tips:
+* Take it one method at a time, make sure to include appropriate comments/javadoc, and test as you go.
+* For the methods where you don't immediately come up with a solution, write the pseudocode before writing the code for the method. Remember, arriving at a solution quickly that hasn't been thought through and has mistakes will probably take longer to debug than thinking carefully - and slowly - of a solution that works for all cases you can think of.
 
 
 
@@ -32,12 +43,10 @@ Complete the implementation of the DiGraph interface. Take it one method at a ti
 Together with your partner, take a look at the pseudocode for the depth-first search traversal seen in class. Now write code to implement it. Make sure to test it on a few different kinds of graphs/paths to make sure it works as expected. 
 
 
-## Task 3: Graph Driver
-
-Now you’re ready to test your implementation, before sending the graph off to your friends to play with.
-
-Create a new driver program, `Driver.java`, and think carefully about where it should be placed in your project. Test each method thoroughly on all possible paths, marking clearly what result you expect and what you obtained. Store the outputs of your tests in `Tests.txt`.
-
+To help you test your code, we've included a folder of graphs, `tgf_graphs`, that contains `.tgf` files of graphs.
+You're welcome to use these graphs in your testing.
+To visualize the graphs, you can open the files with the [yED Live browser app](https://www.yworks.com/yed-live/).
+To load the graphs into your code, we've provided you with the method `AdjListsGraphFromFile`.
 
 
 
