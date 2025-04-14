@@ -391,10 +391,10 @@ events:
   - month: "April"
     day: "21"
     day-of-week: "Monday"
-    topic: "Trees"
-    slides: "https://drive.google.com/drive/folders/13SRo066DZSWM02xz33UaS-L19I945x1X?usp=drive_link"
-    pre-class: |
-      * Read [Chapters 16.1-16.3](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+    special: "Patriots Day: no lecture."
+    topic:
+    slides:
+    pre-class:
     
   - month: "April"
     day: "23"
