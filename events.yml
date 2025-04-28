@@ -418,7 +418,7 @@ events:
   - month: "April"
     day: "28"
     day-of-week: "Monday"
-    topic: "Priority Queues and Heaps"
+    topic: "Priority Queues and Heaps" 
     slides: "https://drive.google.com/drive/folders/1zyhcyAjfIlSJkZEhHiTbb3zj3C6HL5HW?usp=drive_link"
     due: 
     released:
@@ -462,7 +462,8 @@ events:
     released:
     pre-class: |
       * Review this [list of topics](https://docs.google.com/document/d/1QTgu6CRxqEh-0cMPcFIx2wlDFoiX6ZXQwdzWACvTly0/edit?usp=sharing)
-      * Solve practice problems (released closer to the exam day)
+      * Solve [these practice problems](https://docs.google.com/document/d/1r3A06nkqL0TFVFCmqZcL6ooYJfgEu7PPieOgzIIii4Q/edit?tab=t.0#heading=h.1s5axfyhcyba)
+      * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/1URHxbLBqF34AEZ0RoXqlavk4sjCRiW4px9AoRIlXadU/edit?tab=t.0#heading=h.1s5axfyhcyba)
       * Prepare a one page, **two-sided** note sheet you can bring to the exam
     class-meetings-over: true
 
