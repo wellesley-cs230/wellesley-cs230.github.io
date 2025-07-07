@@ -1,11 +1,13 @@
 import datetime
 
 
-CLASS_DAYS = ['Monday', 'Wednesday', 'Thursday']
-DISPLAY_DAYS = ['Monday', 'Tuesday / Wednesday', 'Thursday']
+CLASS_DAYS = ['Monday', 'Tuesday', 'Thursday']
+DISPLAY_DAYS = ['Monday', 'Tuesday', 'Thursday']
 LECTURE_DAYS = ['Monday', 'Thursday']
 
 
+# Spring
+'''
 SPECIAL_DATES = [
     (datetime.datetime(2025, 1, 20), 'Martin Luther King Jr. Day: no classes.'),
     (datetime.datetime(2025, 2, 17), 'Presidents\' Day: no classes.'),
@@ -19,8 +21,21 @@ SPECIAL_DATES = [
     (datetime.datetime(2025, 5, 1), 'Reading Period Begins (Tomorrow).'),
     (datetime.datetime(2025, 5, 5), 'Reading Period Ends.'),
 ]
+'''
+SPECIAL_DATES = [
+    (datetime.datetime(2025, 9, 1), 'Labor Day: no classes.'),
+    (datetime.datetime(2025, 10, 13), 'Indigenous Peoples\' Day: no classes.'),
+    (datetime.datetime(2025, 10, 14), 'Fall Break: no classes.'),
+    (datetime.datetime(2025, 10, 28), 'Tanner Conference: no classes.'),
+    (datetime.datetime(2025, 11, 26), 'Thanksgiving Break: no classes.'),    
+    (datetime.datetime(2025, 11, 27), 'Thanksgiving Break: no classes.'),    
+    (datetime.datetime(2025, 11, 28), 'Thanksgiving Break: no classes.'),    
+    (datetime.datetime(2025, 12, 11), 'Reading Period Begins.'),    
+    (datetime.datetime(2025, 12, 15), 'Final Exam Period Begins.'),    
+]
 
-READING_PERIOD_START = datetime.datetime(2025, 5, 1)
+
+READING_PERIOD_START = datetime.datetime(2025, 12, 11)
 
 
 def is_date_special(current):
@@ -32,8 +47,8 @@ def is_date_special(current):
 
 
 def generate_yml_calendar():
-    course_start = datetime.datetime(2025, 1, 20)
-    course_end = datetime.datetime(2025, 5, 9)
+    course_start = datetime.datetime(2025, 9, 1)
+    course_end = datetime.datetime(2025, 12, 19)
 
     start = course_start - datetime.timedelta(days=course_start.weekday())
     end = course_end + datetime.timedelta(days=6 - course_end.weekday())
