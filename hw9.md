@@ -2,53 +2,139 @@
 layout: default
 ---
 
-# Homework 9
+# Homework 8: Guitar
+
 
 
 ## Learning Goals
 
-* Use java's Vector and LinkedList classes
-* Implement a graph traversal
-* Implement the DiGraph (Directed Graph) interface
+* Extend a known Data Structure (Queue), to create a new, special-purpose Data Structure (BoundedQueue)
+* Use this special-purpose Data Structure in an simulation of a guitar playing music
+
+## Exercise: While My Guitar Gently Weeps
+
+In this exercise, you will learn how to simulate the plucking of a guitar string with the Karplus-Strong algorithm. Play the video below to see a visualization of the algorithm. If your browser won't play the video below, you can right-click on it and save it to your Desktop to play it from there.
 
 
-## Pair Programming
+<p><center>
+<video controls="controls" width="760" height="220" name="Stairway to Heaven" src="_images/figs/StairwayToHeaven.mov"></video>
+</center></p>
 
-We will assign you a peer to collaborate with on this assignment. Please,
-* Reach out to your partner ASAP to discuss when you will meet to work on the assignment. You will probably have to meet several times.
-* Work *together* (pair programming) rather than *divide and conquer*.
-* *Discuss* the ideas and diagrams before diving into coding.
+When a guitar string is plucked, the string vibrates and creates sound. The length of the string determines its fundamental frequency of vibration. We model a guitar string by sampling its displacement (a real number between -1/2 and +1/2) at N equally spaced points (in time), where N equals the sampling rate (44,100) divided by the fundamental frequency (rounding the quotient up to the nearest integer).
 
+<!--
+When a guitar string is plucked, the string vibrates and creates sound. These are some terms regarding the physics about how guitars make noise, and our simulation of it in this exercise:
+* When a guitar string is at rest, it is at its **equilibrium position**.
+* When a string is strummed, it vibrates oscillating from side to side. At any point, the distance of the string from its equilibrium position is called the **displacement** and it changes constantly. We will measure it as a real number between -1/2 and +1/2.
+* The **sampling rate** indicates how many samples of the displacement we take in a second. In out simulation the sampling rate **(N)** will be 44,100 (samples per second).
+* The **fundamental frequency** of the vibration is determined by the string length. We model a guitar string by dividing its displacement by the fundamental frequency (rounding the quotient up to the nearest integer). We will take N such samples per second.
 
-## Task 0: Familiarize yourself with the starter code.
+ at **N** equally spaced points (in time), where **N** equals the **sampling rate** (44,100) divided by the fundamental frequency (rounding the quotient up to the nearest integer).
+-->
+<img src="_images/figs/guitar-samples.png" />
 
-* Download [this starter code](/static_files/HW9.zip).
-* Skim each file and ask yourself---what does it do? Many of the files you've already seen as parts of examples from class.
-* Next, look at the APIs for Java's `LinkedList` and `Vector` classes. You'll be using those later.
+**Plucking the string.** The excitation of the string contains energy at any frequency. We simulate the excitation with <em>white noise</em>:
+set each of the <em>N</em> displacements to a random real number between -1/2 and +1/2.
 
+<img src="_images/figs/white-noise.png" />
 
-## Task 1: Complete the Directed Graph Implementation
+**The resulting vibrations.** After the string is plucked, the string vibrates. The pluck causes a displacement which spreads wave-like over time. The Karplus-Strong algorithm simulates this vibration by maintaining a <em>bounded-queue</em> of the <em>N</em> samples: the algorithm repeatedly dequeues the first sample from the bounded queue and enqueues the average of the dequeued sample and the front sample in the queue, scaled by an <em>energy decay factor</em> of 0.994.
 
-Complete the implementation of the `DiGraph` interface in the `AdjListsDiGraph<T>` class.
-You can test your code in a new file called `Driver.java`, storing the output of your testing in `Tests.txt`.
-
-Tips:
-* Take it one method at a time, make sure to include appropriate comments/javadoc, and test as you go.
-* For the methods where you don't immediately come up with a solution, write the pseudocode before writing the code for the method. Remember, arriving at a solution quickly that hasn't been thought through and has mistakes will probably take longer to debug than thinking carefully - and slowly - of a solution that works for all cases you can think of.
-
-
-
-## Task 2: Graph Traversal
-
-Together with your partner, take a look at the pseudocode for the depth-first search traversal seen in class. Now write code to implement it. Make sure to test it on a few different kinds of graphs/paths to make sure it works as expected. 
+<img src="_images/figs/karplus-strong.png" />
 
 
-To help you test your code, we've included a folder of graphs, `tgf_graphs`, that contains `.tgf` files of graphs.
-You're welcome to use these graphs in your testing.
-To visualize the graphs, you can open the files with the [yED Live browser app](https://www.yworks.com/yed-live/).
-To load the graphs into your code, we've provided you with the method `AdjListsGraphFromFile`.
+### Task 0
+
+Download this [starting code](static_files/Guitar.zip) that will allow you to complete the tasks below.
 
 
+### Task 1
+
+Write a **BoundedQueue.java** class that implements a **bounded queue ADT**. A bounded queue is a queue with a **maximum capacity**: no elements can be enqueued when the queue is full to its capacity. The BoundedQueue class should *inherit* from the `javafoundations.CircularArrayQueue` class, given in the starting code.
+
+Your *BoundedQueue.java* file should contain implementations for the following methods:
+
+  * A **constructor** that takes an integer argument, which is the capacity of the bounded queue
+  * A predicate `isFull()` that indicates whether the bounded queue is at capacity or not
+  * An `enqueue()` method that overrides the `javafoundations.CircularArrayQueue`'s `enqueue()` method so that it only enqueues an element if the queue is not at capacity.
+
+You should not add any more **instance** methods to this class implementation. But, of course, you should be providing evidence of testing your implementation in the `main()`.
+
+Make sure you test this class before continuing to the next task.
+
+### Task 2
+
+Write a `GuitarString` class that models a vibrating guitar string according to the following contract:
+
+  * <code>public GuitarString(double frequency);</code>
+  The **constructor** creates a guitar string of the given *frequency*, using a sampling rate of 44,100. It initializes a bounded queue of the desired capacity *N* (sampling rate divided by the *frequency*, rounded up to the nearest integer), and fills the bounded queue with *N* zeros to model a guitar string at rest.<br>
+
+  * <code>public void pluck();</code>
+  The **pluck()** method replaces the *N* samples in the bounded queue with *N* random values between -0.5 and +0.5:<br>
+
+  * <code>public double sample();</code>
+  The **sample()** method returns the value of the item at the front of the bounded queue:<br>
+
+  * <code>public void tic();</code>
+  The **tic()** method applies the Karplus-Strong algorithm, i.e., it deletes the sample at the front of the bounded queue and adds to the end of the bounded queue the average of the deleted sample and the sample at the front of the bounded queue, multiplied by the energy decay factor of 0.994:
+
+
+### Task 3
+
+Now you should be ready to test your code from the previous tasks. Compile and run the provided **GuitarHeroine** application. If you have successfully completed the previous tasks, then when you run the application, a window should appear as follows:
+
+<img src="_images/figs/guitar-heroine.png" />
+
+Now, you can make sweet music. By pressing any of the keys on your computer keyboard corresponding to the notes as illustrated in the piano keyboard image, you can simulate plucking a guitar string for that note (make sure that your computer's sound is not muted).
+
+### What to submit
+In Gradescope submit the following files:
+
+1. The `BoundedQueue.java` file
+2. Your testing transcript (`BoundedQueue.txt`) for BoundedQueue class
+3. The `GuitarString.java` file
+
+
+
+
+
+
+
+<!--
+
+<br/>
+
+# Homework 8, Part B: Queues
+
+## Learning Goals
+
+* Gaining experience of multiple implementations of the same interface
+* Debugging programs that require understanding of pointers
+* Work with the javafoundations package
+
+# Two Implementations of the Queue Interface 
+
+* Before starting this task make sure you review the handout on Queues and read section 15.1-15.5  of the textbook.
+
+* In class we discussed one full implementation of the `Queue` interface (`ArrayQueue`) and two partial implementations: (<code>LinkedQueue, CircularArrayQueue</code>). 
+
+* Download the [starter code](static_files/QueueImplementation.zip) to work on.
+
+* For this task, you are asked to complete and test the partial implementations: `LinkedQueue` and `CircularArrayQueue`.
+
+* **Design your solutions on paper before you start programming on a computer**. Trying to code on the computer without knowing exactly what to code is a waste of time and results in a sense of frustration and despair. Do not do this to yourselves! Keep a PDF or PNG of your design and submit it with your code.
+
+* The starter code includes also the *beginning of a driver* `Qtest` aimed to show that your implementation works correctly. 
+
+* You need to complete the two Queue implementations, test them thoroughly, and  provide javadoc documentation for the classes you will edit.
+
+
+## How to submit your Work
+
+When done, submit the `LinkedQueue.java`, `CircularArrayQueue.java` and `Qtest.java` files along with the `QtestTesting.txt` transcript of your solutions. Include the PDF or PNG of your design. And remember to edit the @author and @version fields of your javadoc!
+
+
+-->
 
 <br/>
 
@@ -60,91 +146,3 @@ To load the graphs into your code, we've provided you with the method `AdjListsG
 * You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
 * You wrote javadoc for every function, which includes `@param` and `@return`.
 * You wrote inline comments explaining the logic of your code.
-
-
-
-
-<!--
-# Homework 9, Part A: Graphs
-
-## Learning Goals
-
-* To understand Graphs and alternative implementations
-* To understand and practice  basic graph traversal algorithms
-
-**Note:** This exercise involves NO programming.
-
-
-## Exercise: Working with Graphs
-
-In this task you will work with an undirected Graph `G = {V, E}`, where `V = {f,p,s,b,l,j,t,c,d}` and `E = {(1,2), (1,3), (3,8), (4,8), (8,9), (1,7), (2,6), (2,3), (5,6), (6,7), (7,9), (8,1)}`.
-
-Assume that the nodes are stored in an indexed linear structure (e.g., an array or a vector) numbered consecutively from 1 (node `f`) to 9 (node `d`).
-
-### Task 1
-Represent the graph `G` using the adjacency matrix representation. Draw this representation in your notebook or on your computer (using a drawing application).
-
-### Task 2
-Represent the graph `G` using the adjacency lists representation. Draw this representation in your notebook or on your computer (using a drawing application).
-
-### Task 3
-Type up a `tgf` representation of the graph `G` manually in a file, named `G.tgf`. Open that file in yEd and see the produced visualization of the graph. Arrange the nodes, on the yEd window, nicely so that the edges are not crossing. Try the various Layout options, including Orthogonal. Take a snapshot of that image.
-
-### Task 4
-Find a path from node `l` to node `b` with length 8, that passes through every vertex of the graph.
-List the nodes of that path.
-
-### Task 5
-The graph `G` contains cycles. What is the smallest number of vertices to remove in order to break all cycles?
-
-### Task 6
-Run, by hand, a depth-first search (DFS) traversal of the graph `G`, starting at node  `p`. When choosing which node to visit next amongst the possibilities, choose the one that is next in alphabetical order. Give your answer by listing the edges in the order that DFS will select.
-
-
-## Submitting your work
-
-Submit one PDF file, named `GraphOnPaper.pdf` that contains your answers to all 6 questions, clearly marked: "Task 1 Answer" to "Task 6 Answer". Make sure the document you submit contains your name.
-
-
-
-
-
-
-
-<br/>
-
-# Homework 9, Part B: Maze
-
-## Learning Goals
-
-* To understand the correspondence between Graphs and Mazes
-* To understand how a graph algorithm can solve a maze problem
-
-
-**Note:** This exercise involves NO programming.
-
-## Exercise: Solving a maze
-
-Consider the following maze:
-
-<img src="_images/figs/maze.png" />
-
-Think about how you would model this maze as a graph so that you can employ graph traversal algorithms in order to solve it. By solving a maze we mean to have an algorithm that, entering from the top opening of the maze will exit at the bottom opening.
-
-Some questions to consider:
-1. How do you decide what is a vertex?
-2. How do you decide what is an edge or an arc?
-3. Show the data structure that represents the graph defined by the vertices and edges/arcs you chose.
-4. Show the DFS and BFS traversals of the graph defined by your data structure
-5. Which traversal is better? How did you decide?
-
-
-## Submitting your work
-
-Write up your answer on paper and take a photo of it. Submit one PDF file, named `MazeOnPaper.pdf` that contains your answers to all questions, clearly marked: "Task 1 Answer" to "Task 2 Answer", etc.
-
-Make sure the document you submit contains your name.
-
-
--->
-

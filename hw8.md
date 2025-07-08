@@ -2,147 +2,396 @@
 layout: default
 ---
 
-# Homework 8: Guitar
+# Homework 10: Who dunn it?!
+
+**Goals:**
+* Learn how to implement HashTables
+* Learn two strategies for handling hash collisions
+* Continue practicing the OOP paradigm
 
 
-
-## Learning Goals
-
-* Extend a known Data Structure (Queue), to create a new, special-purpose Data Structure (BoundedQueue)
-* Use this special-purpose Data Structure in an simulation of a guitar playing music
-
-## Exercise: While My Guitar Gently Weeps
-
-In this exercise, you will learn how to simulate the plucking of a guitar string with the Karplus-Strong algorithm. Play the video below to see a visualization of the algorithm. If your browser won't play the video below, you can right-click on it and save it to your Desktop to play it from there.
+**Pair Programming:**
+We will assign you a peer to collaborate with on this assignment. Please,
+* Reach out to your partner ASAP to discuss when you will meet to work on the assignment. You will probably have to meet several times.
+* Work *together* (pair programming) rather than splitting the homework and working separately.
+* *Discuss* the ideas and diagrams before diving into coding.
 
 
-<p><center>
-<video controls="controls" width="760" height="220" name="Stairway to Heaven" src="_images/figs/StairwayToHeaven.mov"></video>
-</center></p>
+**Context:** In the fall of 2024, we, Professors Yacoby and Sandu, embarked on an epic, never-ending saga of rivalry with the world's most cunning nemesis: the west-wing scanner. It all began when it gleefully devoured the students' CS 230 midterms and spewed forth an artistic masterpiece that looked more like a 3D Rorschach tests. Thankfully, Professor Sohie Lee was around to help us turn things around. Watching her work her magic, we learned that the scanner only responds well to scented candles, words of affirmation, and lots (and lots) of encouragement. But what caused the scanner to behave like this?
 
-When a guitar string is plucked, the string vibrates and creates sound. The length of the string determines its fundamental frequency of vibration. We model a guitar string by sampling its displacement (a real number between -1/2 and +1/2) at N equally spaced points (in time), where N equals the sampling rate (44,100) divided by the fundamental frequency (rounding the quotient up to the nearest integer).
+Enter Professor Turbak, whose tenure in the department dates back to the early 1900s—or so the legend goes. He reminisced about a chilly winter evening in 1982, when the scanner apparently committed "unspeakable things" that still induce dramatic pauses today. His theory? The scanner was hacked!
 
-<!--
-When a guitar string is plucked, the string vibrates and creates sound. These are some terms regarding the physics about how guitars make noise, and our simulation of it in this exercise:
-* When a guitar string is at rest, it is at its **equilibrium position**.
-* When a string is strummed, it vibrates oscillating from side to side. At any point, the distance of the string from its equilibrium position is called the **displacement** and it changes constantly. We will measure it as a real number between -1/2 and +1/2.
-* The **sampling rate** indicates how many samples of the displacement we take in a second. In out simulation the sampling rate **(N)** will be 44,100 (samples per second).
-* The **fundamental frequency** of the vibration is determined by the string length. We model a guitar string by dividing its displacement by the fundamental frequency (rounding the quotient up to the nearest integer). We will take N such samples per second.
+In an effort to unravel the mystery, we enlisted the expertise of Professors Anderson and VanHattum, who helped us snag the scanner's logs, chronicling every IP address that dared whisper sweet nothings into its circuits. However, we were so traumatized by the scanner's antics that we seemed to have forgotten how to implement all data structures. Now, we desperately need your help.
 
- at **N** equally spaced points (in time), where **N** equals the **sampling rate** (44,100) divided by the fundamental frequency (rounding the quotient up to the nearest integer).
--->
-<img src="_images/figs/guitar-samples.png" />
-
-**Plucking the string.** The excitation of the string contains energy at any frequency. We simulate the excitation with <em>white noise</em>:
-set each of the <em>N</em> displacements to a random real number between -1/2 and +1/2.
-
-<img src="_images/figs/white-noise.png" />
-
-**The resulting vibrations.** After the string is plucked, the string vibrates. The pluck causes a displacement which spreads wave-like over time. The Karplus-Strong algorithm simulates this vibration by maintaining a <em>bounded-queue</em> of the <em>N</em> samples: the algorithm repeatedly dequeues the first sample from the bounded queue and enqueues the average of the dequeued sample and the front sample in the queue, scaled by an <em>energy decay factor</em> of 0.994.
-
-<img src="_images/figs/karplus-strong.png" />
+If the scanner logs from 1982 reveal the same IP address as that fateful night when the midterms turned into modern art, it means our dear scanner wasn't just hacked---it was haunted by the same techno-ghost! Dust off your detective hats, because this is one glitch in the matrix you won't want to miss. Your mission, should you choose to accept it, is to determine if the same IP address was found in both logs.
 
 
-### Task 0
-
-Download this [starting code](static_files/Guitar.zip) that will allow you to complete the tasks below.
-
-
-### Task 1
-
-Write a **BoundedQueue.java** class that implements a **bounded queue ADT**. A bounded queue is a queue with a **maximum capacity**: no elements can be enqueued when the queue is full to its capacity. The BoundedQueue class should *inherit* from the `javafoundations.CircularArrayQueue` class, given in the starting code.
-
-Your *BoundedQueue.java* file should contain implementations for the following methods:
-
-  * A **constructor** that takes an integer argument, which is the capacity of the bounded queue
-  * A predicate `isFull()` that indicates whether the bounded queue is at capacity or not
-  * An `enqueue()` method that overrides the `javafoundations.CircularArrayQueue`'s `enqueue()` method so that it only enqueues an element if the queue is not at capacity.
-
-You should not add any more **instance** methods to this class implementation. But, of course, you should be providing evidence of testing your implementation in the `main()`.
-
-Make sure you test this class before continuing to the next task.
-
-### Task 2
-
-Write a `GuitarString` class that models a vibrating guitar string according to the following contract:
-
-  * <code>public GuitarString(double frequency);</code>
-  The **constructor** creates a guitar string of the given *frequency*, using a sampling rate of 44,100. It initializes a bounded queue of the desired capacity *N* (sampling rate divided by the *frequency*, rounded up to the nearest integer), and fills the bounded queue with *N* zeros to model a guitar string at rest.<br>
-
-  * <code>public void pluck();</code>
-  The **pluck()** method replaces the *N* samples in the bounded queue with *N* random values between -0.5 and +0.5:<br>
-
-  * <code>public double sample();</code>
-  The **sample()** method returns the value of the item at the front of the bounded queue:<br>
-
-  * <code>public void tic();</code>
-  The **tic()** method applies the Karplus-Strong algorithm, i.e., it deletes the sample at the front of the bounded queue and adds to the end of the bounded queue the average of the deleted sample and the sample at the front of the bounded queue, multiplied by the energy decay factor of 0.994:
-
-
-### Task 3
-
-Now you should be ready to test your code from the previous tasks. Compile and run the provided **GuitarHeroine** application. If you have successfully completed the previous tasks, then when you run the application, a window should appear as follows:
-
-<img src="_images/figs/guitar-heroine.png" />
-
-Now, you can make sweet music. By pressing any of the keys on your computer keyboard corresponding to the notes as illustrated in the piano keyboard image, you can simulate plucking a guitar string for that note (make sure that your computer's sound is not muted).
-
-### What to submit
-In Gradescope submit the following files:
-
-1. The `BoundedQueue.java` file
-2. Your testing transcript (`BoundedQueue.txt`) for BoundedQueue class
-3. The `GuitarString.java` file
-
-
-
-
-
-
-
-<!--
 
 <br/>
 
-# Homework 8, Part B: Queues
+# Task 0
 
-## Learning Goals
+Create a new BlueJ project called "HashTables." In this project, create a file for the following interface:
 
-* Gaining experience of multiple implementations of the same interface
-* Debugging programs that require understanding of pointers
-* Work with the javafoundations package
+`HashTable.java`:
+```java
+public interface HashTable<K, V> {
+    /**
+     * Inserts the specified key-value pair into the hash table. 
+     * If the key already exists in the hash table, its value is updated to the specified value.
+     *
+     * @param key   The key with which the specified value is to be associated.
+     * @param value The value to be associated with the specified key.
+     */
+    public void put(K key, V value);
 
-# Two Implementations of the Queue Interface 
+    /**
+     * Returns the value associated with the specified key, or null if the hash table contains no mapping for the key.
+     *
+     * @param key The key whose associated value is to be returned.
+     * @return The value associated with the specified key, or null if the hash table contains no mapping for the key.
+     */
+    public V get(K key);
 
-* Before starting this task make sure you review the handout on Queues and read section 15.1-15.5  of the textbook.
+    /**
+     * Returns the number of key-value mappings in the hash table.
+     *
+     * @return The number of key-value mappings in the hash table.
+     */
+    public int size();
 
-* In class we discussed one full implementation of the `Queue` interface (`ArrayQueue`) and two partial implementations: (<code>LinkedQueue, CircularArrayQueue</code>). 
+    /**
+     * Returns true if the hash table contains no key-value mappings.
+     *
+     * @return true if the hash table contains no key-value mappings.
+     */
+    public boolean isEmpty();
+}
+```
 
-* Download the [starter code](static_files/QueueImplementation.zip) to work on.
+You will create several Hash Tables that implement this interface. Next, create a file called `Entry.java`, representing a single HashTable entry as follows. This will prove useful in your implementation of the Hash Tables.
 
-* For this task, you are asked to complete and test the partial implementations: `LinkedQueue` and `CircularArrayQueue`.
+`Entry.java`:
+```java
+/**
+ * Represents an entry in the HashTable
+ *
+ * @author CS 230 Staff
+ * @version Fall 2024
+ */
+public class Entry<K, V> {
+    private K key;
+    private V value;
 
-* **Design your solutions on paper before you start programming on a computer**. Trying to code on the computer without knowing exactly what to code is a waste of time and results in a sense of frustration and despair. Do not do this to yourselves! Keep a PDF or PNG of your design and submit it with your code.
+    /**
+     * Constructs an entry with the specified key and value.
+     *
+     * @param key   The key associated with this entry.
+     * @param value The value associated with this key.
+     */
+    public Entry(K key, V value) {
+        this.key = key;
+        this.value = value;
+    }
 
-* The starter code includes also the *beginning of a driver* `Qtest` aimed to show that your implementation works correctly. 
+    /**
+     * Returns the key associated with this entry.
+     *
+     * @return The key associated with this entry.
+     */
+    public K getKey() {
+        return this.key;
+    }
 
-* You need to complete the two Queue implementations, test them thoroughly, and  provide javadoc documentation for the classes you will edit.
+    /**
+     * Sets the key for this entry.
+     *
+     * @param key The key to set for this entry.
+     */
+    public void setKey(K key) {
+        this.key = key;
+    }
+
+    /**
+     * Returns the value associated with this entry.
+     *
+     * @return The value associated with this entry.
+     */
+    public V getValue() {
+        return this.value;
+    }
+
+    /**
+     * Sets the value for this entry.
+     *
+     * @param value The value to set for this entry.
+     */
+    public void setValue(V value) {
+        this.value = value;
+    }
+}
+```
 
 
-## How to submit your Work
 
-When done, submit the `LinkedQueue.java`, `CircularArrayQueue.java` and `Qtest.java` files along with the `QtestTesting.txt` transcript of your solutions. Include the PDF or PNG of your design. And remember to edit the @author and @version fields of your javadoc!
+<br/>
+
+# Task 1
+
+* Create a file called `LinearProbingHashTable.java` and in it, implement a HashTable with linear probing.
+* Since all Java objects extend `Object`, they all inherit a method called `hashCode` that can be used in a hash table. In your HashTable, please use the `hashCode` method of `K` as your has function. Note that this function may return a negative integer, so take the absolute value of the output of the function.
+* At the bottom of the file, create a main method and use it to test your code. We recommend picking `K` to be a `String` when testing. Save the output of your tests in a file called `LinearProbingHashTable.txt` and submit it along with your code.
 
 
--->
+<br/>
+
+# Task 2
+
+* Create a file called `LinkedHashTable.java` and in it, implement a HashTable with separate chaining. For this class, you're welcome to use Java's `LinkedList` class.
+* Add a method `public V remove(K key)` to this implementation that allows one to remove the item associated with the provided `key`. Note that this is not possible to do for a Hash Table with linear probing---can you think of why?
+* As before, create a main method and use it to test your code and save the output of your testing in `LinkedHashTable.txt` to submit it along with your code.
+
+
+<br/>
+
+# Task 3
+
+Now that you have your HashTable ready, you can start your investigation! Implement a driver class called `Detective.java` that:
+* Reads in the log files from [1982](/static_files/hashtables/log-1982.txt) and [2024](/static_files/hashtables/log-2024.txt), containing the lists of IP addresses
+* Uses one of your Hash Table implementations to cross references the IP addresses from 1982 with those from 2024 to find the overlap
+* For the IP address that overlap, your code should report how many times the IP address appears in each log
+
+
+<br/>
+
+# Task 4
+
+In a file called `Answers.txt`, answer:
+1. Which IP address did you find? Is it a valid IP address (you may use Google to help you answer this)? 
+2. How many times did it appear in the 1982 log and in the 2024 log?
+3. If the log from 1982 had `N` lines and the file from 2024 had `M` lines, what's the computational complexity of your algorithm?
+4. And what's the space complexity of your algorithm?
+
 
 <br/>
 
 # Submission Checklist
 
-* You submitted **all** `.java` files and all `.txt` files.
+* You submitted **all** `.java`, `.txt` and `.pdf` files.
 * Your files are named **exactly** as in the homework specification, *including file extensions*.
 * You tested **every possible** pathway in your code.
 * You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
 * You wrote javadoc for every function, which includes `@param` and `@return`.
 * You wrote inline comments explaining the logic of your code.
+
+
+
+<!--
+# Homework 10, Part A: Hash Tables
+
+
+## Goals
+* Better understanding of using a Hash Table
+* Designing a program on your own
+
+
+
+## Exercise: Use Hashtables to analyze word frequencies
+
+In this exercise, you will use a hash table to count frequencies of words in some files.
+
+
+### Task 0 
+
+Download the [DataFiles](static_files/DataFiles.zip) for testing your work.
+
+### Task 1
+Look at `WordTable_Hash.java` below. In the code, a hash table was used to count word frequencies in a single file. Go over the code, and make sure you understand it well before moving on. You should use parts of that code in the program you will write in the next step.
+
+`WordTable_Hash.java`:
+```java
+import java.util.Hashtable;
+import java.util.Scanner;
+import java.util.Enumeration;
+import java.io.File;
+import java.io.IOException;
+
+/* Read in a text file and store the number of occurrences of distinct word in the file.
+ * You should use the file name and relative path as a command-line argument
+ * E.g., "DataFiles/GreenEggs.txt"
+ */
+public class WordTable_Hash  {
+
+    // Instance variables
+    private int totalWords;
+    private Hashtable<String, Integer> table;
+
+    // Constructor
+    public WordTable_Hash() {
+        totalWords = 0;
+        table = new Hashtable<String, Integer>();
+    }
+
+    // Instance methods
+    public void readInFile(String filename) {
+        try {
+            Scanner reader = new Scanner(new File(filename));
+            while (reader.hasNext()) {
+                String word = reader.next();
+                if (table.containsKey(word)) {
+                    int previousCount = table.get(word);
+                    table.put(word, previousCount+1);
+                }
+                else table.put(word, 1);
+                totalWords++;
+            }
+            reader.close();
+        } catch (IOException ex) {
+            System.out.println(ex);
+        }
+    }
+
+    public int getTotalWords() {
+        return totalWords;
+    }
+
+    public int getNumDistinctWords() {
+        return table.size();
+    }
+
+    public String toString() {
+        return table.toString();
+    }
+
+    public void printKeysAndValues(){
+        Enumeration contents = table.keys();
+        String key;
+        System.out.println("Key: \t Value: \n");
+        while(contents.hasMoreElements()) {
+            key = (String) contents.nextElement();
+            System.out.println(key+ "\t" + table.get(key));
+        }
+    }
+
+    public static void main (String[] args) throws IOException {
+        if (args.length == 0)
+            System.out.println("When executing this application, please enter the name of a file as a command line arguemnt.");
+        else {
+            long start = System.currentTimeMillis();
+            WordTable_Hash wt = new WordTable_Hash();
+            wt.readInFile(args[0]);
+            long stop = System.currentTimeMillis();
+
+            // Output results
+            //System.out.println("The contents of the word frequency table are: ");
+            //System.out.println(wt);
+            System.out.println("Using WordTable_Hash");
+            wt.printKeysAndValues(); // to enumerate them
+            System.out.println("The file has " + wt.getTotalWords() + " words");
+            System.out.println("of which " + wt.getNumDistinctWords() + " are different");
+            System.out.println("Reading in file took " + (stop-start) + " milliseconds.");
+        }
+    } 
+}
+```
+
+
+### Task 2
+In this part, we will count word frequencies among multiple files, in particular all the files contained in a given directory (folder). The input of the program should be the name of a directory to be processed.
+The output of the program should include:
+* the total number of words read from **all files** in the given directory
+* the number of distinct words in there, and
+* the most frequent word among all files, together with its frequency.
+
+You can iterate over the files in a directory like this:
+
+```java
+import java.io.File;
+
+// args[0] is the name of a directory
+dir= new File(args[0] + "/");
+
+// dir points to the directory’s contents
+File[]files= dir.listFiles();
+System.out.println(files.length + "files");
+
+for (File f : files) 
+  if (!f.isHidden()) 
+    process(f);
+```    
+
+The design of this program, i.e, what methods to have, what inputs they may take etc, is left up to you. As you design your application, remember some of the basic principals for writing code:
+ * break your code into methods so that each method definition is not too long
+ * code repetition (writing the some piece of code more than once) should be avoided
+ * the `main()` method should be short, high-level and basically only call other methods
+ * use descriptive names for methods, variables etc to improve the readability and the overall quality of your code
+
+
+
+**Specifications:**
+Please adhere to the following specifications:
+
+* Name your program `WordFrequenciesDirectory_Hash.java`
+* Your program should take the name of the folder to be processed as a **command line argument**. If no command line argument is provided by the user, the downloaded folder `DataFiles` should be used as input.
+* Structure your output to look similar to this:
+
+<pre>
+Folder processed: DataFiles
+Total number of words read: 1501990  
+Number of distinct words: 60660
+Most frequent word: the (frequency: 55965)
+</pre>
+
+
+### Task 3
+Once you are done with the previous task, try to add some more functionality to your program:
+
+Given a specific word, present the number of times it has repeated among all files in the directory processed by your program. Notice that it is left up to you how to get the "specific word" into your program.  Some ideas include:
+
+* Hardwire it into your program
+* Get it as (one more) command line argument
+* Ask the user to type the word in the keyboard and read it into your program
+* Perhaps, get in a dialogue with the user and allow them to enter, through the keyboard, more than
+one such words.
+
+
+
+### What to submit
+
+ Submit to Gradescope your `WordFrequenciesDirectory_Hash.java` and your **testing transcript**  (running your program on the DataFiles directory you downloaded).
+
+
+
+
+
+
+
+<br/>
+
+# Homework 10, Part B: Trees
+
+## Exercise: Tree Terminology
+
+This exercise tests your understanding of some definitions for trees. Consider the following tree:
+
+<img src="_images/figs/tree.png" />
+
+1. Produce a preorder traversal of this tree.
+2. Produce an inorder traversal of this tree.
+3. Produce a postorder traversal of this tree.
+4. Produce a level-order traversal of this tree.
+5. Draw an array to represent this tree using the computed links implementation strategy.
+6. Draw an array to represent this tree using the stored links implementation strategy. For this question, place the nodes in the array in alphabetical order.
+Use -1 to denote the location of a child that does not exist.
+7. What is the big-O time complexity of the find operation in the LinkedBinaryTree class?
+8. What is the time complexity of the inorder operation in the LinkedBinaryTree class?
+
+
+
+### What do submit
+
+Submit to gradescope a single file, `TreeTerminology.pdf`, containing your answers.
+
+-->
+
+
