@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Homework 10: Who dunn it?!
+# Homework 8: Who dunn it?!
 
 **Goals:**
 * Learn how to implement HashTables
