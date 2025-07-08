@@ -110,6 +110,8 @@ events:
     day-of-week: "Thursday"
     topic: "Inheritance"
     slides: "https://drive.google.com/drive/folders/14QJe3SxOuWtvBFAkvah1AoLVVImR37IR?usp=drive_link"
+    due: "Homework 3 by **10pm**"
+    released: "[Homework 4](/hw4)"    
     pre-class: |
       * Read [Chapter 8](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 8](https://docs.google.com/forms/d/e/1FAIpQLSeSzzvp1aNqPbErHByzVhHpkhp9cV1r8ekSTAxPBs-OTRDlxw/viewform?usp=sf_link)
@@ -168,8 +170,8 @@ events:
     day-of-week: "Thursday"
     topic: "Exceptions and IO"
     slides: "https://drive.google.com/drive/folders/1bvYuCaKrUiMfZ2MMtb5UVrVfBF85P-lY?usp=drive_link"
-    due: "Homework 3 by **10pm**"
-    released: "[Homework 4](/hw4)"
+    due: 
+    released: 
     pre-class: |
       * Read [Chapter 10](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 10](https://docs.google.com/forms/d/e/1FAIpQLSfQNeSShwv4mEU3x5kHSm8V2T_TQrYPC6kSc6dV4Jha91uYgQ/viewform?usp=sf_link)
