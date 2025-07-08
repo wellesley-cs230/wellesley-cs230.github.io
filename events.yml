@@ -149,13 +149,13 @@ events:
   - month: "October"
     day: "06"
     day-of-week: "Monday"
+    topic: "Exceptions and IO"
+    slides: "https://drive.google.com/drive/folders/1bvYuCaKrUiMfZ2MMtb5UVrVfBF85P-lY?usp=drive_link"
+    due: 
+    released: 
     pre-class: |
-      * Review [this list of topics](https://docs.google.com/document/d/1B10UeBPa-w7O9VGIwkFc31jFtY_7LnJP5rOAzRT1-T0/edit?usp=sharing)
-      * Read the [Midterm I instructions](https://docs.google.com/document/d/1FVImltjXAG1jvq1PE8JnjXngZVvkUfOii8SjVJ10mv0/edit?usp=sharing)
-      * Solve [these practice problems](https://docs.google.com/document/d/1N84sG7znr6krxj7KeLMbubMRUHbmX0v8vAeu6CaCTzc/edit?usp=sharing)
-      * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/19JKCPG0FyhLUUNezbeI5S446lgb-2hmiNRd3-h8C2Z8/edit?usp=sharing)
-      * Prepare a one page (single sided) note sheet you can bring to the exam      
-    exam: "Midterm I (everything before inheritance)"
+      * Read [Chapter 10](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 10](https://docs.google.com/forms/d/e/1FAIpQLSfQNeSShwv4mEU3x5kHSm8V2T_TQrYPC6kSc6dV4Jha91uYgQ/viewform?usp=sf_link)
 
   - month: "October"
     day: "07"
@@ -168,14 +168,14 @@ events:
   - month: "October"
     day: "09"
     day-of-week: "Thursday"
-    topic: "Exceptions and IO"
-    slides: "https://drive.google.com/drive/folders/1bvYuCaKrUiMfZ2MMtb5UVrVfBF85P-lY?usp=drive_link"
-    due: 
-    released: 
     pre-class: |
-      * Read [Chapter 10](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-      * Answer the quiz on [Chapter 10](https://docs.google.com/forms/d/e/1FAIpQLSfQNeSShwv4mEU3x5kHSm8V2T_TQrYPC6kSc6dV4Jha91uYgQ/viewform?usp=sf_link)
-    
+      * Review [this list of topics](https://docs.google.com/document/d/1B10UeBPa-w7O9VGIwkFc31jFtY_7LnJP5rOAzRT1-T0/edit?usp=sharing)
+      * Read the [Midterm I instructions](https://docs.google.com/document/d/1FVImltjXAG1jvq1PE8JnjXngZVvkUfOii8SjVJ10mv0/edit?usp=sharing)
+      * Solve [these practice problems](https://docs.google.com/document/d/1N84sG7znr6krxj7KeLMbubMRUHbmX0v8vAeu6CaCTzc/edit?usp=sharing)
+      * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/19JKCPG0FyhLUUNezbeI5S446lgb-2hmiNRd3-h8C2Z8/edit?usp=sharing)
+      * Prepare a one page (single sided) note sheet you can bring to the exam      
+    exam: "Midterm I (everything before inheritance)"
+        
   - month: "October"
     day: "13"
     day-of-week: "Monday"
