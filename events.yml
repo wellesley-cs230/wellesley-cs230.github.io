@@ -121,8 +121,8 @@ events:
     day-of-week: "Monday"
     topic: "Polymorphism"
     slides: "https://drive.google.com/drive/folders/15WWCmH55pzx31XwZU8sAeRFgEj5bEeGT?usp=drive_link"
-    due: "Homework 4 by **10pm**"
-    released: "[Homework 5 (in pairs)](/hw5)"
+    due:
+    released:     
     pre-class: |
       * Read [Chapter 9](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 9](https://docs.google.com/forms/d/e/1FAIpQLScBSjz2QduQVzu59nEHkMlSwlYMgmksAtsWniIC0FbjUP9IYA/viewform?usp=sf_link)
@@ -140,8 +140,8 @@ events:
     day-of-week: "Thursday"
     topic: "Interfaces (from last week) + Stacks"
     slides: "https://drive.google.com/drive/folders/11qHHfpeHa9iWZuyPB-c85A6w6RqC_bjS?usp=drive_link"
-    due:
-    released: 
+    due: "Homework 4 by **10pm**"
+    released: "[Homework 5 (in pairs)](/hw5)"    
     pre-class: |
       * Read [Chapters 14.1-14.9](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 14](https://docs.google.com/forms/d/e/1FAIpQLSc1v1aGlggmQpdh9hLN1C0UsAqzkJ8lIy4zDB_RxGiF6TEOqQ/viewform?usp=sf_link)
