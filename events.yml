@@ -170,11 +170,11 @@ events:
     day-of-week: "Thursday"
     pre-class: |
       * Review [this list of topics](https://docs.google.com/document/d/1B10UeBPa-w7O9VGIwkFc31jFtY_7LnJP5rOAzRT1-T0/edit?usp=sharing)
-      * Read the [Midterm I instructions](https://docs.google.com/document/d/1FVImltjXAG1jvq1PE8JnjXngZVvkUfOii8SjVJ10mv0/edit?usp=sharing)
+      * Read the [Midterm instructions](https://docs.google.com/document/d/1FVImltjXAG1jvq1PE8JnjXngZVvkUfOii8SjVJ10mv0/edit?usp=sharing)
       * Solve [these practice problems](https://docs.google.com/document/d/1N84sG7znr6krxj7KeLMbubMRUHbmX0v8vAeu6CaCTzc/edit?usp=sharing)
       * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/19JKCPG0FyhLUUNezbeI5S446lgb-2hmiNRd3-h8C2Z8/edit?usp=sharing)
       * Prepare a one page (single sided) note sheet you can bring to the exam      
-    exam: "Midterm I (everything before inheritance)"
+    exam: "Midterm (everything before inheritance)"
         
   - month: "October"
     day: "13"
@@ -351,7 +351,7 @@ events:
       * Solve [these practice problems](https://docs.google.com/document/d/1xNwc2AQHSE55yfw53dmBr1KC8Svj7cneClqrjWAySb8/edit?usp=sharing)
       * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/17aSVhepAjjggwI4e6b1UdU12ZLx3DLEniIdI7hZ6E98/edit?usp=sharing)
       * Prepare a one page (single sided) note sheet you can bring to the exam      
-    exam: "Midterm II (from Inheritance to Hash Tables)"    
+    exam: "Practice Final (from Inheritance to Hash Tables)"    
         
   - month: "November"
     day: "24"
