@@ -11,11 +11,11 @@ layout: default
 **Class Participation.** Active class participation is expected of every student who wants to succeed in the course, and includes (but is not limited to) attendance, participation in class discussions, and completing lab tasks and quizzes. Please note that if you miss class for any reason, it's your responsibility to obtain the class notes and topics from fellow peers.
 
 **Final Grades.** Your final grade for the course will be computed as a weighted average of several components. The relative weight of each component is shown below:
-* Assignments: 15%
-* Labs: 10%
+* Assignments: 20%
+* Labs: 15%
 * Quizzes: 5%
-* Midterm I: 15%
-* Midterm II: 20%
+* Midterm: 20%
+* Practice Final: 5%
 * Final Exam (during exam period): 25%
 * Class participation, team work, and respectul engagement: 10%
 
