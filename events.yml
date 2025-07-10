@@ -372,8 +372,6 @@ events:
     day-of-week: "Thursday"
     special: "Thanksgiving Break: no classes."
     topic:
-    due: "Homework 9 (in pairs) by **10pm**"
-    released: "[Homework 10 (in pairs)](/hw10)"        
     pre-class:
 
   - month: "December"
@@ -381,6 +379,8 @@ events:
     day-of-week: "Monday"
     topic: "Breadth-First Search"
     slides: "https://drive.google.com/drive/folders/1QUjilSVffGm6Jbw1lA2DLfCGktOYZokq?usp=drive_link"
+    due: "Homework 9 (in pairs) by **10pm**"
+    released: "[Homework 10 (in pairs)](/hw10)"            
     pre-class: |
       * Read [Chapter 19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
         
@@ -405,8 +405,7 @@ events:
     day-of-week: "Monday"
     topic: "Priority Queues and Heaps" 
     slides: "https://drive.google.com/drive/folders/1zyhcyAjfIlSJkZEhHiTbb3zj3C6HL5HW?usp=drive_link"
-    due: "Homework 9 (in pairs) by **10pm**"
-    released: "[Homework 10](/hw10)"
+    due: "Homework 10 by **10pm**"
     pre-class: |
       * Read [Chapter 18](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 18](https://docs.google.com/forms/d/e/1FAIpQLSfk0iCXOo5CEKUmEIRdU8dkYlHlW4wrPWO0EiS2fYSbFtsoXg/viewform?usp=sf_link)
