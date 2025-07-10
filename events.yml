@@ -354,13 +354,13 @@ events:
   - month: "November"
     day: "24"
     day-of-week: "Monday"
-    topic: "The Ethics of Search Engines"    
-    slides: "https://drive.google.com/drive/folders/189I-gjFBhFeoyZ6ckJuXco650EWKQ8ni?usp=drive_link"
-    due: "Homework 9 (in pairs) by **10pm**"
-    released: "[Homework 10](/hw10)"
+    topic: Depth First Search
+    slides: "https://drive.google.com/drive/folders/1XqmtnD8ipUcDxQJe7B8wJkWwBsjKJ9rc?usp=drive_link"
+    due: "Homework 8 (in pairs) by **10pm**"
+    released: "[Homework 9 (in pairs)](/hw9)"        
     pre-class: |
-      * Complete the pre-class work on Gradescope by **7am** before class.
-    
+      * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+        
   - month: "November"
     day: "25"
     day-of-week: "Tuesday"
@@ -381,13 +381,11 @@ events:
   - month: "December"
     day: "01"
     day-of-week: "Monday"
-    topic: Depth First Search
-    slides: "https://drive.google.com/drive/folders/1XqmtnD8ipUcDxQJe7B8wJkWwBsjKJ9rc?usp=drive_link"
-    due: "Homework 8 (in pairs) by **10pm**"
-    released: "[Homework 9 (in pairs)](/hw9)"        
+    topic: "Breadth-First Search"
+    slides: "https://drive.google.com/drive/folders/1QUjilSVffGm6Jbw1lA2DLfCGktOYZokq?usp=drive_link"
     pre-class: |
-      * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-    
+      * Read [Chapter 19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+        
   - month: "December"
     day: "02"
     day-of-week: "Tuesday"
@@ -399,10 +397,12 @@ events:
   - month: "December"
     day: "04"
     day-of-week: "Thursday"
-    topic: "Breadth-First Search"
-    slides: "https://drive.google.com/drive/folders/1QUjilSVffGm6Jbw1lA2DLfCGktOYZokq?usp=drive_link"
+    topic: "The Ethics of Search Engines"    
+    slides: "https://drive.google.com/drive/folders/189I-gjFBhFeoyZ6ckJuXco650EWKQ8ni?usp=drive_link"
+    due: "Homework 9 (in pairs) by **10pm**"
+    released: "[Homework 10](/hw10)"
     pre-class: |
-      * Read [Chapter 19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Complete the pre-class work on Gradescope by **7am** before class.
     
   - month: "December"
     day: "08"
