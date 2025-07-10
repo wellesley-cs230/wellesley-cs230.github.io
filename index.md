@@ -14,7 +14,7 @@ layout: home
 
 **Prerequisites:**
 * One of the following (CS 111, CS 111M,  CS 111X) or CS 112, or CS 200.
-* Additionally students need to have confirmation of authorization from the CS 111 faculty that is based on the mastery of the CS 111 concepts in order to enroll in CS 230.
+* Additionally, students need to have confirmation of authorization from the CS 111 faculty that is based on the mastery of the CS 111 concepts in order to enroll in CS 230.
 * Students who did not take CS 111 at Wellesley and who wish to enroll in CS 230 should contact the CS department to take a placement questionnaire.
 
 **Meeting Times and Locations:**
