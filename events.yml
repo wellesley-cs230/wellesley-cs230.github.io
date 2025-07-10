@@ -257,7 +257,7 @@ events:
   - month: "October"
     day: "30"
     day-of-week: "Thursday"
-    topic: "Queues"
+    topic: "Binary Search and Queues"
     slides: "https://drive.google.com/drive/folders/1z0tDbVYAW_BFYcyU0Xu5KzNkV2XL3Iv0?usp=drive_link"
     due: "Homework 6 by **10pm**"
     released: "[Homework 7](/hw7)"    
@@ -327,7 +327,7 @@ events:
   - month: "November"
     day: "17"
     day-of-week: "Monday"
-    topic: "Binary Search and Graphs"
+    topic: "Graphs"
     slides: "https://drive.google.com/drive/folders/16t1yfZja3urbdy3AXN8fnWqYu_2tSQY1?usp=drive_link"
     due: 
     released:    
@@ -351,7 +351,7 @@ events:
       * Solve [these practice problems](https://docs.google.com/document/d/1xNwc2AQHSE55yfw53dmBr1KC8Svj7cneClqrjWAySb8/edit?usp=sharing)
       * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/17aSVhepAjjggwI4e6b1UdU12ZLx3DLEniIdI7hZ6E98/edit?usp=sharing)
       * Prepare a one page (single sided) note sheet you can bring to the exam      
-    exam: "Midterm II (from Inheritance to Queues)"    
+    exam: "Midterm II (from Inheritance to Hash Tables)"    
         
   - month: "November"
     day: "24"
