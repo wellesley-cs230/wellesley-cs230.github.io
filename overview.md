@@ -121,5 +121,5 @@ In other words, we strongly discourage from writing code as soon as you read the
 
 # Anonymous Feedback Form
 
-We value your feedback! If you'd like to provide us with feedback anonymously, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSckqbEp6A3I5Dt6zfjBjy4g-LbmRfRnWSK9nJ8ObPv9dsNC6Q/viewform?usp=sf_link).
+We value your feedback! If you'd like to provide us with feedback anonymously, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeDiMdeplei8BQqjLNOWTBNSrVLTQYj0HTTYJJqi-13Ydk-Dw/viewform?usp=dialog).
 
