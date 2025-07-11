@@ -15,8 +15,8 @@ layout: default
 * Labs: 15%
 * Quizzes: 5%
 * Midterm: 20%
-* Practice Final: 5%
-* Final Exam (during exam period): 25%
+* Practice Final: 7.5%
+* Final Exam (during exam period): 22.5%
 * Class participation, team work, and respectul engagement: 10%
 
 There is **no arbitrary limit** on the number of A's, B's, C's etc., and every student will be assigned the grade they earn and deserve according to the grading standards of the college.
