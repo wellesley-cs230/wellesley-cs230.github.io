@@ -11,7 +11,7 @@ events:
   - month: "September"
     day: "02"
     day-of-week: "Tuesday"
-    topic: 
+    topic: "Lab 1: Starting with BlueJ and Java"
     slides: 
     due:
     released: 
