@@ -414,7 +414,7 @@ events:
   - month: "December"
     day: "09"
     day-of-week: "Tuesday"
-    topic: "Lab 13: TBD: #heaps?
+    topic: "Lab 13: TBD" #heaps?
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
