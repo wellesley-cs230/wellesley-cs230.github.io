@@ -355,7 +355,7 @@ events:
   - month: "November"
     day: "24"
     day-of-week: "Monday"
-    topic: Depth First Search
+    topic: "Depth First Search"
     slides: "https://drive.google.com/drive/folders/1XqmtnD8ipUcDxQJe7B8wJkWwBsjKJ9rc?usp=drive_link"
     pre-class: |
       * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
