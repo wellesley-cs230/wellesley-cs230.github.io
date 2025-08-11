@@ -388,7 +388,7 @@ events:
   - month: "December"
     day: "02"
     day-of-week: "Tuesday"
-    topic: #probably sorting?? Lab 12
+    topic: "Lab 12: TBD" #probably sorting??
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
@@ -414,7 +414,7 @@ events:
   - month: "December"
     day: "09"
     day-of-week: "Tuesday"
-    topic: #heaps? lab 13?
+    topic: "Lab 13: TBD: #heaps?
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
