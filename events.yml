@@ -99,7 +99,7 @@ events:
   - month: "September"
     day: "23"
     day-of-week: "Tuesday"
-    topic: #should be Lab 4: Zoo of Animals but Rosh Hashanah (on your own or cross coverage?)
+    topic: 
     due:
     released:
     pre-class:
@@ -364,7 +364,7 @@ events:
     day: "25"
     day-of-week: "Tuesday"
     topic: "Lab 11: Graphs"
-    due: "Lab submission due by 6:30pm Wednesday" #is this going to be an issue w/Thxgiving?
+    due: "Lab submission due by 6:30pm Wednesday" 
     released:
     pre-class:
 
@@ -388,7 +388,7 @@ events:
   - month: "December"
     day: "02"
     day-of-week: "Tuesday"
-    topic: #probably sorting?? Lab 12
+    topic: 
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
@@ -414,7 +414,7 @@ events:
   - month: "December"
     day: "09"
     day-of-week: "Tuesday"
-    topic: #heaps? lab 13?
+    topic: 
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
