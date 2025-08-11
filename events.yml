@@ -45,7 +45,7 @@ events:
   - month: "September"
     day: "09"
     day-of-week: "Tuesday"
-    topic: "Java Constructs
+    topic: "Lab 2: Java Constructs
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
@@ -72,7 +72,7 @@ events:
   - month: "September"
     day: "16"
     day-of-week: "Tuesday"
-    topic: "OOP - User Defined Classes"
+    topic: "Lab 3: OOP - User Defined Classes"
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
@@ -99,7 +99,7 @@ events:
   - month: "September"
     day: "23"
     day-of-week: "Tuesday"
-    topic: #should be Zoo of Animals but Rosh Hashanah (on your own or cross coverage?)
+    topic: #should be Lab 4: Zoo of Animals but Rosh Hashanah (on your own or cross coverage?)
     due:
     released:
     pre-class:
@@ -129,7 +129,7 @@ events:
   - month: "September"
     day: "30"
     day-of-week: "Tuesday"
-    topic: "Inheritance and Polymorphism"
+    topic: "Lab 5: Inheritance and Polymorphism"
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
@@ -159,7 +159,7 @@ events:
   - month: "October"
     day: "07"
     day-of-week: "Tuesday"
-    topic: "File I/O and Analyzing Poems"
+    topic: "Lab 6: File I/O and Analyzing Poems"
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
@@ -217,7 +217,7 @@ events:
   - month: "October"
     day: "21"
     day-of-week: "Tuesday"
-    topic: "Stacks"
+    topic: "Lab 7: Stacks"
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
@@ -278,7 +278,7 @@ events:
   - month: "November"
     day: "04"
     day-of-week: "Tuesday"
-    topic: "Queues"
+    topic: "Lab 8: Queues"
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
@@ -307,7 +307,7 @@ events:
   - month: "November"
     day: "11"
     day-of-week: "Tuesday"
-    topic: "Hashing"
+    topic: "Lab 9: Hashing"
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
@@ -337,7 +337,7 @@ events:
   - month: "November"
     day: "18"
     day-of-week: "Tuesday"
-    topic: "Trees"
+    topic: "Lab 10: Trees"
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
@@ -363,8 +363,8 @@ events:
   - month: "November"
     day: "25"
     day-of-week: "Tuesday"
-    topic: "Graphs"
-    due: "Lab submission due by 6:30pm Wednesday"
+    topic: "Lab 11: Graphs"
+    due: "Lab submission due by 6:30pm Wednesday" #is this going to be an issue w/Thxgiving?
     released:
     pre-class:
 
@@ -388,7 +388,7 @@ events:
   - month: "December"
     day: "02"
     day-of-week: "Tuesday"
-    topic: #probably sorting??
+    topic: #probably sorting?? Lab 12
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
@@ -414,7 +414,7 @@ events:
   - month: "December"
     day: "09"
     day-of-week: "Tuesday"
-    topic: #heaps?
+    topic: #heaps? lab 13?
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
