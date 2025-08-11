@@ -45,7 +45,7 @@ events:
   - month: "September"
     day: "09"
     day-of-week: "Tuesday"
-    topic: "Lab 2: Java Constructs
+    topic: "Lab 2: Java Constructs"
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
