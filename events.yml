@@ -46,7 +46,8 @@ events:
     day: "09"
     day-of-week: "Tuesday"
     topic: "Lab 2: Java Constructs"
-    due: "Lab submission due by 6:30pm Wednesday"
+    slides: "https://docs.google.com/document/d/1-oOSCiJSLkxMnwAyeZ6fWU5wMOeOQA7ROmG-EoohByc/edit?usp=sharing"
+    due: "[Pre-lab](https://docs.google.com/document/d/1dIyHaUNvJanCRV08Gu6Fy8rf5v7pELKsCJLNO1GUu_8/edit?usp=sharing) due Monday by 7pm. Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
 
