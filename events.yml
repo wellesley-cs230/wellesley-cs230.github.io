@@ -12,7 +12,7 @@ events:
     day: "02"
     day-of-week: "Tuesday"
     topic: "Lab 1: Starting with BlueJ and Java"
-    slides: 
+    slides: "https://docs.google.com/document/d/1D26qkBtAyt1W3qHJlmI7IaypzeX_arrNyhVwZOx4c-8/edit?usp=sharing"
     due: "Lab submission due by 6:30pm Wednesday"
     released: 
     pre-class: |
