@@ -153,7 +153,7 @@ Savings   account num: 1	Balance: $0.00	Interest rate: 0.5
 
 Your Gradescope submission should contain the following:
 
-1. your <code>,java</code> files
+1. your <code>.java</code> files
 2. your corresponding <code>BankTesting.txt</code> files that contain your testing results
 3. A PDF or PNG file of the UML diagram that corresponds to your solution.
 
