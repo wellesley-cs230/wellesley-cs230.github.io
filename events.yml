@@ -389,7 +389,7 @@ events:
   - month: "December"
     day: "02"
     day-of-week: "Tuesday"
-    topic: "Lab 12: TBD" #probably sorting??
+    topic: "Lab 12: TBD" #maybe searching??
     due: "Lab submission due by 6:30pm Wednesday"
     released:
     pre-class:
