@@ -13,7 +13,9 @@ events:
     day-of-week: "Tuesday"
     topic: "Lab 1: Starting with BlueJ and Java"
     slides: "https://docs.google.com/document/d/1D26qkBtAyt1W3qHJlmI7IaypzeX_arrNyhVwZOx4c-8/edit?usp=sharing"
-    due: "Lab submission due by 6:30pm Wednesday"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released: 
     pre-class: |
       * Answer the [entry questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSftXR9REyCxAPuCLKJSao-gd-URJY5yzipGvxEuQk6hbb03sA/viewform?usp=dialog) by **5pm on Monday, September 1**.
@@ -47,7 +49,9 @@ events:
     day-of-week: "Tuesday"
     topic: "Lab 2: Java Constructs"
     slides: "https://docs.google.com/document/d/1-oOSCiJSLkxMnwAyeZ6fWU5wMOeOQA7ROmG-EoohByc/edit?usp=sharing"
-    due: "Lab submission due by 6:30pm Wednesday"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class: "[Pre-lab](https://docs.google.com/document/d/1dIyHaUNvJanCRV08Gu6Fy8rf5v7pELKsCJLNO1GUu_8/edit?usp=sharing) due Monday by 7pm."
 
@@ -74,7 +78,9 @@ events:
     day: "16"
     day-of-week: "Tuesday"
     topic: "Lab 3: OOP - User Defined Classes"
-    due: "Lab submission due by 6:30pm Wednesday"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
@@ -131,7 +137,9 @@ events:
     day: "30"
     day-of-week: "Tuesday"
     topic: "Lab 5: Inheritance and Polymorphism"
-    due: "Lab submission due by 6:30pm Wednesday"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
@@ -161,7 +169,9 @@ events:
     day: "07"
     day-of-week: "Tuesday"
     topic: "Lab 6: File I/O and Analyzing Poems"
-    due: "Lab submission due by 6:30pm Wednesday"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
@@ -219,7 +229,9 @@ events:
     day: "21"
     day-of-week: "Tuesday"
     topic: "Lab 7: Stacks"
-    due: "Lab submission due by 6:30pm Wednesday"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
@@ -280,7 +292,9 @@ events:
     day: "04"
     day-of-week: "Tuesday"
     topic: "Lab 8: Queues"
-    due: "Lab submission due by 6:30pm Wednesday"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
@@ -309,7 +323,9 @@ events:
     day: "11"
     day-of-week: "Tuesday"
     topic: "Lab 9: Hashing"
-    due: "Lab submission due by 6:30pm Wednesday"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
@@ -339,7 +355,9 @@ events:
     day: "18"
     day-of-week: "Tuesday"
     topic: "Lab 10: Trees"
-    due: "Lab submission due by 6:30pm Wednesday"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
@@ -365,7 +383,9 @@ events:
     day: "25"
     day-of-week: "Tuesday"
     topic: "Lab 11: Graphs"
-    due: "Lab submission due by 6:30pm Wednesday" #is this going to be an issue w/Thxgiving?
+    due: | #is this going to be an issue w/Thxgiving?
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday 
     released:
     pre-class:
 
@@ -390,7 +410,9 @@ events:
     day: "02"
     day-of-week: "Tuesday"
     topic: "Lab 12: TBD" #maybe searching??
-    due: "Lab submission due by 6:30pm Wednesday"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
@@ -416,7 +438,9 @@ events:
     day: "09"
     day-of-week: "Tuesday"
     topic: "Lab 13: TBD" #heaps?
-    due: "Lab submission due by 6:30pm Wednesday"
+    due: | #definitely going to be an issue with LDOC
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
