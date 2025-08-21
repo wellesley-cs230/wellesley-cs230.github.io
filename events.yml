@@ -291,7 +291,7 @@ events:
   - month: "November"
     day: "04"
     day-of-week: "Tuesday"
-    topic: "Lab 8: Queues"
+    topic: "Lab 8: Algorithmic Analysis"
     due: |
       * Lab submission due by 6:30pm Wednesday
       * Self-Assessment due by 6:30pm Friday
