@@ -11,9 +11,11 @@ events:
   - month: "September"
     day: "02"
     day-of-week: "Tuesday"
-    topic: 
-    slides: 
-    due:
+    topic: "Lab 1: Starting with BlueJ and Java"
+    slides: "https://docs.google.com/document/d/1D26qkBtAyt1W3qHJlmI7IaypzeX_arrNyhVwZOx4c-8/edit?usp=sharing"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released: 
     pre-class: |
       * Answer the [entry questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSftXR9REyCxAPuCLKJSao-gd-URJY5yzipGvxEuQk6hbb03sA/viewform?usp=dialog) by **5pm on Monday, September 1**.
@@ -34,7 +36,6 @@ events:
   - month: "September"
     day: "08"
     day-of-week: "Monday"
-    day-of-week: "Monday"
     topic: "Java Constructs"
     slides: "https://drive.google.com/drive/folders/1bpi4EHMLo3FFDmzdjAuLqKxR1PXrAT5f?usp=drive_link"
     due: 
@@ -47,10 +48,13 @@ events:
   - month: "September"
     day: "09"
     day-of-week: "Tuesday"
-    topic:
-    due:
+    topic: "Lab 2: Java Constructs"
+    slides: "https://docs.google.com/document/d/1-oOSCiJSLkxMnwAyeZ6fWU5wMOeOQA7ROmG-EoohByc/edit?usp=sharing"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
-    pre-class:
+    pre-class: "[Pre-lab](https://docs.google.com/document/d/1dIyHaUNvJanCRV08Gu6Fy8rf5v7pELKsCJLNO1GUu_8/edit?usp=sharing) due Monday by 7pm."
 
   - month: "September"
     day: "11"
@@ -75,8 +79,10 @@ events:
   - month: "September"
     day: "16"
     day-of-week: "Tuesday"
-    topic:
-    due:
+    topic: "Lab 3: OOP - User Defined Classes"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
@@ -103,7 +109,7 @@ events:
   - month: "September"
     day: "23"
     day-of-week: "Tuesday"
-    topic:
+    topic: #should be Lab 4: Zoo of Animals but Rosh Hashanah (on your own or cross coverage?)
     due:
     released:
     pre-class:
@@ -134,8 +140,10 @@ events:
   - month: "September"
     day: "30"
     day-of-week: "Tuesday"
-    topic:
-    due:
+    topic: "Lab 5: Inheritance and Polymorphism"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
@@ -164,8 +172,10 @@ events:
   - month: "October"
     day: "07"
     day-of-week: "Tuesday"
-    topic:
-    due:
+    topic: "Lab 6: File I/O and Analyzing Poems"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
@@ -222,8 +232,10 @@ events:
   - month: "October"
     day: "21"
     day-of-week: "Tuesday"
-    topic:
-    due:
+    topic: "Lab 7: Stacks"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
@@ -284,8 +296,10 @@ events:
   - month: "November"
     day: "04"
     day-of-week: "Tuesday"
-    topic:
-    due:
+    topic: "Lab 8: Algorithm Analysis + Big-O Practice"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
@@ -313,8 +327,10 @@ events:
   - month: "November"
     day: "11"
     day-of-week: "Tuesday"
-    topic:
-    due:
+    topic: "Lab 9: Hashing" #maybe work on hw 8 with backup l33t code problems for students already done
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
@@ -343,8 +359,10 @@ events:
   - month: "November"
     day: "18"
     day-of-week: "Tuesday"
-    topic:
-    due:
+    topic: "Lab 10: Trees" #do we want to do exam review instead here?
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
@@ -361,7 +379,7 @@ events:
   - month: "November"
     day: "24"
     day-of-week: "Monday"
-    topic: Depth First Search
+    topic: "Depth First Search"
     slides: "https://drive.google.com/drive/folders/1XqmtnD8ipUcDxQJe7B8wJkWwBsjKJ9rc?usp=drive_link"
     pre-class: |
       * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
@@ -369,8 +387,10 @@ events:
   - month: "November"
     day: "25"
     day-of-week: "Tuesday"
-    topic:
-    due:
+    topic: "Lab 11: Graphs" #trees?
+    due: | #is this going to be an issue w/Thxgiving?
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday 
     released:
     pre-class:
 
@@ -394,8 +414,9 @@ events:
   - month: "December"
     day: "02"
     day-of-week: "Tuesday"
-    topic:
-    due:
+    topic: "Lab 12: Work on Homework 10" #graphs homework
+    due: |
+      * Self-Assessment due by 6:30pm Friday
     released:
     pre-class:
 
@@ -420,7 +441,7 @@ events:
   - month: "December"
     day: "09"
     day-of-week: "Tuesday"
-    topic:
+    topic: "Lab 13: Final Exam Review"
     due:
     released:
     pre-class:
