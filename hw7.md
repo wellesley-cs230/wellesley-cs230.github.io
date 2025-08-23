@@ -260,7 +260,7 @@ public void sort() {
 
 **Tests.** Don't forget to test your sorting algorithm!
 For ease of checking your code, you may want to sort something simple, like integers, instead of strings:
-```
+```java
 SortableLinkedList<Integer> l = new SortableLinkedList<Integer>();
 l.insert(0, 0);
 ...
