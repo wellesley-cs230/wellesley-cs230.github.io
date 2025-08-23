@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Homework 9: Guitar
+# Homework 9, Part A: Guitar
 
 
 
@@ -100,41 +100,138 @@ In Gradescope submit the following files:
 
 
 
-<!--
-
 <br/>
 
-# Homework 8, Part B: Queues
+# Homework 9, Part B: Tree Recursion
 
 ## Learning Goals
 
-* Gaining experience of multiple implementations of the same interface
-* Debugging programs that require understanding of pointers
-* Work with the javafoundations package
-
-# Two Implementations of the Queue Interface 
-
-* Before starting this task make sure you review the handout on Queues and read section 15.1-15.5  of the textbook.
-
-* In class we discussed one full implementation of the `Queue` interface (`ArrayQueue`) and two partial implementations: (<code>LinkedQueue, CircularArrayQueue</code>). 
-
-* Download the [starter code](static_files/QueueImplementation.zip) to work on.
-
-* For this task, you are asked to complete and test the partial implementations: `LinkedQueue` and `CircularArrayQueue`.
-
-* **Design your solutions on paper before you start programming on a computer**. Trying to code on the computer without knowing exactly what to code is a waste of time and results in a sense of frustration and despair. Do not do this to yourselves! Keep a PDF or PNG of your design and submit it with your code.
-
-* The starter code includes also the *beginning of a driver* `Qtest` aimed to show that your implementation works correctly. 
-
-* You need to complete the two Queue implementations, test them thoroughly, and  provide javadoc documentation for the classes you will edit.
+* Practice recursive tree algorithms
 
 
-## How to submit your Work
+## Tasks
 
-When done, submit the `LinkedQueue.java`, `CircularArrayQueue.java` and `Qtest.java` files along with the `QtestTesting.txt` transcript of your solutions. Include the PDF or PNG of your design. And remember to edit the @author and @version fields of your javadoc!
+First, create a BlueJ project with the following starter code.
+
+`BTNode.java`:
+```
+import java.util.LinkedList;
+
+public class BTNode<T> {
+    protected T element;
+    protected BTNode<T> left, right;
+
+    public BTNode(T elmt) {
+        element = elmt;
+        left = right = null;
+    }
+
+    public T getElement() { 
+        return element; 
+    }
+
+    public void setElement(T element)
+    { this.element = element; }
+
+    public BTNode<T> getLeft() { 
+        return left; 
+    }
+
+    public void setLeft(BTNode<T> left) { 
+        this.left = left; 
+    }
+
+    public BTNode<T> getRight() { 
+        return right; 
+    }
+
+    public void setRight(BTNode<T> right) {
+        this.right = right; 
+    }
+
+    public BTNode<T> find(T target) {
+        BTNode<T> result = null;
+
+        if (element.equals(target)) {
+            result = this;
+        } else {
+            if (left != null)
+                result = left.find(target);
+            if (result == null && right != null)
+                result = right.find(target);
+        }
+
+        return result;
+    }
+
+    public int count() {
+        int result = 1;
+
+        if (left != null)
+            result = result + left.count();
+
+        if (right != null)
+            result = result + right.count();
+
+        return result;
+    }
+```
+
+`BSTNode.java`:
+```
+public class BSTNode<T extends Comparable<T>> extends BTNode<T> {
+
+    public BSTNode(T element) {
+        super(element);
+    }
+
+    public void add(T item) {
+        if (item.compareTo(element) < 0) {
+            if (left == null)
+                left = new BSTNode(item);
+            else //  Add recursively 
+                ((BSTNode) left).add(item);
+        } else { //  item >= element, go right
+            if (right == null)
+                right = new BSTNode (item);
+            else //  Add recursively 
+                ((BSTNode) right).add (item);
+        }
+    }
+
+    public BSTNode<T> find(T target) {
+        if (target.compareTo(element) == 0)
+            return this;
+            
+        // Since left and right are defined as BTNodes in the parent class,
+        // we cast them to BSTNodes here so we can call compareTo
+        BSTNode<T> l = (BSTNode<T>) left;
+        BSTNode<T> r = (BSTNode<T>) right;
+        
+        if (target.compareTo(element) < 0 && l != null) {
+            return l.find(target);
+        }
+            
+        if (r != null) {
+            return r.find(target);
+        }
+        
+        return null;
+    }
+}
+```
 
 
--->
+Next, implement the following instance methods:
+1. Implement `public int countLeaves()` in the `BTNode` class. This method should return an integer counting the number of leaves in tree.
+2. Implement `public int countNodesAtLevel(int level)` in the `BTNode` class. This method should return the number of nodes at a given *level* in the tree. In this method, we'll say that level 0 represents the root.
+3. Implement `public LinkedList<T> collectOnlyChildren()` in the `BTNode` class. This method should return a list of all elements `T` that belong to nodes that have no siblings.
+4. Implement `public boolean isValid()` in the `BSTNode` class. This method should return `true` if the tree is a valid binary search tree.
+
+
+Please test your code as you go, putting your test in a driver class called `Driver.java`.
+
+
 
 <br/>
 
@@ -146,3 +243,7 @@ When done, submit the `LinkedQueue.java`, `CircularArrayQueue.java` and `Qtest.j
 * You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
 * You wrote javadoc for every function, which includes `@param` and `@return`.
 * You wrote inline comments explaining the logic of your code.
+
+
+
+
