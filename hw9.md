@@ -114,7 +114,7 @@ In Gradescope submit the following files:
 First, create a BlueJ project with the following starter code.
 
 `BTNode.java`:
-```
+```java
 import java.util.LinkedList;
 
 public class BTNode<T> {
@@ -178,7 +178,7 @@ public class BTNode<T> {
 ```
 
 `BSTNode.java`:
-```
+```java
 public class BSTNode<T extends Comparable<T>> extends BTNode<T> {
 
     public BSTNode(T element) {
