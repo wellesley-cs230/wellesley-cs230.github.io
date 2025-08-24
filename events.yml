@@ -327,7 +327,7 @@ events:
   - month: "November"
     day: "11"
     day-of-week: "Tuesday"
-    topic: "Lab 9: Hashing" #maybe work on hw 8 with backup l33t code problems for students already done
+    topic: "Lab 9: Hash Tables" #maybe work on hw 8 with backup l33t code problems for students already done
     due: |
       * Lab submission due by 6:30pm Wednesday
       * Self-Assessment due by 6:30pm Friday
