@@ -79,7 +79,7 @@ events:
   - month: "September"
     day: "16"
     day-of-week: "Tuesday"
-    topic: "Lab 3: OOP - User Defined Classes"
+    topic: "Lab 3: Object-Oriented Programming - User Defined Classes"
     due: |
       * Lab submission due by 6:30pm Wednesday
       * Self-Assessment due by 6:30pm Friday
