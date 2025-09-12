@@ -80,11 +80,12 @@ events:
     day: "16"
     day-of-week: "Tuesday"
     topic: "Lab 3: Object-Oriented Programming - User Defined Classes"
+    slides: "https://docs.google.com/document/d/1TLhgSGB9vtfG-R3OTEFzWOcRquhk-JbFR0PiifngRwU/edit?usp=sharing"
     due: |
       * Lab submission due by 6:30pm Wednesday
       * Self-Assessment due by 6:30pm Friday
     released:
-    pre-class: Pre-lab due Monday by 7pm.
+    pre-class: "[Pre-lab](https://docs.google.com/document/d/18gA2yfANMU-mxlBAU4dxo2kvYHufVOPbt0FsM-muWW0/edit?usp=sharing) due Monday by 7pm."
 
   - month: "September"
     day: "18"
@@ -110,6 +111,7 @@ events:
     day: "23"
     day-of-week: "Tuesday"
     topic: #should be Lab 4: Zoo of Animals but Rosh Hashanah (on your own or cross coverage?)
+    slides:
     due:
     released:
     pre-class:
@@ -141,11 +143,12 @@ events:
     day: "30"
     day-of-week: "Tuesday"
     topic: "Lab 5: Inheritance and Polymorphism"
+    slides:
     due: |
       * Lab submission due by 6:30pm Wednesday
       * Self-Assessment due by 6:30pm Friday
     released:
-    pre-class: Pre-lab due Monday by 7pm.
+    pre-class: "Pre-lab due Monday by 7pm."
 
   - month: "October"
     day: "02"
@@ -173,11 +176,12 @@ events:
     day: "07"
     day-of-week: "Tuesday"
     topic: "Lab 6: File I/O and Analyzing Poems"
+    slides:
     due: |
       * Lab submission due by 6:30pm Wednesday
       * Self-Assessment due by 6:30pm Friday
     released:
-    pre-class: Pre-lab due Monday by 7pm.
+    pre-class: "Pre-lab due Monday by 7pm."
 
   - month: "October"
     day: "09"
@@ -233,11 +237,12 @@ events:
     day: "21"
     day-of-week: "Tuesday"
     topic: "Lab 7: Stacks"
+    slides:
     due: |
       * Lab submission due by 6:30pm Wednesday
       * Self-Assessment due by 6:30pm Friday
     released:
-    pre-class: Pre-lab due Monday by 7pm.
+    pre-class: "Pre-lab due Monday by 7pm."
 
   - month: "October"
     day: "23"
@@ -297,11 +302,12 @@ events:
     day: "04"
     day-of-week: "Tuesday"
     topic: "Lab 8: Algorithm Analysis + Big-O Practice"
+    slides:
     due: |
       * Lab submission due by 6:30pm Wednesday
       * Self-Assessment due by 6:30pm Friday
     released:
-    pre-class: Pre-lab due Monday by 7pm.
+    pre-class: "Pre-lab due Monday by 7pm."
 
   - month: "November"
     day: "06"
@@ -328,11 +334,12 @@ events:
     day: "11"
     day-of-week: "Tuesday"
     topic: "Lab 9: Hash Tables" #maybe work on hw 8 with backup l33t code problems for students already done
+    slides:
     due: |
       * Lab submission due by 6:30pm Wednesday
       * Self-Assessment due by 6:30pm Friday
     released:
-    pre-class: Pre-lab due Monday by 7pm.
+    pre-class: "Pre-lab due Monday by 7pm."
 
   - month: "November"
     day: "13"
@@ -360,11 +367,12 @@ events:
     day: "18"
     day-of-week: "Tuesday"
     topic: "Lab 10: Trees" #do we want to do exam review instead here?
+    slides:
     due: |
       * Lab submission due by 6:30pm Wednesday
       * Self-Assessment due by 6:30pm Friday
     released:
-    pre-class: Pre-lab due Monday by 7pm.
+    pre-class: "Pre-lab due Monday by 7pm."
 
   - month: "November"
     day: "20"
@@ -388,11 +396,12 @@ events:
     day: "25"
     day-of-week: "Tuesday"
     topic: "Lab 11: Graphs" #trees?
+    slides:
     due: | #is this going to be an issue w/Thxgiving?
       * Lab submission due by 6:30pm Wednesday
       * Self-Assessment due by 6:30pm Friday 
     released:
-    pre-class: Pre-lab due Monday by 7pm.
+    pre-class: "Pre-lab due Monday by 7pm."
 
   - month: "November"
     day: "27"
