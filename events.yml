@@ -111,10 +111,12 @@ events:
     day: "23"
     day-of-week: "Tuesday"
     topic: "Lab 4: Zoo of Animals (On your own/No formal meeting)"
-    slides:
-    due:
+    slides: "https://docs.google.com/document/d/1s1ocFgIH0Dk6n7ahDzWB1Gpf0GVuGDb3lDCLKeZYTmk/edit?usp=sharing"
+    due: |
+      * Lab submission due by 6:30pm Wednesday
+      * Self-Assessment due by 6:30pm Friday
     released:
-    pre-class:
+    pre-class: "[Pre-lab](https://docs.google.com/document/d/1afG4C23IXblizyanftGqHlx-VDpBYJGYFf7miSz5SD8/edit?usp=sharing) due Monday by 7pm."
   
   - month: "September"
     day: "25"
