@@ -426,8 +426,7 @@ events:
     day: "02"
     day-of-week: "Tuesday"
     topic: "Lab 12: Work on Homework 10" #graphs homework
-    due: |
-      * Self-Assessment due by 6:30pm Friday
+    due: "Self-Assessment due by 6:30pm Friday"
     released:
     pre-class:
 
@@ -453,8 +452,7 @@ events:
     day: "09"
     day-of-week: "Tuesday"
     topic: "Lab 13: Final Exam Review"
-    due:|
-      * Semester Self-Assessment due by 9pm Wednesday
+    due: "Semester Self-Assessment due by 9pm Wednesday"
     released:
     pre-class:
 
