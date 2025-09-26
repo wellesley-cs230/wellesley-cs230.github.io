@@ -453,7 +453,8 @@ events:
     day: "09"
     day-of-week: "Tuesday"
     topic: "Lab 13: Final Exam Review"
-    due:
+    due:|
+      * Semester Self-Assessment due by 9pm Wednesday
     released:
     pre-class:
 
