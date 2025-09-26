@@ -145,7 +145,7 @@ events:
     day: "30"
     day-of-week: "Tuesday"
     topic: "Lab 5: Inheritance and Polymorphism"
-    slides:
+    slides: "https://docs.google.com/document/d/1HzegmBEBJvOJv_MradfPlHIOXOGYnSoaz1TbV2kfpV0/edit?usp=sharing"
     due: |
       * Lab submission due by 6:30pm Wednesday
       * Self-Assessment due by 6:30pm Friday
