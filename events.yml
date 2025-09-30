@@ -484,6 +484,7 @@ events:
     released:
     pre-class:
     class-meetings-over: true
+    exam: "Final Exam, 6-8:30pm @ PNE-139"
 
   - month: "December"
     day: "18"
