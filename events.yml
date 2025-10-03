@@ -178,12 +178,12 @@ events:
     day: "07"
     day-of-week: "Tuesday"
     topic: "Lab 6: File I/O and Analyzing Poems"
-    slides:
+    slides: "https://docs.google.com/document/d/1Rq5dma1s4JHGwO-p144-xDQVNXmbhOwlqfkHsZCrb6Y/edit?usp=sharing"
     due: |
       * Lab submission due by 6:30pm Wednesday
       * Self-Assessment due by 6:30pm Friday
     released:
-    pre-class: "Pre-lab due Monday by 7pm."
+    pre-class: "[Pre-lab](https://docs.google.com/document/d/1Inrp1_w1qchG_RDZSmOs1J5xcKAWnf8Ja31a3sbCDDU/edit?usp=sharing) due Monday by 7pm."
 
   - month: "October"
     day: "09"
