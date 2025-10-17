@@ -239,12 +239,12 @@ events:
     day: "21"
     day-of-week: "Tuesday"
     topic: "Lab 7: Stacks"
-    slides:
+    slides: "https://docs.google.com/document/d/15jPbUavEU3-8vmp4TkWX47Jt4vWVPdnjPkZ21EhP7wI/edit?usp=sharing"
     due: |
       * Lab submission due by 6:30pm Wednesday
       * Self-Assessment due by 6:30pm Friday
     released:
-    pre-class: "Pre-lab due Monday by 7pm."
+    pre-class: "[Pre-lab](https://docs.google.com/document/d/1guBMZ4Fr1XDkCVFXBSPlPybNJemluxCPpds3Zko06EE/edit?usp=sharing) due Monday by 7pm."
 
   - month: "October"
     day: "23"
