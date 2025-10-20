@@ -159,6 +159,8 @@ After implementing this method, answer: what would `concatenate` look like for a
 And is it more or less efficient than your linked-based implementation? Why?
 
 
+<br/>
+
 ## Part 5: LinkedStack (Extra/Time Dependent)
 
 We can also uses LinkedLists to implement other data structures.  Consider the Stack interface below.
