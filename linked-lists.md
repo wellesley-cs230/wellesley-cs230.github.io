@@ -159,7 +159,64 @@ After implementing this method, answer: what would `concatenate` look like for a
 And is it more or less efficient than your linked-based implementation? Why?
 
 
+## Part 5: LinkedStack (Extra/Time Dependent)
 
+We can also uses LinkedLists to implement other data structures.  Consider the Stack interface below.
+
+Create a new class, `LinkedStack<T>` that satisfies the following:
+1. It extends the `LinkedList<T>` class you previously wrote.
+2. It `implements` the `Stack<T>` interface below.
+
+As before, please write pseudo-code on the whiteboards before writing code on the computer.
+
+**The Stack Interface.** 
+
+```java
+public interface Stack<T> {
+    /**
+     * Checks if the list is empty
+     * 
+     * @return true if the list is empty, false otherwise
+     */
+    public boolean isEmpty();
+    
+    /**
+     * Returns the size of the list
+     * 
+     * @return the size (or length) of the list
+     */
+    public int size();
+
+    /**
+     * Pushes the given element onto the stack
+     *
+     * @param the element to be added
+     */
+    public void push(T element);
+
+    /**
+     * Removes (and returns) the element on the top of the stack.
+     * 
+     * @return the top element from the stack (which was removed) 
+     */
+    public T pop();
+    
+    /**
+     * Returns the element on the top of the stack.
+     * 
+     * @return the top element from the stack (which was NOT removed) 
+     */
+    public T peek();
+
+    /**
+     * Generates a String representation of list; 
+     * first element in the representation is the front
+     * 
+     * @return a String representation of the list
+     */
+    public String toString();
+}
+```
 
 <!--
 
