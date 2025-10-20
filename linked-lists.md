@@ -166,7 +166,7 @@ And is it more or less efficient than your linked-based implementation? Why?
 We can also uses LinkedLists to implement other data structures.  Consider the Stack interface below.
 
 Create a new class, `LinkedStack<T>` that satisfies the following:
-1. It extends the `LinkedList<T>` class you previously wrote.
+1. It `extends` the `LinkedList<T>` class you previously wrote.
 2. It `implements` the `Stack<T>` interface below.
 
 As before, please write pseudo-code on the whiteboards before writing code on the computer.
