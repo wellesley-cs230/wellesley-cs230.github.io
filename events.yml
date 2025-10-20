@@ -238,8 +238,8 @@ events:
   - month: "October"
     day: "21"
     day-of-week: "Tuesday"
-    topic: "Lab 7: Stacks"
-    slides: "https://docs.google.com/document/d/15jPbUavEU3-8vmp4TkWX47Jt4vWVPdnjPkZ21EhP7wI/edit?usp=sharing"
+    topic: "Lab 7: LinkedLists"
+    slides: "https://wellesley-cs230.github.io/linked-lists"
     due: |
       * Lab submission due by 6:30pm Wednesday
       * Self-Assessment due by 6:30pm Friday
