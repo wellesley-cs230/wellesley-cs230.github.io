@@ -166,15 +166,15 @@ And is it more or less efficient than your linked-based implementation? Why?
 We can also uses LinkedLists to implement other data structures.  Consider the LinearStack interface below.
 
 Create a new class, `LinkedStack<T>` that satisfies the following:
-1. It `extends` the `LinkedList<T>` class you previously wrote.
-2. It `implements` the `LinearStack<T>` interface below.
+1. It "has-a" `LinkedList<T>` (which you implemented above). (Question: why would you **not** want to use an "is-a" relationship here?)
+2. It `implements` the `Stack<T>` interface below.
 
 As before, please write pseudo-code on the whiteboards before writing code on the computer.
 
 **The LinearStack Interface.** 
 
 ```java
-public interface LinearStack<T> {
+public interface Stack<T> {
     /**
      * Checks if the list is empty
      * 
