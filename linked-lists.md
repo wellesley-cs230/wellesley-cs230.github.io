@@ -163,7 +163,7 @@ And is it more or less efficient than your linked-based implementation? Why?
 
 ## Part 5: LinkedStack (Extra/Time Dependent)
 
-We can also uses LinkedLists to implement other data structures.  Consider the LinearStack interface below.
+We can also use LinkedLists to implement other data structures.  Consider the Stack interface below.
 
 Create a new class, `LinkedStack<T>` that satisfies the following:
 1. It "has-a" `LinkedList<T>` (which you implemented above). (Question: why would you **not** want to use an "is-a" relationship here?)
@@ -171,7 +171,7 @@ Create a new class, `LinkedStack<T>` that satisfies the following:
 
 As before, please write pseudo-code on the whiteboards before writing code on the computer.
 
-**The LinearStack Interface.** 
+**The Stack Interface.** 
 
 ```java
 public interface Stack<T> {
