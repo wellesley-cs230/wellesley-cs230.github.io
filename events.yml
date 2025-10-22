@@ -241,8 +241,8 @@ events:
     topic: "Lab 7: LinkedLists"
     slides: "https://wellesley-cs230.github.io/linked-lists"
     due: |
-      * Lab submission due by 6:30pm Wednesday
-      * Self-Assessment due by 6:30pm Friday
+      * Lab submission due by 6:30pm Wednesday ([solutions](https://drive.google.com/drive/folders/1A5ktoO8AaITMlGyx0_ISC9i62VGGkY1O?usp=sharing))
+      * [Self-Assessment](https://forms.gle/68M6RGUyTwoGHYo66) due by 6:30pm Friday
     released:
     pre-class: "[Pre-lab](https://docs.google.com/document/d/1guBMZ4Fr1XDkCVFXBSPlPybNJemluxCPpds3Zko06EE/edit?usp=sharing) due Monday by 7pm."
 
