@@ -335,7 +335,7 @@ events:
   - month: "November"
     day: "11"
     day-of-week: "Tuesday"
-    topic: "Lab 9: Hash Tables" #maybe work on hw 8 with backup l33t code problems for students already done
+    topic: "Lab 9: Trees"
     slides:
     due: |
       * Lab submission due by 6:30pm Wednesday
@@ -368,7 +368,7 @@ events:
   - month: "November"
     day: "18"
     day-of-week: "Tuesday"
-    topic: "Lab 10: Trees" #do we want to do exam review instead here?
+    topic: "Lab 10: Midterm Review"
     slides:
     due: |
       * Lab submission due by 6:30pm Wednesday
@@ -397,7 +397,7 @@ events:
   - month: "November"
     day: "25"
     day-of-week: "Tuesday"
-    topic: "Lab 11: Graphs" #trees?
+    topic: "Lab 11: Graphs"
     slides:
     due: | #is this going to be an issue w/Thxgiving?
       * Lab submission due by 6:30pm Wednesday
