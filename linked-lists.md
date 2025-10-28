@@ -81,7 +81,7 @@ public interface LinearList<T> {
     public T get(int position);
 
     /**
-     * Inserts an element at the given position in the list.
+     * Inserts an element at the given (0-indexed) position in the list.
      * 
      * @param the index of the element to be added
      * @param the element to be added
@@ -89,7 +89,7 @@ public interface LinearList<T> {
     public void insert(int position, T element);
     
     /**
-     * Removes the element at the specified position from the list
+     * Removes the element at the specified (0-indexed) position from the list
      * 
      * @return the element to be returned
      */
