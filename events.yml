@@ -336,12 +336,12 @@ events:
     day: "11"
     day-of-week: "Tuesday"
     topic: "Lab 9: Trees"
-    slides:
+    slides: "https://docs.google.com/document/d/1YLNcXqLHzWXRkqsm1ZdCj4Eme-e84d0cssvzraZJSyk/edit?usp=sharing"
     due: |
       * Lab submission due by 6:30pm Wednesday
       * Self-Assessment due by 6:30pm Friday
     released:
-    pre-class: "Pre-lab due Monday by 7pm."
+    pre-class: "[Pre-lab](https://docs.google.com/document/d/1nOnqPaw1ck-a54jcrcunKE6bO9l3ZUMFy140TRxhST4/edit?usp=sharing) due Monday by 7pm."
 
   - month: "November"
     day: "13"
