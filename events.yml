@@ -368,13 +368,11 @@ events:
   - month: "November"
     day: "18"
     day-of-week: "Tuesday"
-    topic: "Lab 10: Midterm Review"
+    topic: "Lab 10: Practice Final Review"
     slides:
-    due: |
-      * Lab submission due by 6:30pm Wednesday
-      * Self-Assessment due by 6:30pm Friday
+    due: "(focus on the practice final!)"
     released:
-    pre-class: "Pre-lab due Monday by 7pm."
+    pre-class: "Please bring questions/topics to discuss in lab. (nothing to submit)"
 
   - month: "November"
     day: "20"
@@ -399,9 +397,9 @@ events:
     day-of-week: "Tuesday"
     topic: "Lab 11: Graphs"
     slides:
-    due: | #is this going to be an issue w/Thxgiving?
-      * Lab submission due by 6:30pm Wednesday
-      * Self-Assessment due by 6:30pm Friday 
+    due: | 
+      * Lab submission due by 6:30pm Friday (if you need to miss lab, please start early and reach out if you need help)
+      * (No Self-Assessment this week)
     released:
     pre-class: "Pre-lab due Monday by 7pm."
 
@@ -426,7 +424,7 @@ events:
     day: "02"
     day-of-week: "Tuesday"
     topic: "Lab 12: Work on Homework 10" #graphs homework
-    due: "Self-Assessment due by 6:30pm Friday"
+    due: "Semester Self-Assessment due by 6:30pm Friday"
     released:
     pre-class:
 
@@ -452,9 +450,9 @@ events:
     day: "09"
     day-of-week: "Tuesday"
     topic: "Lab 13: Final Exam Review"
-    due: "Semester Self-Assessment due by 9pm Wednesday"
+    due: "(study for your final exam)"
     released:
-    pre-class:
+    pre-class: "Please bring questions/topics to discuss during lab"
 
   - month: "December"
     day: "11"
