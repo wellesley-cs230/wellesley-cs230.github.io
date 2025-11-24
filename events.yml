@@ -396,7 +396,7 @@ events:
     day: "25"
     day-of-week: "Tuesday"
     topic: "Lab 11: Graphs"
-    slides:
+    slides: "https://docs.google.com/document/d/1x0mYelZ8dzkXDauKkFkYDURwZ90MIft5AIFLLhtXP78/edit?usp=sharing"
     due: | 
       * Lab submission due by 6:30pm Friday (if you need to miss lab, please start early and reach out if you need help)
       * (No Self-Assessment this week)
