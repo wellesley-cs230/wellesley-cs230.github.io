@@ -15,7 +15,7 @@ events:
     slides: "https://docs.google.com/document/d/1D26qkBtAyt1W3qHJlmI7IaypzeX_arrNyhVwZOx4c-8/edit?usp=sharing"
     due: |
       * Lab submission due by 6:30pm Wednesday
-      * Self-Assessment due by 6:30pm Friday
+      * [Self-Assessment](https://forms.gle/NuXhw7nMjsDsVbZL8) due by 6:30pm Friday
     released: 
     pre-class: |
       * Answer the [entry questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSftXR9REyCxAPuCLKJSao-gd-URJY5yzipGvxEuQk6hbb03sA/viewform?usp=dialog) by **5pm on Monday, September 1**.
@@ -51,8 +51,8 @@ events:
     topic: "Lab 2: Java Constructs"
     slides: "https://docs.google.com/document/d/1-oOSCiJSLkxMnwAyeZ6fWU5wMOeOQA7ROmG-EoohByc/edit?usp=sharing"
     due: |
-      * Lab submission due by 6:30pm Wednesday
-      * Self-Assessment due by 6:30pm Friday
+      * Lab submission due by 6:30pm Wednesday ([solutions](https://drive.google.com/drive/folders/1V1pj1CQ9lKQVXUPClGsKl2fiDK4AjbYo?usp=drive_link))
+      * [Self-Assessment](https://forms.gle/2UN43SzpQVYVkppf9) due by 6:30pm Friday
     released:
     pre-class: "[Pre-lab](https://docs.google.com/document/d/1dIyHaUNvJanCRV08Gu6Fy8rf5v7pELKsCJLNO1GUu_8/edit?usp=sharing) due Monday by 7pm."
 
@@ -79,12 +79,13 @@ events:
   - month: "September"
     day: "16"
     day-of-week: "Tuesday"
-    topic: "Lab 3: OOP - User Defined Classes"
+    topic: "Lab 3: Object-Oriented Programming - User Defined Classes"
+    slides: "https://docs.google.com/document/d/1TLhgSGB9vtfG-R3OTEFzWOcRquhk-JbFR0PiifngRwU/edit?usp=sharing"
     due: |
-      * Lab submission due by 6:30pm Wednesday
-      * Self-Assessment due by 6:30pm Friday
+      * Lab submission due by 6:30pm Wednesday ([solutions](https://drive.google.com/drive/folders/1N7zMkldEGz2cDVMeZrTpRtnMevNLhJzA?usp=drive_link)]
+      * [Self-Assessment](https://forms.gle/YsgEiNhHejw14nVv7) due by 6:30pm Friday
     released:
-    pre-class:
+    pre-class: "[Pre-lab](https://docs.google.com/document/d/18gA2yfANMU-mxlBAU4dxo2kvYHufVOPbt0FsM-muWW0/edit?usp=sharing) due Monday by 7pm."
 
   - month: "September"
     day: "18"
@@ -109,10 +110,13 @@ events:
   - month: "September"
     day: "23"
     day-of-week: "Tuesday"
-    topic: #should be Lab 4: Zoo of Animals but Rosh Hashanah (on your own or cross coverage?)
-    due:
+    topic: "Lab 4: Zoo of Animals (On your own/No formal meeting)"
+    slides: "https://docs.google.com/document/d/1s1ocFgIH0Dk6n7ahDzWB1Gpf0GVuGDb3lDCLKeZYTmk/edit?usp=sharing"
+    due: |
+      * Lab submission due by 6:30pm Wednesday ([solutions](https://drive.google.com/drive/folders/1l55UfpKhZ8L5amJ4OL26RtkmrH8wPh0l?usp=sharing))
+      * [Self-Assessment](https://forms.gle/TVdCYEaehAhLe6W18) due by 6:30pm Friday
     released:
-    pre-class:
+    pre-class: "[Pre-lab](https://docs.google.com/document/d/1afG4C23IXblizyanftGqHlx-VDpBYJGYFf7miSz5SD8/edit?usp=sharing) due Monday by 7pm."
   
   - month: "September"
     day: "25"
@@ -141,43 +145,45 @@ events:
     day: "30"
     day-of-week: "Tuesday"
     topic: "Lab 5: Inheritance and Polymorphism"
+    slides: "https://docs.google.com/document/d/1HzegmBEBJvOJv_MradfPlHIOXOGYnSoaz1TbV2kfpV0/edit?usp=sharing"
     due: |
-      * Lab submission due by 6:30pm Wednesday
-      * Self-Assessment due by 6:30pm Friday
+      * Lab submission due by 6:30pm Wednesday ([solutions](https://drive.google.com/drive/folders/1q-dn21ReIATSHivC4umlM8YNphIzfrf1?usp=sharing))
+      * [Self-Assessment](https://forms.gle/hLBxCrmSGjFura1c9) due by 6:30pm Friday
     released:
-    pre-class:
+    pre-class: "[Pre-lab](https://docs.google.com/document/d/11cZRaAozrEvEVth8OsyqWhhffSh7Mbl23zVrPQhoU54/edit?usp=sharing) due Monday by 7pm."
 
   - month: "October"
     day: "02"
     day-of-week: "Thursday"
-    topic: "Interfaces (from last week) + Stacks"
-    slides: "https://drive.google.com/drive/folders/11qHHfpeHa9iWZuyPB-c85A6w6RqC_bjS?usp=drive_link"
-    due: "Homework 4 by **10pm**"
-    released: "[Homework 5 (in pairs)](/hw5)"    
-    pre-class: |
-      * Read [Chapters 14.1-14.9](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-      * Answer the quiz on [Chapter 14](https://docs.google.com/forms/d/e/1FAIpQLSc1v1aGlggmQpdh9hLN1C0UsAqzkJ8lIy4zDB_RxGiF6TEOqQ/viewform?usp=sf_link)
-
-  - month: "October"
-    day: "06"
-    day-of-week: "Monday"
     topic: "Exceptions and IO"
     slides: "https://drive.google.com/drive/folders/1bvYuCaKrUiMfZ2MMtb5UVrVfBF85P-lY?usp=drive_link"
-    due: 
-    released: 
+    due: "Homework 4 by **10pm**"
+    released: "[Homework 5 (in pairs)](/hw5)"      
     pre-class: |
       * Read [Chapter 10](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 10](https://docs.google.com/forms/d/e/1FAIpQLSfQNeSShwv4mEU3x5kHSm8V2T_TQrYPC6kSc6dV4Jha91uYgQ/viewform?usp=sf_link)
 
   - month: "October"
+    day: "06"
+    day-of-week: "Monday"      
+    topic: "Interfaces + Stacks"
+    slides: "https://drive.google.com/drive/folders/11qHHfpeHa9iWZuyPB-c85A6w6RqC_bjS?usp=drive_link"
+    due: 
+    released: 
+    pre-class: |
+      * Read [Chapters 14.1-14.9](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 14](https://docs.google.com/forms/d/e/1FAIpQLSc1v1aGlggmQpdh9hLN1C0UsAqzkJ8lIy4zDB_RxGiF6TEOqQ/viewform?usp=sf_link)
+
+  - month: "October"
     day: "07"
     day-of-week: "Tuesday"
     topic: "Lab 6: File I/O and Analyzing Poems"
+    slides: "https://docs.google.com/document/d/1Rq5dma1s4JHGwO-p144-xDQVNXmbhOwlqfkHsZCrb6Y/edit?usp=sharing"
     due: |
-      * Lab submission due by 6:30pm Wednesday
-      * Self-Assessment due by 6:30pm Friday
+      * Lab submission due by 6:30pm Wednesday ([solutions](https://drive.google.com/drive/folders/1BpK-xRu2T1y9nebC74YWthmDyVLWJidI?usp=sharing))
+      * [Self-Assessment](https://forms.gle/gcPJt7HKeHmvSbA36) due by 6:30pm Friday
     released:
-    pre-class:
+    pre-class: "[Pre-lab](https://docs.google.com/document/d/1Inrp1_w1qchG_RDZSmOs1J5xcKAWnf8Ja31a3sbCDDU/edit?usp=sharing) due Monday by 7pm."
 
   - month: "October"
     day: "09"
@@ -232,12 +238,13 @@ events:
   - month: "October"
     day: "21"
     day-of-week: "Tuesday"
-    topic: "Lab 7: Stacks"
+    topic: "Lab 7: LinkedLists"
+    slides: "https://wellesley-cs230.github.io/linked-lists"
     due: |
-      * Lab submission due by 6:30pm Wednesday
-      * Self-Assessment due by 6:30pm Friday
+      * Lab submission due by 6:30pm Wednesday ([solutions](https://drive.google.com/drive/folders/1A5ktoO8AaITMlGyx0_ISC9i62VGGkY1O?usp=sharing))
+      * [Self-Assessment](https://forms.gle/68M6RGUyTwoGHYo66) due by 6:30pm Friday
     released:
-    pre-class:
+    pre-class: "[Pre-lab](https://docs.google.com/document/d/1guBMZ4Fr1XDkCVFXBSPlPybNJemluxCPpds3Zko06EE/edit?usp=sharing) due Monday by 7pm."
 
   - month: "October"
     day: "23"
@@ -297,11 +304,12 @@ events:
     day: "04"
     day-of-week: "Tuesday"
     topic: "Lab 8: Algorithm Analysis + Big-O Practice"
+    slides: "https://docs.google.com/document/d/1y5hVxnDcyFgqoiYjCFpvidDB1Lk7eWFBm-79vYD9Vvk/edit?usp=sharing"
     due: |
-      * Lab submission due by 6:30pm Wednesday
-      * Self-Assessment due by 6:30pm Friday
+      * Lab submission due by 6:30pm Wednesday ([solutions](https://docs.google.com/document/d/1Cy6XQhDTcOxfIgI1L_aAqL6sjQyTKLyVzT8llSoNUFA/edit?usp=sharing))
+      * [Self-Assessment](https://forms.gle/R22LzbnTKx6BMwVN6) due by 6:30pm Friday
     released:
-    pre-class:
+    pre-class: "[Pre-lab](https://docs.google.com/document/d/1K8C1T3UDUHBo1jXRs1sItyiz8d4gGzhFhVht9MIkgnM/edit?usp=sharing) due Monday by 7pm."
 
   - month: "November"
     day: "06"
@@ -327,12 +335,13 @@ events:
   - month: "November"
     day: "11"
     day-of-week: "Tuesday"
-    topic: "Lab 9: Hashing" #maybe work on hw 8 with backup l33t code problems for students already done
+    topic: "Lab 9: Trees"
+    slides: "https://docs.google.com/document/d/1YLNcXqLHzWXRkqsm1ZdCj4Eme-e84d0cssvzraZJSyk/edit?usp=sharing"
     due: |
-      * Lab submission due by 6:30pm Wednesday
-      * Self-Assessment due by 6:30pm Friday
+      * Lab submission due by 6:30pm Wednesday ([solutions](https://drive.google.com/drive/folders/1tuBNzBcJSUmbthl0bzSwg8l1-XnTAjJw?usp=drive_link))
+      * [Self-Assessment](https://forms.gle/J4bnFY2DZheV8PsbA) due by 6:30pm Friday
     released:
-    pre-class:
+    pre-class: "[Pre-lab](https://docs.google.com/document/d/1nOnqPaw1ck-a54jcrcunKE6bO9l3ZUMFy140TRxhST4/edit?usp=sharing) due Monday by 7pm."
 
   - month: "November"
     day: "13"
@@ -340,7 +349,7 @@ events:
     topic: "Trees"
     slides: "https://drive.google.com/drive/folders/13SRo066DZSWM02xz33UaS-L19I945x1X?usp=drive_link"    
     due: "Homework 8 by **10pm**"
-    released: "[Homework 9 (in pairs)](/hw9)"
+    released: "[Homework 9](/hw9)"
     pre-class: |
       * Read [Chapters 17](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing). Feel free to skip sections about node removals, and about "rotations."
       * Answer the quiz on [Chapter 17](https://docs.google.com/forms/d/e/1FAIpQLSfZwYiCpTyr4OMgzjEickHqXTpCfPpbDIYmRJUJsGb33qEOrw/viewform?usp=sf_link)
@@ -359,12 +368,11 @@ events:
   - month: "November"
     day: "18"
     day-of-week: "Tuesday"
-    topic: "Lab 10: Trees" #do we want to do exam review instead here?
-    due: |
-      * Lab submission due by 6:30pm Wednesday
-      * Self-Assessment due by 6:30pm Friday
+    topic: "Lab 10: Practice Final Review"
+    slides:
+    due: "(focus on the practice final!)"
     released:
-    pre-class:
+    pre-class: "Please bring questions/topics to discuss in lab. (nothing to submit)"
 
   - month: "November"
     day: "20"
@@ -387,12 +395,13 @@ events:
   - month: "November"
     day: "25"
     day-of-week: "Tuesday"
-    topic: "Lab 11: Graphs" #trees?
-    due: | #is this going to be an issue w/Thxgiving?
-      * Lab submission due by 6:30pm Wednesday
-      * Self-Assessment due by 6:30pm Friday 
+    topic: "Lab 11: Graphs"
+    slides: "https://docs.google.com/document/d/1x0mYelZ8dzkXDauKkFkYDURwZ90MIft5AIFLLhtXP78/edit?usp=sharing"
+    due: | 
+      * Lab submission due by 6:30pm Friday (if you need to miss lab, please start early and reach out if you need help)
+      * (No Self-Assessment this week)
     released:
-    pre-class:
+    pre-class: "[Pre-lab](https://docs.google.com/document/d/1Ivq-oqhea_sDvQUeLAWlETtQNf2cnnRGVz7aIVHuKHQ/edit?usp=sharing) due Monday by 7pm."
 
   - month: "November"
     day: "27"
@@ -406,7 +415,7 @@ events:
     day-of-week: "Monday"
     topic: "Breadth-First Search"
     slides: "https://drive.google.com/drive/folders/1QUjilSVffGm6Jbw1lA2DLfCGktOYZokq?usp=drive_link"
-    due: "Homework 9 (in pairs) by **10pm**"
+    due: "Homework 9 by **10pm**"
     released: "[Homework 10 (in pairs)](/hw10)"            
     pre-class: |
       * Read [Chapter 19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
@@ -415,8 +424,7 @@ events:
     day: "02"
     day-of-week: "Tuesday"
     topic: "Lab 12: Work on Homework 10" #graphs homework
-    due: |
-      * Self-Assessment due by 6:30pm Friday
+    due: "Semester Self-Assessment due by 6:30pm Friday"
     released:
     pre-class:
 
@@ -442,9 +450,9 @@ events:
     day: "09"
     day-of-week: "Tuesday"
     topic: "Lab 13: Final Exam Review"
-    due:
+    due: "(study for your final exam)"
     released:
-    pre-class:
+    pre-class: "Please bring questions/topics to discuss during lab"
 
   - month: "December"
     day: "11"
@@ -472,8 +480,13 @@ events:
     topic:
     due:
     released:
-    pre-class:
+    pre-class: |
+      * Review [this list of topics](https://docs.google.com/document/d/1QTgu6CRxqEh-0cMPcFIx2wlDFoiX6ZXQwdzWACvTly0/edit?tab=t.0#heading=h.rzmzx5ufg4kd)
+      * Solve [these practice problems](https://docs.google.com/document/d/1r3A06nkqL0TFVFCmqZcL6ooYJfgEu7PPieOgzIIii4Q/edit?tab=t.0#heading=h.1s5axfyhcyba)
+      * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/1URHxbLBqF34AEZ0RoXqlavk4sjCRiW4px9AoRIlXadU/edit?tab=t.0#heading=h.1s5axfyhcyba)
+      * Prepare a one page (**double** sided) note sheet you can bring to the exam      
     class-meetings-over: true
+    exam: "Final Exam, 6-8:30pm @ PNE-139"
 
   - month: "December"
     day: "18"

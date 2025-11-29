@@ -129,6 +129,17 @@ public class Entry<K, V> {
     public void setValue(V value) {
         this.value = value;
     }
+
+    /**
+     * Determines whether the entries are equal, 
+     * returning true if their keys equal.
+     *
+     * @param value The entry to compare with.
+     */
+    public boolean equals(Object obj) {
+        Entry<K, V> other = (Entry<K, V>) obj;
+        return this.key.equals(other.key);
+    }
 }
 ```
 
@@ -139,7 +150,7 @@ public class Entry<K, V> {
 # Task 1
 
 * Create a file called `LinearProbingHashTable.java` and in it, implement a HashTable with linear probing.
-* Since all Java objects extend `Object`, they all inherit a method called `hashCode` that can be used in a hash table. In your HashTable, please use the `hashCode` method of `K` as your has function. Note that this function may return a negative integer, so take the absolute value of the output of the function.
+* Since all Java objects extend `Object`, they all inherit a method called `hashCode` that can be used in a hash table. In your HashTable, please use the `hashCode` method of `K` as your hash function. Note that this function may return a negative integer, so take the absolute value of the output of the function.
 * At the bottom of the file, create a main method and use it to test your code. We recommend picking `K` to be a `String` when testing. Save the output of your tests in a file called `LinearProbingHashTable.txt` and submit it along with your code.
 
 
