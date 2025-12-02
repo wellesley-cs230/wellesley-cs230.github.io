@@ -424,7 +424,7 @@ events:
     day: "02"
     day-of-week: "Tuesday"
     topic: "Lab 12: Work on Homework 10" #graphs homework
-    due: "Semester Self-Assessment due by 6:30pm Friday"
+    due: "[Semester Self-Assessment](https://forms.gle/Z1yxMDvmAPdQRDNcA) due by 6:30pm Friday"
     released:
     pre-class:
 
