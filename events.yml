@@ -202,8 +202,8 @@ events:
     day-of-week: "Thursday"
     topic: "LinearNodes and Linked Stacks"
     slides: "https://drive.google.com/drive/folders/1anhp1QFY3umRoXT1jjt5L40o5wLGzLuW?usp=drive_link"
-    due: 
-    released:    
+    due: "Homework 5 (in pairs) by **10pm**"
+    released: "[Homework 6](/hw6)"        
     pre-class: |
       * Read [Chapters 14.10-14.14](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Skim the [in-class exercise](/linked-lists).
@@ -213,8 +213,8 @@ events:
     day-of-week: "Monday"
     topic: "Algorithm Analysis"
     slides: "https://drive.google.com/drive/folders/1qiW45AOgDthS7OhwjlJrsERQyuq8vgVG?usp=drive_link"
-    due: "Homework 5 (in pairs) by **10pm**"
-    released: "[Homework 6](/hw6)"        
+    due: 
+    released: 
     pre-class: |
       * Read [Chapter 12](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Optional: watch [this](https://drive.google.com/file/d/1ux1YXJrrDxmYFhSpnNJl0YFmIctf3LVi/view?usp=share_link) and [this](https://drive.google.com/file/d/1QDMCTAf5JdC8jJJHYwoeO3wyklL_JH-S/view?usp=share_link) video
@@ -233,8 +233,8 @@ events:
     day-of-week: "Thursday"
     topic: "Sorting"
     slides: "https://drive.google.com/drive/folders/1IWex3KUtTUOTlU5YAnbtwhYsHt1KJIMG?usp=drive_link"
-    due: 
-    released:    
+    due: "Homework 6 by **10pm**"
+    released: "[Homework 7](/hw7)"    
     pre-class: |
       * Read [Chapter 13](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 13](https://docs.google.com/forms/d/e/1FAIpQLSfOFu_zpwkwWOIlUrgHs4x42b3QWs9eQ9AcBONH9YBKkJONqA/viewform?usp=sf_link)
@@ -271,8 +271,8 @@ events:
     day-of-week: "Monday"
     topic: "Binary Search and Queues"
     slides: "https://drive.google.com/drive/folders/1z0tDbVYAW_BFYcyU0Xu5KzNkV2XL3Iv0?usp=drive_link"
-    due: "Homework 6 by **10pm**"
-    released: "[Homework 7](/hw7)"    
+    due: 
+    released: 
     pre-class: |
       * Read [Chapter 15](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 15](https://docs.google.com/forms/d/e/1FAIpQLSc3bTN9zvAkGH96d58HH_dLzMjQ2OUH0h8bmqJkqIDN1udhPw/viewform?usp=sf_link)
@@ -290,8 +290,8 @@ events:
     day-of-week: "Thursday"
     topic: "Hash Tables"
     slides: "https://drive.google.com/drive/folders/1nJ6utxEsal9E5H9y95yYn645x0M4DnwT?usp=drive_link"
-    due: 
-    released:
+    due: "Homework 7 by **10pm**"
+    released: "[Homework 8 (in pairs)](/hw8)"    
     pre-class: |
       * Read [Chapter 20](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 20](https://docs.google.com/forms/d/e/1FAIpQLSesP-ow-bWEPpYw4aGgF0x7sOEHpX5hRJT1y_ttS0qX5EXwpw/viewform?usp=sf_link)
@@ -301,8 +301,8 @@ events:
     day-of-week: "Monday"
     topic: "Hash Tables"
     slides: "https://drive.google.com/drive/folders/1nJ6utxEsal9E5H9y95yYn645x0M4DnwT?usp=drive_link"
-    due: "Homework 7 by **10pm**"
-    released: "[Homework 8 (in pairs)](/hw8)"    
+    due: 
+    released: 
     pre-class: |
       * Read [Chapter 20](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
@@ -319,8 +319,8 @@ events:
     day-of-week: "Thursday"
     topic: "Trees"
     slides: "https://drive.google.com/drive/folders/13SRo066DZSWM02xz33UaS-L19I945x1X?usp=drive_link"    
-    due: 
-    released:
+    due: "Homework 8 by **10pm**"
+    released: "[Homework 9](/hw9)"
     pre-class: |
       * Read [Chapters 16.1-16.3](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 16](https://docs.google.com/forms/d/e/1FAIpQLScE08RdnZMHdLerrDUgY-9oDMe8X4UGAB7aFKVBBgrgdESCrw/viewform?usp=sf_link)
@@ -330,8 +330,8 @@ events:
     day-of-week: "Monday"
     topic: "Trees"
     slides: "https://drive.google.com/drive/folders/13SRo066DZSWM02xz33UaS-L19I945x1X?usp=drive_link"    
-    due: "Homework 8 by **10pm**"
-    released: "[Homework 9](/hw9)"
+    due: 
+    released: 
     pre-class: |
       * Read [Chapters 17](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing). Feel free to skip sections about node removals, and about "rotations."
       * Answer the quiz on [Chapter 17](https://docs.google.com/forms/d/e/1FAIpQLSfZwYiCpTyr4OMgzjEickHqXTpCfPpbDIYmRJUJsGb33qEOrw/viewform?usp=sf_link)
