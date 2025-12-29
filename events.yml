@@ -13,13 +13,8 @@ events:
     day-of-week: "Tuesday"
     topic:
     released:
-    pre-class:
-    due: |
-      * Lab submission due by 6:30pm Wednesday
-      * [Self-Assessment](https://forms.gle/NuXhw7nMjsDsVbZL8) due by 6:30pm Friday
-    released: 
     pre-class: |
-      * Answer the [entry questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSftXR9REyCxAPuCLKJSao-gd-URJY5yzipGvxEuQk6hbb03sA/viewform?usp=dialog) by **5pm on Monday, September 1**.
+      * Answer the [entry questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSftXR9REyCxAPuCLKJSao-gd-URJY5yzipGvxEuQk6hbb03sA/viewform?usp=dialog) by **5pm on Monday, January 19**.
       * Sign up to Piazza and Gradescope using your Wellesley email
 
   - month: "January"
@@ -178,7 +173,7 @@ events:
     day-of-week: "Thursday"
     pre-class: |
       * Review [this list of topics](https://docs.google.com/document/d/1B10UeBPa-w7O9VGIwkFc31jFtY_7LnJP5rOAzRT1-T0/edit?usp=sharing)
-      * Read the [Midterm instructions](https://docs.google.com/document/d/1FVImltjXAG1jvq1PE8JnjXngZVvkUfOii8SjVJ10mv0/edit?usp=sharing)
+      * Read the [sample Midterm instructions](https://docs.google.com/document/d/1FVImltjXAG1jvq1PE8JnjXngZVvkUfOii8SjVJ10mv0/edit?usp=sharing)
       * Solve [these practice problems](https://docs.google.com/document/d/1N84sG7znr6krxj7KeLMbubMRUHbmX0v8vAeu6CaCTzc/edit?usp=sharing)
       * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/19JKCPG0FyhLUUNezbeI5S446lgb-2hmiNRd3-h8C2Z8/edit?usp=sharing)
       * Prepare a one page (single sided) note sheet you can bring to the exam      
@@ -205,17 +200,6 @@ events:
   - month: "March"
     day: "05"
     day-of-week: "Thursday"
-    topic: "Stacks"
-    slides: "https://drive.google.com/drive/folders/11qHHfpeHa9iWZuyPB-c85A6w6RqC_bjS?usp=drive_link"        
-    due: 
-    released:
-    pre-class: |
-      * Read [Chapters 14.1-14.9](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-
-  - month: "March"
-    day: "09"
-    day-of-week: "Monday"
-    day-of-week: "Monday"
     topic: "LinearNodes and Linked Stacks"
     slides: "https://drive.google.com/drive/folders/1anhp1QFY3umRoXT1jjt5L40o5wLGzLuW?usp=drive_link"
     due: 
@@ -223,6 +207,18 @@ events:
     pre-class: |
       * Read [Chapters 14.10-14.14](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Skim the [in-class exercise](/linked-lists).
+
+  - month: "March"
+    day: "09"
+    day-of-week: "Monday"
+    topic: "Algorithm Analysis"
+    slides: "https://drive.google.com/drive/folders/1qiW45AOgDthS7OhwjlJrsERQyuq8vgVG?usp=drive_link"
+    due: "Homework 5 (in pairs) by **10pm**"
+    released: "[Homework 6](/hw6)"        
+    pre-class: |
+      * Read [Chapter 12](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Optional: watch [this](https://drive.google.com/file/d/1ux1YXJrrDxmYFhSpnNJl0YFmIctf3LVi/view?usp=share_link) and [this](https://drive.google.com/file/d/1QDMCTAf5JdC8jJJHYwoeO3wyklL_JH-S/view?usp=share_link) video
+      * Answer the quiz on [Chapter 12](https://docs.google.com/forms/d/e/1FAIpQLSeESUMXnlhnGv7kgHsJ1ysvudHGSlmJ0h7IGNzusUpVrAZHpA/viewform?usp=sf_link)
 
   - month: "March"
     day: "10"
@@ -235,14 +231,13 @@ events:
   - month: "March"
     day: "12"
     day-of-week: "Thursday"
-    topic: "Algorithm Analysis"
-    slides: "https://drive.google.com/drive/folders/1qiW45AOgDthS7OhwjlJrsERQyuq8vgVG?usp=drive_link"
-    due: "Homework 5 (in pairs) by **10pm**"
-    released: "[Homework 6](/hw6)"        
+    topic: "Sorting"
+    slides: "https://drive.google.com/drive/folders/1IWex3KUtTUOTlU5YAnbtwhYsHt1KJIMG?usp=drive_link"
+    due: 
+    released:    
     pre-class: |
-      * Read [Chapter 12](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-      * Optional: watch [this](https://drive.google.com/file/d/1ux1YXJrrDxmYFhSpnNJl0YFmIctf3LVi/view?usp=share_link) and [this](https://drive.google.com/file/d/1QDMCTAf5JdC8jJJHYwoeO3wyklL_JH-S/view?usp=share_link) video
-      * Answer the quiz on [Chapter 12](https://docs.google.com/forms/d/e/1FAIpQLSeESUMXnlhnGv7kgHsJ1ysvudHGSlmJ0h7IGNzusUpVrAZHpA/viewform?usp=sf_link)
+      * Read [Chapter 13](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 13](https://docs.google.com/forms/d/e/1FAIpQLSfOFu_zpwkwWOIlUrgHs4x42b3QWs9eQ9AcBONH9YBKkJONqA/viewform?usp=sf_link)
 
   - month: "March"
     day: "16"
@@ -274,13 +269,13 @@ events:
   - month: "March"
     day: "23"
     day-of-week: "Monday"
-    topic: "Sorting"
-    slides: "https://drive.google.com/drive/folders/1IWex3KUtTUOTlU5YAnbtwhYsHt1KJIMG?usp=drive_link"
-    due: 
-    released:    
+    topic: "Binary Search and Queues"
+    slides: "https://drive.google.com/drive/folders/1z0tDbVYAW_BFYcyU0Xu5KzNkV2XL3Iv0?usp=drive_link"
+    due: "Homework 6 by **10pm**"
+    released: "[Homework 7](/hw7)"    
     pre-class: |
-      * Read [Chapter 13](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-      * Answer the quiz on [Chapter 13](https://docs.google.com/forms/d/e/1FAIpQLSfOFu_zpwkwWOIlUrgHs4x42b3QWs9eQ9AcBONH9YBKkJONqA/viewform?usp=sf_link)
+      * Read [Chapter 15](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 15](https://docs.google.com/forms/d/e/1FAIpQLSc3bTN9zvAkGH96d58HH_dLzMjQ2OUH0h8bmqJkqIDN1udhPw/viewform?usp=sf_link)
 
   - month: "March"
     day: "24"
@@ -293,17 +288,6 @@ events:
   - month: "March"
     day: "26"
     day-of-week: "Thursday"
-    topic: "Binary Search and Queues"
-    slides: "https://drive.google.com/drive/folders/1z0tDbVYAW_BFYcyU0Xu5KzNkV2XL3Iv0?usp=drive_link"
-    due: "Homework 6 by **10pm**"
-    released: "[Homework 7](/hw7)"    
-    pre-class: |
-      * Read [Chapter 15](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-      * Answer the quiz on [Chapter 15](https://docs.google.com/forms/d/e/1FAIpQLSc3bTN9zvAkGH96d58HH_dLzMjQ2OUH0h8bmqJkqIDN1udhPw/viewform?usp=sf_link)
-
-  - month: "March"
-    day: "30"
-    day-of-week: "Monday"
     topic: "Hash Tables"
     slides: "https://drive.google.com/drive/folders/1nJ6utxEsal9E5H9y95yYn645x0M4DnwT?usp=drive_link"
     due: 
@@ -311,6 +295,16 @@ events:
     pre-class: |
       * Read [Chapter 20](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 20](https://docs.google.com/forms/d/e/1FAIpQLSesP-ow-bWEPpYw4aGgF0x7sOEHpX5hRJT1y_ttS0qX5EXwpw/viewform?usp=sf_link)
+
+  - month: "March"
+    day: "30"
+    day-of-week: "Monday"
+    topic: "Hash Tables"
+    slides: "https://drive.google.com/drive/folders/1nJ6utxEsal9E5H9y95yYn645x0M4DnwT?usp=drive_link"
+    due: "Homework 7 by **10pm**"
+    released: "[Homework 8 (in pairs)](/hw8)"    
+    pre-class: |
+      * Read [Chapter 20](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
   - month: "March"
     day: "31"
@@ -323,16 +317,6 @@ events:
   - month: "April"
     day: "02"
     day-of-week: "Thursday"
-    topic: "Hash Tables"
-    slides: "https://drive.google.com/drive/folders/1nJ6utxEsal9E5H9y95yYn645x0M4DnwT?usp=drive_link"
-    due: "Homework 7 by **10pm**"
-    released: "[Homework 8 (in pairs)](/hw8)"    
-    pre-class: |
-      * Read [Chapter 20](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-
-  - month: "April"
-    day: "06"
-    day-of-week: "Monday"
     topic: "Trees"
     slides: "https://drive.google.com/drive/folders/13SRo066DZSWM02xz33UaS-L19I945x1X?usp=drive_link"    
     due: 
@@ -340,6 +324,17 @@ events:
     pre-class: |
       * Read [Chapters 16.1-16.3](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 16](https://docs.google.com/forms/d/e/1FAIpQLScE08RdnZMHdLerrDUgY-9oDMe8X4UGAB7aFKVBBgrgdESCrw/viewform?usp=sf_link)
+
+  - month: "April"
+    day: "06"
+    day-of-week: "Monday"
+    topic: "Trees"
+    slides: "https://drive.google.com/drive/folders/13SRo066DZSWM02xz33UaS-L19I945x1X?usp=drive_link"    
+    due: "Homework 8 by **10pm**"
+    released: "[Homework 9](/hw9)"
+    pre-class: |
+      * Read [Chapters 17](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing). Feel free to skip sections about node removals, and about "rotations."
+      * Answer the quiz on [Chapter 17](https://docs.google.com/forms/d/e/1FAIpQLSfZwYiCpTyr4OMgzjEickHqXTpCfPpbDIYmRJUJsGb33qEOrw/viewform?usp=sf_link)
 
   - month: "April"
     day: "07"
@@ -352,17 +347,6 @@ events:
   - month: "April"
     day: "09"
     day-of-week: "Thursday"
-    topic: "Trees"
-    slides: "https://drive.google.com/drive/folders/13SRo066DZSWM02xz33UaS-L19I945x1X?usp=drive_link"    
-    due: "Homework 8 by **10pm**"
-    released: "[Homework 9](/hw9)"
-    pre-class: |
-      * Read [Chapters 17](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing). Feel free to skip sections about node removals, and about "rotations."
-      * Answer the quiz on [Chapter 17](https://docs.google.com/forms/d/e/1FAIpQLSfZwYiCpTyr4OMgzjEickHqXTpCfPpbDIYmRJUJsGb33qEOrw/viewform?usp=sf_link)
-
-  - month: "April"
-    day: "13"
-    day-of-week: "Monday"
     topic: "Graphs"
     slides: "https://drive.google.com/drive/folders/16t1yfZja3urbdy3AXN8fnWqYu_2tSQY1?usp=drive_link"
     due: 
@@ -370,6 +354,16 @@ events:
     pre-class: |
       * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 19](https://docs.google.com/forms/d/e/1FAIpQLSfi1gftarGEPNiOIjG5csihhEulBhuyAjwNTXUOGGfXINMtKQ/viewform?usp=sf_link)
+
+  - month: "April"
+    day: "13"
+    day-of-week: "Monday"
+    pre-class: |
+      * Review [this list of topics](https://docs.google.com/document/d/1QfwKBLnTHZgX5jSg7PkCHVxlPGd1U1HsL-SCBpaqkVw/edit?usp=drive_link)
+      * Solve [these practice problems](https://docs.google.com/document/d/1xNwc2AQHSE55yfw53dmBr1KC8Svj7cneClqrjWAySb8/edit?usp=sharing)
+      * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/17aSVhepAjjggwI4e6b1UdU12ZLx3DLEniIdI7hZ6E98/edit?usp=sharing)
+      * Prepare a one page (single sided) note sheet you can bring to the exam      
+    exam: "Practice Final (from Inheritance to Hash Tables)"    
 
   - month: "April"
     day: "14"
@@ -382,12 +376,10 @@ events:
   - month: "April"
     day: "16"
     day-of-week: "Thursday"
+    topic: "Depth First Search"
+    slides: "https://drive.google.com/drive/folders/1XqmtnD8ipUcDxQJe7B8wJkWwBsjKJ9rc?usp=drive_link"
     pre-class: |
-      * Review [this list of topics](https://docs.google.com/document/d/1QfwKBLnTHZgX5jSg7PkCHVxlPGd1U1HsL-SCBpaqkVw/edit?usp=drive_link)
-      * Solve [these practice problems](https://docs.google.com/document/d/1xNwc2AQHSE55yfw53dmBr1KC8Svj7cneClqrjWAySb8/edit?usp=sharing)
-      * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/17aSVhepAjjggwI4e6b1UdU12ZLx3DLEniIdI7hZ6E98/edit?usp=sharing)
-      * Prepare a one page (single sided) note sheet you can bring to the exam      
-    exam: "Practice Final (from Inheritance to Hash Tables)"    
+      * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
   - month: "April"
     day: "20"
@@ -409,20 +401,20 @@ events:
   - month: "April"
     day: "23"
     day-of-week: "Thursday"
-    topic: "Depth First Search"
-    slides: "https://drive.google.com/drive/folders/1XqmtnD8ipUcDxQJe7B8wJkWwBsjKJ9rc?usp=drive_link"
-    pre-class: |
-      * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-
-  - month: "April"
-    day: "27"
-    day-of-week: "Monday"
     topic: "Breadth-First Search"
     slides: "https://drive.google.com/drive/folders/1QUjilSVffGm6Jbw1lA2DLfCGktOYZokq?usp=drive_link"
     due: "Homework 9 by **10pm**"
     released: "[Homework 10 (in pairs)](/hw10)"            
     pre-class: |
       * Read [Chapter 19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+
+  - month: "April"
+    day: "27"
+    day-of-week: "Monday"
+    topic: "The Ethics of Search Engines"    
+    slides: "https://drive.google.com/drive/folders/189I-gjFBhFeoyZ6ckJuXco650EWKQ8ni?usp=drive_link"
+    pre-class: |
+      * Complete the pre-class work on Gradescope by **7am** before class.
 
   - month: "April"
     day: "28"
@@ -436,10 +428,12 @@ events:
     day: "30"
     day-of-week: "Thursday"
     special: "Substitute Day: Monday Schedule"
-    topic: "The Ethics of Search Engines"    
-    slides: "https://drive.google.com/drive/folders/189I-gjFBhFeoyZ6ckJuXco650EWKQ8ni?usp=drive_link"
+    topic: "Priority Queues and Heaps" 
+    slides: "https://drive.google.com/drive/folders/1zyhcyAjfIlSJkZEhHiTbb3zj3C6HL5HW?usp=drive_link"
+    due: "Homework 10 by **10pm**"
     pre-class: |
-      * Complete the pre-class work on Gradescope by **7am** before class.
+      * Read [Chapter 18](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 18](https://docs.google.com/forms/d/e/1FAIpQLSfk0iCXOo5CEKUmEIRdU8dkYlHlW4wrPWO0EiS2fYSbFtsoXg/viewform?usp=sf_link)
 
   - month: "May"
     day: "04"
