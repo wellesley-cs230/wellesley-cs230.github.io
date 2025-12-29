@@ -20,8 +20,8 @@ layout: home
 **Meeting Times and Locations:**
 * Lecture: Mondays and Thursdays, 2:20-3:30pm @ SCI L180
 * Lab:
-  * 2LA: Tuesdays, 1:30-3:20pm @ SCI H402
-  * 2LB: Tuesdays, 3:30-5:20pm @ SCI H402
+  * 1LA: Tuesdays, 11:30-1:20pm @ SCI H402
+  * 1LB: Tuesdays, 1:30-3:20pm @ SCI H402
 
 <br/>
 
