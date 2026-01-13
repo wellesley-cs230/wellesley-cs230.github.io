@@ -226,7 +226,7 @@ Next, implement the following instance methods:
 1. Implement `public int countLeaves()` in the `BTNode` class. This method should return an integer counting the number of leaves in tree.
 2. Implement `public int countNodesAtLevel(int level)` in the `BTNode` class. This method should return the number of nodes at a given *level* in the tree. In this method, we'll say that level 0 represents the root.
 3. Implement `public LinkedList<T> collectOnlyChildren()` in the `BTNode` class. This method should return a list of all elements `T` that belong to nodes that have no siblings.
-4. Implement `public boolean isValid()` in the `BSTNode` class. This method should return `true` if the tree is a valid binary search tree.
+4. Implement `public boolean parentGreaterThanChildren()` in the `BSTNode` class. This method should return `true` if the element stored at every node is larger than the elements stored at its immediate left and right children.
 
 
 Please test your code as you go, putting your test in a driver class called `Driver.java`.
