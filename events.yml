@@ -11,7 +11,7 @@ events:
   - month: "January"
     day: "20"
     day-of-week: "Tuesday"
-    topic:
+    topic: "Starting with BlueJ and Java"
     released:
     pre-class: |
       * Answer the [entry questionnaire](https://docs.google.com/forms/d/e/1FAIpQLScoj1i6am950UZBE8pBk4OhMKBShe_dtIlpCok2HKMRXNvpSQ/viewform?usp=publish-editor) by **5pm on Monday, January 19**.
