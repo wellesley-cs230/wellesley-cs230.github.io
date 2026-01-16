@@ -316,10 +316,12 @@ events:
   - month: "March"
     day: "31"
     day-of-week: "Tuesday"
-    topic:
+    topic: "Hash Tables"
+    slides: "https://docs.google.com/document/d/1BbycE2Qt0TLJuQ_co0BqyXCxKP6sMwda/edit?usp=sharing&ouid=106913556297077318828&rtpof=true&sd=true"
     due:
     released:
     pre-class:
+
 
   - month: "April"
     day: "02"
