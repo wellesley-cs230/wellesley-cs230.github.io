@@ -45,7 +45,8 @@ events:
   - month: "January"
     day: "27"
     day-of-week: "Tuesday"
-    topic:
+    topic: "Java Constructs"
+    slides: "https://docs.google.com/document/d/14783tuldvGVW16WgvZGitPtZ_n14VYMM/edit#heading=h.gjdgxs"
     due:
     released:
     pre-class:
