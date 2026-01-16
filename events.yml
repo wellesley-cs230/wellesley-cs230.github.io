@@ -380,7 +380,7 @@ events:
     topic: "Work on Homework on Graphs (Homework 10)"
     due:
     released:
-    pre-class:
+    pre-class: "Read and Familiarize yourselves with Homework 10"
 
   - month: "April"
     day: "16"
