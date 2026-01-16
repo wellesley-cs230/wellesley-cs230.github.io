@@ -167,7 +167,7 @@ events:
   - month: "February"
     day: "24"
     day-of-week: "Tuesday"
-    topic:
+    topic: "Review"
     due:
     released:
     pre-class:
