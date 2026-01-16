@@ -377,7 +377,7 @@ events:
   - month: "April"
     day: "14"
     day-of-week: "Tuesday"
-    topic:
+    topic: "Work on Homework on Graphs (Homework 10)"
     due:
     released:
     pre-class:
