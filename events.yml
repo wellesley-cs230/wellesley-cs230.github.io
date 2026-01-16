@@ -404,7 +404,7 @@ events:
   - month: "April"
     day: "21"
     day-of-week: "Tuesday"
-    topic:
+    topic: "TBD"
     due:
     released:
     pre-class:
