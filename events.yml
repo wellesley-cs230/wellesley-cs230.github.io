@@ -377,7 +377,7 @@ events:
   - month: "April"
     day: "14"
     day-of-week: "Tuesday"
-    topic: "Work on Homework on Graphs (Homework 10)"
+    topic: "Trees and Recursion"
     due:
     released:
     pre-class: "Read and Familiarize yourselves with Homework 10"
@@ -404,7 +404,7 @@ events:
   - month: "April"
     day: "21"
     day-of-week: "Tuesday"
-    topic: "TBD"
+    topic: "Work on Homework on Graphs (Homework 10)"
     due:
     released:
     pre-class:
