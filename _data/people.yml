@@ -9,18 +9,18 @@ instructors:
     webpage: https://www.wellesley.edu/people/stella-kakavouli
 
 teaching_assistants:
-  - name: Kailyn Lau
+  - name: Jasmine Sun
     pronouns: she/her
-    major: CS (Prospective)
+    major: Econ and CS (Prospective)
     class: 28
-    profile_pic: /_images/pp/kailyn-lau.jpg
-  - name: Dianna Gonzalez
+    profile_pic: /_images/pp/jasmine.png
+  - name: Hana Takatori
     pronouns: she/her
-    major: CS and Education Studies
-    class: 27
-    profile_pic: /_images/pp/dianna-gonzalez.jpg
-  - name: Megan Ho
-    pronouns: she/her
-    major: CS (prospective)
+    major: CS and Psychology
     class: 28
-    profile_pic: /_images/pp/megan-ho.png
+    profile_pic: /_images/pp/hana.png
+  - name: Giana Jones
+    pronouns: she/her
+    major: CS
+    class: 28
+    profile_pic: 
