@@ -380,7 +380,7 @@ events:
     topic: "Trees and Recursion"
     due:
     released:
-    pre-class: "Read and Familiarize yourselves with Homework 10"
+    pre-class: 
 
   - month: "April"
     day: "16"
