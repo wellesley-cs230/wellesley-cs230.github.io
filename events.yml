@@ -462,9 +462,14 @@ events:
     topic:
     due:
     released:
-    pre-class:
+    pre-class: |
+      * Review [this list of topics](https://docs.google.com/document/d/1QTgu6CRxqEh-0cMPcFIx2wlDFoiX6ZXQwdzWACvTly0/edit?tab=t.0#heading=h.rzmzx5ufg4kd)
+      * Solve [these practice problems](https://docs.google.com/document/d/1r3A06nkqL0TFVFCmqZcL6ooYJfgEu7PPieOgzIIii4Q/edit?tab=t.0#heading=h.1s5axfyhcyba)
+      * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/1URHxbLBqF34AEZ0RoXqlavk4sjCRiW4px9AoRIlXadU/edit?tab=t.0#heading=h.1s5axfyhcyba)
+      * Prepare a one page (**double** sided) note sheet you can bring to the exam  
     class-meetings-over: true
-
+    exam: "Final Exam, 6-8:30pm @ PNE-139"
+  
   - month: "May"
     day: "07"
     day-of-week: "Thursday"
