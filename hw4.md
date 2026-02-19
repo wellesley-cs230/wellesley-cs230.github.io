@@ -191,8 +191,9 @@ public class Card
      * @param c the card this (the invoking) object is compared against
      * @return true if this card and the input one are equal, false otherwise
      */
-    public boolean equals(Card c) {
-        return (this.suit.equals(c.suit)) && this.value==c.value;
+    public boolean equals(Object obj) {
+        Card other = (Card) obj;
+        return (this.suit.equals(other.suit)) && this.value == other.value;
     }
 
 
