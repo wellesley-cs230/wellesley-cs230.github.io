@@ -4,7 +4,9 @@ layout: default
 
 # Homework 9, Part A: Guitar
 
+You all have been working so hard. We've decided to skip this part of the homework :).
 
+<!--
 
 ## Learning Goals
 
@@ -22,15 +24,6 @@ In this exercise, you will learn how to simulate the plucking of a guitar string
 
 When a guitar string is plucked, the string vibrates and creates sound. The length of the string determines its fundamental frequency of vibration. We model a guitar string by sampling its displacement (a real number between -1/2 and +1/2) at N equally spaced points (in time), where N equals the sampling rate (44,100) divided by the fundamental frequency (rounding the quotient up to the nearest integer).
 
-<!--
-When a guitar string is plucked, the string vibrates and creates sound. These are some terms regarding the physics about how guitars make noise, and our simulation of it in this exercise:
-* When a guitar string is at rest, it is at its **equilibrium position**.
-* When a string is strummed, it vibrates oscillating from side to side. At any point, the distance of the string from its equilibrium position is called the **displacement** and it changes constantly. We will measure it as a real number between -1/2 and +1/2.
-* The **sampling rate** indicates how many samples of the displacement we take in a second. In out simulation the sampling rate **(N)** will be 44,100 (samples per second).
-* The **fundamental frequency** of the vibration is determined by the string length. We model a guitar string by dividing its displacement by the fundamental frequency (rounding the quotient up to the nearest integer). We will take N such samples per second.
-
- at **N** equally spaced points (in time), where **N** equals the **sampling rate** (44,100) divided by the fundamental frequency (rounding the quotient up to the nearest integer).
--->
 <img src="_images/figs/guitar-samples.png" />
 
 **Plucking the string.** The excitation of the string contains energy at any frequency. We simulate the excitation with <em>white noise</em>:
@@ -95,9 +88,7 @@ In Gradescope submit the following files:
 3. The `GuitarString.java` file
 
 
-
-
-
+-->
 
 
 <br/>
