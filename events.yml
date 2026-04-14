@@ -378,6 +378,7 @@ events:
     day: "14"
     day-of-week: "Tuesday"
     topic: "Trees and Recursion"
+    slides: "https://docs.google.com/document/d/1MBBeqhP4piEMwKRnUP9RmRt4RhffFcTD/edit"
     due:
     released:
     pre-class: 
