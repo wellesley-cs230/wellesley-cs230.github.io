@@ -440,13 +440,11 @@ events:
     day: "30"
     day-of-week: "Thursday"
     special: "Substitute Day: Monday Schedule"
-    topic: "Priority Queues and Heaps; Reflection" 
-    slides: "https://drive.google.com/drive/folders/1zyhcyAjfIlSJkZEhHiTbb3zj3C6HL5HW?usp=drive_link"
+    topic: "Reflection" 
+    slides: 
     due: 
-    pre-class: |
-      * Read [Chapter 18](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-      * Answer the quiz on [Chapter 18](https://docs.google.com/forms/d/e/1FAIpQLSfk0iCXOo5CEKUmEIRdU8dkYlHlW4wrPWO0EiS2fYSbFtsoXg/viewform?usp=sf_link)
-
+    pre-class: 
+    
   - month: "May"
     day: "04"
     day-of-week: "Monday"
