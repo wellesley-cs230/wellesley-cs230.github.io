@@ -1,3 +1,4 @@
+````markdown
 ---
 layout: default
 ---
@@ -83,10 +84,7 @@ public class LinkedList<T> implements LinearList<T> {
 
     protected LinearNode<T> getNode(int position) {
         if (position < 0 || position >= this.count) {
-            throw new RuntimeException(
-                "Asking for element at index " + position 
-                + " in a list of size" + this.count
-            );
+            return null;
         }
         
         LinearNode<T> current = this.front;
@@ -107,6 +105,10 @@ public class LinkedList<T> implements LinearList<T> {
     }
     
     public void insert(int position, T element) {
+        if (position < 0 || position > this.count) {
+            return;
+        }
+        
         LinearNode<T> node = new LinearNode<T>(element);
         
         if (position == 0) {
@@ -122,6 +124,10 @@ public class LinkedList<T> implements LinearList<T> {
     }
     
     public T remove(int position) {
+        if (position < 0 || position >= this.count) {
+            return null;
+        }
+        
         LinearNode<T> current;
         if (position == 0) {
             current = front;
@@ -150,12 +156,23 @@ public class LinkedList<T> implements LinearList<T> {
 }
 ```
 
+For this assignment, use the following behavior when a position is not valid:
+
+* `get(position)` should return `null` and leave the list unchanged.
+* `insert(position, element)` should leave the list unchanged.
+* `remove(position)` should return `null` and leave the list unchanged.
+
+Valid positions for `get` and `remove` range from `0` through `size() - 1`.
+
+Valid positions for `insert` range from `0` through `size()`, inclusive. Inserting at position `size()` adds the element to the end of the list.
+
 Then, answer:
 * Which instance variables/methods are `protected`?
 * Why would we choose to make them `protected` instead of `private` for this assignment?
 
 
 <br/>
+
 
 ## Task 1
 
@@ -179,6 +196,7 @@ This is the class in which you will implement your sortable linked list.
 
 <br/>
 
+
 ## Task 2
 
 **Instructions.** Implement a helper method with the following header:
@@ -201,6 +219,7 @@ We highly recommend you **do not** continue without confidence this method words
 
 <br/>
 
+
 ## Task 3
 
 **Instructions.** Implement a helper method with the following header:
@@ -222,6 +241,7 @@ We highly recommend you **do not** continue without confidence this method words
 
 
 <br/>
+
 
 ## Task 4
 
@@ -246,6 +266,7 @@ We highly recommend you **do not** continue without confidence this method words
 
 
 <br/>
+
 
 ## Task 5
 
@@ -301,58 +322,3 @@ Write your answer in a text file called `BigO.txt` and submit it.
 * You wrote inline comments explaining the logic of your code.
 
 
-
-
-
-<!--
-
-
-
-
-
-
-
-<br/>
-
-# Homework 7, Part B: Trace Sorting by hand
-
-
-## Learning Goals
-* Gain a detailed understanding on how sorting algorithms work
-* Working with best-known sorting algorithms
-
-## Exercise: Trace Sorting Algorithms
-
-Complete the following questions on paper by hand, scan them as a PDF, and submit as the file `SortingTrace.pdf` to Gradescope.
-
-Given the following array of numbers:
-
-`255 31 15 127 511 1023 63 7 2047`
-
-Show a trace of execution for each of the sorting methods as shown in the book:
-
-1. selection sort (listing 13.5, page 492)
-2. insertion sort (listing 13.5, page 493)
-3. merge sort (listing 13.5, page 495)
-
-The meaning of **"trace"** depends on each sorting method.
-
-* For selection sort, it means to display the contents of the array at every selection.
-* For insertion sort, it means to display the contents of the array after each insertion.
-* For mergesort, it means to draw the two trees that are created by splitting and merging.
-
-
-## What to submit
-* Make sure you title your paper and you write your name(s) on the document you are submitting.
-* Create a PDF file named `SortingTrace.pdf` by scanning the completed worksheet and submit to Gradescope.
-
-
-
-<br/>
-
-# Submission Checklist
-
-* You submitted **all** `.pdf` files and all `.txt` files.
-* Your files are named **exactly** as in the homework specification, *including file extensions*.
-
--->
