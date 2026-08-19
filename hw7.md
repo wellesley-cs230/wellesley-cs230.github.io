@@ -81,6 +81,16 @@ public class LinkedList<T> implements LinearList<T> {
         return this.count;
     }
 
+    /**
+     * Returns the node at the specified position.
+     *
+     * If position is less than 0 or greater than or equal to the size
+     * of the list, this method returns null.
+     *
+     * @param position the 0-indexed position of the node
+     * @return the node at the specified position, or null if position
+     *         is not valid
+     */
     protected LinearNode<T> getNode(int position) {
         if (position < 0 || position >= this.count) {
             return null;
@@ -94,6 +104,16 @@ public class LinkedList<T> implements LinearList<T> {
         return current;
     }
     
+    /**
+     * Returns the element at the specified position.
+     *
+     * If position is less than 0 or greater than or equal to the size
+     * of the list, this method returns null and leaves the list unchanged.
+     *
+     * @param position the 0-indexed position of the element
+     * @return the element at the specified position, or null if position
+     *         is not valid
+     */
     public T get(int position) {
         LinearNode<T> node = this.getNode(position);
         if (node == null) {
@@ -103,6 +123,19 @@ public class LinkedList<T> implements LinearList<T> {
         return node.getElement();
     }
     
+    /**
+     * Inserts an element at the specified position.
+     *
+     * Valid positions range from 0 through the size of the list,
+     * inclusive. Inserting at position size() adds the element to the end
+     * of the list.
+     *
+     * If position is less than 0 or greater than the size of the list,
+     * this method leaves the list unchanged.
+     *
+     * @param position the position at which to insert the element
+     * @param element the element to insert
+     */
     public void insert(int position, T element) {
         if (position < 0 || position > this.count) {
             return;
@@ -122,6 +155,15 @@ public class LinkedList<T> implements LinearList<T> {
         this.count++;
     }
     
+    /**
+     * Removes and returns the element at the specified position.
+     *
+     * If position is less than 0 or greater than or equal to the size
+     * of the list, this method returns null and leaves the list unchanged.
+     *
+     * @param position the 0-indexed position of the element to remove
+     * @return the removed element, or null if position is not valid
+     */
     public T remove(int position) {
         if (position < 0 || position >= this.count) {
             return null;
@@ -141,6 +183,11 @@ public class LinkedList<T> implements LinearList<T> {
         return current.getElement();
     }
 
+    /**
+     * Returns a String representation of the list.
+     *
+     * @return a String representation of the list
+     */
     public String toString() {
         String s = "[ ";
         
@@ -154,16 +201,6 @@ public class LinkedList<T> implements LinearList<T> {
     }
 }
 ```
-
-For this assignment, use the following behavior when a position is not valid:
-
-* `get(position)` should return `null` and leave the list unchanged.
-* `insert(position, element)` should leave the list unchanged.
-* `remove(position)` should return `null` and leave the list unchanged.
-
-Valid positions for `get` and `remove` range from `0` through `size() - 1`.
-
-Valid positions for `insert` range from `0` through `size()`, inclusive. Inserting at position `size()` adds the element to the end of the list.
 
 Then, answer:
 * Which instance variables/methods are `protected`?
@@ -211,7 +248,7 @@ This method should take no more than O(N) time.
 
 **Tests.** After implementing this method, **test it** in the `main` method of the same file.
 You can store the results of all of your testing in `SortableLinkedlistTesting.txt`.
-We highly recommend you **do not** continue without confidence this method words correctly.
+We highly recommend you **do not** continue without confidence this method works correctly.
 
 
 
@@ -235,7 +272,7 @@ This method should take no more than O(N) time.
 If you wish, you may use a Queue or Stack from the Java API (only using the appropriate methods).
 
 **Tests.** As before, after implementing this method, **test it** in the `main` method of the same file.
-We highly recommend you **do not** continue without confidence this method words correctly.
+We highly recommend you **do not** continue without confidence this method works correctly.
 
 
 
@@ -260,7 +297,7 @@ This method should take no more than O(N) time.
 * Consider using the helper methods you've already implemented.
 
 **Tests.** As before, after implementing this method, **test it** in the `main` method of the same file.
-We highly recommend you **do not** continue without confidence this method words correctly.
+We highly recommend you **do not** continue without confidence this method works correctly.
 
 
 
@@ -319,5 +356,6 @@ Write your answer in a text file called `BigO.txt` and submit it.
 * You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
 * You wrote javadoc for every function, which includes `@param` and `@return`.
 * You wrote inline comments explaining the logic of your code.
+
 
 
