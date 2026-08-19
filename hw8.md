@@ -143,7 +143,61 @@ public class Entry<K, V> {
 }
 ```
 
+You will also need to read lines from the log files. Create a file called `FileIO.java` and copy the following code into it. You do not need to modify this class or explain how it works.
 
+`FileIO.java`:
+```java
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+/**
+ * Provides a helper method for reading lines from files.
+ *
+ * @author CS 230 Staff
+ * @version Fall 2024
+ */
+public class FileIO {
+    /**
+     * Reads all lines from a file.
+     *
+     * @param filename the name of the file to read
+     * @return an array containing the lines in the file
+     */
+    public static String[] readLines(String filename) {
+        try {
+            Scanner input = new Scanner(new File(filename));
+
+            int numberOfLines = 0;
+            while (input.hasNextLine()) {
+                numberOfLines++;
+                input.nextLine();
+            }
+            input.close();
+
+            input = new Scanner(new File(filename));
+            String[] lines = new String[numberOfLines];
+
+            for (int i = 0; i < lines.length; i++) {
+                lines[i] = input.nextLine();
+            }
+
+            input.close();
+            return lines;
+        }
+        catch (FileNotFoundException e) {
+            System.out.println("Could not find file: " + filename);
+            return new String[0];
+        }
+    }
+}
+```
+
+For example, to read the lines from a file, use:
+
+```java
+String[] lines = FileIO.readLines("log-1982.txt");
+```
 
 <br/>
 
@@ -152,6 +206,7 @@ public class Entry<K, V> {
 * Create a file called `LinearProbingHashTable.java` and in it, implement a HashTable with linear probing.
 * Since all Java objects extend `Object`, they all inherit a method called `hashCode` that can be used in a hash table. In your HashTable, please use the `hashCode` method of `K` as your hash function. Note that this function may return a negative integer, so take the absolute value of the output of the function.
 * At the bottom of the file, create a main method and use it to test your code. We recommend picking `K` to be a `String` when testing. Save the output of your tests in a file called `LinearProbingHashTable.txt` and submit it along with your code.
+
 
 
 <br/>
@@ -172,6 +227,12 @@ Now that you have your HashTable ready, you can start your investigation! Implem
 * Uses one of your Hash Table implementations to cross references the IP addresses from 1982 with those from 2024 to find the overlap
 * For the IP address that overlap, your code should report how many times the IP address appears in each log
 
+Use the following code to read the log files:
+
+```java
+String[] log1982 = FileIO.readLines("log-1982.txt");
+String[] log2024 = FileIO.readLines("log-2024.txt");
+```
 
 <br/>
 
@@ -194,6 +255,3 @@ In a file called `Answers.txt`, answer:
 * You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
 * You wrote javadoc for every function, which includes `@param` and `@return`.
 * You wrote inline comments explaining the logic of your code.
-
-
-
