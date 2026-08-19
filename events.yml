@@ -309,6 +309,16 @@ events:
   - month: "November"
     day: "12"
     day-of-week: "Thursday"
+    pre-class: |
+      * Review [this list of topics](https://docs.google.com/document/d/1QfwKBLnTHZgX5jSg7PkCHVxlPGd1U1HsL-SCBpaqkVw/edit?usp=drive_link)
+      * Solve [these practice problems](https://docs.google.com/document/d/1xNwc2AQHSE55yfw53dmBr1KC8Svj7cneClqrjWAySb8/edit?usp=sharing)
+      * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/17aSVhepAjjggwI4e6b1UdU12ZLx3DLEniIdI7hZ6E98/edit?usp=sharing)
+      * Prepare a one page (single sided) note sheet you can bring to the exam      
+    exam: "Practice Final (from Inheritance to Hash Tables)"    
+    
+  - month: "November"
+    day: "16"
+    day-of-week: "Monday"
     topic: "Trees"
     slides: "https://drive.google.com/drive/folders/13SRo066DZSWM02xz33UaS-L19I945x1X?usp=drive_link"    
     due: 
@@ -316,16 +326,6 @@ events:
     pre-class: |
       * Read [Chapters 17](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing). Feel free to skip sections about node removals, and about "rotations."
       * Answer the quiz on [Chapter 17](https://docs.google.com/forms/d/e/1FAIpQLSfZwYiCpTyr4OMgzjEickHqXTpCfPpbDIYmRJUJsGb33qEOrw/viewform?usp=sf_link)
-
-  - month: "November"
-    day: "16"
-    day-of-week: "Monday"
-    pre-class: |
-      * Review [this list of topics](https://docs.google.com/document/d/1QfwKBLnTHZgX5jSg7PkCHVxlPGd1U1HsL-SCBpaqkVw/edit?usp=drive_link)
-      * Solve [these practice problems](https://docs.google.com/document/d/1xNwc2AQHSE55yfw53dmBr1KC8Svj7cneClqrjWAySb8/edit?usp=sharing)
-      * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/17aSVhepAjjggwI4e6b1UdU12ZLx3DLEniIdI7hZ6E98/edit?usp=sharing)
-      * Prepare a one page (single sided) note sheet you can bring to the exam      
-    exam: "Practice Final (from Inheritance to Hash Tables)"    
 
   - month: "November"
     day: "17"
@@ -340,8 +340,8 @@ events:
     day-of-week: "Thursday"
     topic: "Graphs"
     slides: "https://drive.google.com/drive/folders/16t1yfZja3urbdy3AXN8fnWqYu_2tSQY1?usp=drive_link"
-    due: 
-    released:    
+    due: "Homework 9 by **10pm**"
+    released: "[Homework 10 (in pairs)](/hw10)"                
     pre-class: |
       * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 19](https://docs.google.com/forms/d/e/1FAIpQLSfi1gftarGEPNiOIjG5csihhEulBhuyAjwNTXUOGGfXINMtKQ/viewform?usp=sf_link)
@@ -351,8 +351,6 @@ events:
     day-of-week: "Monday"
     topic: "Depth First Search"
     slides: "https://drive.google.com/drive/folders/1XqmtnD8ipUcDxQJe7B8wJkWwBsjKJ9rc?usp=drive_link"
-    due: "Homework 9 by **10pm**"
-    released: "[Homework 10 (in pairs)](/hw10)"                
     pre-class: |
       * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
@@ -378,8 +376,6 @@ events:
     day-of-week: "Monday"
     topic: "Breadth-First Search"
     slides: "https://drive.google.com/drive/folders/1QUjilSVffGm6Jbw1lA2DLfCGktOYZokq?usp=drive_link"
-    due: "Homework 10 by **10pm**"
-    released: 
     pre-class: |
       * Read [Chapter 19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
@@ -396,6 +392,8 @@ events:
     day-of-week: "Thursday"
     topic: "The Ethics of Search Engines"    
     slides: "https://drive.google.com/drive/folders/189I-gjFBhFeoyZ6ckJuXco650EWKQ8ni?usp=drive_link"
+    due: "Homework 10 by **10pm**"
+    released:     
     pre-class: |
       * Complete the pre-class work on Gradescope by **7am** before class.
 
