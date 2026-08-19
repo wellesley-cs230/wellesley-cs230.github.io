@@ -12,8 +12,8 @@ events:
       * Answer the quiz on [Chapter 1](https://docs.google.com/forms/d/e/1FAIpQLSd-n94Dd_0cuMwcROeTUwRSMBprwtNoxufMqr-q-DAS4B5uZg/viewform?usp=sf_link) and [Chapter 2](https://docs.google.com/forms/d/e/1FAIpQLSfAZ-3jgAIaF2Vtqs_Uxut7pA8_AiZ3SYPpFYKqrGSvpxJNSw/viewform?usp=sf_link)
 
   - month: "September"
-    day: "01"
-    day-of-week: "Tuesday"
+    day: "02"
+    day-of-week: "Wednesday"
     topic:
     due:
     released:
@@ -41,8 +41,8 @@ events:
     pre-class:
 
   - month: "September"
-    day: "08"
-    day-of-week: "Tuesday"
+    day: "09"
+    day-of-week: "Wednesday"
     topic:
     due:
     released:
@@ -69,8 +69,8 @@ events:
       * Read [Chapter 5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
   - month: "September"
-    day: "15"
-    day-of-week: "Tuesday"
+    day: "16"
+    day-of-week: "Wednesday"
     topic:
     due:
     released:
@@ -97,8 +97,8 @@ events:
       * Read [Chapter 7](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
   - month: "September"
-    day: "22"
-    day-of-week: "Tuesday"
+    day: "23"
+    day-of-week: "Wednesday"
     topic:
     due:
     released:
@@ -128,8 +128,8 @@ events:
       * Answer the quiz on [Chapter 9](https://docs.google.com/forms/d/e/1FAIpQLScBSjz2QduQVzu59nEHkMlSwlYMgmksAtsWniIC0FbjUP9IYA/viewform?usp=sf_link)
 
   - month: "September"
-    day: "29"
-    day-of-week: "Tuesday"
+    day: "30"
+    day-of-week: "Wednesday"
     topic:
     due:
     released:
@@ -156,8 +156,8 @@ events:
       * Answer the quiz on [Chapter 14](https://docs.google.com/forms/d/e/1FAIpQLSc1v1aGlggmQpdh9hLN1C0UsAqzkJ8lIy4zDB_RxGiF6TEOqQ/viewform?usp=sf_link)
 
   - month: "October"
-    day: "06"
-    day-of-week: "Tuesday"
+    day: "07"
+    day-of-week: "Wednesday"
     topic:
     due:
     released:
@@ -184,9 +184,8 @@ events:
     pre-class:
 
   - month: "October"
-    day: "13"
-    day-of-week: "Tuesday"
-    special: "Fall Break: no classes."
+    day: "14"
+    day-of-week: "Wednesday"
     topic:
     due:
     released:
@@ -212,8 +211,8 @@ events:
       * Answer the quiz on [Chapter 12](https://docs.google.com/forms/d/e/1FAIpQLSeESUMXnlhnGv7kgHsJ1ysvudHGSlmJ0h7IGNzusUpVrAZHpA/viewform?usp=sf_link)
 
   - month: "October"
-    day: "20"
-    day-of-week: "Tuesday"
+    day: "21"
+    day-of-week: "Wednesday"
     topic:
     due:
     released:
@@ -240,9 +239,8 @@ events:
       * Answer the quiz on [Chapter 15](https://docs.google.com/forms/d/e/1FAIpQLSc3bTN9zvAkGH96d58HH_dLzMjQ2OUH0h8bmqJkqIDN1udhPw/viewform?usp=sf_link)
 
   - month: "October"
-    day: "27"
-    day-of-week: "Tuesday"
-    special: "Tanner Conference: no classes."
+    day: "28"
+    day-of-week: "Wednesday"
     topic:
     due:
     released:
@@ -268,8 +266,8 @@ events:
       * Read [Chapter 20](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
   - month: "November"
-    day: "03"
-    day-of-week: "Tuesday"
+    day: "04"
+    day-of-week: "Wednesday"
     topic:
     due:
     released:
@@ -298,8 +296,8 @@ events:
       * Answer the quiz on [Chapter 17](https://docs.google.com/forms/d/e/1FAIpQLSfZwYiCpTyr4OMgzjEickHqXTpCfPpbDIYmRJUJsGb33qEOrw/viewform?usp=sf_link)
 
   - month: "November"
-    day: "10"
-    day-of-week: "Tuesday"
+    day: "11"
+    day-of-week: "Wednesday"
     topic:
     due:
     released:
@@ -325,8 +323,8 @@ events:
       * Answer the quiz on [Chapter 19](https://docs.google.com/forms/d/e/1FAIpQLSfi1gftarGEPNiOIjG5csihhEulBhuyAjwNTXUOGGfXINMtKQ/viewform?usp=sf_link)
 
   - month: "November"
-    day: "17"
-    day-of-week: "Tuesday"
+    day: "18"
+    day-of-week: "Wednesday"
     topic:
     due:
     released:
@@ -348,8 +346,9 @@ events:
     topic: "Class Cancelled."
     
   - month: "November"
-    day: "24"
-    day-of-week: "Tuesday"
+    day: "25"
+    day-of-week: "Wednesday"
+    special: "Thanksgiving Break: no classes."
     topic:
     due:
     released:
@@ -373,8 +372,8 @@ events:
       * Read [Chapter 19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
   - month: "December"
-    day: "01"
-    day-of-week: "Tuesday"
+    day: "02"
+    day-of-week: "Wednesday"
     topic:
     due:
     released:
@@ -399,8 +398,8 @@ events:
     pre-class:
 
   - month: "December"
-    day: "08"
-    day-of-week: "Tuesday"
+    day: "09"
+    day-of-week: "Wednesday"
     topic:
     due:
     released:
@@ -427,8 +426,8 @@ events:
     class-meetings-over: true
 
   - month: "December"
-    day: "15"
-    day-of-week: "Tuesday"
+    day: "16"
+    day-of-week: "Wednesday"
     topic:
     due:
     released:
