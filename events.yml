@@ -256,8 +256,6 @@ events:
     slides: "https://drive.google.com/drive/folders/1z0tDbVYAW_BFYcyU0Xu5KzNkV2XL3Iv0?usp=drive_link"
     due: "Homework 7 by **10pm**"
     released: "[Homework 8 (in pairs)](/hw8)"        
-    due: 
-    released: 
     pre-class: |
       * Read [Chapter 15](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 15](https://docs.google.com/forms/d/e/1FAIpQLSc3bTN9zvAkGH96d58HH_dLzMjQ2OUH0h8bmqJkqIDN1udhPw/viewform?usp=sf_link)
@@ -314,7 +312,7 @@ events:
       * Solve [these practice problems](https://docs.google.com/document/d/1xNwc2AQHSE55yfw53dmBr1KC8Svj7cneClqrjWAySb8/edit?usp=sharing)
       * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/17aSVhepAjjggwI4e6b1UdU12ZLx3DLEniIdI7hZ6E98/edit?usp=sharing)
       * Prepare a one page (single sided) note sheet you can bring to the exam      
-    exam: "Practice Final (from Inheritance to Hash Tables)"    
+    exam: "Practice Final (up to and including Hash Tables)"    
     
   - month: "November"
     day: "16"
