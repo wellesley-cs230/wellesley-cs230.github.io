@@ -79,8 +79,10 @@ events:
   - month: "September"
     day: "17"
     day-of-week: "Thursday"
-    topic: "Arrays and Arrays of Objects"
+    topic: "Arrays and Arrays of Objects"    
     slides: "https://drive.google.com/drive/folders/1bOkedRAAO9qAbWRyqSlZen2x0a_FSYdU?usp=drive_link"
+    due: "Homework 3 by **10pm**"
+    released: "[Homework 4](/hw4)"        
     pre-class: |
       * Read [Chapter 7](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Optional: watch [this](https://drive.google.com/file/d/1gkd_FKEJQokfHpDlwqJlOzf96b0kVdTe/view?usp=share_link), [this](https://drive.google.com/file/d/1UrRXSUIGZxJfzEH2jm6COebsUg798G3Z/view?usp=share_link), and [this](https://drive.google.com/file/d/1yELNKAm4XR3DMh3i77EJBBfpvFavG6Dp/view?usp=share_link) video
@@ -107,8 +109,8 @@ events:
     day-of-week: "Thursday"
     topic: "Inheritance"
     slides: "https://drive.google.com/drive/folders/14QJe3SxOuWtvBFAkvah1AoLVVImR37IR?usp=drive_link"
-    due: "Homework 3 by **10pm**"
-    released: "[Homework 4](/hw4)"    
+    due: "Homework 4 by **10pm**"
+    released: "[Homework 5 (in pairs)](/hw5)"          
     pre-class: |
       * Read [Chapter 8](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Optional: watch [this](https://drive.google.com/file/d/1iZBi89h9WG4DwSD6MoDLLbjUNUdCgjHj/view?usp=share_link) video
@@ -136,25 +138,23 @@ events:
   - month: "October"
     day: "01"
     day-of-week: "Thursday"
-    topic: "Exceptions and IO"
-    slides: "https://drive.google.com/drive/folders/1bvYuCaKrUiMfZ2MMtb5UVrVfBF85P-lY?usp=drive_link"
-    due: "Homework 4 by **10pm**"
-    released: "[Homework 5 (in pairs)](/hw5)"      
     pre-class: |
-      * Read [Chapter 10](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-      * Answer the quiz on [Chapter 10](https://docs.google.com/forms/d/e/1FAIpQLSfQNeSShwv4mEU3x5kHSm8V2T_TQrYPC6kSc6dV4Jha91uYgQ/viewform?usp=sf_link)
-
+      * Review [this list of topics](https://docs.google.com/document/d/1B10UeBPa-w7O9VGIwkFc31jFtY_7LnJP5rOAzRT1-T0/edit?usp=sharing)
+      * Read the [sample Midterm instructions](https://docs.google.com/document/d/1FVImltjXAG1jvq1PE8JnjXngZVvkUfOii8SjVJ10mv0/edit?usp=sharing)
+      * Solve [these practice problems](https://docs.google.com/document/d/1N84sG7znr6krxj7KeLMbubMRUHbmX0v8vAeu6CaCTzc/edit?usp=sharing)
+      * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/19JKCPG0FyhLUUNezbeI5S446lgb-2hmiNRd3-h8C2Z8/edit?usp=sharing)
+      * Prepare a one page (single sided) note sheet you can bring to the exam      
+    exam: "Midterm (everything before inheritance)"
+    
   - month: "October"
     day: "05"
     day-of-week: "Monday"
-    topic: "Interfaces + Stacks"
-    slides: "https://drive.google.com/drive/folders/11qHHfpeHa9iWZuyPB-c85A6w6RqC_bjS?usp=drive_link"
-    due: 
-    released: 
+    topic: "Exceptions and IO"
+    slides: "https://drive.google.com/drive/folders/1bvYuCaKrUiMfZ2MMtb5UVrVfBF85P-lY?usp=drive_link"
     pre-class: |
-      * Read [Chapters 14.1-14.9](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-      * Answer the quiz on [Chapter 14](https://docs.google.com/forms/d/e/1FAIpQLSc1v1aGlggmQpdh9hLN1C0UsAqzkJ8lIy4zDB_RxGiF6TEOqQ/viewform?usp=sf_link)
-
+      * Read [Chapter 10](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 10](https://docs.google.com/forms/d/e/1FAIpQLSfQNeSShwv4mEU3x5kHSm8V2T_TQrYPC6kSc6dV4Jha91uYgQ/viewform?usp=sf_link)
+    
   - month: "October"
     day: "06"
     day-of-week: "Tuesday"
@@ -166,13 +166,13 @@ events:
   - month: "October"
     day: "08"
     day-of-week: "Thursday"
+    topic: "Interfaces + Stacks"
+    slides: "https://drive.google.com/drive/folders/11qHHfpeHa9iWZuyPB-c85A6w6RqC_bjS?usp=drive_link"
+    due: 
+    released: 
     pre-class: |
-      * Review [this list of topics](https://docs.google.com/document/d/1B10UeBPa-w7O9VGIwkFc31jFtY_7LnJP5rOAzRT1-T0/edit?usp=sharing)
-      * Read the [sample Midterm instructions](https://docs.google.com/document/d/1FVImltjXAG1jvq1PE8JnjXngZVvkUfOii8SjVJ10mv0/edit?usp=sharing)
-      * Solve [these practice problems](https://docs.google.com/document/d/1N84sG7znr6krxj7KeLMbubMRUHbmX0v8vAeu6CaCTzc/edit?usp=sharing)
-      * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/19JKCPG0FyhLUUNezbeI5S446lgb-2hmiNRd3-h8C2Z8/edit?usp=sharing)
-      * Prepare a one page (single sided) note sheet you can bring to the exam      
-    exam: "Midterm (everything before inheritance)"
+      * Read [Chapters 14.1-14.9](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 14](https://docs.google.com/forms/d/e/1FAIpQLSc1v1aGlggmQpdh9hLN1C0UsAqzkJ8lIy4zDB_RxGiF6TEOqQ/viewform?usp=sf_link)
 
   - month: "October"
     day: "12"
