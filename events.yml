@@ -134,7 +134,8 @@ events:
   - month: "September"
     day: "30"
     day-of-week: "Wednesday"
-    topic:
+    topic: "Shapes Hierarchy"
+    slides: "https://docs.google.com/document/d/1Km64PsYoWQP9uThOuujXX_9Grtjpf8-l/edit"
     due:
     released:
     pre-class:
