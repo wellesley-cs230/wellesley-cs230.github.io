@@ -163,7 +163,7 @@ events:
   - month: "October"
     day: "07"
     day-of-week: "Wednesday"
-    topic:
+    topic: "NO Lab today."
     due:
     released:
     pre-class:
