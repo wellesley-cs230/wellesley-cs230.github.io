@@ -191,7 +191,8 @@ events:
   - month: "October"
     day: "14"
     day-of-week: "Wednesday"
-    topic:
+    topic: "Stack Implementations. Debugger."
+    slides: "https://docs.google.com/document/d/12a6pK3bgdFqUTq1X7nzNUBJHQp5AxD8i/edit#heading=h.ytsm3wezyzuz"
     due:
     released:
     pre-class:
