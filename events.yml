@@ -14,7 +14,8 @@ events:
   - month: "September"
     day: "02"
     day-of-week: "Wednesday"
-    topic:
+    topic: "BlueJ and Java"
+    slides: "https://docs.google.com/document/d/1POgUhEaG-a8xKDkJuMc1m682slkgdPl2/edit#heading=h.x069wb5bgija"
     due:
     released:
     pre-class:
