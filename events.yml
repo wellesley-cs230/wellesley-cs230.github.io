@@ -307,7 +307,8 @@ events:
   - month: "November"
     day: "11"
     day-of-week: "Wednesday"
-    topic:
+    topic: "Decision Trees"
+    slides: "https://docs.google.com/document/d/1eIdqHk0-Qy-ZD6ZzCR_79EcYMMf4RjFv/edit"
     due:
     released:
     pre-class:
