@@ -412,7 +412,7 @@ events:
   - month: "December"
     day: "09"
     day-of-week: "Wednesday"
-    topic:
+    topic: "Review"
     due:
     released:
     pre-class:
