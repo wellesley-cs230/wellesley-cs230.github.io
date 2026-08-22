@@ -73,7 +73,7 @@ events:
   - month: "September"
     day: "16"
     day-of-week: "Wednesday"
-    topic: "User Defined Classes, Objects (Animal class)"
+    topic: "User Defined Classes, Objects (Animal class), Driver"
     slides: "https://docs.google.com/document/d/1BIZJla7aavD0UVnVn5D7dP850riasOI0/edit"
     due:
     released:
