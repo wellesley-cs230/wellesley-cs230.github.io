@@ -335,7 +335,8 @@ events:
   - month: "November"
     day: "18"
     day-of-week: "Wednesday"
-    topic:
+    topic: "Di Graphs"
+    slides: "https://docs.google.com/document/d/1Rgxf9tJEeJT6dpSl3DQZB6xgO09G0tTo/edit"
     due:
     released:
     pre-class:
