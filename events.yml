@@ -219,7 +219,8 @@ events:
   - month: "October"
     day: "21"
     day-of-week: "Wednesday"
-    topic:
+    topic: "Using Stacks, LinkedStacks implementation, Algorithmic stuff, Debugger "
+    slides:
     due:
     released:
     pre-class:
