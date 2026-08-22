@@ -385,7 +385,8 @@ events:
   - month: "December"
     day: "02"
     day-of-week: "Wednesday"
-    topic:
+    topic: "DFS and BFS or/and work on hw10"
+    slides: 
     due:
     released:
     pre-class:
