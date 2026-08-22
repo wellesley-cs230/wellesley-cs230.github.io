@@ -248,7 +248,8 @@ events:
   - month: "October"
     day: "28"
     day-of-week: "Wednesday"
-    topic:
+    topic: "Queue Implementations"
+    slides: "https://docs.google.com/document/d/1Y52zYnGkHX9xIhiATFBRWOmDd07NqbtS/edit#heading=h.wmxcf76fp0aj"
     due:
     released:
     pre-class:
