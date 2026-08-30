@@ -257,7 +257,7 @@ Practice with recursion!
 ## Description
 
 Write a program, `RecursionPractice.java`, that contains two methods:
-* `public static double power(double x, int p)`. This method should use recursion to raises `x` to the power of `p`. Note: this method should work for *all* possible values of `p`.
+* `public static double power(double x, int p)`. This method should use recursion to raise `x` to the power of `p`. Note: this method should work for *all* possible values of `p`.
 * `public static int fibonacci(int n)`. This method should use recursion to compute the `n`th term in the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence). For example, if `n = 7`, the sequence is `1 1 2 3 5 8 13`, and the method should return 13. Here, you can assume `n > 0`.
 
 
@@ -293,5 +293,5 @@ You know what to do :).
 * You tested **every possible** pathway in your code.
 * You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
 * You wrote javadoc for every function, which includes `@param` and `@return`.
-* You wrote inline comments explaining the logic of your code.
+* You wrote inline comments explaining the logic of your code, as needed.
 
