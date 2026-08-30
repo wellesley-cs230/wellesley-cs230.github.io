@@ -238,7 +238,7 @@ It is a standard policy of this course that submissions that have not been signe
 -->
 Your Gradescope submission should contain the following:
 
-1. Uour `FunLoops.java` source file
+1. Your `FunLoops.java` source file
 2. Your `FunLoopsTest.txt` text file 
 
 
