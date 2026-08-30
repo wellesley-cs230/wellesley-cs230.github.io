@@ -233,9 +233,9 @@ Please note:
 Please follow the same guidelines for testing as above, savings the results of your testing in a file called `FunLoopsTest.txt`.
 
 ## What to submit
-
+<!--
 It is a standard policy of this course that submissions that have not been signed (`@author`) and dated (`@version`) will not be graded.
-
+-->
 Your Gradescope submission should contain the following:
 
 1. Uour `FunLoops.java` source file
