@@ -145,6 +145,8 @@ When done, submit your <code>StringOps.java</code> along with the <code>StringOp
 
 
 
+<!--
+
 <br/>
 
  
@@ -177,6 +179,7 @@ For each of these methods, consider: what should it take as input, and what shou
 As always, your tests should make it easy for the grader to know what you're testing, what your code produced, and what it should have produced.
 Store your tests in `LibraryBookTests.txt`.
 
+-->
  
 <br/>
 
