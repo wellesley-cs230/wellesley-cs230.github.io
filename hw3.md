@@ -34,7 +34,7 @@ Implement the `Flight` class's method from the javadoc. Among them are the follo
 3. `isAStopOver`, a predicate method that takes as input a flight and returns true iff (if and only if) the invoker flight's destination is the same as the input flight's origin.
 
 Additionally, implement the **static** methods, including:
-1. `readFlight`, a *static* method that asks and collects from the user all the information regarding a flight. Using this information, it creates a `Flight`, and returns it. This method takes as input a `Scanner`.
+1. `readFlight`, a *static* method that asks and collects from the user all the information regarding a flight. Using this information, it creates a `Flight`, and returns it. This method takes as input a `Scanner`, which you can create via `Scanner s = new Scanner(System.in);`.
 2. Make sure to include a  `main` method, for testing purposes. As always, make sure you test all the methods you have defined, and to test each method before moving onto the next one.
 
 
