@@ -139,7 +139,8 @@ events:
     slides: "https://docs.google.com/document/d/1Km64PsYoWQP9uThOuujXX_9Grtjpf8-l/edit"
     due:
     released:
-    pre-class:
+    pre-class: 
+       Task 0 from lab's page
 
   - month: "October"
     day: "01"
