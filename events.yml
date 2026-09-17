@@ -107,6 +107,7 @@ events:
     due:
     released:
     pre-class:
+       Task 1 from lab's page
 
   - month: "September"
     day: "24"
