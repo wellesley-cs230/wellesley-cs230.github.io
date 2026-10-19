@@ -221,8 +221,8 @@ events:
   - month: "October"
     day: "21"
     day-of-week: "Wednesday"
-    topic: "Using Stacks, LinkedStacks implementation, Algorithmic stuff, Debugger "
-    slides:
+    topic: "LinkedList implementation"
+    slides:"https://wellesley-cs230.github.io/linked-lists"
     due:
     released:
     pre-class:
