@@ -221,7 +221,7 @@ events:
   - month: "October"
     day: "21"
     day-of-week: "Wednesday"
-    topic:"implementing LinkedList"
+    topic:"implementing LinkedList" 
     slides:"https://wellesley-cs230.github.io/linked-lists"
     due:
     released:
